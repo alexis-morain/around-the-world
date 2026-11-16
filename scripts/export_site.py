@@ -1,4 +1,4 @@
-"""Exporte data/films_du_monde.json vers site/data/films.json (format compact du site)."""
+"""Exporte data/films_du_monde.json vers web/src/data/films.json (format compact du site)."""
 import json
 from datetime import date
 from pathlib import Path
@@ -90,9 +90,6 @@ for r in rows:
 
 out = {"updated": date.today().isoformat(), "name_to_iso": NAME_TO_ISO, "films": films}
 payload = json.dumps(out, ensure_ascii=False, separators=(",", ":"))
-targets = [ROOT / "site" / "data" / "films.json"]
-if (ROOT / "web" / "src" / "data").is_dir():
-    targets.append(ROOT / "web" / "src" / "data" / "films.json")
-for t in targets:
-    t.write_text(payload)
-    print(len(films), "films ->", t)
+target = ROOT / "web" / "src" / "data" / "films.json"
+target.write_text(payload)
+print(len(films), "films ->", target)
