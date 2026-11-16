@@ -1,12 +1,22 @@
-# One film per country
+# One film per country: the most-watched movie from every country in the world
 
-**[onefilmpercountry.morain.fr](https://onefilmpercountry.morain.fr/)**
+**Open the site: [onefilmpercountry.morain.fr](https://onefilmpercountry.morain.fr/)**
 
-The most-watched national film in every country, in its original language. A world map, 199 countries and territories, 196 films. Built for a simple ritual: one movie night per country.
+A world cinema list with one film from every country: the national film most people actually went to see at home, in its original language. 199 countries and territories, 196 films, an interactive world map, IMDb, TMDB and Rotten Tomatoes ratings, trailers. Built for a simple ritual: one movie night per country.
 
 Most "a film from every country" lists rank by rating or critical reputation. This one ranks by national audience (box office) when the data exists, and says how reliable each pick is instead of pretending they are all equal.
 
-*Version française plus bas.*
+*Version française plus bas : un film par pays, le cinéma du monde en 196 films.*
+
+![Home page: film of the day](docs/screenshots/home.jpg)
+
+| World map | Film page |
+|---|---|
+| ![Interactive world map, one film per country](docs/screenshots/map.jpg) | ![Film page with ratings, trailer and reliability stamp](docs/screenshots/film.jpg) |
+| **Catalogue, filter and sort** | **Light theme** |
+| ![Catalogue of international films sorted by IMDb rating](docs/screenshots/catalogue.jpg) | ![Film page in light theme](docs/screenshots/film-light.jpg) |
+
+<p align="center"><img src="docs/screenshots/mobile.jpg" alt="Mobile view" width="280"></p>
 
 ## How the films were chosen
 
@@ -78,9 +88,11 @@ Level A box office research lives in `data/raw/tierA_*.json` (first pass) and `d
 
 ---
 
-## Version française
+## Version française : un film par pays
 
-Le film national le plus vu dans chaque pays, dans sa langue d'origine. Une carte, 199 pays et territoires, 196 films, pour une soirée ciné par pays.
+**Le site : [onefilmpercountry.morain.fr](https://onefilmpercountry.morain.fr/)**
+
+Le cinéma du monde en un film par pays : le film national le plus vu dans chaque pays, en version originale. Une carte du monde interactive, 199 pays et territoires, 196 films, les notes IMDb, TMDB et Rotten Tomatoes, la bande-annonce et où le voir en France. De quoi tenir une soirée ciné par pays.
 
 Les autres listes « un film par pays » classent à la note ou à la réputation. Celle-ci classe à l'audience nationale quand la donnée existe, et affiche la fiabilité de chaque choix : A (box-office sourcé), B (le plus noté sur TMDB), C (choix éditorial de Films Around the World), D (dernier recours). La méthode complète est dans [`docs/methode.md`](docs/methode.md), les arbitrages manuels dans [`data/overrides.json`](data/overrides.json), et le tableur dans [`films-du-monde.xlsx`](films-du-monde.xlsx).
 
