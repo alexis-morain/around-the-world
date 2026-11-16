@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>One film per country a déménagé</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://onefilmpercountry.morain.fr/">
+<script>
+  // Garde le chemin, la requête et le #pays : /one-film-per-country/film/jp/ devient /film/jp/
+  var path = location.pathname.replace(/^\/one-film-per-country/, "") || "/";
+  location.replace("https://onefilmpercountry.morain.fr" + path + location.search + location.hash);
+</script>
+<meta http-equiv="refresh" content="0; url=https://onefilmpercountry.morain.fr/">
+</head>
+<body>
+<p>Le site a déménagé : <a href="https://onefilmpercountry.morain.fr/">onefilmpercountry.morain.fr</a>.</p>
+</body>
+</html>

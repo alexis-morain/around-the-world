@@ -1,6 +1,6 @@
 # One film per country
 
-**[alexis-morain.github.io/one-film-per-country](https://alexis-morain.github.io/one-film-per-country/)**
+**[onefilmpercountry.morain.fr](https://onefilmpercountry.morain.fr/)**
 
 The most-watched national film in every country, in its original language. A world map, 199 countries and territories, 196 films. Built for a simple ritual: one movie night per country.
 
@@ -39,7 +39,7 @@ Full method: [`docs/methode.md`](docs/methode.md) (in French).
 - "I've watched it" turns the country red, "My list" keeps films for later. Both stay in your browser (localStorage), no account, nothing sent anywhere.
 - French and English, light and dark themes.
 
-Built with [Astro](https://astro.build/) and Tailwind CSS in `web/`, static output, deployed to GitHub Pages by `.github/workflows/pages.yml`. d3 loads only when the map comes into view. Fonts (Big Shoulders Display, Schibsted Grotesk) are self-hosted.
+Built with [Astro](https://astro.build/) and Tailwind CSS in `web/`, static output, deployed on Vercel from `main`. The old GitHub Pages address redirects there (`redirect/`). d3 loads only when the map comes into view. Fonts (Big Shoulders Display, Schibsted Grotesk) are self-hosted.
 
 ```bash
 cd web

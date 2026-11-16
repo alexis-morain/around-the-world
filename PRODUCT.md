@@ -8,7 +8,7 @@ web
 
 ## Stack
 
-Site statique Astro + Tailwind CSS dans `web/` (sans bibliothèque de composants). Une page par film (`/film/<iso>/`), ouverte en modale depuis l'accueil et le catalogue. d3 chargé à la demande pour la carte, polices hébergées par fontsource. GitHub Pages construit `web/` et publie `web/dist`.
+Site statique Astro + Tailwind CSS dans `web/` (sans bibliothèque de composants). Une page par film (`/film/<iso>/`), ouverte en modale depuis l'accueil et le catalogue. d3 chargé à la demande pour la carte, polices hébergées par fontsource. Vercel construit `web/` à chaque push sur `main` (onefilmpercountry.morain.fr). L'ancienne adresse GitHub Pages redirige.
 
 ## Users
 
