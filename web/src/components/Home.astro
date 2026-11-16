@@ -1,0 +1,86 @@
+---
+/* Accueil : billboard, carte, rangées. Le billboard est rendu au build puis remplacé par le film du jour du visiteur. */
+import Row from "./Row.astro";
+import Icon from "./Icon.astro";
+import Ratings from "./Ratings.astro";
+import { CONTINENTS, backdropSrc, clientIndex, countryName, localTitle, metaLine, onSubscription, overview, overviewIn, withFilm, type Film } from "../lib/films";
+import { pickDaily, titleLen, type Lang } from "../lib/logic";
+import { href, t } from "../lib/i18n";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const L = t(lang);
+const col = new Intl.Collator(lang);
+const byCountry = (a: Film, b: Film) => col.compare(countryName(a.iso2, lang), countryName(b.iso2, lang));
+
+// Le film du jour : niveau A, avec une image de fond
+// et un résumé dans la langue de la page quand c'est possible.
+const candidates = withFilm.filter((f) => f.level === "A" && f.backdrop);
+const translated = candidates.filter((f) => !overviewIn(f, lang).fallback && overviewIn(f, lang).text);
+const pool = (translated.length >= 20 ? translated : candidates).map((f) => f.iso2);
+const dayIso = pickDaily(pool, new Set(), new Date())!;
+const day = withFilm.find((f) => f.iso2 === dayIso)!;
+
+const top = withFilm.filter((f) => (f.ratings?.imdb?.votes ?? 0) >= 1000).sort((a, b) => b.ratings!.imdb!.value - a.ratings!.imdb!.value).slice(0, 24);
+const france = withFilm.filter(onSubscription).sort(byCountry);
+const short = withFilm.filter((f) => f.runtime && f.runtime >= 60 && f.runtime < 90).sort(byCountry);
+const anim = withFilm.filter((f) => f.animation).sort(byCountry);
+const continents = CONTINENTS.map((c) => [c, withFilm.filter((f) => f.continent === c).sort(byCountry)] as const).filter(([, l]) => l.length);
+const index = clientIndex(lang);
+const cat = (q: string) => href(lang, `catalogue/${q}`);
+---
+<section class="billboard" id="billboard" aria-roledescription="billboard" aria-labelledby="bb-title">
+  <div class:list={["bb-art", { "no-art": !day.backdrop }]} id="bb-art">
+    {day.backdrop && <img src={backdropSrc(day)} alt="" width="1280" height="720" fetchpriority="high" />}
+  </div>
+  <div class="bb-body" id="bb-body">
+    <p class="bb-kicker"><span class="rule" aria-hidden="true"></span><span data-bb-kicker>{L.daily}</span> · <b>{countryName(day.iso2, lang)}</b></p>
+    <h1 class="bb-title display" id="bb-title" data-len={titleLen(localTitle(day, lang))}>{localTitle(day, lang)}</h1>
+    {localTitle(day, lang) !== day.title && <p class="bb-local" lang={day.lang}>{day.title}</p>}
+    <p class="bb-meta">{metaLine(day, lang).map((m) => <span>{m}</span>)}</p>
+    <div style="margin-top:.9rem"><Ratings film={day} lang={lang} /></div>
+    <p class="bb-ov" lang={overviewIn(day, lang).lang}>{overview(day, lang)}</p>
+    <div class="bb-actions">
+      <a class="btn btn-primary" href={href(lang, `film/${day.iso2.toLowerCase()}/`)} data-iso={day.iso2} data-bb-open><Icon name="info" />{L.more}</a>
+      <button class="btn btn-ghost" type="button" id="random"><Icon name="shuffle" />{L.random}</button>
+      <button class="btn btn-icon" type="button" data-bb-list aria-pressed="false" aria-label={L.addList}><Icon name="check" class="i-on" /><Icon name="plus" class="i-off" /></button>
+    </div>
+  </div>
+  <div class="leader" id="leader" aria-hidden="true" hidden>
+    <div class="leader-disc"><span class="leader-num" id="leader-num">3</span></div>
+  </div>
+</section>
+
+<section class="map-section wrap" id="carte" aria-labelledby="map-h">
+  <div class="section-head">
+    <h2 id="map-h">{L.mapTitle}</h2>
+    <p>{L.mapHint}</p>
+  </div>
+  <div class="screen" id="screen">
+    <svg id="map" role="img" aria-label={L.mapLabel}></svg>
+    <ul class="map-key" aria-hidden="true">
+      <li><i style="background:var(--land)"></i>{lang === "fr" ? "Un film" : "One film"}</li>
+      <li><i style="background:var(--accent)"></i>{L.mapKeySeen}</li>
+      <li><i style="background:var(--land-none);box-shadow:inset 0 0 0 1px var(--line)"></i>{L.mapKeyNone}</li>
+    </ul>
+    <div class="map-tools">
+      <button type="button" id="zoom-in" aria-label={L.zoomIn}><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10"/></svg></button>
+      <button type="button" id="zoom-out" aria-label={L.zoomOut}><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10"/></svg></button>
+      <button type="button" id="zoom-reset">{L.reset}</button>
+    </div>
+    <div class="tip" id="tip" hidden></div>
+    <p class="map-status" id="map-status">{L.mapLoading}</p>
+  </div>
+</section>
+
+<div class="rows">
+  <Row id="row-list" title={L.rows.list} films={[]} lang={lang} client="list" more={cat("?list=1")} />
+  <Row id="row-top" title={L.rows.top} films={top} lang={lang} more={cat("?sort=imdb")} />
+  <Row id="row-france" title={L.rows.france} films={france} lang={lang} more={cat("?fr=1")} />
+  <Row id="row-short" title={L.rows.short} films={short} lang={lang} more={cat("?duration=short")} />
+  {continents.map(([c, l]) => <Row id={`row-${c}`} title={L.continents[c]} films={l} lang={lang} more={cat(`?continent=${c}`)} />)}
+  <Row id="row-anim" title={L.rows.anim} films={anim} lang={lang} more={cat("?anim=1")} />
+  <Row id="row-seen" title={L.rows.seen} films={[]} lang={lang} client="seen" />
+</div>
+
+<script id="index" type="application/json" set:html={JSON.stringify({ films: index, pool })} />

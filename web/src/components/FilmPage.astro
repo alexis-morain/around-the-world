@@ -1,0 +1,26 @@
+---
+/* Page partageable d'un pays : la fiche, puis d'autres films du même continent. */
+import Base from "../layouts/Base.astro";
+import FilmDetail from "./FilmDetail.astro";
+import Row from "./Row.astro";
+import { backdropSrc, countryName, hasFilm, localTitle, overview, posterSrc, withFilm, type Film } from "../lib/films";
+import type { Lang } from "../lib/logic";
+import { href, t } from "../lib/i18n";
+
+interface Props { film: Film; lang: Lang }
+const { film: f, lang } = Astro.props;
+const L = t(lang);
+const other: Lang = lang === "fr" ? "en" : "fr";
+const slug = `film/${f.iso2.toLowerCase()}/`;
+const country = countryName(f.iso2, lang);
+const title = hasFilm(f) ? `${country} : ${localTitle(f, lang)}${f.year ? ` (${f.year})` : ""}` : country;
+const desc = hasFilm(f) ? (overview(f, lang) || L.description).slice(0, 220) : L.noFilm;
+const image = backdropSrc(f) || (f.poster ? posterSrc(f, "w780") : "");
+const col = new Intl.Collator(lang);
+const near = withFilm.filter((x) => x.continent === f.continent && x.iso2 !== f.iso2).sort((a, b) => col.compare(countryName(a.iso2, lang), countryName(b.iso2, lang)));
+---
+<Base lang={lang} page="film" title={title} description={desc} image={image} alt={href(other, slug)}>
+  <FilmDetail film={f} lang={lang}>
+    <div data-near><Row id="row-near" title={L.sameRegion(L.continents[f.continent] || "")} films={near} lang={lang} /></div>
+  </FilmDetail>
+</Base>

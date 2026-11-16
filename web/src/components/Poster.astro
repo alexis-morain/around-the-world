@@ -1,0 +1,28 @@
+---
+/* L'image d'une affiche : TMDB, affiche hébergée, ou affiche typographique. */
+import { countryName, posterSrc, posterTone, type Film } from "../lib/films";
+import type { Lang } from "../lib/logic";
+import { t } from "../lib/i18n";
+
+interface Props { film: Film; lang: Lang; size?: string; eager?: boolean; label?: boolean }
+const { film: f, lang, size = "w342", eager = false, label = false } = Astro.props;
+const src = posterSrc(f, size);
+const words = f.title.split(/\s+/).map((w) => [...w].length);
+const len = [...f.title].length;
+const longest = Math.max(...words);
+const tsize = Math.max(len <= 8 ? 1 : len <= 16 ? 2 : len <= 28 ? 3 : 4, longest > 10 ? 4 : longest > 7 ? 3 : longest > 5 ? 2 : 1);
+const alt = label ? t(lang).posterOf(f.title) : "";
+---
+<span class="card-img">
+  {src ? (
+    <img src={src} alt={alt} width="342" height="513" loading={eager ? "eager" : "lazy"} decoding="async" />
+  ) : (
+    <span class="tpost" data-tone={posterTone(f.iso2)} data-size={tsize} role={label ? "img" : undefined} aria-label={label ? alt : undefined} aria-hidden={label ? undefined : "true"}>
+      <span class="tp-in">
+        <span class="tp-title">{f.title}</span>
+        <span class="tp-foot">{f.year && <span>{f.year}</span>}<span>{countryName(f.iso2, lang)}</span></span>
+      </span>
+    </span>
+  )}
+  <slot />
+</span>

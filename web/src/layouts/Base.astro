@@ -1,0 +1,94 @@
+---
+import "../styles/global.css";
+import Icon from "../components/Icon.astro";
+import { href, t, REPO } from "../lib/i18n";
+import { updated, withFilm } from "../lib/films";
+import type { Lang } from "../lib/logic";
+
+interface Props {
+  lang: Lang; title?: string; description?: string; image?: string;
+  page: "home" | "catalogue" | "method" | "film"; alt: string; solidHeader?: boolean;
+}
+const { lang, title, description, image, page, alt, solidHeader = false } = Astro.props;
+const L = t(lang);
+const fullTitle = title ? `${title} · ${L.htmlTitle}` : L.htmlTitle;
+const desc = description || L.description;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const altUrl = new URL(alt, Astro.site).href;
+const date = new Intl.DateTimeFormat(lang, { dateStyle: "long" }).format(new Date(`${updated}T12:00:00`));
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+<!doctype html>
+<html lang={lang} data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#100d0c" />
+  <script is:inline>
+    /* Thème posé avant le CSS : pas de flash au chargement */
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("ofpc.theme"); } catch (e) {}
+      if (t !== "light" && t !== "dark") t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", t);
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", t === "light" ? "#f4f0ea" : "#100d0c");
+    })();
+  </script>
+  <title>{fullTitle}</title>
+  <meta name="description" content={desc} />
+  <link rel="canonical" href={canonical} />
+  <link rel="alternate" hreflang={lang === "fr" ? "en" : "fr"} href={altUrl} />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={desc} />
+  <meta property="og:url" content={canonical} />
+  {image && <meta property="og:image" content={image} />}
+  <meta name="twitter:card" content={image ? "summary_large_image" : "summary"} />
+  <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+  <link rel="preconnect" href="https://image.tmdb.org" />
+</head>
+<body data-lang={lang} data-base={base} data-total={withFilm.length}>
+  <a class="skip" href="#main">{L.skip}</a>
+  <header class:list={["masthead", { always: solidHeader }]} id="masthead">
+    <a class="brand" href={href(lang)}>
+      <svg class="brand-mark" viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="11.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="13" cy="7.6" r="2.4" fill="currentColor"/><circle cx="13" cy="18.4" r="2.4" fill="currentColor"/><circle cx="7.6" cy="13" r="2.4" fill="currentColor"/><circle cx="18.4" cy="13" r="2.4" fill="currentColor"/></svg>
+      <span class="brand-name">{L.brand}</span>
+    </a>
+    <nav class="nav" aria-label="Navigation">
+      <a href={href(lang)} aria-current={page === "home" ? "page" : undefined}>{L.nav.home}</a>
+      <a href={href(lang, "catalogue/")} aria-current={page === "catalogue" ? "page" : undefined}>{L.nav.catalogue}</a>
+      <a href={href(lang, "methode/")} aria-current={page === "method" ? "page" : undefined}>{L.nav.method}</a>
+    </nav>
+    <div class="tools">
+      <p class="progress" id="progress" aria-live="polite"></p>
+      <a class="tool" href={href(lang, "catalogue/")} aria-label={L.catalogue.search}><Icon name="search" /></a>
+      <a class="tool" href={alt} hreflang={lang === "fr" ? "en" : "fr"} lang={lang === "fr" ? "en" : "fr"} aria-label={L.otherLang} data-lang-switch>{L.otherLangShort}</a>
+      <button class="tool" type="button" id="theme" data-light={L.themeToLight} data-dark={L.themeToDark} aria-label={L.themeToLight}><Icon name="sun" /><Icon name="moon" /></button>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1"><slot /></main>
+
+  <footer class="colophon">
+    <p>
+      {lang === "fr" ? "Données : " : "Data: "}<a href="https://www.themoviedb.org/">TMDB</a>
+      {lang === "fr" ? " (fiches, affiches, plateformes via JustWatch), listes de box-office Wikipedia et instituts nationaux, " : " (films, posters, streaming via JustWatch), Wikipedia box office lists and national film institutes, "}
+      <a href="https://filmsaroundthe.world/">Films Around the World</a>{lang === "fr" ? " pour les choix éditoriaux. Carte : Natural Earth via world-atlas. " : " for editorial picks. Map: Natural Earth via world-atlas. "}
+      {L.updated(date)} <a href={REPO}>{lang === "fr" ? "Code et données sur GitHub" : "Code and data on GitHub"}</a>.
+    </p>
+    <p>{L.ratingsNotice}</p>
+    <p>{L.tmdbNotice}</p>
+  </footer>
+
+  <dialog class="sheet" id="sheet" aria-labelledby="film-title">
+    <button type="button" class="tool btn-icon sheet-close" data-sheet-close aria-label={L.close}><Icon name="close" /></button>
+    <div id="sheet-body"></div>
+  </dialog>
+  <p class="toast" id="toast" role="status"></p>
+  <p class="visually-hidden" id="announce" role="status"></p>
+  <script id="strings" type="application/json" set:html={JSON.stringify({ progress: L.progress(-1, -2).replace("-1", "{n}").replace("-2", "{t}"), copied: L.copied, addList: L.addList, inList: L.inList, daily: L.daily, drawn: L.drawn, mapKeyNone: L.mapKeyNone, mapError: L.mapError, loading: "…" })} />
+  <script>
+    import "../scripts/app";
+  </script>
+</body>
+</html>

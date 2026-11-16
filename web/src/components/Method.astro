@@ -1,0 +1,46 @@
+---
+import Visa from "./Visa.astro";
+import type { Lang } from "../lib/logic";
+import { REPO, t } from "../lib/i18n";
+import { films } from "../lib/films";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const L = t(lang);
+const n = (l: string) => films.filter((f) => f.level === l).length;
+const fr = lang === "fr";
+---
+<div class="page-head"><h1 class="display">{L.methodTitle}</h1></div>
+<div class="prose">
+  {fr ? (
+    <>
+      <p><strong>La question : quel film national les gens de chaque pays ont-ils le plus vu ?</strong> Pas le plus gros succès à l’export, pas le mieux noté par la critique. Le film qu’un pays est allé voir.</p>
+      <p>Un film compte pour un pays si sa production et son équipe créative viennent de là, s’il est tourné dans une langue du pays, et si c’est une fiction. L’animation est acceptée. Un même film ne sert qu’une fois.</p>
+      <h2>Quatre niveaux de fiabilité</h2>
+      <p>Chaque fiche porte le niveau de son choix. Sur {films.length} pays et territoires : {n("A")} en A, {n("B")} en B, {n("C")} en C, {n("D")} en D.</p>
+    </>
+  ) : (
+    <>
+      <p><strong>The question: which national film did people in each country watch the most?</strong> Not the biggest export hit, not the critics’ favourite. The film a country actually went to see.</p>
+      <p>A film counts for a country if its production and creative team come from there, if it is in a language spoken there, and if it is fiction. Animation is allowed. A film is used only once.</p>
+      <h2>Four levels of reliability</h2>
+      <p>Every film page shows the level of its pick. Out of {films.length} countries and territories: {n("A")} at A, {n("B")} at B, {n("C")} at C, {n("D")} at D.</p>
+    </>
+  )}
+  {["A", "B", "C", "D", "none", "seen"].map((l) => <Visa level={l} lang={lang} kicker={false} />)}
+  {fr ? (
+    <>
+      <h2>Les limites</h2>
+      <p>Les records mélangent les époques : la Pologne et le Royaume-Uni ont des records des années 1950 comptés en entrées, d’autres pays des records récents comptés en recettes. Une vingtaine de choix ont été vérifiés à part, et chaque arbitrage manuel est expliqué sur la fiche du film.</p>
+      <p>Les notes IMDb, TMDB et Rotten Tomatoes ne servent pas au classement : elles aident à choisir sa soirée.</p>
+      <p>Une erreur, un meilleur candidat ? Les données et le code sont sur <a href={REPO}>GitHub</a>, les corrections sourcées sont bienvenues.</p>
+    </>
+  ) : (
+    <>
+      <h2>Limits</h2>
+      <p>Records span eras: Poland and the UK have 1950s records counted in admissions, other countries recent records counted in revenue. About twenty picks were checked separately, and every manual call is explained on the film’s page (notes are in French).</p>
+      <p>IMDb, TMDB and Rotten Tomatoes ratings play no part in the ranking: they help you pick a movie night.</p>
+      <p>Spotted a mistake or a better candidate? Data and code are on <a href={REPO}>GitHub</a>, sourced corrections are welcome.</p>
+    </>
+  )}
+</div>

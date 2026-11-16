@@ -1,0 +1,26 @@
+---
+/* Rangée horizontale d'affiches. `client` : rangée remplie dans le navigateur (ma liste, films vus). */
+import Card from "./Card.astro";
+import Icon from "./Icon.astro";
+import type { Film } from "../lib/films";
+import type { Lang } from "../lib/logic";
+import { t } from "../lib/i18n";
+
+interface Props { id: string; title: string; films: Film[]; lang: Lang; more?: string; client?: string }
+const { id, title, films, lang, more, client } = Astro.props;
+const L = t(lang);
+---
+<section class="row" id={id} aria-labelledby={`${id}-h`} data-client-row={client} hidden={client ? true : undefined}>
+  <div class="row-head">
+    <h2 id={`${id}-h`}>{title}</h2>
+    <span class="n">{films.length || ""}</span>
+    {more && <a href={more}>{L.rowAll}</a>}
+  </div>
+  <div class="rail">
+    <button class="rail-btn prev" type="button" aria-label={L.prev} tabindex="-1" disabled><Icon name="left" /></button>
+    <ul class="track">
+      {films.map((f) => <li><Card film={f} lang={lang} /></li>)}
+    </ul>
+    <button class="rail-btn next" type="button" aria-label={L.next} tabindex="-1"><Icon name="right" /></button>
+  </div>
+</section>

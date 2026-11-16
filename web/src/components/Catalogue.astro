@@ -1,0 +1,53 @@
+---
+/* Tout le catalogue : grille rendue au build, filtrée et triée dans le navigateur. L'état vit dans l'URL. */
+import Card from "./Card.astro";
+import Icon from "./Icon.astro";
+import { CONTINENTS, countryName, langName, withFilm, yearNum } from "../lib/films";
+import type { Lang } from "../lib/logic";
+import { t } from "../lib/i18n";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const L = t(lang);
+const C = L.catalogue;
+const col = new Intl.Collator(lang);
+const list = [...withFilm].sort((a, b) => col.compare(countryName(a.iso2, lang), countryName(b.iso2, lang)));
+const decades = [...new Set(list.map(yearNum).filter((y): y is number => !!y).map((y) => Math.floor(y / 10) * 10))].sort();
+const counts = new Map<string, number>();
+for (const f of list) if (f.lang) counts.set(f.lang, (counts.get(f.lang) || 0) + 1);
+// les langues d'au moins deux films, les autres se trouvent par la recherche
+const langs = [...counts].filter(([, n]) => n >= 2).map(([c]) => [c, langName(c, lang)] as const).sort((a, b) => col.compare(a[1], b[1]));
+---
+<div class="page-head">
+  <h1 class="display">{C.title}</h1>
+  <p>{C.lede}</p>
+</div>
+<form class="filters" id="filters" role="search" aria-label={C.filters}>
+  <div class="f-line">
+    <label class="field"><span class="visually-hidden">{C.search}</span><Icon name="search" /><input class="input" type="search" name="q" placeholder={C.search} autocomplete="off" spellcheck="false" /></label>
+    <label class="visually-hidden" for="f-continent">{C.anyContinent}</label>
+    <select class="select" name="continent" id="f-continent"><option value="">{C.anyContinent}</option>{CONTINENTS.map((c) => <option value={c}>{L.continents[c]}</option>)}</select>
+    <label class="visually-hidden" for="f-decade">{C.anyDecade}</label>
+    <select class="select" name="decade" id="f-decade"><option value="">{C.anyDecade}</option>{decades.map((d) => <option value={d}>{lang === "fr" ? `Années ${d}` : `${d}s`}</option>)}</select>
+    <label class="visually-hidden" for="f-duration">{C.anyDuration}</label>
+    <select class="select" name="duration" id="f-duration"><option value="">{C.anyDuration}</option>{Object.entries(C.durations).map(([k, v]) => <option value={k}>{v}</option>)}</select>
+    <label class="visually-hidden" for="f-lang">{C.anyLang}</label>
+    <select class="select" name="lang" id="f-lang"><option value="">{C.anyLang}</option>{langs.map(([c, n]) => <option value={c}>{n}</option>)}</select>
+    <label class="visually-hidden" for="f-level">{C.anyLevel}</label>
+    <select class="select" name="level" id="f-level"><option value="">{C.anyLevel}</option>{["A", "B", "C", "D"].map((l) => <option value={l}>{l} · {L.levels[l]}</option>)}</select>
+    <label class="sort">{C.sort}
+      <select class="select" name="sort">{Object.entries(C.sorts).map(([k, v]) => <option value={k}>{v}</option>)}</select>
+    </label>
+  </div>
+  <div class="f-line">
+    <label class="chip"><input type="checkbox" name="fr" value="1" /><span>{C.fr}</span></label>
+    <label class="chip"><input type="checkbox" name="anim" value="1" /><span>{C.anim}</span></label>
+    <label class="chip"><input type="checkbox" name="unseen" value="1" /><span>{C.unseen}</span></label>
+    <label class="chip"><input type="checkbox" name="list" value="1" /><span>{C.list}</span></label>
+    <button type="reset" class="link-btn">{C.reset}</button>
+  </div>
+</form>
+<p class="count" id="count" aria-live="polite">{C.count(list.length)}</p>
+<ul class="grid" id="grid" data-count-tpl={C.count(99999)} data-count-one={C.count(1)} data-count-zero={C.count(0)}>
+  {list.map((f) => <li><Card film={f} lang={lang} data /></li>)}
+</ul>

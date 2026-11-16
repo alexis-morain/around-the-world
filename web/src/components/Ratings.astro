@@ -1,0 +1,19 @@
+---
+import { ratingChips, type Film } from "../lib/films";
+import type { Lang } from "../lib/logic";
+import { t } from "../lib/i18n";
+
+interface Props { film: Film; lang: Lang; links?: boolean }
+const { film, lang, links = false } = Astro.props;
+const chips = ratingChips(film, lang);
+const loc = lang === "fr" ? "fr-FR" : "en-US";
+---
+{chips.length > 0 && (
+  <ul class="ratings" aria-label={t(lang).ratingsTitle}>
+    {chips.map((c) => {
+      const title = c.votes ? t(lang).votes(c.votes.toLocaleString(loc)) : undefined;
+      const inner = <><span class="rating-src">{c.label}</span><span class="rating-val">{c.value}</span></>;
+      return <li class="rating" title={title}>{links && c.href ? <a href={c.href} target="_blank" rel="noopener">{inner}</a> : inner}</li>;
+    })}
+  </ul>
+)}

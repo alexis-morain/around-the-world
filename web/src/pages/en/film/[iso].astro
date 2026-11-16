@@ -1,0 +1,9 @@
+---
+import FilmPage from "../../../components/FilmPage.astro";
+import { films, type Film } from "../../../lib/films";
+export function getStaticPaths() {
+  return films.map((film) => ({ params: { iso: film.iso2.toLowerCase() }, props: { film } }));
+}
+const { film } = Astro.props as { film: Film };
+---
+<FilmPage film={film} lang="en" />

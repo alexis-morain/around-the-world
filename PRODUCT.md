@@ -8,7 +8,7 @@ web
 
 ## Stack
 
-Site statique : HTML, CSS et JavaScript sans framework ni étape de build. d3 et topojson-client sont copiés dans `site/vendor/`, les polices sont hébergées sur le site. Déploiement par GitHub Pages depuis `site/`.
+Site statique Astro + Tailwind CSS dans `web/` (sans bibliothèque de composants). Une page par film (`/film/<iso>/`), ouverte en modale depuis l'accueil et le catalogue. d3 chargé à la demande pour la carte, polices hébergées par fontsource. GitHub Pages construit `web/` et publie `web/dist`.
 
 ## Users
 
@@ -27,11 +27,12 @@ Les autres listes « un film par pays » classent les films à la note ou à la 
 ## Operating Context
 
 - Soirée : le tirage au hasard, la fiche du film, l'endroit où le voir en France, puis la case « vu ». Le suivi reste dans le navigateur (localStorage), il n'y a pas de compte.
-- Exploration : la carte, la grille d'affiches par continent, les filtres, la méthode.
+- Exploration : le film du jour, la carte, les rangées thématiques façon plateforme SVOD, le catalogue filtrable, la méthode.
+- « Ma liste » garde les films pour plus tard, à côté de « vu ».
 
 ## Capabilities and Constraints
 
-- 199 pays et territoires, 196 films. Données dans `site/data/films.json`, produites par `scripts/export_site.py`.
+- 199 pays et territoires, 196 films. Données dans `web/src/data/films.json`, produites par `scripts/export_site.py`. Notes IMDb, TMDB, Rotten Tomatoes et bandes-annonces relevées au build (`data/ratings.json`), aucune clé côté client.
 - Bilingue français et anglais. Les notes d'arbitrage n'existent qu'en français.
 - Affiches et fiches viennent de TMDB, avec la mention d'attribution obligatoire. Les plateformes de diffusion en France viennent de JustWatch, via TMDB.
 - Les micro-États sans polygone visible sur la carte sont représentés par un point.
@@ -44,11 +45,11 @@ Les autres listes « un film par pays » classent les films à la note ou à la 
 
 ## Product Principles
 
-1. Le niveau de fiabilité est toujours visible, jamais caché.
+1. Le niveau de fiabilité est toujours visible sur la fiche du film (tampon A à D et sa phrase), jamais caché. Il ne colore plus la carte.
 2. Chaque choix est traçable jusqu'à sa source.
 3. On doit pouvoir passer de la carte au film en un clic, et du film à l'endroit où le voir.
 4. Le suivi des soirées marche sans compte et sans rien envoyer à un serveur.
 
 ## Accessibility & Inclusion
 
-Le contraste du texte respecte WCAG AA. La grille d'affiches est le chemin accessible au clavier, en plus de la carte.
+Le contraste du texte respecte WCAG AA. Les rangées et le catalogue sont le chemin accessible au clavier, en plus de la carte. Aucun débordement à 360 px. Mouvement réduit respecté.

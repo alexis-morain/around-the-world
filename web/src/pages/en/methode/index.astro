@@ -1,0 +1,6 @@
+---
+import Base from "../../../layouts/Base.astro";
+import Method from "../../../components/Method.astro";
+import { href, t } from "../../../lib/i18n";
+---
+<Base lang="en" page="method" title={t("en").methodTitle} alt={href("fr", "methode/")} solidHeader><Method lang="en" /></Base>

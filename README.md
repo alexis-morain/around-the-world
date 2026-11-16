@@ -33,15 +33,20 @@ Full method: [`docs/methode.md`](docs/methode.md) (in French).
 
 ## The site
 
-- Click a country on the map or pick one at random.
-- Each film gets a ticket: poster, original and translated title, why it was picked, where to watch it in France (via JustWatch), links to Letterboxd, TMDB, IMDb and the ranking source.
-- Tick "I've watched it" and the country turns red. Progress stays in your browser (localStorage), no account, nothing sent anywhere.
-- French and English.
+- A film of the day up top, then the world map: click a country to open its film, or draw one at random.
+- Each film has its own page (`/film/<country code>/`, shareable): poster, original and translated title, IMDb, TMDB and Rotten Tomatoes ratings, trailer, where to watch it in France (via JustWatch), links to Letterboxd, TMDB, IMDb and the ranking source, and a stamp saying how reliable the pick is (A to D) and why.
+- Rows by theme (top rated, streaming in France, under 90 minutes, animation, by continent), and a catalogue you can filter by continent, decade, length, language and reliability, then sort.
+- "I've watched it" turns the country red, "My list" keeps films for later. Both stay in your browser (localStorage), no account, nothing sent anywhere.
+- French and English, light and dark themes.
 
-Plain HTML, CSS and JavaScript, no build step. d3 and topojson-client are vendored in `site/vendor/`, fonts (Big Shoulders Display, Literata) are self-hosted.
+Built with [Astro](https://astro.build/) and Tailwind CSS in `web/`, static output, deployed to GitHub Pages by `.github/workflows/pages.yml`. d3 loads only when the map comes into view. Fonts (Big Shoulders Display, Schibsted Grotesk) are self-hosted.
 
 ```bash
-cd site && python3 -m http.server 8000   # then open http://localhost:8000
+cd web
+npm install
+npm run dev     # local site
+npm test        # unit tests (vitest)
+npm run build   # static site in web/dist
 ```
 
 ## Rebuilding the data
@@ -49,11 +54,14 @@ cd site && python3 -m http.server 8000   # then open http://localhost:8000
 Requires a free [TMDB API key](https://www.themoviedb.org/settings/api) in a `.env` file at the root: `TMDB_API_KEY=...`
 
 ```bash
-python3 scripts/tmdb_tier_b.py   # level B: most-rated national films per country (TMDB)
-python3 scripts/build.py         # picks one film per country, A > B > C > D, applies overrides
-python3 scripts/export_site.py   # writes site/data/films.json
-python3 scripts/export_xlsx.py   # writes films-du-monde.xlsx (needs openpyxl)
+python3 scripts/tmdb_tier_b.py      # level B: most-rated national films per country (TMDB)
+python3 scripts/build.py            # picks one film per country, A > B > C > D, applies overrides
+python3 scripts/enrich_ratings.py   # IMDb, TMDB, Rotten Tomatoes ratings and trailers, into data/ratings.json
+python3 scripts/export_site.py      # writes web/src/data/films.json
+python3 scripts/export_xlsx.py      # writes films-du-monde.xlsx (needs openpyxl)
 ```
+
+`enrich_ratings.py` reads the ratings through the movie lookup of a [Radarr](https://radarr.video/) instance (`RADARR_URL` and `RADARR_API_KEY` in `.env`), which returns IMDb, TMDB and Rotten Tomatoes scores in one call. Without one, keep the committed `data/ratings.json`.
 
 Level A box office research lives in `data/raw/tierA_*.json` (first pass) and `data/raw/tierA2_*.json` (second pass, takes priority), following [`docs/spec-niveau-A.md`](docs/spec-niveau-A.md).
 

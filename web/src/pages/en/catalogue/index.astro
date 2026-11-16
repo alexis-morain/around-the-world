@@ -1,0 +1,6 @@
+---
+import Base from "../../../layouts/Base.astro";
+import Catalogue from "../../../components/Catalogue.astro";
+import { href, t } from "../../../lib/i18n";
+---
+<Base lang="en" page="catalogue" title={t("en").catalogue.title} alt={href("fr", "catalogue/")} solidHeader><Catalogue lang="en" /></Base>

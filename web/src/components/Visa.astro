@@ -1,0 +1,17 @@
+---
+/* Le niveau de fiabilité du choix, en tampon façon visa d'exploitation, avec sa légende en clair. */
+import type { Lang } from "../lib/logic";
+import { t } from "../lib/i18n";
+
+interface Props { level: string; lang: Lang; kicker?: boolean }
+const { level, lang, kicker = true } = Astro.props;
+const L = t(lang);
+// Les statuts hors niveau ont leur propre marque.
+const MARK: Record<string, string> = { none: "0", seen: lang === "fr" ? "VU" : "SEEN" };
+---
+<div class="visa" data-level={level}>
+  <span class="visa-mark" aria-hidden="true">{MARK[level] ?? level}</span>
+  {kicker && <p class="visa-k">{L.reliability} : <span class="visually-hidden">{level}</span></p>}
+  <p class="visa-t">{L.levels[level]}</p>
+  <p class="visa-d">{L.levelLong[level]}</p>
+</div>

@@ -50,9 +50,22 @@ def note_fr(note):
     return (note or "").replace("No sourced box office data.", "Aucun box-office sourcé.")
 
 
+RATINGS_PATH = ROOT / "data" / "ratings.json"
+RATINGS = json.loads(RATINGS_PATH.read_text()) if RATINGS_PATH.exists() else {}
+
+
+def decade(annee):
+    """1967 -> 1960 ; None si l'année est absente ou illisible."""
+    try:
+        return int(str(annee)[:4]) // 10 * 10
+    except ValueError:
+        return None
+
+
 films = []
 for r in rows:
     kind, value = metric(r.get("critere"))
+    ratings_row = RATINGS.get(str(r.get("tmdb_id"))) or {}
     films.append({
         "iso2": r["iso2"], "ccn3": r.get("ccn3", ""), "latlng": LATLNG.get(r["iso2"]),
         "continent": CONTINENT_KEY.get(r["continent"], "other"),
@@ -70,8 +83,16 @@ for r in rows:
         "providers_fr": r.get("providers_fr") or {}, "justwatch_fr": r.get("justwatch_fr") or "",
         "tmdb_top": r.get("tmdb_top") or "", "fatw": r.get("fatw") or "",
         "video": video_text(r.get("video")), "note_fr": note_fr(r.get("note")),
+        "decade": decade(r.get("annee")),
+        "ratings": {k: ratings_row.get(k) for k in ("imdb", "tmdb", "rt")},
+        "trailer": (ratings_row.get("trailer") or {}).get("key", ""),
     })
 
 out = {"updated": date.today().isoformat(), "name_to_iso": NAME_TO_ISO, "films": films}
-(ROOT / "site" / "data" / "films.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")))
-print(len(films), "films ->", ROOT / "site" / "data" / "films.json")
+payload = json.dumps(out, ensure_ascii=False, separators=(",", ":"))
+targets = [ROOT / "site" / "data" / "films.json"]
+if (ROOT / "web" / "src" / "data").is_dir():
+    targets.append(ROOT / "web" / "src" / "data" / "films.json")
+for t in targets:
+    t.write_text(payload)
+    print(len(films), "films ->", t)

@@ -1,0 +1,113 @@
+/* Carte d3 : un pays = un film. Plus de couleur par niveau : film, vu, sans film, et le film à l'affiche. */
+import { geoEqualEarth, geoPath, geoArea } from "d3-geo";
+import { select } from "d3-selection";
+import { zoom as d3zoom, zoomIdentity, type ZoomBehavior } from "d3-zoom";
+import "d3-transition";
+import { feature } from "topojson-client";
+import { has } from "./store";
+import { reduced, str } from "./ui";
+
+export interface MapFilm { iso: string; ccn3: string; ll: [number, number] | null; name: string; title: string; local: string; year: string; lvl: string }
+const MICRO_AREA = 3e-4; // sous cette aire (stéradians), un pays reçoit un point
+
+let g: any, svg: any, zb: ZoomBehavior<SVGSVGElement, unknown>, W = 0, H = 0;
+let byIso = new Map<string, MapFilm>();
+let current: string | null = null;
+
+export async function drawMap(films: MapFilm[], nameToIso: Record<string, string>, onPick: (iso: string, el: Element) => void) {
+  const status = document.getElementById("map-status")!;
+  try {
+    const world = await fetch(`${document.body.dataset.base}/data/world-50m.json`).then((r) => r.json());
+    byIso = new Map(films.map((f) => [f.iso, f]));
+    const el = document.getElementById("map") as unknown as SVGSVGElement;
+    const box = el.getBoundingClientRect();
+    W = box.width; H = box.height;
+    svg = select(el).attr("viewBox", `0 0 ${W} ${H}`);
+    const features = (feature(world, world.objects.countries) as any).features.filter((f: any) => f.properties.name !== "Antarctica");
+    const byCcn3 = new Map(films.map((f) => [String(f.ccn3).padStart(3, "0"), f]));
+    for (const ft of features) {
+      const f = ft.id ? byCcn3.get(String(ft.id).padStart(3, "0")) : byIso.get(nameToIso[ft.properties.name]);
+      ft.iso = f ? f.iso : null;
+    }
+    const projection = geoEqualEarth().fitExtent([[8, 8], [W - 8, H - 8]], { type: "Sphere" } as any);
+    const path = geoPath(projection);
+    g = svg.append("g");
+    g.append("path").attr("class", "sphere").attr("d", path({ type: "Sphere" } as any));
+    g.selectAll("path.country").data(features).join("path")
+      .attr("class", "country").attr("d", path).attr("data-iso", (d: any) => d.iso || "")
+      .on("mousemove", (e: MouseEvent, d: any) => tip(e, d.iso))
+      .on("mouseleave", hideTip)
+      .on("click", function (this: Element, _e: MouseEvent, d: any) { if (d.iso && byIso.get(d.iso)?.title) onPick(d.iso, this); });
+
+    const drawn = new Map<string, number>();
+    for (const ft of features) if (ft.iso) drawn.set(ft.iso, (drawn.get(ft.iso) || 0) + geoArea(ft));
+    const dots = films.filter((f) => f.ll && (drawn.get(f.iso) || 0) < MICRO_AREA);
+    g.selectAll("circle.dot").data(dots).join("circle")
+      .attr("class", "dot country").attr("r", 3).attr("data-iso", (f: MapFilm) => f.iso)
+      .attr("cx", (f: MapFilm) => projection([f.ll![1], f.ll![0]])![0])
+      .attr("cy", (f: MapFilm) => projection([f.ll![1], f.ll![0]])![1])
+      .on("mousemove", (e: MouseEvent, f: MapFilm) => tip(e, f.iso))
+      .on("mouseleave", hideTip)
+      .on("click", function (this: Element, _e: MouseEvent, f: MapFilm) { if (f.title) onPick(f.iso, this); });
+
+    zb = d3zoom<SVGSVGElement, unknown>().scaleExtent([1, 12]).translateExtent([[0, 0], [W, H]])
+      .on("zoom", (e) => { g.attr("transform", e.transform); g.selectAll("circle.dot").attr("r", 3 / Math.sqrt(e.transform.k)); });
+    svg.call(zb).on("dblclick.zoom", null);
+    const d = () => (reduced() ? 0 : 260);
+    document.getElementById("zoom-in")!.onclick = () => svg.transition().duration(d()).call(zb.scaleBy, 1.6);
+    document.getElementById("zoom-out")!.onclick = () => svg.transition().duration(d()).call(zb.scaleBy, 1 / 1.6);
+    document.getElementById("zoom-reset")!.onclick = () => svg.transition().duration(d()).call(zb.transform, zoomIdentity);
+    status.hidden = true;
+    paintMap();
+  } catch {
+    status.textContent = str("mapError");
+  }
+}
+
+export function paintMap() {
+  if (!g) return;
+  g.selectAll(".country").each(function (this: SVGElement, d: any) {
+    const iso = d.iso ?? d.iso2 ?? (d as MapFilm).iso ?? null;
+    const f = iso && byIso.get(iso);
+    const cls = this.tagName === "circle" ? ["dot", "country"] : ["country"];
+    if (!f || !f.title) cls.push("none");
+    else if (has("seen", iso)) cls.push("seen");
+    if (iso && iso === current) cls.push("current");
+    this.setAttribute("class", cls.join(" "));
+  });
+  g.selectAll(".current").raise();
+}
+
+export function setCurrent(iso: string | null) { current = iso; paintMap(); }
+export function flash(iso: string | null) {
+  g?.selectAll(".country").classed("flash", function (this: Element) { return !!iso && this.getAttribute("data-iso") === iso; });
+}
+
+/** Cadre le pays (fonctionne aussi pour les pays en plusieurs morceaux). */
+export function focusCountry(iso: string) {
+  if (!g) return;
+  const nodes = g.selectAll(".country").filter(function (this: Element) { return this.getAttribute("data-iso") === iso; }).nodes() as SVGGraphicsElement[];
+  if (!nodes.length) return;
+  let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+  for (const n of nodes) { const b = n.getBBox(); x0 = Math.min(x0, b.x); y0 = Math.min(y0, b.y); x1 = Math.max(x1, b.x + b.width); y1 = Math.max(y1, b.y + b.height); }
+  // un pays coupé par l'antiméridien couvre toute la largeur : on ne zoome pas dessus
+  if (x1 - x0 > W * 0.6) return;
+  const k = Math.max(1, Math.min(6, 0.35 / Math.max((x1 - x0) / W, (y1 - y0) / H)));
+  const t = zoomIdentity.translate(W / 2, H / 2).scale(k).translate(-(x0 + x1) / 2, -(y0 + y1) / 2);
+  svg.transition().duration(reduced() ? 0 : 650).call(zb.transform, t);
+}
+
+function tip(e: MouseEvent, iso: string | null) {
+  const f = iso && byIso.get(iso);
+  const el = document.getElementById("tip")!;
+  if (!f) return hideTip();
+  const rect = document.getElementById("screen")!.getBoundingClientRect();
+  el.innerHTML = "";
+  const b = document.createElement("b"); b.textContent = f.name; el.append(b);
+  el.append(document.createTextNode(f.title ? `${f.local}${f.year ? ` (${f.year})` : ""}` : str("mapKeyNone")));
+  el.hidden = false;
+  const x = e.clientX - rect.left, y = e.clientY - rect.top;
+  el.style.left = `${Math.max(6, Math.min(x + 14, rect.width - el.offsetWidth - 6))}px`;
+  el.style.top = `${Math.max(y - el.offsetHeight - 12, 6)}px`;
+}
+function hideTip() { const el = document.getElementById("tip"); if (el) el.hidden = true; }

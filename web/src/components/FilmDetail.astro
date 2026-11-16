@@ -1,0 +1,126 @@
+---
+/*
+  Fiche complète d'un film. Rendue seule sur /film/<iso>/, et chargée telle quelle dans la modale de l'accueil :
+  une seule source de rendu, et les liens marchent sans JavaScript.
+*/
+import Poster from "./Poster.astro";
+import Ratings from "./Ratings.astro";
+import Visa from "./Visa.astro";
+import Icon from "./Icon.astro";
+import { LANG_FIX, backdropSrc, countryName, fmtValue, hasFilm, localTitle, metaLine, overview, overviewIn, type Film } from "../lib/films";
+import type { Lang } from "../lib/logic";
+import { t } from "../lib/i18n";
+
+interface Props { film: Film; lang: Lang; headingLevel?: 1 | 2 }
+const { film: f, lang, headingLevel = 1 } = Astro.props;
+const L = t(lang);
+const H = headingLevel === 1 ? "h1" : "h2";
+const ok = hasFilm(f);
+const local = ok ? localTitle(f, lang) : "";
+const backdrop = backdropSrc(f);
+const metric = L.metric[f.metric];
+const figure = metric ? metric(fmtValue(f.value, lang)) : "";
+const story = ok ? overview(f, lang) : "";
+const storyIn = overviewIn(f, lang);
+const providers = Object.entries(f.providers_fr || {}).filter(([, l]) => l.length);
+const links = [
+  f.tmdb_id && [`https://letterboxd.com/tmdb/${f.tmdb_id}/`, "Letterboxd"],
+  f.imdb_id && [`https://www.imdb.com/title/${f.imdb_id}/`, "IMDb"],
+  f.tmdb_id && [`https://www.themoviedb.org/movie/${f.tmdb_id}`, "TMDB"],
+  f.justwatch_fr && [f.justwatch_fr, "JustWatch"],
+  f.source && !f.source.includes("themoviedb.org") && [f.source, L.source],
+].filter(Boolean) as [string, string][];
+const alts = [
+  f.tmdb_top && f.level !== "B" && f.level !== "D" && [L.tmdbTop, f.tmdb_top],
+  f.fatw && f.level !== "C" && [L.fatw, f.fatw],
+  f.video && [L.video, f.video],
+].filter(Boolean) as [string, string][];
+const linkify = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]!)).replace(/(https?:\/\/[^\s)]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+const titleLang = LANG_FIX[f.lang] || f.lang;
+---
+<article class="film" id="film" data-iso={f.iso2} data-trailer={f.trailer || undefined} aria-labelledby="film-title">
+  <div class="film-hero">
+    <div class:list={["film-art", { "no-art": !backdrop }]}>
+      {backdrop && <img src={backdrop} alt="" width="1280" height="720" fetchpriority="high" />}
+    </div>
+    <div class="film-trailer" data-trailer-box>
+      <button type="button" class="tool" data-trailer-close aria-label={L.closeTrailer}><Icon name="close" /></button>
+    </div>
+    <div class:list={["film-head", { "no-poster": !ok }]}>
+      {ok && <Poster film={f} lang={lang} size="w342" eager label />}
+      <div>
+        <p class="film-cty"><span class="rule" aria-hidden="true"></span>{countryName(f.iso2, lang)} · {L.continents[f.continent]}</p>
+        {ok ? (
+          <>
+            <H class="film-title display" id="film-title" lang={titleLang}>{f.title}</H>
+            {local && local.toLowerCase() !== f.title.toLowerCase() && <p class="film-local">{local}</p>}
+            <p class="film-meta">{metaLine(f, lang).map((m) => <span>{m}</span>)}</p>
+          </>
+        ) : (
+          <H class="film-title display" id="film-title">{countryName(f.iso2, lang)}</H>
+        )}
+      </div>
+    </div>
+  </div>
+
+  {ok ? (
+    <>
+      <div class="film-actions">
+        {f.trailer && <button type="button" class="btn btn-primary" data-trailer-open><Icon name="play" />{L.trailer}</button>}
+        <button type="button" class="btn btn-ghost btn-seen" data-toggle="seen" aria-pressed="false"><Icon name="check" class="i-on" /><Icon name="eye" class="i-off" />{L.seen}</button>
+        <button type="button" class="btn btn-ghost" data-toggle="list" aria-pressed="false"><Icon name="check" class="i-on" /><Icon name="plus" class="i-off" /><span data-label-off={L.addList} data-label-on={L.inList}>{L.addList}</span></button>
+        <button type="button" class="btn btn-ghost" data-share><Icon name="link" />{L.share}</button>
+      </div>
+
+      <div class="film-grid">
+        <div>
+          <Ratings film={f} lang={lang} links />
+          {story && <section><h2 class="visually-hidden">{L.story}</h2><p class="film-ov" style="margin-top:1.1rem" lang={storyIn.lang}>{story}</p>{storyIn.fallback && <p class="film-ov-note">{L.storyFallback}</p>}</section>}
+          <section>
+            <h2>{L.where}</h2>
+            {providers.length ? (
+              <dl class="providers">
+                {providers.map(([k, names]) => <div><dt>{L.kinds[k] || k}</dt><dd>{names.map((n) => <span>{n}</span>)}</dd></div>)}
+              </dl>
+            ) : <p class="muted small" style="margin:0">{L.nowhere}</p>}
+          </section>
+          {links.length > 0 && (
+            <section>
+              <h2>{L.links}</h2>
+              <ul class="links">{links.map(([u, l]) => <li><a href={u} target="_blank" rel="noopener">{l}</a></li>)}</ul>
+              {f.poster_credit && <p class="muted small">{L.posterBy} <a href={f.poster_credit} target="_blank" rel="noopener">Films Around the World</a></p>}
+            </section>
+          )}
+        </div>
+
+        <aside aria-label={L.why}>
+          <h2>{L.why}</h2>
+          <Visa level={f.level} lang={lang} />
+          <div class="seen-stamp"><Visa level="seen" lang={lang} kicker={false} /></div>
+          {figure && <p class="figure">{figure}</p>}
+          {f.runner_up && <p class="muted small">{L.runnerUp} : {f.runner_up}</p>}
+          {alts.length > 0 && (
+            <details class="details">
+              <summary>{L.alternatives}</summary>
+              {alts.map(([k, v]) => <p><b>{k}</b> : <Fragment set:html={linkify(v)} /></p>)}
+            </details>
+          )}
+          {f.note_fr && (
+            <details class="details">
+              <summary>{L.note}</summary>
+              <p lang="fr">{f.note_fr}</p>
+            </details>
+          )}
+        </aside>
+      </div>
+    </>
+  ) : (
+    <div class="film-grid">
+      <div>
+        <Visa level="none" lang={lang} kicker={false} />
+        {f.note_fr && <p class="muted small" lang="fr" style="margin-top:.8rem">{f.note_fr}</p>}
+      </div>
+    </div>
+  )}
+  <slot />
+</article>

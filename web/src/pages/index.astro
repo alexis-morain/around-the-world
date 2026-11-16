@@ -1,0 +1,6 @@
+---
+import Base from "../layouts/Base.astro";
+import Home from "../components/Home.astro";
+import { href } from "../lib/i18n";
+---
+<Base lang="fr" page="home" alt={href("en")}><Home lang="fr" /></Base>
