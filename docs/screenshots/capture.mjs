@@ -16,7 +16,7 @@ await shot(d, "map");
 await d.goto(B + "pays/kr/", { waitUntil: "networkidle" }); await d.waitForTimeout(800);
 await shot(d, "country");
 await d.goto(B + "catalogue/?tab=book", { waitUntil: "networkidle" }); await d.waitForTimeout(800);
-await d.evaluate(() => scrollTo(0, 230)); await d.waitForTimeout(500);
+await d.waitForTimeout(300);
 await shot(d, "catalogue");
 const l = await pg({ width: 1280, height: 800 }, "light");
 await l.goto(B + "pays/eg/", { waitUntil: "networkidle" }); await l.evaluate(() => scrollTo(0, 380)); await l.waitForTimeout(600);

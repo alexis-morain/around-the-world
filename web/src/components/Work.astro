@@ -60,7 +60,7 @@ const alts = kind === "film" ? ([
 ].filter(Boolean) as [string, string][]) : [];
 const linkify = (s: string) => esc(s).replace(/(https?:\/\/[^\s)]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
 const note = kind === "film" ? f.note_fr : w?.research_note || "";
-const cover = book?.cover ? book.cover_credit : "";
+const cover = kind === "book" && book?.cover ? book.cover_credit : "";
 ---
 {d ? (
   <section class="work" id={id} data-kind={kind} data-key={d.key} aria-labelledby={`${id}-h`} data-trailer={kind === "film" ? f.trailer || undefined : undefined}>
