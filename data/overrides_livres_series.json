@@ -1,0 +1,248 @@
+{
+ "AD": {
+  "book": "Q8210920",
+  "note": "Livre : Manual Digest est une chronique historique, pas une œuvre littéraire : roman suivant retenu."
+ },
+ "AF": {
+  "book": "Q5688116",
+  "note": "Livre : Le traité de Navoï porte sur les langues ; le Jardin clos de la vérité de Sanaï, poème en persan, le suit."
+ },
+ "AM": {
+  "book": "Q13055019",
+  "note": "Livre : L'Histoire de l'Arménie est une chronique ; Les Blessures de l'Arménie d'Abovian, premier roman arménien moderne, la suit."
+ },
+ "AT": {
+  "book": "Q1513820",
+  "note": "Livre : Brecht est allemand : Le Joueur d'échecs de Zweig retenu."
+ },
+ "BB": {
+  "book": "Q23307454",
+  "note": "Livre : In the Castle of My Skin, premier roman de Lamming et classique de la Barbade, retenu à égalité de sources."
+ },
+ "BO": {
+  "book": "Q42194838",
+  "note": "Livre : Bolívar est vénézuélien : Raza de bronce d'Arguedas retenu."
+ },
+ "BS": {
+  "book": null,
+  "note": "Livre : Seul candidat : une autobiographie de Sidney Poitier."
+ },
+ "CU": {
+  "book": "Q579507",
+  "note": "Livre : La Guerre de guérilla est un manuel militaire : Le Royaume de ce monde de Carpentier retenu. Série : Landgericht est une série allemande ; les séries cubaines ont moins de 3 votes.",
+  "series": null
+ },
+ "CY": {
+  "book": null,
+  "note": "Livre : Aucune œuvre de Chypre n'a d'article Wikipédia. Série : Котики, вперёд! est en russe : Όνειρο ήταν..., en grec, retenu.",
+  "series": 54395
+ },
+ "DK": {
+  "book": "Q11859",
+  "note": "Livre : Les contes d'Andersen n'entraient pas dans les types d'œuvres retenus : La Petite Sirène, son conte le plus présent sur Wikipédia."
+ },
+ "DM": {
+  "series": null,
+  "note": "Série : Seule candidate : une série russe."
+ },
+ "DO": {
+  "book": null,
+  "note": "Livre : Les candidats sont de Vargas Llosa (Pérou) ; pas d'œuvre dominicaine assez documentée."
+ },
+ "DZ": {
+  "book": "Q12212596",
+  "note": "Livre : Les candidats sont des textes latins ou théologiques ; Mémoires de la chair d'Ahlam Mosteghanemi, roman en arabe, retenu. Les auteurs algériens de langue française sont écartés par la règle de langue."
+ },
+ "EH": {
+  "book": null,
+  "note": "Livre : Seuls candidats : des poèmes latins de Corippe."
+ },
+ "FJ": {
+  "book": null,
+  "note": "Livre : Nalini Singh est néo-zélandaise : pas d'œuvre fidjienne documentée."
+ },
+ "GH": {
+  "book": "Q30600501",
+  "note": "Livre : Daughters of Africa est une anthologie dirigée par une Britannique : No Home de Yaa Gyasi retenu."
+ },
+ "GR": {
+  "book": "Q1059553",
+  "note": "Livre : Les Vies parallèles de Plutarque sont des biographies : Alexis Zorba de Kazantzakis retenu."
+ },
+ "HT": {
+  "book": "Q3112741",
+  "note": "Livre : De l'égalité des races humaines est un essai : Gouverneurs de la rosée de Jacques Roumain retenu. Titre anglais corrigé (libellé Wikidata erroné).",
+  "book_en": "Masters of the Dew"
+ },
+ "IL": {
+  "book": "Q1124669",
+  "note": "Livre : Homo Deus est un essai : Une histoire d'amour et de ténèbres d'Amos Oz retenu."
+ },
+ "IN": {
+  "book": "Q2358930",
+  "note": "Livre : Après Orwell et Kipling, nés en Inde mais britanniques, le classement donnait Les Versets sataniques ; L'Offrande lyrique de Tagore, en bengali, Nobel 1913, retenue."
+ },
+ "IQ": {
+  "book": "Q16126775",
+  "note": "Livre : Les candidats sont religieux ou signés Saddam Hussein : Frankenstein à Bagdad d'Ahmed Saadawi retenu."
+ },
+ "JO": {
+  "book": "Q6854984",
+  "note": "Livre : Nicomaque de Gérase est un mathématicien grec : Villes de sel de Munif retenu."
+ },
+ "KE": {
+  "book": "Q3953479",
+  "note": "Livre : Décoloniser l'esprit est un essai : Enfant, ne pleure pas, roman de Ngugi, retenu."
+ },
+ "KM": {
+  "book": "Q137458972",
+  "note": "Livre : La Tresse est de Laetitia Colombani, française : Mon étincelle d'Ali Zamir retenu."
+ },
+ "KP": {
+  "book": null,
+  "note": "Livre : Seuls candidats : des écrits de Kim Il-sung et Kim Jong-il."
+ },
+ "LB": {
+  "book": "Q1196302",
+  "note": "Livre : Le Prophète de Khalil Gibran, écrit en anglais, retenu malgré la règle de langue : aucun candidat en arabe n'est documenté."
+ },
+ "LR": {
+  "book": null,
+  "note": "Livre : Seuls candidats : des mémoires et des anthologies peu documentés."
+ },
+ "LT": {
+  "book": "Q7762870",
+  "note": "Livre : Le catéchisme de Mažvydas est religieux : Les Saisons de Donelaitis, premier poème lituanien, retenu. Série : Ølhunden Berit est norvégienne ; les séries lituaniennes ont moins de 3 votes.",
+  "series": null
+ },
+ "LY": {
+  "book": "Q18786522",
+  "note": "Livre : Le Livre vert est un texte politique de Kadhafi : Chewing Gum de Mansour Bushnaf, roman en arabe, retenu."
+ },
+ "MA": {
+  "book": "Q3225152",
+  "note": "Livre : L'Ajurrūmiyya est une grammaire : Le Pain nu de Mohamed Choukri retenu."
+ },
+ "MD": {
+  "book": null,
+  "note": "Livre : Pas d'œuvre moldave assez documentée."
+ },
+ "MK": {
+  "book": "Q29832270",
+  "note": "Livre : Les Chants populaires bulgares sont un recueil de chants collectés : La Liste de Freud de Goce Smilevski retenu."
+ },
+ "MM": {
+  "book": null,
+  "note": "Livre : Seuls candidats : inscriptions, chroniques et essais."
+ },
+ "MN": {
+  "series": null,
+  "note": "Série : 成吉思汗 est une production chinoise en mandarin."
+ },
+ "MR": {
+  "book": null,
+  "note": "Livre : Pas d'œuvre mauritanienne assez documentée."
+ },
+ "MT": {
+  "book": "Q517225",
+  "note": "Livre : Palestine est une bande dessinée de Joe Sacco, installé aux États-Unis : Il-Kantilena, plus ancien poème en maltais, retenu."
+ },
+ "MU": {
+  "book": "Q3225981",
+  "note": "Livre : Robin Sharma est canadien : Le Procès-verbal de Le Clézio, franco-mauricien, retenu."
+ },
+ "MX": {
+  "book_en": "Pedro Páramo",
+  "note": "Titre anglais corrigé (libellé Wikidata erroné)."
+ },
+ "NA": {
+  "book": null,
+  "note": "Livre : Seul candidat : les mémoires de Sam Nujoma."
+ },
+ "NE": {
+  "book": null,
+  "note": "Livre : Seul candidat : un livre d'un auteur nigérian."
+ },
+ "NZ": {
+  "series": 71577,
+  "note": "Série : The Beatles: Get Back est un documentaire : la fiction suivante est retenue."
+ },
+ "PH": {
+  "book": "Q568299",
+  "note": "Livre : Noli me tangere de José Rizal, écrit en espagnol, retenu malgré la règle de langue : c'est le roman fondateur du pays."
+ },
+ "PK": {
+  "book": "Q7197549",
+  "note": "Livre : La Déclaration du Pakistan est un texte politique : Pir-e-Kamil d'Umera Ahmad, roman en ourdou, retenu."
+ },
+ "PS": {
+  "book": "Q2895697",
+  "note": "Livre : Les candidats sont des textes antiques ou religieux : Des hommes dans le soleil de Ghassan Kanafani retenu."
+ },
+ "QA": {
+  "book": null,
+  "note": "Livre : Seuls candidats : des ouvrages religieux. Série : Seul candidat : un documentaire britannique.",
+  "series": null
+ },
+ "SA": {
+  "book": "Q4120154",
+  "note": "Livre : Les candidats sont religieux : Les Filles de Riyad de Rajaa Alsanea retenu."
+ },
+ "SC": {
+  "book": "Q137459255",
+  "note": "Livre : La Ligne bleue est d'Ingrid Betancourt, franco-colombienne : Une tortue se rappelle d'Antoine Abel retenu."
+ },
+ "SO": {
+  "book": "Q105742762",
+  "note": "Livre : Les candidats sont religieux ou en anglais : les poèmes de Mohammed Abdullah Hassan retenus."
+ },
+ "SR": {
+  "book": "Q87725165",
+  "note": "Livre : Hoe duur was de suiker de Cynthia McLeod, le roman surinamais le plus lu, retenu à égalité de sources."
+ },
+ "SY": {
+  "book": "Q12188833",
+  "note": "Livre : L'Échelle sainte est un texte religieux : La Voile et la tempête de Hanna Mina retenu."
+ },
+ "TM": {
+  "book": null,
+  "note": "Livre : Le Ruhnama est un texte de propagande de Niazov ; aucun autre candidat littéraire."
+ },
+ "TO": {
+  "series": null,
+  "note": "Série : Seule candidate : une série turque."
+ },
+ "TW": {
+  "book": "Q5191138",
+  "note": "Livre : Les romans taïwanais en chinois étaient écartés par la règle de langue : Garçons de cristal de Pai Hsien-yung retenu."
+ },
+ "UA": {
+  "book": "Q2658157",
+  "note": "Livre : La Chronique des temps passés est une chronique médiévale : le Kobzar de Chevtchenko retenu. Série : Нюхач est en russe : Serviteur du peuple, en ukrainien, retenu.",
+  "series": 64480
+ },
+ "UG": {
+  "book": "Q1809068",
+  "note": "Livre : Daughters of Africa est une anthologie : Chant de Lawino d'Okot p'Bitek retenu."
+ },
+ "VA": {
+  "book": null,
+  "note": "Livre : Seuls candidats : des textes pontificaux."
+ },
+ "VC": {
+  "book": null,
+  "note": "Livre : Seul candidat : un auteur britannique né sur l'île."
+ },
+ "VE": {
+  "book_en": "Doña Bárbara",
+  "note": "Titre anglais corrigé (libellé Wikidata erroné)."
+ },
+ "XK": {
+  "book": null,
+  "note": "Livre : Ismaïl Kadaré est albanais, déjà retenu pour l'Albanie."
+ },
+ "ZW": {
+  "book": "Q6996918",
+  "note": "Livre : Peter V. Brett est américain : À fleur de peau de Tsitsi Dangarembga retenu."
+ }
+}

@@ -62,6 +62,9 @@ def decade(annee):
         return None
 
 
+BS_PATH = ROOT / "data" / "livres_series.json"
+BOOKS_SERIES = json.loads(BS_PATH.read_text()) if BS_PATH.exists() else {}
+
 films = []
 for r in rows:
     kind, value = metric(r.get("critere"))
@@ -86,6 +89,8 @@ for r in rows:
         "decade": decade(r.get("annee")),
         "ratings": {k: ratings_row.get(k) for k in ("imdb", "tmdb", "rt")},
         "trailer": (ratings_row.get("trailer") or {}).get("key", ""),
+        "book": (BOOKS_SERIES.get(r["iso2"]) or {}).get("book"),
+        "series": (BOOKS_SERIES.get(r["iso2"]) or {}).get("series"),
     })
 
 out = {"updated": date.today().isoformat(), "name_to_iso": NAME_TO_ISO, "films": films}

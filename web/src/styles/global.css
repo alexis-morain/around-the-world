@@ -330,6 +330,14 @@ button, input, select { font: inherit; color: inherit; }
 .links { display: flex; flex-wrap: wrap; gap: .4rem 1.1rem; margin: 0; padding: 0; list-style: none; }
 .links a { color: var(--text); text-underline-offset: 3px; text-decoration-color: color-mix(in srgb, var(--text) 35%, transparent); }
 .links a:hover { text-decoration-color: currentColor; }
+.also { margin-top: 1.9rem; }
+.also-list { display: grid; gap: 1rem; margin: 0 0 .7rem; padding: 0; list-style: none; }
+.also-list li { display: grid; gap: .15rem; padding-left: .9rem; border-left: 2px solid var(--raise-2); }
+.also-kind { font-size: .8rem; color: var(--text-3); text-transform: uppercase; letter-spacing: .06em; }
+.also-title { font-family: var(--font-display); font-weight: 800; font-size: 1.35rem; line-height: 1.1; color: var(--text); text-decoration: none; }
+.also-title:hover { text-decoration: underline; text-underline-offset: 3px; }
+.also-meta { font-size: .9rem; color: var(--text-2); }
+.also-thin { font-size: .8rem; color: var(--text-3); }
 .prose a { color: var(--text); text-underline-offset: 3px; }
 
 /* Classification : le niveau du choix, en tampon de visa, avec sa légende */

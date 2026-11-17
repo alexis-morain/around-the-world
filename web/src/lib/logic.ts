@@ -117,3 +117,22 @@ export function titleLen(title: string): "s" | "m" | "l" {
   const n = [...title].length;
   return n <= 22 ? "s" : n <= 40 ? "m" : "l";
 }
+
+/** Titre d'un livre ou d'une série : langue de la page, puis titre original, puis l'autre langue. */
+export function workTitle(w: { orig: string; fr: string; en: string }, lang: Lang): string {
+  return (lang === "fr" ? w.fr : w.en) || w.orig || (lang === "fr" ? w.en : w.fr) || "";
+}
+
+/** Article Wikipédia d'un élément Wikidata dans la langue de la page (Wikidata redirige). */
+export const wikiUrl = (qid: string, lang: Lang) =>
+  `https://www.wikidata.org/wiki/Special:GoToLinkedPage/${lang}wiki/${qid}`;
+
+/** Sous ces seuils (articles Wikipédia pour un livre, votes TMDB pour une série), le choix est fragile. */
+const THIN = { book: 10, series: 50 } as const;
+export const isThin = (kind: keyof typeof THIN, n: number) => n < THIN[kind];
+
+/** « de Goethe », « d’Ismaïl Kadaré », « by Goethe ». Pas d’élision devant h : « de Hans Christian Andersen ». */
+export function byAuthor(name: string, lang: Lang): string {
+  if (lang === "en") return `by ${name}`;
+  return /^[aeiouyàâäéèêëîïôöùûüœæ]/i.test(name) ? `d’${name}` : `de ${name}`;
+}

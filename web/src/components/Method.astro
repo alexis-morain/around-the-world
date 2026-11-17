@@ -33,6 +33,11 @@ const fr = lang === "fr";
       <h2>Les limites</h2>
       <p>Les records mélangent les époques : la Pologne et le Royaume-Uni ont des records des années 1950 comptés en entrées, d’autres pays des records récents comptés en recettes. Une vingtaine de choix ont été vérifiés à part, et chaque arbitrage manuel est expliqué sur la fiche du film.</p>
       <p>Les notes IMDb, TMDB et Rotten Tomatoes ne servent pas au classement : elles aident à choisir sa soirée.</p>
+      <h2>Le livre et la série</h2>
+      <p>Chaque fiche propose aussi un livre et une série du pays. Ils sont choisis automatiquement, sans recherche de ventes ni d’audiences.</p>
+      <p><strong>Le livre</strong> : l’œuvre littéraire (roman, poésie, théâtre, nouvelles) d’un auteur du pays, écrite dans une langue du pays, qui a des articles dans le plus grand nombre de Wikipédias. Les textes sacrés et politiques sont écartés. Un auteur d’un État disparu compte pour le pays où il est né.</p>
+      <p><strong>La série</strong> : la série produite d’abord dans le pays qui a reçu le plus de votes sur TMDB, hors information, téléréalité et talk-shows. L’animation est acceptée.</p>
+      <p>Sous 10 articles Wikipédia ou 50 votes TMDB, la fiche signale un choix fragile.</p>
       <p>Une erreur, un meilleur candidat ? Les données et le code sont sur <a href={REPO}>GitHub</a>, les corrections sourcées sont bienvenues.</p>
     </>
   ) : (
@@ -40,6 +45,11 @@ const fr = lang === "fr";
       <h2>Limits</h2>
       <p>Records span eras: Poland and the UK have 1950s records counted in admissions, other countries recent records counted in revenue. About twenty picks were checked separately, and every manual call is explained on the film’s page (notes are in French).</p>
       <p>IMDb, TMDB and Rotten Tomatoes ratings play no part in the ranking: they help you pick a movie night.</p>
+      <h2>The book and the series</h2>
+      <p>Every page also suggests a book and a series from the country. They are picked automatically, without sales or audience research.</p>
+      <p><strong>The book</strong>: the literary work (novel, poetry, drama, short stories) by an author from the country, written in a language of the country, with articles in the most Wikipedias. Sacred and political texts are left out. An author from a state that no longer exists counts for the country where they were born.</p>
+      <p><strong>The series</strong>: the series produced first in the country with the most votes on TMDB, excluding news, reality TV and talk shows. Animation is allowed.</p>
+      <p>Below 10 Wikipedia articles or 50 TMDB votes, the page flags a tentative pick.</p>
       <p>Spotted a mistake or a better candidate? Data and code are on <a href={REPO}>GitHub</a>, sourced corrections are welcome.</p>
     </>
   )}

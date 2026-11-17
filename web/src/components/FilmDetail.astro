@@ -7,6 +7,7 @@ import Poster from "./Poster.astro";
 import Ratings from "./Ratings.astro";
 import Visa from "./Visa.astro";
 import Icon from "./Icon.astro";
+import Also from "./Also.astro";
 import { LANG_FIX, backdropSrc, countryName, fmtValue, hasFilm, localTitle, metaLine, overview, overviewIn, type Film } from "../lib/films";
 import type { Lang } from "../lib/logic";
 import { t } from "../lib/i18n";
@@ -91,6 +92,7 @@ const titleLang = LANG_FIX[f.lang] || f.lang;
               {f.poster_credit && <p class="muted small">{L.posterBy} <a href={f.poster_credit} target="_blank" rel="noopener">Films Around the World</a></p>}
             </section>
           )}
+          <Also film={f} lang={lang} />
         </div>
 
         <aside aria-label={L.why}>
@@ -119,6 +121,7 @@ const titleLang = LANG_FIX[f.lang] || f.lang;
       <div>
         <Visa level="none" lang={lang} kicker={false} />
         {f.note_fr && <p class="muted small" lang="fr" style="margin-top:.8rem">{f.note_fr}</p>}
+        <Also film={f} lang={lang} />
       </div>
     </div>
   )}

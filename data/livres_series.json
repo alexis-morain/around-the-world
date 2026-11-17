@@ -1,0 +1,3301 @@
+{
+ "AD": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Blau de Prússia",
+   "author": "Albert Villaró i Boix",
+   "author_en": "Albert Villaró",
+   "year": "",
+   "qid": "Q8210920",
+   "links": 2
+  },
+  "series": null,
+  "note": "Livre : Manual Digest est une chronique historique, pas une œuvre littéraire : roman suivant retenu."
+ },
+ "AE": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Shahenda",
+   "author": "Rashid Abdullah Al Noaimi",
+   "author_en": "Rashid Abdullah Al Noaimi",
+   "year": "1971",
+   "qid": "Q12218217",
+   "links": 3
+  },
+  "series": {
+   "orig": "الهيبة",
+   "fr": "Al Hayba",
+   "en": "Al Hayba",
+   "year": "2017",
+   "tmdb_id": 84299,
+   "poster": "/15xIeh33jwjdsrR5sIybahnRjpm.jpg",
+   "votes": 30,
+   "lang": "ar"
+  },
+  "note": ""
+ },
+ "AF": {
+  "book": {
+   "orig": "",
+   "fr": "Le jardin clos de la vérité",
+   "en": "Hadiqat al-Haqiqa",
+   "author": "Abu'l-Majd Majdud",
+   "author_en": "Sanai",
+   "year": "",
+   "qid": "Q5688116",
+   "links": 6
+  },
+  "series": null,
+  "note": "Livre : Le traité de Navoï porte sur les langues ; le Jardin clos de la vérité de Sanaï, poème en persan, le suit."
+ },
+ "AG": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Unburnable",
+   "author": "Marie-Elena John",
+   "author_en": "Marie-Elena John",
+   "year": "2006",
+   "qid": "Q7882447",
+   "links": 1
+  },
+  "series": null,
+  "note": ""
+ },
+ "AL": {
+  "book": {
+   "orig": "Gjenerali i ushtrisë së vdekur",
+   "fr": "Le Général de l'armée morte",
+   "en": "The General of the Dead Army",
+   "author": "Ismaïl Kadaré",
+   "author_en": "Ismail Kadare",
+   "year": "1963",
+   "qid": "Q2334830",
+   "links": 20
+  },
+  "series": {
+   "orig": "Familja Kuqézi",
+   "fr": "Familja Kuqézi",
+   "en": "Familja Kuqézi",
+   "year": "2019",
+   "tmdb_id": 107448,
+   "poster": "/rqo3BH0OkGa6jE6mpqFIps20miq.jpg",
+   "votes": 3,
+   "lang": "sq"
+  },
+  "note": ""
+ },
+ "AM": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Wounds of Armenia",
+   "author": "Khatchatour Abovian",
+   "author_en": "Khachatur Abovian",
+   "year": "1858",
+   "qid": "Q13055019",
+   "links": 10
+  },
+  "series": null,
+  "note": "Livre : L'Histoire de l'Arménie est une chronique ; Les Blessures de l'Arménie d'Abovian, premier roman arménien moderne, la suit."
+ },
+ "AO": {
+  "book": {
+   "orig": "",
+   "fr": "Histoire de la poule et de l'oeuf",
+   "en": "Luuanda",
+   "author": "José Luandino Vieira",
+   "author_en": "José Luandino Vieira",
+   "year": "1963",
+   "qid": "Q10321103",
+   "links": 5
+  },
+  "series": null,
+  "note": ""
+ },
+ "AR": {
+  "book": {
+   "orig": "El Gaucho Martín Fierro",
+   "fr": "Martín Fierro",
+   "en": "Martín Fierro",
+   "author": "José Hernández",
+   "author_en": "José Hernández",
+   "year": "1872",
+   "qid": "Q832330",
+   "links": 27
+  },
+  "series": {
+   "orig": "O11CE",
+   "fr": "Onze",
+   "en": "Once",
+   "year": "2017",
+   "tmdb_id": 72637,
+   "poster": "/8F7Lpm8lWnhhG7tcq06jkGAdLZX.jpg",
+   "votes": 1539,
+   "lang": "es"
+  },
+  "note": ""
+ },
+ "AT": {
+  "book": {
+   "orig": "Schachnovelle",
+   "fr": "Le Joueur d'échecs",
+   "en": "The Royal Game",
+   "author": "Stefan Zweig",
+   "author_en": "Stefan Zweig",
+   "year": "1942",
+   "qid": "Q1513820",
+   "links": 33
+  },
+  "series": {
+   "orig": "Freud",
+   "fr": "Freud",
+   "en": "Freud",
+   "year": "2020",
+   "tmdb_id": 99509,
+   "poster": "/coW5qDTYHy5k7Akbe3QgD9qw8Dn.jpg",
+   "votes": 305,
+   "lang": "de"
+  },
+  "note": "Livre : Brecht est allemand : Le Joueur d'échecs de Zweig retenu."
+ },
+ "AU": {
+  "book": {
+   "orig": "The Book Thief",
+   "fr": "La Voleuse de livres",
+   "en": "The Book Thief",
+   "author": "Markus Zusak",
+   "author_en": "Markus Zusak",
+   "year": "2006",
+   "qid": "Q819101",
+   "links": 36
+  },
+  "series": {
+   "orig": "Bluey",
+   "fr": "Bluey",
+   "en": "Bluey",
+   "year": "2018",
+   "tmdb_id": 82728,
+   "poster": "/9p4pNoGcuyCfHcGWKNrTopqMWtq.jpg",
+   "votes": 761,
+   "lang": "en"
+  },
+  "note": ""
+ },
+ "AZ": {
+  "book": {
+   "orig": "İblis",
+   "fr": "",
+   "en": "The Devil",
+   "author": "Huseyn Javid",
+   "author_en": "Huseyn Javid",
+   "year": "1924",
+   "qid": "Q1264387",
+   "links": 9
+  },
+  "series": {
+   "orig": "Əqrəb mövsümü",
+   "fr": "Əqrəb mövsümü",
+   "en": "The Scorpio Season",
+   "year": "2023",
+   "tmdb_id": 219142,
+   "poster": "/2UaTSvrFAdjaXSPXKLH18QK7AtO.jpg",
+   "votes": 4,
+   "lang": "az"
+  },
+  "note": ""
+ },
+ "BA": {
+  "book": {
+   "orig": "Na Drini ćuprija",
+   "fr": "Le Pont sur la Drina",
+   "en": "The Bridge on the Drina",
+   "author": "Ivo Andrić",
+   "author_en": "Ivo Andrić",
+   "year": "1945",
+   "qid": "Q1247865",
+   "links": 38
+  },
+  "series": {
+   "orig": "Lud, zbunjen, normalan",
+   "fr": "Lud, zbunjen, normalan",
+   "en": "Crazy, Confused, Normal",
+   "year": "2007",
+   "tmdb_id": 15612,
+   "poster": "/ogVsAP62Yy9XJzYyfYhDiALmdFE.jpg",
+   "votes": 11,
+   "lang": "bs"
+  },
+  "note": ""
+ },
+ "BB": {
+  "book": {
+   "orig": "In the Castle of My Skin",
+   "fr": "",
+   "en": "In the Castle of My Skin",
+   "author": "George Lamming",
+   "author_en": "George Lamming",
+   "year": "1953",
+   "qid": "Q23307454",
+   "links": 1
+  },
+  "series": null,
+  "note": "Livre : In the Castle of My Skin, premier roman de Lamming et classique de la Barbade, retenu à égalité de sources."
+ },
+ "BD": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Lajja",
+   "author": "Taslima Nasreen",
+   "author_en": "Taslima Nasrin",
+   "year": "1993",
+   "qid": "Q3595712",
+   "links": 10
+  },
+  "series": {
+   "orig": "মহানগর",
+   "fr": "মহানগর",
+   "en": "Mohanagar",
+   "year": "2021",
+   "tmdb_id": 128073,
+   "poster": "/bhmI8l62JIc0AuURN4ZL7i6t82K.jpg",
+   "votes": 26,
+   "lang": "bn"
+  },
+  "note": ""
+ },
+ "BE": {
+  "book": {
+   "orig": "Mémoires d'Hadrien",
+   "fr": "Mémoires d'Hadrien",
+   "en": "Memoirs of Hadrian",
+   "author": "Marguerite Yourcenar",
+   "author_en": "Marguerite Yourcenar",
+   "year": "1951",
+   "qid": "Q1233795",
+   "links": 25
+  },
+  "series": {
+   "orig": "Into the Night",
+   "fr": "Into the Night",
+   "en": "Into the Night",
+   "year": "2020",
+   "tmdb_id": 93811,
+   "poster": "/cLeWHF5cZhq7yCmdfJA3fN25kto.jpg",
+   "votes": 621,
+   "lang": "fr"
+  },
+  "note": ""
+ },
+ "BF": {
+  "book": {
+   "orig": "une autre vie est encore possible",
+   "fr": "Une autre vie est encore possible",
+   "en": "",
+   "author": "Augusta Palenfo",
+   "author_en": "Augusta Palenfo",
+   "year": "2023",
+   "qid": "Q124846005",
+   "links": 1
+  },
+  "series": null,
+  "note": ""
+ },
+ "BG": {
+  "book": {
+   "orig": "Под игото",
+   "fr": "Sous le joug",
+   "en": "Under the Yoke",
+   "author": "Ivan Vazov",
+   "author_en": "Ivan Vazov",
+   "year": "1889",
+   "qid": "Q2668054",
+   "links": 19
+  },
+  "series": {
+   "orig": "Под прикритие",
+   "fr": "Undercover",
+   "en": "Undercover",
+   "year": "2011",
+   "tmdb_id": 43424,
+   "poster": "/dOrARooo8FraJo6yHcfvOXya1WC.jpg",
+   "votes": 44,
+   "lang": "bg"
+  },
+  "note": ""
+ },
+ "BH": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Muʻallaqah of Tarafa",
+   "author": "T̩arafa ibn al-ʿAbd",
+   "author_en": "Tarafa",
+   "year": "",
+   "qid": "Q19484341",
+   "links": 2
+  },
+  "series": null,
+  "note": ""
+ },
+ "BI": {
+  "book": {
+   "orig": "Baho!",
+   "fr": "",
+   "en": "",
+   "author": "Roland Rugero",
+   "author_en": "Roland Rugero",
+   "year": "2012",
+   "qid": "Q55604713",
+   "links": 1
+  },
+  "series": null,
+  "note": ""
+ },
+ "BJ": {
+  "book": {
+   "orig": "L'Homme dit fou et la Mauvaise Foi des hommes",
+   "fr": "L'homme dit fou et la mauvaise foi des hommes",
+   "en": "",
+   "author": "Florent Couao-Zotti",
+   "author_en": "Florent Couao-Zotti",
+   "year": "2000",
+   "qid": "Q109995619",
+   "links": 2
+  },
+  "series": null,
+  "note": ""
+ },
+ "BN": {
+  "book": null,
+  "series": null,
+  "note": ""
+ },
+ "BO": {
+  "book": {
+   "orig": "Raza de bronce",
+   "fr": "",
+   "en": "Raza de bronce",
+   "author": "Alcides Arguedas",
+   "author_en": "Alcides Arguedas",
+   "year": "1919",
+   "qid": "Q42194838",
+   "links": 2
+  },
+  "series": {
+   "orig": "La Independecia",
+   "fr": "La Independecia",
+   "en": "La Independecia",
+   "year": "2016",
+   "tmdb_id": 136237,
+   "poster": "/14DZ5U2pXRo8yLeiy23V9ceXKJz.jpg",
+   "votes": 14,
+   "lang": "es"
+  },
+  "note": "Livre : Bolívar est vénézuélien : Raza de bronce d'Arguedas retenu."
+ },
+ "BR": {
+  "book": {
+   "orig": "The Alchemist",
+   "fr": "L'Alchimiste",
+   "en": "The Alchemist",
+   "author": "Paulo Coelho",
+   "author_en": "Paulo Coelho",
+   "year": "1988",
+   "qid": "Q179021",
+   "links": 92
+  },
+  "series": {
+   "orig": "Avenida Brasil",
+   "fr": "Avenida Brasil",
+   "en": "Brazil Avenue",
+   "year": "2012",
+   "tmdb_id": 45815,
+   "poster": "/p8uzK1Lngu9q9dpnn4SwPKIT1H7.jpg",
+   "votes": 1335,
+   "lang": "pt"
+  },
+  "note": ""
+ },
+ "BS": {
+  "book": null,
+  "series": null,
+  "note": "Livre : Seul candidat : une autobiographie de Sidney Poitier."
+ },
+ "BT": {
+  "book": null,
+  "series": null,
+  "note": ""
+ },
+ "BW": {
+  "book": {
+   "orig": "A Question of Power",
+   "fr": "",
+   "en": "A Question of Power",
+   "author": "Bessie Head",
+   "author_en": "Bessie Emery Head",
+   "year": "1973",
+   "qid": "Q42194769",
+   "links": 2
+  },
+  "series": null,
+  "note": ""
+ },
+ "BY": {
+  "book": {
+   "orig": "Чернобыльская молитва",
+   "fr": "La Supplication - Tchernobyl, chronique du monde après l'apocalypse",
+   "en": "Voices from Chernobyl",
+   "author": "Svetlana Aleksievitch",
+   "author_en": "Svetlana Alexievich",
+   "year": "1997",
+   "qid": "Q7939693",
+   "links": 24
+  },
+  "series": {
+   "orig": "Талаш",
+   "fr": "Талаш",
+   "en": "Talash",
+   "year": "2012",
+   "tmdb_id": 246619,
+   "poster": "/yBxcIaKM3SZPY6PWbJgYdM836uf.jpg",
+   "votes": 3,
+   "lang": "ru"
+  },
+  "note": ""
+ },
+ "BZ": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "In Times Like These",
+   "author": "Zee Edgell",
+   "author_en": "Zee Edgell",
+   "year": "1991",
+   "qid": "Q6010989",
+   "links": 2
+  },
+  "series": null,
+  "note": ""
+ },
+ "CA": {
+  "book": {
+   "orig": "Anne of Green Gables",
+   "fr": "Anne… la maison aux pignons verts",
+   "en": "Anne of Green Gables",
+   "author": "Lucy Maud Montgomery",
+   "author_en": "Lucy Maud Montgomery",
+   "year": "1908",
+   "qid": "Q565911",
+   "links": 51
+  },
+  "series": {
+   "orig": "Vikings",
+   "fr": "Vikings",
+   "en": "Vikings",
+   "year": "2013",
+   "tmdb_id": 44217,
+   "poster": "/xmcOeS0BKCBg5MwM3dfMrSUqyNh.jpg",
+   "votes": 8024,
+   "lang": "en"
+  },
+  "note": ""
+ },
+ "CD": {
+  "book": {
+   "orig": "Cannibale",
+   "fr": "Cannibale",
+   "en": "",
+   "author": "Désiré Bolya Baenga",
+   "author_en": "Désiré Bolya Baenga",
+   "year": "1986",
+   "qid": "Q122998358",
+   "links": 1
+  },
+  "series": null,
+  "note": ""
+ },
+ "CF": {
+  "book": {
+   "orig": "",
+   "fr": "Johnny chien méchant",
+   "en": "Johnny chien méchant",
+   "author": "Emmanuel Dongala",
+   "author_en": "Emmanuel Dongala",
+   "year": "2002",
+   "qid": "Q3182996",
+   "links": 2
+  },
+  "series": null,
+  "note": ""
+ },
+ "CG": {
+  "book": {
+   "orig": "Black Bazar",
+   "fr": "Black Bazar",
+   "en": "Black Bazar",
+   "author": "Alain Mabanckou",
+   "author_en": "Alain Mabanckou",
+   "year": "2009",
+   "qid": "Q2905308",
+   "links": 3
+  },
+  "series": null,
+  "note": ""
+ },
+ "CH": {
+  "book": {
+   "orig": "Siddhartha",
+   "fr": "Siddhartha",
+   "en": "Siddhartha",
+   "author": "Hermann Hesse",
+   "author_en": "Hermann Hesse",
+   "year": "1922",
+   "qid": "Q457289",
+   "links": 60
+  },
+  "series": {
+   "orig": "Pingu",
+   "fr": "Pingu",
+   "en": "Pingu",
+   "year": "1986",
+   "tmdb_id": 9262,
+   "poster": "/nLE7NR3EsEbv2NfG0bLIaOEhGfY.jpg",
+   "votes": 165,
+   "lang": "en"
+  },
+  "note": ""
+ },
+ "CI": {
+  "book": {
+   "orig": "Patron de New York",
+   "fr": "Patron de New York",
+   "en": "Patron de New-York",
+   "author": "Bernard Dadié",
+   "author_en": "Bernard Binlin Dadié",
+   "year": "1964",
+   "qid": "Q7148125",
+   "links": 4
+  },
+  "series": null,
+  "note": ""
+ },
+ "CL": {
+  "book": {
+   "orig": "La casa de los espíritus",
+   "fr": "La Maison aux esprits",
+   "en": "The House of the Spirits",
+   "author": "Isabel Allende",
+   "author_en": "Isabel Allende",
+   "year": "1982",
+   "qid": "Q1168267",
+   "links": 26
+  },
+  "series": {
+   "orig": "La jauría",
+   "fr": "La meute",
+   "en": "La jauría",
+   "year": "2020",
+   "tmdb_id": 104819,
+   "poster": "/gTHcxA3nggHCFfXoSP6YyNIFDd.jpg",
+   "votes": 606,
+   "lang": "es"
+  },
+  "note": ""
+ },
+ "CM": {
+  "book": {
+   "orig": "",
+   "fr": "Le Pauvre Christ de Bomba",
+   "en": "The Poor Christ of Bomba",
+   "author": "Mongo Beti",
+   "author_en": "Mongo Beti",
+   "year": "",
+   "qid": "Q3225320",
+   "links": 4
+  },
+  "series": null,
+  "note": ""
+ },
+ "CN": {
+  "book": {
+   "orig": "紅樓夢",
+   "fr": "Le Rêve dans le pavillon rouge",
+   "en": "Dream of the Red Chamber",
+   "author": "Cao Xueqin",
+   "author_en": "Cao Xueqin",
+   "year": "1792",
+   "qid": "Q8265",
+   "links": 117
+  },
+  "series": {
+   "orig": "刺客伍六七",
+   "fr": "Scissor Seven",
+   "en": "Scissor Seven",
+   "year": "2018",
+   "tmdb_id": 79141,
+   "poster": "/jz9ii5sft8l6zP3lzu51xNWmgiO.jpg",
+   "votes": 799,
+   "lang": "zh"
+  },
+  "note": ""
+ },
+ "CO": {
+  "book": {
+   "orig": "Cien años de soledad",
+   "fr": "Cent Ans de solitude",
+   "en": "One Hundred Years of Solitude",
+   "author": "Gabriel García Márquez",
+   "author_en": "Gabriel García Márquez",
+   "year": "1967",
+   "qid": "Q178869",
+   "links": 103
+  },
+  "series": {
+   "orig": "Pablo Escobar: El Patrón del Mal",
+   "fr": "Pablo Escobar, le patron du mal",
+   "en": "Pablo Escobar: The Drug Lord",
+   "year": "2012",
+   "tmdb_id": 43348,
+   "poster": "/jZqm7HFuxfH9P0LFjQZ8nzrCUHP.jpg",
+   "votes": 3752,
+   "lang": "es"
+  },
+  "note": ""
+ },
+ "CR": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Cocorí",
+   "author": "Joaquín Gutiérrez",
+   "author_en": "Joaquín Gutiérrez Mangel",
+   "year": "1947",
+   "qid": "Q5775984",
+   "links": 4
+  },
+  "series": null,
+  "note": ""
+ },
+ "CU": {
+  "book": {
+   "orig": "El reino de este mundo",
+   "fr": "Le Royaume de ce monde",
+   "en": "The Kingdom of this World",
+   "author": "Alejo Carpentier",
+   "author_en": "Alejo Carpanter",
+   "year": "1949",
+   "qid": "Q579507",
+   "links": 12
+  },
+  "series": null,
+  "note": "Livre : La Guerre de guérilla est un manuel militaire : Le Royaume de ce monde de Carpentier retenu. Série : Landgericht est une série allemande ; les séries cubaines ont moins de 3 votes."
+ },
+ "CV": {
+  "book": {
+   "orig": "O testamento do Sr. Napumoceno da Silva Araújo",
+   "fr": "Le Testament de Monsieur Napumoceno da Silva Araújo",
+   "en": "The Last Will and Testament of Senhor da Silva Araújo",
+   "author": "Germano Almeida",
+   "author_en": "Germano Almeida",
+   "year": "1989",
+   "qid": "Q3227639",
+   "links": 5
+  },
+  "series": null,
+  "note": ""
+ },
+ "CY": {
+  "book": null,
+  "series": {
+   "orig": "Όνειρο ήταν...",
+   "fr": "Όνειρο ήταν...",
+   "en": "Oneiro Itan",
+   "year": "2013",
+   "tmdb_id": 54395,
+   "poster": "/vgt4Mbn8NNC28rk071uxyGkARKA.jpg",
+   "votes": 3,
+   "lang": "el"
+  },
+  "note": "Livre : Aucune œuvre de Chypre n'a d'article Wikipédia. Série : Котики, вперёд! est en russe : Όνειρο ήταν..., en grec, retenu."
+ },
+ "CZ": {
+  "book": {
+   "orig": "Nesnesitelná lehkost bytí",
+   "fr": "L'Insoutenable Légèreté de l'être",
+   "en": "The Unbearable Lightness of Being",
+   "author": "Milan Kundera",
+   "author_en": "Milan Kundera",
+   "year": "1984",
+   "qid": "Q917055",
+   "links": 56
+  },
+  "series": {
+   "orig": "Pustina",
+   "fr": "Pustina",
+   "en": "Wasteland",
+   "year": "2016",
+   "tmdb_id": 68406,
+   "poster": "/nYDCRu0n5TQu3jF9u5IPnnPMGUu.jpg",
+   "votes": 41,
+   "lang": "cs"
+  },
+  "note": ""
+ },
+ "DE": {
+  "book": {
+   "orig": "Faust",
+   "fr": "Faust",
+   "en": "Faust",
+   "author": "Johann Wolfgang von Goethe",
+   "author_en": "Johann Wolfgang von Goethe",
+   "year": "1808",
+   "qid": "Q29478",
+   "links": 85
+  },
+  "series": {
+   "orig": "Dark",
+   "fr": "Dark",
+   "en": "Dark",
+   "year": "2017",
+   "tmdb_id": 70523,
+   "poster": "/vbG0zu0lIVDZZaUVOZuBIE9kno3.jpg",
+   "votes": 8008,
+   "lang": "de"
+  },
+  "note": ""
+ },
+ "DJ": {
+  "book": {
+   "orig": "Cahier nomade",
+   "fr": "Cahier nomade",
+   "en": "",
+   "author": "Abdourahman A. Waberi",
+   "author_en": "Abdourahman Waberi",
+   "year": "",
+   "qid": "Q123852216",
+   "links": 1
+  },
+  "series": null,
+  "note": ""
+ },
+ "DK": {
+  "book": {
+   "orig": "Den lille Havfrue",
+   "fr": "La Petite Sirène",
+   "en": "The Little Mermaid",
+   "author": "Hans Christian Andersen",
+   "author_en": "Hans Christian Andersen",
+   "year": "1837",
+   "qid": "Q11859",
+   "links": 107
+  },
+  "series": {
+   "orig": "The Rain",
+   "fr": "The Rain",
+   "en": "The Rain",
+   "year": "2018",
+   "tmdb_id": 76719,
+   "poster": "/qGNfbDHjHN4zDZQlQiByPhU5oAr.jpg",
+   "votes": 1389,
+   "lang": "da"
+  },
+  "note": "Livre : Les contes d'Andersen n'entraient pas dans les types d'œuvres retenus : La Petite Sirène, son conte le plus présent sur Wikipédia."
+ },
+ "DM": {
+  "book": {
+   "orig": "Good Morning, Midnight",
+   "fr": "",
+   "en": "Good Morning, Midnight",
+   "author": "Jean Rhys",
+   "author_en": "Jean Rhys",
+   "year": "1939",
+   "qid": "Q5582761",
+   "links": 2
+  },
+  "series": null,
+  "note": "Série : Seule candidate : une série russe."
+ },
+ "DO": {
+  "book": null,
+  "series": {
+   "orig": "Líos de Familia",
+   "fr": "Líos de Familia",
+   "en": "Líos de Familia",
+   "year": "2022",
+   "tmdb_id": 157305,
+   "poster": "/nWOejQZNyHKy5UWnal7OjKUqxYC.jpg",
+   "votes": 10,
+   "lang": "es"
+  },
+  "note": "Livre : Les candidats sont de Vargas Llosa (Pérou) ; pas d'œuvre dominicaine assez documentée."
+ },
+ "DZ": {
+  "book": {
+   "orig": "",
+   "fr": "Mémoires de la chair",
+   "en": "Memory in the Flesh",
+   "author": "Ahlam Mosteghanemi",
+   "author_en": "Ahlam Mosteghanemi",
+   "year": "1994",
+   "qid": "Q12212596",
+   "links": 4
+  },
+  "series": {
+   "orig": "السلطان عاشور العاشر",
+   "fr": "Sultan Achour 10",
+   "en": "Sultan Ashour 10",
+   "year": "2015",
+   "tmdb_id": 207136,
+   "poster": "/zXWtbFCy6APPEqPgXpBF6aaJVcm.jpg",
+   "votes": 4,
+   "lang": "ar"
+  },
+  "note": "Livre : Les candidats sont des textes latins ou théologiques ; Mémoires de la chair d'Ahlam Mosteghanemi, roman en arabe, retenu. Les auteurs algériens de langue française sont écartés par la règle de langue."
+ },
+ "EC": {
+  "book": {
+   "orig": "Huasipungo",
+   "fr": "La Fosse aux Indiens",
+   "en": "Huasipungo",
+   "author": "Jorge Icaza",
+   "author_en": "Jorge Icaza Coronel",
+   "year": "",
+   "qid": "Q1632884",
+   "links": 6
+  },
+  "series": {
+   "orig": "Mortal Glitch",
+   "fr": "Mortal Glitch",
+   "en": "Mortal Glitch",
+   "year": "2020",
+   "tmdb_id": 108857,
+   "poster": "/yyL04v08CEm94Qb3IAaS1elcRhc.jpg",
+   "votes": 70,
+   "lang": "es"
+  },
+  "note": ""
+ },
+ "EE": {
+  "book": {
+   "orig": "Tõde ja õigus",
+   "fr": "",
+   "en": "Truth and Justice",
+   "author": "Anton Hansen Tammsaare",
+   "author_en": "A. H. Tammsaare",
+   "year": "",
+   "qid": "Q3737463",
+   "links": 9
+  },
+  "series": {
+   "orig": "Klass - Elu pärast",
+   "fr": "Klass - Elu pärast",
+   "en": "The Class: Life After",
+   "year": "2010",
+   "tmdb_id": 79872,
+   "poster": "/pgKwBa2npoKbKsmEl1WullzBNsG.jpg",
+   "votes": 9,
+   "lang": "et"
+  },
+  "note": ""
+ },
+ "EG": {
+  "book": {
+   "orig": "أولاد حارتنا",
+   "fr": "Les Fils de la Médina",
+   "en": "Children of Gebelawi",
+   "author": "Naguib Mahfoud",
+   "author_en": "Naguib Mahfouz",
+   "year": "1967",
+   "qid": "Q2275911",
+   "links": 16
+  },
+  "series": {
+   "orig": "ما وراء الطبيعة",
+   "fr": "Paranormal",
+   "en": "Paranormal",
+   "year": "2020",
+   "tmdb_id": 106590,
+   "poster": "/dLY8BoploE0Y2c1ec6usNNH317T.jpg",
+   "votes": 201,
+   "lang": "ar"
+  },
+  "note": ""
+ },
+ "EH": {
+  "book": null,
+  "series": null,
+  "note": "Livre : Seuls candidats : des poèmes latins de Corippe."
+ },
+ "ER": {
+  "book": null,
+  "series": null,
+  "note": ""
+ },
+ "ES": {
+  "book": {
+   "orig": "Don Quijote de la Mancha",
+   "fr": "Don Quichotte",
+   "en": "Don Quixote",
+   "author": "Miguel de Cervantes",
+   "author_en": "Miguel de Cervantes",
+   "year": "1605",
+   "qid": "Q480",
+   "links": 147
+  },
+  "series": {
+   "orig": "La casa de papel",
+   "fr": "La casa de papel",
+   "en": "Money Heist",
+   "year": "2017",
+   "tmdb_id": 71446,
+   "poster": "/u5Ye3LqV5LqTGjLqtkTCkA4m63W.jpg",
+   "votes": 19810,
+   "lang": "es"
+  },
+  "note": ""
+ },
+ "ET": {
+  "book": {
+   "orig": "",
+   "fr": "L’Amour jusqu’au tombeau",
+   "en": "Love to the Grave",
+   "author": "Haddis Alemayehu",
+   "author_en": "Haddis Alemayehu",
+   "year": "1966",
+   "qid": "Q13146588",
+   "links": 3
+  },
+  "series": null,
+  "note": ""
+ },
+ "FI": {
+  "book": {
+   "orig": "Sinuhe egyptiläinen",
+   "fr": "Sinouhé l'Égyptien",
+   "en": "The Egyptian",
+   "author": "Mika Waltari",
+   "author_en": "Mika Waltari",
+   "year": "1945",
+   "qid": "Q830643",
+   "links": 37
+  },
+  "series": {
+   "orig": "Karppi",
+   "fr": "Deadwind",
+   "en": "Deadwind",
+   "year": "2018",
+   "tmdb_id": 74802,
+   "poster": "/opXFXboNfdOUnCyB2ITd6H3OiN4.jpg",
+   "votes": 175,
+   "lang": "fi"
+  },
+  "note": ""
+ },
+ "FJ": {
+  "book": null,
+  "series": null,
+  "note": "Livre : Nalini Singh est néo-zélandaise : pas d'œuvre fidjienne documentée."
+ },
+ "FM": {
+  "book": null,
+  "series": null,
+  "note": ""
+ },
+ "FR": {
+  "book": {
+   "orig": "Le Petit Prince",
+   "fr": "Le Petit Prince",
+   "en": "The Little Prince",
+   "author": "Antoine de Saint-Exupéry",
+   "author_en": "Antoine de Saint-Exupéry",
+   "year": "1943",
+   "qid": "Q25338",
+   "links": 151
+  },
+  "series": {
+   "orig": "Miraculous, les aventures de Ladybug et Chat Noir",
+   "fr": "Miraculous, les aventures de Ladybug et Chat Noir",
+   "en": "Miraculous: Tales of Ladybug & Cat Noir",
+   "year": "2015",
+   "tmdb_id": 65334,
+   "poster": "/585lHpUQ75NvprAuSpAvJaNJya5.jpg",
+   "votes": 4710,
+   "lang": "fr"
+  },
+  "note": ""
+ },
+ "GA": {
+  "book": {
+   "orig": "Fureur et cris de femmes",
+   "fr": "Fureurs et cris de femmes",
+   "en": "",
+   "author": "Angèle Rawiri",
+   "author_en": "Angèle Christiane Rawiri",
+   "year": "1989",
+   "qid": "Q117354199",
+   "links": 2
+  },
+  "series": null,
+  "note": ""
+ },
+ "GB": {
+  "book": {
+   "orig": "The Lord of the Rings",
+   "fr": "Le Seigneur des anneaux",
+   "en": "The Lord of the Rings",
+   "author": "J. R. R. Tolkien",
+   "author_en": "J. R. R. Tolkien",
+   "year": "1954",
+   "qid": "Q15228",
+   "links": 149
+  },
+  "series": {
+   "orig": "Peaky Blinders",
+   "fr": "Peaky Blinders",
+   "en": "Peaky Blinders",
+   "year": "2013",
+   "tmdb_id": 60574,
+   "poster": "/wfD5hDb61sS203D0te7JbIzeyQe.jpg",
+   "votes": 11544,
+   "lang": "en"
+  },
+  "note": ""
+ },
+ "GD": {
+  "book": {
+   "orig": "The Cole Protocol",
+   "fr": "Le Protocole Cole",
+   "en": "The Cole Protocol",
+   "author": "Tobias Buckell",
+   "author_en": "Tobias S. Buckell",
+   "year": "2008",
+   "qid": "Q1770619",
+   "links": 3
+  },
+  "series": null,
+  "note": ""
+ },
+ "GE": {
+  "book": {
+   "orig": "ვეფხისტყაოსანი",
+   "fr": "Le Chevalier à la peau de panthère",
+   "en": "The Knight in the Panther's Skin",
+   "author": "Chota Roustavéli",
+   "author_en": "Shota Rustaveli",
+   "year": "1180",
+   "qid": "Q204208",
+   "links": 50
+  },
+  "series": {
+   "orig": "ტიფლისი",
+   "fr": "ტიფლისი",
+   "en": "Tiflis",
+   "year": "2014",
+   "tmdb_id": 87680,
+   "poster": "/d9MHgOyQ18tLMOKIQjrdwOBQklt.jpg",
+   "votes": 7,
+   "lang": "ka"
+  },
+  "note": ""
+ },
+ "GH": {
+  "book": {
+   "orig": "Homegoing",
+   "fr": "No Home",
+   "en": "Homegoing",
+   "author": "Yaa Gyasi",
+   "author_en": "Yaa Gyasi",
+   "year": "2016",
+   "qid": "Q30600501",
+   "links": 4
+  },
+  "series": null,
+  "note": "Livre : Daughters of Africa est une anthologie dirigée par une Britannique : No Home de Yaa Gyasi retenu."
+ },
+ "GM": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Chaff on the Wind",
+   "author": "Ebou Dibba",
+   "author_en": "Ebou Dibba",
+   "year": "1986",
+   "qid": "Q5066779",
+   "links": 2
+  },
+  "series": null,
+  "note": ""
+ },
+ "GN": {
+  "book": {
+   "orig": "",
+   "fr": "Nation enchantée",
+   "en": "",
+   "author": "Abdourahmane Sénateur Diallo",
+   "author_en": "Abdourahmane Sénateur Diallo",
+   "year": "2021",
+   "qid": "Q107903106",
+   "links": 2
+  },
+  "series": null,
+  "note": ""
+ },
+ "GQ": {
+  "book": {
+   "orig": "La bastarda",
+   "fr": "",
+   "en": "La Bastarda",
+   "author": "Melibea Obono",
+   "author_en": "Melibea Obono",
+   "year": "2016",
+   "qid": "Q54489211",
+   "links": 2
+  },
+  "series": null,
+  "note": ""
+ },
+ "GR": {
+  "book": {
+   "orig": "Βίος και Πολιτεία του Αλέξη Ζορμπά",
+   "fr": "Alexis Zorba",
+   "en": "Zorba the Greek",
+   "author": "Níkos Kazantzákis",
+   "author_en": "Nikos Kazantzakis",
+   "year": "1946",
+   "qid": "Q1059553",
+   "links": 37
+  },
+  "series": {
+   "orig": "Maestro",
+   "fr": "Le Blues du maestro",
+   "en": "Maestro in Blue",
+   "year": "2022",
+   "tmdb_id": 209504,
+   "poster": "/ztssO9PqcajsvhsOaxAY6xtnEzI.jpg",
+   "votes": 43,
+   "lang": "el"
+  },
+  "note": "Livre : Les Vies parallèles de Plutarque sont des biographies : Alexis Zorba de Kazantzakis retenu."
+ },
+ "GT": {
+  "book": {
+   "orig": "El señor Presidente",
+   "fr": "Monsieur le Président",
+   "en": "Mister President",
+   "author": "Miguel Ángel Asturias",
+   "author_en": "Miguel Ángel Asturias",
+   "year": "",
+   "qid": "Q3050361",
+   "links": 14
+  },
+  "series": null,
+  "note": ""
+ },
+ "GW": {
+  "book": {
+   "orig": "Eterna Paixão",
+   "fr": "",
+   "en": "",
+   "author": "Abdulai Silá",
+   "author_en": "Abdulai Silá",
+   "year": "1994",
+   "qid": "Q10277755",
+   "links": 2
+  },
+  "series": null,
+  "note": ""
+ },
+ "GY": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "The Murderer",
+   "author": "Roy Heath",
+   "author_en": "Roy Heath",
+   "year": "",
+   "qid": "Q111729403",
+   "links": 1
+  },
+  "series": null,
+  "note": ""
+ },
+ "HK": {
+  "book": null,
+  "series": {
+   "orig": "愛·回家之開心速遞",
+   "fr": "Come Home Love: Lo and Behold",
+   "en": "Come Home Love: Lo and Behold",
+   "year": "2017",
+   "tmdb_id": 91759,
+   "poster": "/lgD4j9gUGmMckZpWWRJjorWqGVT.jpg",
+   "votes": 48,
+   "lang": "cn"
+  },
+  "note": ""
+ },
+ "HN": {
+  "book": {
+   "orig": "''El dinosaurio''.",
+   "fr": "Le Dinosaure",
+   "en": "The dinosaur",
+   "author": "Augusto Monterroso",
+   "author_en": "Augusto Monterroso",
+   "year": "1959",
+   "qid": "Q851723",
+   "links": 9
+  },
+  "series": null,
+  "note": ""
+ },
+ "HR": {
+  "book": {
+   "orig": "Judita",
+   "fr": "",
+   "en": "Judita",
+   "author": "Marko Marulić",
+   "author_en": "Marko Marulić",
+   "year": "1521",
+   "qid": "Q1686088",
+   "links": 13
+  },
+  "series": {
+   "orig": "Uspjeh",
+   "fr": "Uspjeh",
+   "en": "Success",
+   "year": "2019",
+   "tmdb_id": 85549,
+   "poster": "/hubkYnikJDmlCZCQuQN1oCqqPUF.jpg",
+   "votes": 24,
+   "lang": "hr"
+  },
+  "note": ""
+ },
+ "HT": {
+  "book": {
+   "orig": "Gouverneurs de la Rosée",
+   "fr": "Gouverneurs de la rosée",
+   "en": "Masters of the Dew",
+   "author": "Jacques Roumain",
+   "author_en": "Jacques Roumain",
+   "year": "1944",
+   "qid": "Q3112741",
+   "links": 3
+  },
+  "series": null,
+  "note": "Livre : De l'égalité des races humaines est un essai : Gouverneurs de la rosée de Jacques Roumain retenu. Titre anglais corrigé (libellé Wikidata erroné)."
+ },
+ "HU": {
+  "book": {
+   "orig": "Chłopcy z ulicy Pawła",
+   "fr": "Les Garçons de la rue Paul",
+   "en": "The Paul Street Boys",
+   "author": "Ferenc Molnár",
+   "author_en": "Ferenc Molnár",
+   "year": "1906",
+   "qid": "Q460661",
+   "links": 27
+  },
+  "series": {
+   "orig": "A martfüi rém",
+   "fr": "Fausse Piste",
+   "en": "Strangled",
+   "year": "2020",
+   "tmdb_id": 106937,
+   "poster": "/sCOLQmALJzPAhvaU0EU3DBGZqJ.jpg",
+   "votes": 63,
+   "lang": "hu"
+  },
+  "note": ""
+ },
+ "ID": {
+  "book": {
+   "orig": "Bumi Manusia",
+   "fr": "Le Monde des hommes",
+   "en": "Earth of Mankind",
+   "author": "Pramoedya Ananta Toer",
+   "author_en": "Pramoedya Ananta Toer",
+   "year": "1980",
+   "qid": "Q18670097",
+   "links": 13
+  },
+  "series": {
+   "orig": "Joko Anwar's Nightmares and Daydreams",
+   "fr": "Nightmares and Daydreams par Joko Anwar",
+   "en": "Joko Anwar's Nightmares and Daydreams",
+   "year": "2024",
+   "tmdb_id": 228958,
+   "poster": "/1OBnZlfrLE8ugpRwiR23pzbl9UK.jpg",
+   "votes": 57,
+   "lang": "id"
+  },
+  "note": ""
+ },
+ "IE": {
+  "book": {
+   "orig": "Travels into Several Remote Nations of the World, in Four Parts. By Lemuel Gulliver, First a Surgeon, and then a Captain of several Ships",
+   "fr": "Les Voyages de Gulliver",
+   "en": "Gulliver's Travels",
+   "author": "Jonathan Swift",
+   "author_en": "Jonathan Swift",
+   "year": "1726",
+   "qid": "Q181488",
+   "links": 85
+  },
+  "series": {
+   "orig": "The Fall",
+   "fr": "The Fall",
+   "en": "The Fall",
+   "year": "2013",
+   "tmdb_id": 49010,
+   "poster": "/kIrpNZDuuKfo7Yd1U6LHxVXdfmC.jpg",
+   "votes": 1030,
+   "lang": "en"
+  },
+  "note": ""
+ },
+ "IL": {
+  "book": {
+   "orig": "Una storia di amore e di tenebra",
+   "fr": "Une histoire d'amour et de ténèbres",
+   "en": "A Tale of Love and Darkness",
+   "author": "Amos Oz",
+   "author_en": "Amos Oz",
+   "year": "2003",
+   "qid": "Q1124669",
+   "links": 14
+  },
+  "series": {
+   "orig": "טהרן",
+   "fr": "Téhéran",
+   "en": "Tehran",
+   "year": "2020",
+   "tmdb_id": 103913,
+   "poster": "/lkOD0iXtwwUJSIT6UgVfpgRJOho.jpg",
+   "votes": 385,
+   "lang": "he"
+  },
+  "note": "Livre : Homo Deus est un essai : Une histoire d'amour et de ténèbres d'Amos Oz retenu."
+ },
+ "IN": {
+  "book": {
+   "orig": "গীতাঞ্জলি",
+   "fr": "L’Offrande lyrique",
+   "en": "Gitanjali",
+   "author": "Rabîndranâth Tagore",
+   "author_en": "Rabindranath Tagore",
+   "year": "",
+   "qid": "Q2358930",
+   "links": 38
+  },
+  "series": {
+   "orig": "Sacred Games",
+   "fr": "Le Seigneur de Bombay",
+   "en": "Sacred Games",
+   "year": "2018",
+   "tmdb_id": 79352,
+   "poster": "/zRA8c82lDIsyzXTB1N0zc50ks9l.jpg",
+   "votes": 271,
+   "lang": "hi"
+  },
+  "note": "Livre : Après Orwell et Kipling, nés en Inde mais britanniques, le classement donnait Les Versets sataniques ; L'Offrande lyrique de Tagore, en bengali, Nobel 1913, retenue."
+ },
+ "IQ": {
+  "book": {
+   "orig": "Frankenstein in Baghdad",
+   "fr": "Frankenstein à Bagdad",
+   "en": "Frankenstein in Baghdad",
+   "author": "Ahmed Saadawi",
+   "author_en": "Ahmed Saadawi",
+   "year": "2013",
+   "qid": "Q16126775",
+   "links": 2
+  },
+  "series": {
+   "orig": "حيرة",
+   "fr": "حيرة",
+   "en": "Heera",
+   "year": "2022",
+   "tmdb_id": 209247,
+   "poster": "/wx2aXqqVxOucOD8lcYO7KiuDn9I.jpg",
+   "votes": 7,
+   "lang": "ar"
+  },
+  "note": "Livre : Les candidats sont religieux ou signés Saddam Hussein : Frankenstein à Bagdad d'Ahmed Saadawi retenu."
+ },
+ "IR": {
+  "book": {
+   "orig": "شاهنامه",
+   "fr": "Livre des Rois",
+   "en": "Shahnameh",
+   "author": "Ferdowsi, Abu-Mansur Daqiqi",
+   "author_en": "Ferdowsi, Abu-Mansur Daqiqi",
+   "year": "",
+   "qid": "Q8279",
+   "links": 130
+  },
+  "series": {
+   "orig": "یوسف پیامبر",
+   "fr": "Prophète Youssef",
+   "en": "Prophet Joseph",
+   "year": "2009",
+   "tmdb_id": 70802,
+   "poster": "/h7nsyR0I53gM6P1Inxl438UnqS7.jpg",
+   "votes": 34,
+   "lang": "fa"
+  },
+  "note": ""
+ },
+ "IS": {
+  "book": {
+   "orig": "Prose Edda",
+   "fr": "Edda de Snorri",
+   "en": "Prose Edda",
+   "author": "Snorri Sturluson",
+   "author_en": "Snorri Sturluson",
+   "year": "",
+   "qid": "Q205882",
+   "links": 59
+  },
+  "series": {
+   "orig": "Katla",
+   "fr": "Katla",
+   "en": "Katla",
+   "year": "2021",
+   "tmdb_id": 104157,
+   "poster": "/vRPDQP51i1Z2RuoIQaxVSj7Pd5R.jpg",
+   "votes": 430,
+   "lang": "is"
+  },
+  "note": ""
+ },
+ "IT": {
+  "book": {
+   "orig": "La Divina Commedia",
+   "fr": "La Divine Comédie",
+   "en": "The Divine Comedy",
+   "author": "Dante Alighieri",
+   "author_en": "Dante Alighieri",
+   "year": "",
+   "qid": "Q40185",
+   "links": 131
+  },
+  "series": {
+   "orig": "Baby",
+   "fr": "Baby",
+   "en": "Baby",
+   "year": "2018",
+   "tmdb_id": 82700,
+   "poster": "/kSKgyS5ZwiMj97VQ2lD9IBtg1Wd.jpg",
+   "votes": 926,
+   "lang": "it"
+  },
+  "note": ""
+ },
+ "JM": {
+  "book": {
+   "orig": "A Brief History of Seven Killings",
+   "fr": "Brève Histoire de sept meurtres",
+   "en": "A Brief History of Seven Killings",
+   "author": "Marlon James",
+   "author_en": "Marlon James",
+   "year": "2014",
+   "qid": "Q19874028",
+   "links": 14
+  },
+  "series": null,
+  "note": ""
+ },
+ "JO": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Cities of Salt",
+   "author": "Abd al-Rahman Munif",
+   "author_en": "Abdul Rahman Munif",
+   "year": "1984",
+   "qid": "Q6854984",
+   "links": 3
+  },
+  "series": {
+   "orig": "مدرسة الروابي للبنات",
+   "fr": "AlRawabi School for Girls",
+   "en": "AlRawabi School for Girls",
+   "year": "2021",
+   "tmdb_id": 88516,
+   "poster": "/fP4tqF73imWZ6ZKyk6VDigQZV2p.jpg",
+   "votes": 558,
+   "lang": "ar"
+  },
+  "note": "Livre : Nicomaque de Gérase est un mathématicien grec : Villes de sel de Munif retenu."
+ },
+ "JP": {
+  "book": {
+   "orig": "Genji-monogatari",
+   "fr": "Le Dit du Genji",
+   "en": "The Tale of Genji",
+   "author": "Murasaki Shikibu",
+   "author_en": "Murasaki Shikibu",
+   "year": "",
+   "qid": "Q8269",
+   "links": 116
+  },
+  "series": {
+   "orig": "ナルト 疾風伝",
+   "fr": "Naruto Shippuden",
+   "en": "Naruto Shippūden",
+   "year": "2007",
+   "tmdb_id": 31910,
+   "poster": "/trpC27FSu6GIjPVzhuCvTJ3wifD.jpg",
+   "votes": 8859,
+   "lang": "ja"
+  },
+  "note": ""
+ },
+ "KE": {
+  "book": {
+   "orig": "",
+   "fr": "Enfant, ne pleure pas",
+   "en": "Weep Not, Child",
+   "author": "Ngugi wa Thiong'o",
+   "author_en": "Ngũgĩ wa Thiong'o",
+   "year": "1964",
+   "qid": "Q3953479",
+   "links": 8
+  },
+  "series": {
+   "orig": "Country Queen",
+   "fr": "Country Queen",
+   "en": "Country Queen",
+   "year": "2022",
+   "tmdb_id": 205722,
+   "poster": "/39rLohFji3qUKu6A5OXZW4NMJ8l.jpg",
+   "votes": 21,
+   "lang": "en"
+  },
+  "note": "Livre : Décoloniser l'esprit est un essai : Enfant, ne pleure pas, roman de Ngugi, retenu."
+ },
+ "KG": {
+  "book": {
+   "orig": "Жамийла",
+   "fr": "Djamilia",
+   "en": "Jamilia",
+   "author": "Tchinguiz Aïtmatov",
+   "author_en": "Chingiz Aĭtmatov",
+   "year": "1958",
+   "qid": "Q856407",
+   "links": 28
+  },
+  "series": null,
+  "note": ""
+ },
+ "KH": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Kolab Pailin",
+   "author": "Nhok Them",
+   "author_en": "Nhok Them",
+   "year": "1960",
+   "qid": "Q19752403",
+   "links": 2
+  },
+  "series": null,
+  "note": ""
+ },
+ "KI": {
+  "book": null,
+  "series": null,
+  "note": ""
+ },
+ "KM": {
+  "book": {
+   "orig": "Mon Étincelle",
+   "fr": "",
+   "en": "Mon Étincelle",
+   "author": "Ali Zamir",
+   "author_en": "Ali Zamir",
+   "year": "2017",
+   "qid": "Q137458972",
+   "links": 0
+  },
+  "series": null,
+  "note": "Livre : La Tresse est de Laetitia Colombani, française : Mon étincelle d'Ali Zamir retenu."
+ },
+ "KN": {
+  "book": {
+   "orig": "Crossing the River",
+   "fr": "La Traversée du fleuve",
+   "en": "Crossing the River",
+   "author": "Caryl Phillips",
+   "author_en": "Caryl Phillips",
+   "year": "1993",
+   "qid": "Q5188680",
+   "links": 3
+  },
+  "series": null,
+  "note": ""
+ },
+ "KP": {
+  "book": null,
+  "series": {
+   "orig": "다람이와 고슴도치",
+   "fr": "다람이와 고슴도치",
+   "en": "Squirrel and Hedgehog",
+   "year": "1977",
+   "tmdb_id": 91536,
+   "poster": "/3vrwOZtGfPPtHrhAzwKg8BY2F4D.jpg",
+   "votes": 4,
+   "lang": "ko"
+  },
+  "note": "Livre : Seuls candidats : des écrits de Kim Il-sung et Kim Jong-il."
+ },
+ "KR": {
+  "book": {
+   "orig": "채식주의자",
+   "fr": "La Végétarienne",
+   "en": "The Vegetarian",
+   "author": "Han Kang",
+   "author_en": "Han Kang",
+   "year": "2007",
+   "qid": "Q24082770",
+   "links": 25
+  },
+  "series": {
+   "orig": "오징어 게임",
+   "fr": "Squid Game",
+   "en": "Squid Game",
+   "year": "2021",
+   "tmdb_id": 93405,
+   "poster": "/heV89pC6pv5fz1plikfyQxYuE4L.jpg",
+   "votes": 17954,
+   "lang": "ko"
+  },
+  "note": ""
+ },
+ "KW": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "The Bamboo Stalk",
+   "author": "Saud Alsanousi",
+   "author_en": "Saud Alsanousi",
+   "year": "",
+   "qid": "Q12215062",
+   "links": 3
+  },
+  "series": {
+   "orig": "الصفقة",
+   "fr": "The Exchange",
+   "en": "The Exchange",
+   "year": "2023",
+   "tmdb_id": 218184,
+   "poster": "/61cW9hlgTpLenhOwXkxE1X3TNrW.jpg",
+   "votes": 17,
+   "lang": "ar"
+  },
+  "note": ""
+ },
+ "KZ": {
+  "book": {
+   "orig": "Ночной Дозор",
+   "fr": "Les Sentinelles de la nuit",
+   "en": "Night Watch",
+   "author": "Sergueï Loukianenko",
+   "author_en": "Sergey Lukyanenko",
+   "year": "1998",
+   "qid": "Q1042011",
+   "links": 17
+  },
+  "series": {
+   "orig": "5:32",
+   "fr": "5:32",
+   "en": "5:32",
+   "year": "2021",
+   "tmdb_id": 153621,
+   "poster": "/ouzzoDUEsJbO1TYePHTEPOdCK4b.jpg",
+   "votes": 14,
+   "lang": "kk"
+  },
+  "note": ""
+ },
+ "LA": {
+  "book": null,
+  "series": null,
+  "note": ""
+ },
+ "LB": {
+  "book": {
+   "orig": "The Prophet",
+   "fr": "Le Prophète",
+   "en": "The Prophet",
+   "author": "Khalil Gibran",
+   "author_en": "Kahlil Gibran",
+   "year": "1923",
+   "qid": "Q1196302",
+   "links": 38
+  },
+  "series": {
+   "orig": "للموت",
+   "fr": "Lel Maout",
+   "en": "Till Death",
+   "year": "2021",
+   "tmdb_id": 121745,
+   "poster": "/6oulvhrVLb8MlC8hFxQk9SmAClF.jpg",
+   "votes": 16,
+   "lang": "ar"
+  },
+  "note": "Livre : Le Prophète de Khalil Gibran, écrit en anglais, retenu malgré la règle de langue : aucun candidat en arabe n'est documenté."
+ },
+ "LC": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Beef, No Chicken",
+   "author": "Derek Walcott",
+   "author_en": "Derek Walcott",
+   "year": "",
+   "qid": "Q4879732",
+   "links": 1
+  },
+  "series": null,
+  "note": ""
+ },
+ "LI": {
+  "book": {
+   "orig": "",
+   "fr": "Gutenberg-Schalun",
+   "en": "Gutenberg-Schalun",
+   "author": "Hermine Rheinberger",
+   "author_en": "Hermine Rheinberger",
+   "year": "",
+   "qid": "Q131374342",
+   "links": 1
+  },
+  "series": null,
+  "note": ""
+ },
+ "LK": {
+  "book": {
+   "orig": "The Seven Moons of Maali Almeida",
+   "fr": "",
+   "en": "The Seven Moons of Maali Almeida",
+   "author": "Shehan Karunatilaka",
+   "author_en": "Shehan Karunatilaka",
+   "year": "2022",
+   "qid": "Q114732705",
+   "links": 11
+  },
+  "series": {
+   "orig": "කූඹියෝ",
+   "fr": "කූඹියෝ",
+   "en": "Koombiyo",
+   "year": "2017",
+   "tmdb_id": 77068,
+   "poster": "/8oCEChwOFkwxSEqC0ZhdZwbmHaN.jpg",
+   "votes": 13,
+   "lang": "si"
+  },
+  "note": ""
+ },
+ "LR": {
+  "book": null,
+  "series": null,
+  "note": "Livre : Seuls candidats : des mémoires et des anthologies peu documentés."
+ },
+ "LS": {
+  "book": {
+   "orig": "Chaka : une épopée bantoue",
+   "fr": "Chaka : une épopée bantoue",
+   "en": "Chaka",
+   "author": "Thomas Mofolo",
+   "author_en": "Thomas Mokopu Mofolo",
+   "year": "1925",
+   "qid": "Q1120822",
+   "links": 7
+  },
+  "series": null,
+  "note": ""
+ },
+ "LT": {
+  "book": {
+   "orig": "",
+   "fr": "Metai",
+   "en": "The Seasons",
+   "author": "Kristijonas Donelaitis",
+   "author_en": "Kristijonas Donelaitis",
+   "year": "1765",
+   "qid": "Q7762870",
+   "links": 9
+  },
+  "series": null,
+  "note": "Livre : Le catéchisme de Mažvydas est religieux : Les Saisons de Donelaitis, premier poème lituanien, retenu. Série : Ølhunden Berit est norvégienne ; les séries lituaniennes ont moins de 3 votes."
+ },
+ "LU": {
+  "book": {
+   "orig": "E' Schrek ob de' Lezeburger Parnassus",
+   "fr": "",
+   "en": "E' Schrek ob de' Lezeburger Parnassus",
+   "author": "Antoine Meyer",
+   "author_en": "Antoine Meyer",
+   "year": "1829",
+   "qid": "Q61359161",
+   "links": 2
+  },
+  "series": {
+   "orig": "Capitani",
+   "fr": "Capitani",
+   "en": "Capitani",
+   "year": "2019",
+   "tmdb_id": 95638,
+   "poster": "/AltQRrBvpQNecDNFtrAQmCNAqvq.jpg",
+   "votes": 119,
+   "lang": "lb"
+  },
+  "note": ""
+ },
+ "LV": {
+  "book": {
+   "orig": "Mātes piens",
+   "fr": "",
+   "en": "Soviet Milk",
+   "author": "Nora Ikstena",
+   "author_en": "Nora Ikstena",
+   "year": "2015",
+   "qid": "Q77030707",
+   "links": 4
+  },
+  "series": {
+   "orig": "Padomju džinsi",
+   "fr": "Soviet Jeans",
+   "en": "Soviet Jeans",
+   "year": "2024",
+   "tmdb_id": 244047,
+   "poster": "/u3zxl5d8Lyh91nXSdKZCFathgu6.jpg",
+   "votes": 11,
+   "lang": "lv"
+  },
+  "note": ""
+ },
+ "LY": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Chewing Gum",
+   "author": "Mansour Bushnaf",
+   "author_en": "Mansour Bushnaf",
+   "year": "2014",
+   "qid": "Q18786522",
+   "links": 2
+  },
+  "series": null,
+  "note": "Livre : Le Livre vert est un texte politique de Kadhafi : Chewing Gum de Mansour Bushnaf, roman en arabe, retenu."
+ },
+ "MA": {
+  "book": {
+   "orig": "",
+   "fr": "Le Pain nu",
+   "en": "For Bread Alone",
+   "author": "Mohamed Choukri",
+   "author_en": "Mohamed Choukri",
+   "year": "1973",
+   "qid": "Q3225152",
+   "links": 9
+  },
+  "series": {
+   "orig": "كازا ستريت",
+   "fr": "Casa Street",
+   "en": "Casa Street",
+   "year": "2023",
+   "tmdb_id": 217534,
+   "poster": "/bj1K1wXTzoT186BUVLiOn4EhATh.jpg",
+   "votes": 6,
+   "lang": "ar"
+  },
+  "note": "Livre : L'Ajurrūmiyya est une grammaire : Le Pain nu de Mohamed Choukri retenu."
+ },
+ "MC": {
+  "book": {
+   "orig": "Poète... vos papiers !",
+   "fr": "Poète... vos papiers !",
+   "en": "Poète... vos papiers !",
+   "author": "Léo Ferré",
+   "author_en": "Léo Ferré",
+   "year": "1956",
+   "qid": "Q3401072",
+   "links": 1
+  },
+  "series": null,
+  "note": ""
+ },
+ "MD": {
+  "book": null,
+  "series": {
+   "orig": "Plaha",
+   "fr": "Plaha",
+   "en": "Plaha",
+   "year": "2025",
+   "tmdb_id": 301024,
+   "poster": "/nBfeRh6wHt6iHSvC3hOJkVtHIPS.jpg",
+   "votes": 6,
+   "lang": "ro"
+  },
+  "note": "Livre : Pas d'œuvre moldave assez documentée."
+ },
+ "ME": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "The Ray of the Microcosm",
+   "author": "Petar II Petrović-Njegoš",
+   "author_en": "Petar II Petrović-Njegoš",
+   "year": "1845",
+   "qid": "Q12754696",
+   "links": 6
+  },
+  "series": null,
+  "note": ""
+ },
+ "MG": {
+  "book": {
+   "orig": "L'Aube rouge",
+   "fr": "L’Aube rouge",
+   "en": "L'Aube rouge",
+   "author": "Jean-Joseph Rabearivelo",
+   "author_en": "Jean-Joseph Rabéarivelo",
+   "year": "1998",
+   "qid": "Q127039796",
+   "links": 4
+  },
+  "series": null,
+  "note": ""
+ },
+ "MH": {
+  "book": null,
+  "series": null,
+  "note": ""
+ },
+ "MK": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Freud's Sister",
+   "author": "Goce Smilevski",
+   "author_en": "Goce Smilevski",
+   "year": "2011",
+   "qid": "Q29832270",
+   "links": 4
+  },
+  "series": null,
+  "note": "Livre : Les Chants populaires bulgares sont un recueil de chants collectés : La Liste de Freud de Goce Smilevski retenu."
+ },
+ "ML": {
+  "book": {
+   "orig": "L'Empreinte du renard",
+   "fr": "L'Empreinte du renard",
+   "en": "",
+   "author": "Moussa Konaté",
+   "author_en": "Moussa Konaté",
+   "year": "2006",
+   "qid": "Q103819783",
+   "links": 1
+  },
+  "series": null,
+  "note": ""
+ },
+ "MM": {
+  "book": null,
+  "series": null,
+  "note": "Livre : Seuls candidats : inscriptions, chroniques et essais."
+ },
+ "MN": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Gologdson huuhen",
+   "author": "Tsendiin Damdinsüren",
+   "author_en": "Tsendiin Damdinsüren",
+   "year": "",
+   "qid": "Q5580905",
+   "links": 3
+  },
+  "series": null,
+  "note": "Série : 成吉思汗 est une production chinoise en mandarin."
+ },
+ "MR": {
+  "book": null,
+  "series": null,
+  "note": "Livre : Pas d'œuvre mauritanienne assez documentée."
+ },
+ "MT": {
+  "book": {
+   "orig": "Il-Kantilena",
+   "fr": "Il-Kantilena",
+   "en": "Il-Kantilena",
+   "author": "Pietru Caxaro",
+   "author_en": "Pietru Caxaro",
+   "year": "",
+   "qid": "Q517225",
+   "links": 13
+  },
+  "series": null,
+  "note": "Livre : Palestine est une bande dessinée de Joe Sacco, installé aux États-Unis : Il-Kantilena, plus ancien poème en maltais, retenu."
+ },
+ "MU": {
+  "book": {
+   "orig": "Le Procès-Verbal",
+   "fr": "Le Procès-verbal",
+   "en": "Le Procès-Verbal",
+   "author": "J. M. G. Le Clézio",
+   "author_en": "Jean-Marie Gustave Le Clézio",
+   "year": "1963",
+   "qid": "Q3225981",
+   "links": 12
+  },
+  "series": {
+   "orig": "Agent",
+   "fr": "Agent",
+   "en": "Agent",
+   "year": "2019",
+   "tmdb_id": 96794,
+   "poster": "/nevJZriFBdQwUh2iF5foHExyXQf.jpg",
+   "votes": 4,
+   "lang": "en"
+  },
+  "note": "Livre : Robin Sharma est canadien : Le Procès-verbal de Le Clézio, franco-mauricien, retenu."
+ },
+ "MV": {
+  "book": null,
+  "series": null,
+  "note": ""
+ },
+ "MW": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "A Love Poem for My Country",
+   "author": "Frank Chipasula",
+   "author_en": "Frank Chipasula",
+   "year": "",
+   "qid": "Q123745685",
+   "links": 0
+  },
+  "series": null,
+  "note": ""
+ },
+ "MX": {
+  "book": {
+   "orig": "Pedro Páramo",
+   "fr": "Pedro Páramo",
+   "en": "Pedro Páramo",
+   "author": "Juan Rulfo",
+   "author_en": "Juan Rulfo",
+   "year": "1955",
+   "qid": "Q1427966",
+   "links": 32
+  },
+  "series": {
+   "orig": "Rebelde",
+   "fr": "Rebelde",
+   "en": "Rebelde",
+   "year": "2004",
+   "tmdb_id": 12637,
+   "poster": "/kQHXg2BOiODkF4yVI75NcodMmAJ.jpg",
+   "votes": 5227,
+   "lang": "es"
+  },
+  "note": "Titre anglais corrigé (libellé Wikidata erroné)."
+ },
+ "MY": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Hikayat Abdullah",
+   "author": "Abdullah bin Abdul Kadir",
+   "author_en": "Abdullah bin Abdul Kadir",
+   "year": "1849",
+   "qid": "Q4115271",
+   "links": 9
+  },
+  "series": {
+   "orig": "Hijrah Jannah",
+   "fr": "Hijrah Jannah",
+   "en": "Hijrah Jannah",
+   "year": "2023",
+   "tmdb_id": 228001,
+   "poster": "/dumuLQuZXc4Mspnyf1u4nrCdDAO.jpg",
+   "votes": 13,
+   "lang": "ms"
+  },
+  "note": ""
+ },
+ "MZ": {
+  "book": {
+   "orig": "Terra Sonâmbula",
+   "fr": "Terre somnambule",
+   "en": "Sleepwalking Land",
+   "author": "Mia Couto",
+   "author_en": "Mia Couto",
+   "year": "1992",
+   "qid": "Q3280735",
+   "links": 4
+  },
+  "series": null,
+  "note": ""
+ },
+ "NA": {
+  "book": null,
+  "series": null,
+  "note": "Livre : Seul candidat : les mémoires de Sam Nujoma."
+ },
+ "NE": {
+  "book": null,
+  "series": null,
+  "note": "Livre : Seul candidat : un livre d'un auteur nigérian."
+ },
+ "NG": {
+  "book": {
+   "orig": "Things Fall Apart",
+   "fr": "Le monde s'effondre",
+   "en": "Things Fall Apart",
+   "author": "Chinua Achebe",
+   "author_en": "Chinua Achebe",
+   "year": "1958",
+   "qid": "Q622400",
+   "links": 38
+  },
+  "series": {
+   "orig": "Far from Home",
+   "fr": "Far from Home",
+   "en": "Far from Home",
+   "year": "2022",
+   "tmdb_id": 215874,
+   "poster": "/svGLFlbjDKx67CVUEFtPGooW25F.jpg",
+   "votes": 144,
+   "lang": "en"
+  },
+  "note": ""
+ },
+ "NI": {
+  "book": {
+   "orig": "Azul…",
+   "fr": "",
+   "en": "Azul",
+   "author": "Rubén Darío",
+   "author_en": "Rubén Darío",
+   "year": "1888",
+   "qid": "Q5715218",
+   "links": 4
+  },
+  "series": null,
+  "note": ""
+ },
+ "NL": {
+  "book": {
+   "orig": "Max Havelaar",
+   "fr": "Max Havelaar",
+   "en": "Max Havelaar",
+   "author": "Multatuli",
+   "author_en": "Multatuli",
+   "year": "1940",
+   "qid": "Q919067",
+   "links": 33
+  },
+  "series": {
+   "orig": "Ares",
+   "fr": "Ares",
+   "en": "Ares",
+   "year": "2020",
+   "tmdb_id": 86769,
+   "poster": "/iVUiL32XmwQyba3EH2E3g77dXge.jpg",
+   "votes": 100,
+   "lang": "nl"
+  },
+  "note": ""
+ },
+ "NO": {
+  "book": {
+   "orig": "Sofies verden.....",
+   "fr": "Le Monde de Sophie",
+   "en": "Sophie's World",
+   "author": "Jostein Gaarder",
+   "author_en": "Jostein Gaarder",
+   "year": "1991",
+   "qid": "Q61324",
+   "links": 53
+  },
+  "series": {
+   "orig": "Ragnarok",
+   "fr": "Ragnarök",
+   "en": "Ragnarok",
+   "year": "2020",
+   "tmdb_id": 91557,
+   "poster": "/9HfeuiRHwLoIdWXzk6Br09RA7aQ.jpg",
+   "votes": 1166,
+   "lang": "no"
+  },
+  "note": ""
+ },
+ "NP": {
+  "book": {
+   "orig": "भानुभक्तीय रामायण",
+   "fr": "",
+   "en": "Bhanubhakta Ramayana",
+   "author": "Bhanubhakta Acharya",
+   "author_en": "Bhanubhakta Acharya",
+   "year": "1887",
+   "qid": "Q65071941",
+   "links": 7
+  },
+  "series": null,
+  "note": ""
+ },
+ "NR": {
+  "book": null,
+  "series": null,
+  "note": ""
+ },
+ "NZ": {
+  "book": {
+   "orig": "The Tattooist of Auschwitz",
+   "fr": "Le tatoueur d'Auschwitz",
+   "en": "The Tattooist of Auschwitz",
+   "author": "Heather Morris",
+   "author_en": "Heather Morris",
+   "year": "2018",
+   "qid": "Q65173665",
+   "links": 13
+  },
+  "series": {
+   "orig": "The New Legends of Monkey",
+   "fr": "Les nouvelles légendes du Roi Singe",
+   "en": "The New Legends of Monkey",
+   "year": "2018",
+   "tmdb_id": 71577,
+   "poster": "/i2vQ6Kb7BdUKBYEa2915WfmMHPr.jpg",
+   "votes": 210,
+   "lang": "en"
+  },
+  "note": "Série : The Beatles: Get Back est un documentaire : la fiction suivante est retenue."
+ },
+ "OM": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Celestial Bodies",
+   "author": "Jokha Alharthi",
+   "author_en": "Jokha al-Harthi",
+   "year": "",
+   "qid": "Q97655720",
+   "links": 3
+  },
+  "series": null,
+  "note": ""
+ },
+ "PA": {
+  "book": {
+   "orig": "De mangos y albaricoques",
+   "fr": "",
+   "en": "De mangos y albaricoques",
+   "author": "Javier Stanziola",
+   "author_en": "Javier Stanziola",
+   "year": "1996",
+   "qid": "Q129730514",
+   "links": 2
+  },
+  "series": null,
+  "note": ""
+ },
+ "PE": {
+  "book": {
+   "orig": "La ciudad y los perros",
+   "fr": "La Ville et les Chiens",
+   "en": "The Time of the Hero",
+   "author": "Mario Vargas Llosa",
+   "author_en": "Mario Vargas Llosa",
+   "year": "1963",
+   "qid": "Q763199",
+   "links": 19
+  },
+  "series": {
+   "orig": "Al Fondo Hay Sitio",
+   "fr": "Al Fondo Hay Sitio",
+   "en": "Al Fondo Hay Sitio",
+   "year": "2009",
+   "tmdb_id": 32209,
+   "poster": "/4BkYVoybIvM2U7zeg2JTT5M5dwF.jpg",
+   "votes": 238,
+   "lang": "es"
+  },
+  "note": ""
+ },
+ "PG": {
+  "book": null,
+  "series": null,
+  "note": ""
+ },
+ "PH": {
+  "book": {
+   "orig": "Nōlī mē tangere",
+   "fr": "Noli me tangere",
+   "en": "",
+   "author": "José Rizal",
+   "author_en": "José Rizal",
+   "year": "1887",
+   "qid": "Q568299",
+   "links": 27
+  },
+  "series": {
+   "orig": "2 Good 2 Be True",
+   "fr": "2 Good 2 Be True",
+   "en": "2 Good 2 Be True",
+   "year": "2022",
+   "tmdb_id": 135647,
+   "poster": "/i472ndnKvptTcayXD06Oikwg7np.jpg",
+   "votes": 261,
+   "lang": "tl"
+  },
+  "note": "Livre : Noli me tangere de José Rizal, écrit en espagnol, retenu malgré la règle de langue : c'est le roman fondateur du pays."
+ },
+ "PK": {
+  "book": {
+   "orig": "Pir-e-Kamil",
+   "fr": "",
+   "en": "Pir-e-Kamil",
+   "author": "Umera Ahmad",
+   "author_en": "Umera Ahmad",
+   "year": "2004",
+   "qid": "Q7197549",
+   "links": 9
+  },
+  "series": {
+   "orig": "زندگی گلزار ہے",
+   "fr": "زندگی گلزار ہے",
+   "en": "Zindagi Gulzar Hai",
+   "year": "2012",
+   "tmdb_id": 67170,
+   "poster": "/6Mxw9WRmLkrLGCwaDJGNsMZsBs3.jpg",
+   "votes": 16,
+   "lang": "ur"
+  },
+  "note": "Livre : La Déclaration du Pakistan est un texte politique : Pir-e-Kamil d'Umera Ahmad, roman en ourdou, retenu."
+ },
+ "PL": {
+  "book": {
+   "orig": "Solaris",
+   "fr": "Solaris",
+   "en": "Solaris",
+   "author": "Stanisław Lem",
+   "author_en": "Stanisław Lem",
+   "year": "1961",
+   "qid": "Q261281",
+   "links": 53
+  },
+  "series": {
+   "orig": "Sexify",
+   "fr": "Sexify",
+   "en": "Sexify",
+   "year": "2021",
+   "tmdb_id": 100226,
+   "poster": "/3mIrH23ar0lr8rj4SAW4kM6nJg6.jpg",
+   "votes": 232,
+   "lang": "pl"
+  },
+  "note": ""
+ },
+ "PS": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Men in the Sun",
+   "author": "Ghassan Kanafani",
+   "author_en": "Ghassan Kanafani",
+   "year": "1962",
+   "qid": "Q2895697",
+   "links": 6
+  },
+  "series": null,
+  "note": "Livre : Les candidats sont des textes antiques ou religieux : Des hommes dans le soleil de Ghassan Kanafani retenu."
+ },
+ "PT": {
+  "book": {
+   "orig": "Ensayo sobre a ceguera",
+   "fr": "L'Aveuglement",
+   "en": "Blindness",
+   "author": "José Saramago",
+   "author_en": "José Saramago",
+   "year": "1995",
+   "qid": "Q826428",
+   "links": 43
+  },
+  "series": {
+   "orig": "Rabo de Peixe",
+   "fr": "Pêche interdite",
+   "en": "Turn of the Tide",
+   "year": "2023",
+   "tmdb_id": 202577,
+   "poster": "/xRxi4neJLW4MbndK3SEw2sP4E2S.jpg",
+   "votes": 58,
+   "lang": "pt"
+  },
+  "note": ""
+ },
+ "PW": {
+  "book": null,
+  "series": null,
+  "note": ""
+ },
+ "PY": {
+  "book": {
+   "orig": "Yo el Supremo",
+   "fr": "Moi, le Suprême",
+   "en": "I the Supreme",
+   "author": "Augusto Roa Bastos",
+   "author_en": "Augusto Roa Bastos",
+   "year": "1974",
+   "qid": "Q5967498",
+   "links": 11
+  },
+  "series": null,
+  "note": ""
+ },
+ "QA": {
+  "book": null,
+  "series": null,
+  "note": "Livre : Seuls candidats : des ouvrages religieux. Série : Seul candidat : un documentaire britannique."
+ },
+ "RO": {
+  "book": {
+   "orig": "Luceafărul",
+   "fr": "Hypérion",
+   "en": "Luceafărul",
+   "author": "Mihai Eminescu",
+   "author_en": "Mihai Eminescu",
+   "year": "1883",
+   "qid": "Q1586176",
+   "links": 16
+  },
+  "series": {
+   "orig": "Umbre",
+   "fr": "Umbre",
+   "en": "Shadows",
+   "year": "2014",
+   "tmdb_id": 62111,
+   "poster": "/anYqLjFi1CuGQDIlsSuEfTEBjBz.jpg",
+   "votes": 63,
+   "lang": "ro"
+  },
+  "note": ""
+ },
+ "RS": {
+  "book": {
+   "orig": "Хазарски речник",
+   "fr": "Le Dictionnaire Khazar",
+   "en": "Dictionary of the Khazars",
+   "author": "Milorad Pavić",
+   "author_en": "Milorad Pavić",
+   "year": "1984",
+   "qid": "Q1995458",
+   "links": 24
+  },
+  "series": {
+   "orig": "Senke nad Balkanom",
+   "fr": "Senke nad Balkanom",
+   "en": "Shadows over the Balkans",
+   "year": "2017",
+   "tmdb_id": 74647,
+   "poster": "/jmh0hWOAy0C68EpWDTSYlUh3JPk.jpg",
+   "votes": 40,
+   "lang": "sr"
+  },
+  "note": ""
+ },
+ "RU": {
+  "book": {
+   "orig": "Анна Каренина",
+   "fr": "Anna Karénine",
+   "en": "Anna Karenina",
+   "author": "Léon Tolstoï",
+   "author_en": "Leo Tolstoy",
+   "year": "1877",
+   "qid": "Q147787",
+   "links": 109
+  },
+  "series": {
+   "orig": "Лучше, чем люди",
+   "fr": "Better Than Us",
+   "en": "Better Than Us",
+   "year": "2018",
+   "tmdb_id": 84380,
+   "poster": "/gDBvpOE2HOg2ezcjYdXgMYWeWGg.jpg",
+   "votes": 473,
+   "lang": "ru"
+  },
+  "note": ""
+ },
+ "RW": {
+  "book": {
+   "orig": "Notre-Dame du Nil",
+   "fr": "Notre-Dame du Nil",
+   "en": "Our Lady of the Nile",
+   "author": "Scholastique Mukasonga",
+   "author_en": "Scholastique Mukasonga",
+   "year": "2012",
+   "qid": "Q3344724",
+   "links": 3
+  },
+  "series": null,
+  "note": ""
+ },
+ "SA": {
+  "book": {
+   "orig": "Girls of Riyadh",
+   "fr": "",
+   "en": "Girls of Riyadh",
+   "author": "Rajaa Alsanea",
+   "author_en": "Rajaa al-Sanea",
+   "year": "2007",
+   "qid": "Q4120154",
+   "links": 7
+  },
+  "series": {
+   "orig": "عُمَرْ‎",
+   "fr": "Omar",
+   "en": "Omar",
+   "year": "2012",
+   "tmdb_id": 58887,
+   "poster": "/9hj9AfTCYEKVsnKpBudoelOSuNf.jpg",
+   "votes": 35,
+   "lang": "ar"
+  },
+  "note": "Livre : Les candidats sont religieux : Les Filles de Riyad de Rajaa Alsanea retenu."
+ },
+ "SB": {
+  "book": null,
+  "series": null,
+  "note": ""
+ },
+ "SC": {
+  "book": {
+   "orig": "Une tortue se rappelle! : récit",
+   "fr": "",
+   "en": "Une tortue se rappelle! : récit",
+   "author": "Antoine Abel",
+   "author_en": "Antoine Abel",
+   "year": "1977",
+   "qid": "Q137459255",
+   "links": 0
+  },
+  "series": null,
+  "note": "Livre : La Ligne bleue est d'Ingrid Betancourt, franco-colombienne : Une tortue se rappelle d'Antoine Abel retenu."
+ },
+ "SD": {
+  "book": {
+   "orig": "موسم الهجرة إلى الشمال",
+   "fr": "Saison de la migration vers le nord",
+   "en": "Season of Migration to the North",
+   "author": "Tayeb Salih",
+   "author_en": "al-Tayyib Salih",
+   "year": "1966",
+   "qid": "Q921128",
+   "links": 16
+  },
+  "series": null,
+  "note": ""
+ },
+ "SE": {
+  "book": {
+   "orig": "Nils Holgerssons underbara resa genom Sverige",
+   "fr": "Le Merveilleux Voyage de Nils Holgersson à travers la Suède",
+   "en": "The Wonderful Adventures of Nils",
+   "author": "Selma Lagerlöf",
+   "author_en": "Selma Lagerlöf",
+   "year": "1906",
+   "qid": "Q726254",
+   "links": 45
+  },
+  "series": {
+   "orig": "Young Royals",
+   "fr": "Young Royals",
+   "en": "Young Royals",
+   "year": "2021",
+   "tmdb_id": 125910,
+   "poster": "/uGGAoM8ojRHOXj16n6xWiccKr34.jpg",
+   "votes": 1243,
+   "lang": "sv"
+  },
+  "note": ""
+ },
+ "SG": {
+  "book": {
+   "orig": "Crazy Rich Asians",
+   "fr": "Crazy Rich à Singapour",
+   "en": "Crazy Rich Asians",
+   "author": "Kevin Kwan",
+   "author_en": "Kevin Kwan",
+   "year": "2013",
+   "qid": "Q21427286",
+   "links": 11
+  },
+  "series": {
+   "orig": "Folklore",
+   "fr": "Folklore",
+   "en": "Folklore",
+   "year": "2018",
+   "tmdb_id": 83090,
+   "poster": "/iQATJS2yy7PMtkPMSMajwYQLqGN.jpg",
+   "votes": 44,
+   "lang": "id"
+  },
+  "note": ""
+ },
+ "SI": {
+  "book": {
+   "orig": "",
+   "fr": "Zdravljica",
+   "en": "Zdravljica",
+   "author": "France Prešeren",
+   "author_en": "France Prešeren",
+   "year": "",
+   "qid": "Q53265697",
+   "links": 24
+  },
+  "series": {
+   "orig": "Trezor",
+   "fr": "Trezor",
+   "en": "The Vault",
+   "year": "2026",
+   "tmdb_id": 334057,
+   "poster": "/yGqq1NIYaaCalJV2jxXO3uTk6er.jpg",
+   "votes": 4,
+   "lang": "sl"
+  },
+  "note": ""
+ },
+ "SK": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Marína",
+   "author": "Andrej Sládkovič",
+   "author_en": "Andrej Sládkovič",
+   "year": "",
+   "qid": "Q3850635",
+   "links": 9
+  },
+  "series": {
+   "orig": "Mama na prenájom",
+   "fr": "Mama na prenájom",
+   "en": "Mom for rent",
+   "year": "2023",
+   "tmdb_id": 218145,
+   "poster": "/fH7PP2Rkdlo414IHvZABBHhtoqd.jpg",
+   "votes": 33,
+   "lang": "sk"
+  },
+  "note": ""
+ },
+ "SL": {
+  "book": {
+   "orig": "Beneath the Tamarind Tree",
+   "fr": "",
+   "en": "Beneath the Tamarind Tree",
+   "author": "Isha Sesay",
+   "author_en": "Isha Sesay",
+   "year": "",
+   "qid": "Q109127304",
+   "links": 4
+  },
+  "series": null,
+  "note": ""
+ },
+ "SM": {
+  "book": null,
+  "series": null,
+  "note": ""
+ },
+ "SN": {
+  "book": {
+   "orig": "",
+   "fr": "Les Contes d'Amadou Koumba",
+   "en": "Tales of Amadou Koumba",
+   "author": "Birago Diop",
+   "author_en": "Birago Diop",
+   "year": "1947",
+   "qid": "Q3231730",
+   "links": 4
+  },
+  "series": {
+   "orig": "Sakho et Mangane",
+   "fr": "Sakho et Mangane",
+   "en": "Sakho & Mangane",
+   "year": "2019",
+   "tmdb_id": 115345,
+   "poster": "/cWsDh5Q19PpqNOe1CE9RLd7pRvv.jpg",
+   "votes": 4,
+   "lang": "fr"
+  },
+  "note": ""
+ },
+ "SO": {
+  "book": {
+   "orig": "Afbakayle",
+   "fr": "",
+   "en": "Afbakayle",
+   "author": "Mohammed Abdullah Hassan Bardee",
+   "author_en": "Muhammad ʿAbdallah Hasan",
+   "year": "",
+   "qid": "Q105742762",
+   "links": 1
+  },
+  "series": null,
+  "note": "Livre : Les candidats sont religieux ou en anglais : les poèmes de Mohammed Abdullah Hassan retenus."
+ },
+ "SR": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "The cost of Sugar",
+   "author": "Cynthia McLeod",
+   "author_en": "Cynthia McLeod",
+   "year": "1987",
+   "qid": "Q87725165",
+   "links": 1
+  },
+  "series": null,
+  "note": "Livre : Hoe duur was de suiker de Cynthia McLeod, le roman surinamais le plus lu, retenu à égalité de sources."
+ },
+ "SS": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "They Poured Fire on Us From the Sky",
+   "author": "Benson Deng, Alephonsion Deng",
+   "author_en": "Benson Deng, Alephonsion Deng",
+   "year": "2005",
+   "qid": "Q7783748",
+   "links": 1
+  },
+  "series": null,
+  "note": ""
+ },
+ "ST": {
+  "book": {
+   "orig": "",
+   "fr": "A Dolorosa Raiz do Micondó",
+   "en": "A Dolorosa Raiz do Micondó",
+   "author": "Conceição Lima",
+   "author_en": "Conceição Lima",
+   "year": "2006",
+   "qid": "Q4656556",
+   "links": 4
+  },
+  "series": null,
+  "note": ""
+ },
+ "SV": {
+  "book": {
+   "orig": "El jetón",
+   "fr": "",
+   "en": "El Jetón",
+   "author": "Arturo Ambrogi",
+   "author_en": "Arturo Ambrogi",
+   "year": "1936",
+   "qid": "Q541449",
+   "links": 3
+  },
+  "series": null,
+  "note": ""
+ },
+ "SY": {
+  "book": {
+   "orig": "",
+   "fr": "La voile et la tempête",
+   "en": "Sail and Storm",
+   "author": "Hanna Mineh",
+   "author_en": "Hanna Mina",
+   "year": "",
+   "qid": "Q12188833",
+   "links": 3
+  },
+  "series": {
+   "orig": "باب الحارة",
+   "fr": "باب الحارة",
+   "en": "Bab Al-Hara",
+   "year": "2006",
+   "tmdb_id": 30695,
+   "poster": "/mjnLbyDWHadRp2vuEejTKJ1AxWz.jpg",
+   "votes": 15,
+   "lang": "ar"
+  },
+  "note": "Livre : L'Échelle sainte est un texte religieux : La Voile et la tempête de Hanna Mina retenu."
+ },
+ "SZ": {
+  "book": null,
+  "series": null,
+  "note": ""
+ },
+ "TD": {
+  "book": {
+   "orig": "L'Amitié sans frontière",
+   "fr": "L'Amitié sans frontière",
+   "en": "",
+   "author": "Clarisse Nomaye",
+   "author_en": "Clarisse Nomaye",
+   "year": "2012",
+   "qid": "Q141040578",
+   "links": 1
+  },
+  "series": null,
+  "note": ""
+ },
+ "TG": {
+  "book": {
+   "orig": "",
+   "fr": "Cola Cola jazz",
+   "en": "Cola Cola jazz",
+   "author": "Kangni Alem",
+   "author_en": "Kangni Alem",
+   "year": "2002",
+   "qid": "Q5141854",
+   "links": 3
+  },
+  "series": null,
+  "note": ""
+ },
+ "TH": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Khu Kam",
+   "author": "Thommayanti",
+   "author_en": "Thommayanti",
+   "year": "",
+   "qid": "Q3012127",
+   "links": 5
+  },
+  "series": {
+   "orig": "เด็กใหม่",
+   "fr": "Girl From Nowhere",
+   "en": "Girl from Nowhere",
+   "year": "2018",
+   "tmdb_id": 83639,
+   "poster": "/eOmhBPnWj0HoPtuAra4IQbH22GP.jpg",
+   "votes": 973,
+   "lang": "th"
+  },
+  "note": ""
+ },
+ "TJ": {
+  "book": {
+   "orig": "دیوان",
+   "fr": "",
+   "en": "Diwan",
+   "author": "Nasir e Khosraw",
+   "author_en": "Nasir Khusraw",
+   "year": "",
+   "qid": "Q5284734",
+   "links": 3
+  },
+  "series": null,
+  "note": ""
+ },
+ "TL": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "The Crossing",
+   "author": "Luís Cardoso",
+   "author_en": "Luís Cardoso",
+   "year": "2000",
+   "qid": "Q7728184",
+   "links": 1
+  },
+  "series": null,
+  "note": ""
+ },
+ "TM": {
+  "book": null,
+  "series": null,
+  "note": "Livre : Le Ruhnama est un texte de propagande de Niazov ; aucun autre candidat littéraire."
+ },
+ "TN": {
+  "book": {
+   "orig": "الى طغاة العالم",
+   "fr": "Ela Toghat Al Alaam",
+   "en": "Ila Tughat al-Alam",
+   "author": "Abou el Kacem Chebbi",
+   "author_en": "Abu al-Qasim al-Shabbi",
+   "year": "1934",
+   "qid": "Q3050367",
+   "links": 5
+  },
+  "series": {
+   "orig": "حرقة",
+   "fr": "Harga",
+   "en": "Harga",
+   "year": "2021",
+   "tmdb_id": 125261,
+   "poster": "/cB7PX8b38epzxzZTZCAYX6xtvTh.jpg",
+   "votes": 4,
+   "lang": "ar"
+  },
+  "note": ""
+ },
+ "TO": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Tales of A Princess",
+   "author": "Suli Moa",
+   "author_en": "Suli Moa",
+   "year": "",
+   "qid": "Q107340253",
+   "links": 0
+  },
+  "series": null,
+  "note": "Série : Seule candidate : une série turque."
+ },
+ "TR": {
+  "book": {
+   "orig": "Benim Adım Kırmızı",
+   "fr": "Mon nom est Rouge",
+   "en": "My Name Is Red",
+   "author": "Orhan Pamuk",
+   "author_en": "Orhan Pamuk",
+   "year": "1998",
+   "qid": "Q470464",
+   "links": 40
+  },
+  "series": {
+   "orig": "Sen Çal Kapımı",
+   "fr": "Love is in the Air",
+   "en": "Love Is in the Air",
+   "year": "2020",
+   "tmdb_id": 104877,
+   "poster": "/iYZRsO1ISBgBbMpsfgtYXlwRhOk.jpg",
+   "votes": 3149,
+   "lang": "tr"
+  },
+  "note": ""
+ },
+ "TT": {
+  "book": {
+   "orig": "A Bend in the River",
+   "fr": "À la courbe du fleuve",
+   "en": "A Bend in the River",
+   "author": "V. S. Naipaul",
+   "author_en": "V. S. Naipaul",
+   "year": "1979",
+   "qid": "Q482567",
+   "links": 8
+  },
+  "series": null,
+  "note": ""
+ },
+ "TV": {
+  "book": null,
+  "series": null,
+  "note": ""
+ },
+ "TW": {
+  "book": {
+   "orig": "孽子",
+   "fr": "Garçons de cristal",
+   "en": "Crystal Boys",
+   "author": "Bai Xianyong",
+   "author_en": "Pai Hsien-yung",
+   "year": "1983",
+   "qid": "Q5191138",
+   "links": 6
+  },
+  "series": {
+   "orig": "模仿犯",
+   "fr": "Copycat Killer",
+   "en": "Copycat Killer",
+   "year": "2023",
+   "tmdb_id": 158876,
+   "poster": "/u5ry5olC8mChs0bJ1wLf1rPVxgZ.jpg",
+   "votes": 112,
+   "lang": "zh"
+  },
+  "note": "Livre : Les romans taïwanais en chinois étaient écartés par la règle de langue : Garçons de cristal de Pai Hsien-yung retenu."
+ },
+ "TZ": {
+  "book": {
+   "orig": "Paradise",
+   "fr": "Paradis",
+   "en": "Paradise",
+   "author": "Abdulrazak Gurnah",
+   "author_en": "Abdulrazak Gurnah",
+   "year": "1994",
+   "qid": "Q20875782",
+   "links": 10
+  },
+  "series": {
+   "orig": "JQ Knew That",
+   "fr": "JQ Knew That",
+   "en": "JQ Knew That",
+   "year": "2021",
+   "tmdb_id": 124080,
+   "poster": "/pgYAFpHHfgY7chXbvKekvTMxnld.jpg",
+   "votes": 3,
+   "lang": "en"
+  },
+  "note": ""
+ },
+ "UA": {
+  "book": {
+   "orig": "Кобзар",
+   "fr": "Kobzar",
+   "en": "Kobzar",
+   "author": "Taras Chevtchenko",
+   "author_en": "Taras Shevchenko",
+   "year": "1840",
+   "qid": "Q2658157",
+   "links": 20
+  },
+  "series": {
+   "orig": "Слуга народу",
+   "fr": "Serviteur du peuple",
+   "en": "Servant of the People",
+   "year": "2015",
+   "tmdb_id": 64480,
+   "poster": "/tHC4Z5uYI0LFUTJD6UblEEfsqEr.jpg",
+   "votes": 96,
+   "lang": "uk"
+  },
+  "note": "Livre : La Chronique des temps passés est une chronique médiévale : le Kobzar de Chevtchenko retenu. Série : Нюхач est en russe : Serviteur du peuple, en ukrainien, retenu."
+ },
+ "UG": {
+  "book": {
+   "orig": "Song of Lawino",
+   "fr": "",
+   "en": "Song of Lawino",
+   "author": "Okot p'Bitek",
+   "author_en": "p’Bitek Okot",
+   "year": "1966",
+   "qid": "Q1809068",
+   "links": 4
+  },
+  "series": null,
+  "note": "Livre : Daughters of Africa est une anthologie : Chant de Lawino d'Okot p'Bitek retenu."
+ },
+ "US": {
+  "book": {
+   "orig": "The Old Man and the Sea",
+   "fr": "Le Vieil Homme et la Mer",
+   "en": "The Old Man and the Sea",
+   "author": "Ernest Hemingway",
+   "author_en": "Ernest Hemingway",
+   "year": "1952",
+   "qid": "Q26505",
+   "links": 91
+  },
+  "series": {
+   "orig": "Game of Thrones",
+   "fr": "Game of Thrones",
+   "en": "Game of Thrones",
+   "year": "2011",
+   "tmdb_id": 1399,
+   "poster": "/eRMfekBOnwyE9G0ffyEJIBOjX2n.jpg",
+   "votes": 28194,
+   "lang": "en"
+  },
+  "note": ""
+ },
+ "UY": {
+  "book": {
+   "orig": "La tregua",
+   "fr": "La Trêve",
+   "en": "The Truce",
+   "author": "Mario Benedetti",
+   "author_en": "Popis benedetti",
+   "year": "1961",
+   "qid": "Q5968310",
+   "links": 8
+  },
+  "series": {
+   "orig": "Barrabrava",
+   "fr": "Barrabrava",
+   "en": "Club Hooligans",
+   "year": "2023",
+   "tmdb_id": 228963,
+   "poster": "/67NGCkX3EUg5yY785cQ50zqyw1S.jpg",
+   "votes": 49,
+   "lang": "es"
+  },
+  "note": ""
+ },
+ "UZ": {
+  "book": {
+   "orig": "Oʻtkan kunlar",
+   "fr": "",
+   "en": "Oʻtgan kunlar",
+   "author": "Abdulla Qodiriy",
+   "author_en": "Abdulla Qodiriy",
+   "year": "1925",
+   "qid": "Q48987751",
+   "links": 6
+  },
+  "series": null,
+  "note": ""
+ },
+ "VA": {
+  "book": null,
+  "series": null,
+  "note": "Livre : Seuls candidats : des textes pontificaux."
+ },
+ "VC": {
+  "book": null,
+  "series": null,
+  "note": "Livre : Seul candidat : un auteur britannique né sur l'île."
+ },
+ "VE": {
+  "book": {
+   "orig": "Doña Bárbara",
+   "fr": "Doña Bárbara",
+   "en": "Doña Bárbara",
+   "author": "Rómulo Gallegos",
+   "author_en": "Rómulo Gallegos",
+   "year": "1929",
+   "qid": "Q1272527",
+   "links": 12
+  },
+  "series": {
+   "orig": "Mi gorda bella",
+   "fr": "Mi gorda bella",
+   "en": "My Sweet Fat Valentina",
+   "year": "2002",
+   "tmdb_id": 73964,
+   "poster": "/cduGmrNnER1r5bVvi6NpUgKLD3n.jpg",
+   "votes": 172,
+   "lang": "es"
+  },
+  "note": "Titre anglais corrigé (libellé Wikidata erroné)."
+ },
+ "VN": {
+  "book": {
+   "orig": "Đoạn Trường Tân Thanh",
+   "fr": "Kim-Vân-Kiêu",
+   "en": "The Tale of Kieu",
+   "author": "Nguyễn Du",
+   "author_en": "Nguyễn Du",
+   "year": "1820",
+   "qid": "Q1301168",
+   "links": 21
+  },
+  "series": {
+   "orig": "Tiệm ăn của quỷ",
+   "fr": "Devil's Diner",
+   "en": "Devil's Diner",
+   "year": "2025",
+   "tmdb_id": 283022,
+   "poster": "/fePYNcZiCWYJwPonU5J4K9PeUuj.jpg",
+   "votes": 26,
+   "lang": "vi"
+  },
+  "note": ""
+ },
+ "VU": {
+  "book": null,
+  "series": null,
+  "note": ""
+ },
+ "WS": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Where We Once Belonged",
+   "author": "Sia Figiel",
+   "author_en": "Sia Figiel",
+   "year": "",
+   "qid": "Q107171987",
+   "links": 0
+  },
+  "series": null,
+  "note": ""
+ },
+ "XK": {
+  "book": null,
+  "series": {
+   "orig": "Çka ka shpija",
+   "fr": "Çka ka shpija",
+   "en": "What's Up with the House?",
+   "year": "",
+   "tmdb_id": 83613,
+   "poster": "/tENj7Lwnm1xjosJbBUxgAAMmZOm.jpg",
+   "votes": 3,
+   "lang": "sq"
+  },
+  "note": "Livre : Ismaïl Kadaré est albanais, déjà retenu pour l'Albanie."
+ },
+ "YE": {
+  "book": {
+   "orig": "",
+   "fr": "",
+   "en": "Suslov's Daughter",
+   "author": "Habib Abdulrab Sarori",
+   "author_en": "Habib Abdulrab Sarori",
+   "year": "2014",
+   "qid": "Q28717162",
+   "links": 3
+  },
+  "series": null,
+  "note": ""
+ },
+ "ZA": {
+  "book": {
+   "orig": "Disgrace",
+   "fr": "Disgrâce",
+   "en": "Disgrace",
+   "author": "J. M. Coetzee",
+   "author_en": "J. M. Coetzee",
+   "year": "1999",
+   "qid": "Q958560",
+   "links": 23
+  },
+  "series": {
+   "orig": "Blood & Water",
+   "fr": "Blood & Water",
+   "en": "Blood & Water",
+   "year": "2020",
+   "tmdb_id": 103411,
+   "poster": "/NFHy3z1taQ8nzudDHeVIJnih3J.jpg",
+   "votes": 330,
+   "lang": "en"
+  },
+  "note": ""
+ },
+ "ZM": {
+  "book": {
+   "orig": "When the Lion Feeds",
+   "fr": "Quand le lion a faim",
+   "en": "When the Lion Feeds",
+   "author": "Wilbur Smith",
+   "author_en": "Wilbur Smith",
+   "year": "1964",
+   "qid": "Q2790229",
+   "links": 5
+  },
+  "series": null,
+  "note": ""
+ },
+ "ZW": {
+  "book": {
+   "orig": "Nervous Conditions",
+   "fr": "",
+   "en": "Nervous Conditions",
+   "author": "Tsitsi Dangarembga",
+   "author_en": "Tsitsi Dangarembga",
+   "year": "1988",
+   "qid": "Q6996918",
+   "links": 3
+  },
+  "series": null,
+  "note": "Livre : Peter V. Brett est américain : À fleur de peau de Tsitsi Dangarembga retenu."
+ }
+}

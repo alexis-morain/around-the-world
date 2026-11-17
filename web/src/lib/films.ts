@@ -14,7 +14,13 @@ export interface Film {
   tmdb_top: string; fatw: string; video: string; note_fr: string;
   ratings?: { imdb: Rating | null; tmdb: Rating | null; rt: Rating | null };
   trailer?: string;
+  book?: Book | null;
+  series?: Series | null;
 }
+/** Le livre le plus lu du pays (scripts/books_series.py). links = articles Wikipédia. */
+export interface Book { orig: string; fr: string; en: string; author: string; author_en: string; year: string; qid: string; links: number }
+/** La série la plus vue du pays sur TMDB. */
+export interface Series { orig: string; fr: string; en: string; year: string; tmdb_id: number; poster: string | null; votes: number; lang: string }
 
 export const IMG = "https://image.tmdb.org/t/p/";
 export const CONTINENTS = ["europe", "africa", "middle_east", "asia", "americas", "oceania"];

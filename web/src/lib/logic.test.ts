@@ -114,3 +114,45 @@ describe("titleLen", () => {
   it("réduit fort un titre long", () => expect(titleLen("Demon Slayer : Kimetsu no Yaiba - Le film : Le train de l'Infini")).toBe("l"));
   it("compte les caractères, pas les octets", () => expect(titleLen("劇場版「鬼滅の刃」無限列車編")).toBe("s"));
 });
+
+import { workTitle, wikiUrl, isThin } from "./logic";
+
+describe("workTitle", () => {
+  const w = { orig: "Cien años de soledad", fr: "Cent ans de solitude", en: "One Hundred Years of Solitude" };
+  it("donne le titre de la langue de la page", () => {
+    expect(workTitle(w, "fr")).toBe("Cent ans de solitude");
+    expect(workTitle(w, "en")).toBe("One Hundred Years of Solitude");
+  });
+  it("retombe sur l'original, puis sur l'autre langue", () => {
+    expect(workTitle({ orig: "Dark", fr: "", en: "" }, "fr")).toBe("Dark");
+    expect(workTitle({ orig: "", fr: "", en: "Solaris" }, "fr")).toBe("Solaris");
+  });
+});
+
+describe("wikiUrl", () => {
+  it("ouvre l'article Wikipédia de la langue de la page via Wikidata", () => {
+    expect(wikiUrl("Q42", "fr")).toBe("https://www.wikidata.org/wiki/Special:GoToLinkedPage/frwiki/Q42");
+    expect(wikiUrl("Q42", "en")).toBe("https://www.wikidata.org/wiki/Special:GoToLinkedPage/enwiki/Q42");
+  });
+});
+
+describe("isThin", () => {
+  it("signale un choix porté par peu de données", () => {
+    expect(isThin("book", 4)).toBe(true);
+    expect(isThin("book", 10)).toBe(false);
+    expect(isThin("series", 30)).toBe(true);
+    expect(isThin("series", 50)).toBe(false);
+  });
+});
+
+import { byAuthor } from "./logic";
+
+describe("byAuthor", () => {
+  it("élide devant une voyelle en français, pas devant h", () => {
+    expect(byAuthor("Ismaïl Kadaré", "fr")).toBe("d’Ismaïl Kadaré");
+    expect(byAuthor("Émile Zola", "fr")).toBe("d’Émile Zola");
+    expect(byAuthor("Hans Christian Andersen", "fr")).toBe("de Hans Christian Andersen");
+    expect(byAuthor("Goethe", "fr")).toBe("de Goethe");
+    expect(byAuthor("Goethe", "en")).toBe("by Goethe");
+  });
+});
