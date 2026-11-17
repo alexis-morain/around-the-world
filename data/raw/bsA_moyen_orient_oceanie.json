@@ -1,0 +1,398 @@
+[
+  {
+    "iso2": "SA",
+    "book": {
+      "level": "none",
+      "note": "Pas de ventes ni de classement d'audience saoudien fiable ; les choix auto (Les Filles de Riyad, Omar) restent non sourcés."
+    },
+    "series": {
+      "level": "none",
+      "note": "Pas de ventes ni de classement d'audience saoudien fiable ; les choix auto (Les Filles de Riyad, Omar) restent non sourcés."
+    }
+  },
+  {
+    "iso2": "BH",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source d'audience ou de classement trouvée."
+    }
+  },
+  {
+    "iso2": "CY",
+    "book": {
+      "level": "none",
+      "note": "Rien de chiffré trouvé pour Chypre (CyBC, Wikipédia)."
+    },
+    "series": {
+      "level": "none",
+      "note": "Rien de chiffré trouvé pour Chypre (CyBC, Wikipédia)."
+    }
+  },
+  {
+    "iso2": "AE",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source d'audience ou de classement trouvée."
+    }
+  },
+  {
+    "iso2": "IQ",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source d'audience ou de classement trouvée."
+    }
+  },
+  {
+    "iso2": "IR",
+    "book": {
+      "level": "A",
+      "title_original": "سووشون",
+      "title_fr": "Souvashoun",
+      "title_en": "Savushun",
+      "author": "Simin Daneshvar",
+      "year": 1969,
+      "language": "fa",
+      "wikidata": "",
+      "metric": "sales",
+      "value": "plus de 500 000 exemplaires cumulés ; 400 000 de tirage en 1997, le plus gros tirage d'un roman persan à l'époque ; qualifié de roman iranien le plus vendu par Mirabedini et Haqooqi",
+      "source_url": "https://fa.wikipedia.org/wiki/سووشون",
+      "note": "Source secondaire (Wikipédia persan citant Golshiri, Mirabedini, Haqooqi). Remplace le Shahnameh (épopée, aucun chiffre de vente)."
+    },
+    "series": {
+      "level": "A",
+      "title_original": "پایتخت",
+      "title_fr": "Paytakht",
+      "title_en": "Paytakht",
+      "year": 2011,
+      "language": "fa",
+      "tmdb_id": 100754,
+      "metric": "streaming",
+      "value": "Paytakht 7 : 58 millions de vues sur Telewebion, record de la plateforme (résumé d'un post Instagram relayant le sondage de la télévision publique)",
+      "source_url": "https://www.instagram.com/p/C5lrmVVrh8C/",
+      "note": "Source faible (post Instagram vu en résultat de recherche, page non ouverte). Le sondage Tasnim 2023 donne Gildokht à 38 % comme série la plus regardée de l'année. À revérifier."
+    }
+  },
+  {
+    "iso2": "IL",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "A",
+      "title_original": "מרחק נגיעה",
+      "title_fr": "À portée de main",
+      "title_en": "A Touch Away",
+      "year": 2007,
+      "language": "he",
+      "tmdb_id": 38901,
+      "metric": "ratings",
+      "value": "série dramatique quotidienne la plus regardée depuis le début des mesures, 28,9 % de moyenne",
+      "source_url": "https://ifat.co.il/%D7%A2%D7%A0%D7%A3-%D7%94%D7%A4%D7%A8%D7%A1%D7%95%D7%9D-%D7%95%D7%AA%D7%A2%D7%A9%D7%99%D7%99%D7%AA-%D7%94%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-%D7%9B%D7%9E%D7%A8%D7%A7%D7%97%D7%94/",
+      "note": "Meilleure série quotidienne (Reshet, Canal 2), pas toutes séries hebdomadaires confondues ; la source ne classe pas les séries hebdomadaires. Le titre FR est une traduction littérale à vérifier."
+    }
+  },
+  {
+    "iso2": "JO",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source d'audience ou de classement trouvée."
+    }
+  },
+  {
+    "iso2": "KW",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source d'audience ou de classement trouvée."
+    }
+  },
+  {
+    "iso2": "LB",
+    "book": {
+      "level": "none",
+      "note": "Le Prophète (anglais) non retenu sans sondage ni chiffres libanais."
+    },
+    "series": {
+      "level": "none",
+      "note": "Le Prophète (anglais) non retenu sans sondage ni chiffres libanais."
+    }
+  },
+  {
+    "iso2": "OM",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source d'audience ou de classement trouvée."
+    }
+  },
+  {
+    "iso2": "PS",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source d'audience ou de classement trouvée."
+    }
+  },
+  {
+    "iso2": "QA",
+    "book": {
+      "level": "none",
+      "note": "Rien de sourcé."
+    },
+    "series": {
+      "level": "none",
+      "note": "Rien de sourcé."
+    }
+  },
+  {
+    "iso2": "SY",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "A",
+      "title_original": "باب الحارة",
+      "title_fr": "Bab al-Hara",
+      "title_en": "Bab Al-Hara",
+      "year": 2006,
+      "language": "ar",
+      "tmdb_id": 30695,
+      "metric": "press",
+      "value": "saison 2 : 1re place des séries les plus suivies avec 86,4 % des votants (étude d'audience publiée par Al-Quds)",
+      "source_url": "https://www.alquds.co.uk/%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%A9-%D8%A3%D9%88%D9%84%D8%A7%D9%8B-%D8%B1%D8%BA%D9%85-%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D8%B3%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D8%A7/",
+      "note": "Sondage de suivi portant sur une saison de ramadan, pas une audience mesurée tous temps."
+    }
+  },
+  {
+    "iso2": "TR",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "A",
+      "title_original": "Asmalı Konak",
+      "title_fr": "Asmalı Konak",
+      "title_en": "Asmalı Konak",
+      "year": 2002,
+      "language": "tr",
+      "tmdb_id": 32107,
+      "metric": "ratings",
+      "value": "28,50 de rating, 81 % de part d'audience, 1re des séries de l'histoire de la TV turque (AGB, classement relayé)",
+      "source_url": "https://www.facebook.com/DiziReytingleri/posts/t%C3%BCrk-tv-tarihinin-en-fazla-izlenen-dizileri1-asmal%C4%B1-konak-2850-reyting-y%C3%BCzde-810/2161385750617198/",
+      "note": "Liste relayée sur Facebook et X (extrait de recherche, page non chargée) : source secondaire à confirmer. Wikidata Q2250216.",
+      "wikidata": "Q2250216"
+    }
+  },
+  {
+    "iso2": "YE",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source d'audience ou de classement trouvée."
+    }
+  },
+  {
+    "iso2": "AU",
+    "book": {
+      "level": "A",
+      "title_original": "The Thorn Birds",
+      "title_fr": "Les Oiseaux se cachent pour mourir",
+      "title_en": "The Thorn Birds",
+      "author": "Colleen McCullough",
+      "year": 1977,
+      "language": "en",
+      "wikidata": "",
+      "metric": "sales",
+      "value": "roman australien le plus vendu, environ 30 millions d'exemplaires dans le monde en 2009",
+      "source_url": "https://en.wikipedia.org/wiki/Australian_literature",
+      "note": "Ventes mondiales, pas australiennes seules. Cloudstreet (Winton) mène le sondage ABC des 100 livres australiens (Guardian, oct. 2026) : alternative 'canon'."
+    },
+    "series": {
+      "level": "none",
+      "note": "Seuls chiffres trouvés : Packed to the Rafters, meilleure fiction 2004-2009 (1,87 M, Screen Australia) ; pas de classement tous temps."
+    }
+  },
+  {
+    "iso2": "FJ",
+    "book": {
+      "level": "none",
+      "note": "Aucune source trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source trouvée."
+    }
+  },
+  {
+    "iso2": "MH",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source d'audience ou de classement trouvée."
+    }
+  },
+  {
+    "iso2": "SB",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source d'audience ou de classement trouvée."
+    }
+  },
+  {
+    "iso2": "KI",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source d'audience ou de classement trouvée."
+    }
+  },
+  {
+    "iso2": "FM",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source d'audience ou de classement trouvée."
+    }
+  },
+  {
+    "iso2": "NR",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source d'audience ou de classement trouvée."
+    }
+  },
+  {
+    "iso2": "NZ",
+    "book": {
+      "level": "none",
+      "note": "The Bone People : environ 250 000 exemplaires (Scoop, 2009), mais aucune source ne le donne comme le plus vendu ; Heather Morris sans chiffre néo-zélandais."
+    },
+    "series": {
+      "level": "A",
+      "title_original": "Outrageous Fortune",
+      "title_fr": "Outrageous Fortune",
+      "title_en": "Outrageous Fortune",
+      "year": 2005,
+      "language": "en",
+      "tmdb_id": 1799,
+      "metric": "ratings",
+      "value": "finale vue par 724 980 personnes (18,1 % de la population de 5 ans et plus, Nielsen) ; émission néo-zélandaise la plus regardée par une large marge",
+      "source_url": "https://www.stuff.co.nz/the-press/news/4327291/Outrageous-finale",
+      "note": "Chiffre lu dans l'extrait de recherche Stuff (la page ne s'est pas chargée) ; second article cité : theragblog (700 000 vues)."
+    }
+  },
+  {
+    "iso2": "PW",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source d'audience ou de classement trouvée."
+    }
+  },
+  {
+    "iso2": "PG",
+    "book": {
+      "level": "none",
+      "note": "Aucun classement ni chiffre de ventes trouvé."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucun classement ni chiffre de ventes trouvé."
+    }
+  },
+  {
+    "iso2": "WS",
+    "book": {
+      "level": "none",
+      "note": "Aucune source trouvée (Where We Once Belonged de Sia Figiel resterait candidat 'canon')."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source trouvée (Where We Once Belonged de Sia Figiel resterait candidat 'canon')."
+    }
+  },
+  {
+    "iso2": "TO",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source d'audience ou de classement trouvée."
+    }
+  },
+  {
+    "iso2": "TV",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source d'audience ou de classement trouvée."
+    }
+  },
+  {
+    "iso2": "VU",
+    "book": {
+      "level": "none",
+      "note": "Aucune source de ventes, sondage ou programme trouvée."
+    },
+    "series": {
+      "level": "none",
+      "note": "Aucune source d'audience ou de classement trouvée."
+    }
+  }
+]

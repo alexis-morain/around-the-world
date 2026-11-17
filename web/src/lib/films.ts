@@ -1,7 +1,7 @@
 /* Données du site au build : films.json produit par scripts/export_site.py. */
 import data from "../data/films.json";
-import { fmtRating, type Item, type Lang } from "./logic";
-import { t } from "./i18n";
+import { pickOverview, coverSeed, fmtRating, workTitle, yearOf, countrySlug, type Item, type Kind, type Lang } from "./logic";
+import { href, t } from "./i18n";
 
 export interface Rating { value: number; votes?: number }
 export interface Film {
@@ -17,10 +17,12 @@ export interface Film {
   book?: Book | null;
   series?: Series | null;
 }
-/** Le livre le plus lu du pays (scripts/books_series.py). links = articles Wikipédia. */
-export interface Book { orig: string; fr: string; en: string; author: string; author_en: string; year: string; qid: string; links: number }
-/** La série la plus vue du pays sur TMDB. */
-export interface Series { orig: string; fr: string; en: string; year: string; tmdb_id: number; poster: string | null; votes: number; lang: string }
+/** Champs communs au livre et à la série après la fusion de la recherche (scripts/books_series.py). */
+interface WorkMeta { overview_fr?: string; overview_en?: string; level: string; metric: string; value: string; source_url: string; research_note?: string }
+/** Le livre du pays. qid peut être vide (absent de Wikidata), cover vide ou null (couverture typographique). */
+export interface Book extends WorkMeta { orig: string; fr: string; en: string; author: string; author_en: string; year: string; qid: string; wiki_fr?: string; wiki_en?: string; links: number; cover: string | null; cover_credit: string }
+/** La série du pays. tmdb_id et poster peuvent être null (série absente de TMDB). */
+export interface Series extends WorkMeta { orig: string; fr: string; en: string; year: string; tmdb_id: number | null; poster: string | null; votes: number; lang: string }
 
 export const IMG = "https://image.tmdb.org/t/p/";
 export const CONTINENTS = ["europe", "africa", "middle_east", "asia", "americas", "oceania"];
@@ -51,11 +53,7 @@ export const localTitle = (f: Film, lang: Lang) => (lang === "fr" ? f.title_fr :
 export const overview = (f: Film, lang: Lang) => (lang === "fr" ? f.overview_fr || f.overview_en : f.overview_en || f.overview_fr);
 /** Le résumé dans la langue de la page, ou l'autre langue en repli, avec la langue réelle du texte. */
 export function overviewIn(f: Film, lang: Lang): { text: string; lang: Lang; fallback: boolean } {
-  const own = lang === "fr" ? f.overview_fr : f.overview_en;
-  if (own) return { text: own, lang, fallback: false };
-  const other: Lang = lang === "fr" ? "en" : "fr";
-  const text = other === "fr" ? f.overview_fr : f.overview_en;
-  return { text: text || "", lang: other, fallback: !!text };
+  return pickOverview(f.overview_fr, f.overview_en, lang);
 }
 export function posterSrc(f: Film, size: string): string {
   if (f.poster) return `${IMG}${size}${f.poster}`;
@@ -97,27 +95,67 @@ export function ratingChips(f: Film, lang: Lang): RatingChip[] {
   return out;
 }
 
-/** Ce que le client reçoit pour la carte, le billboard et le catalogue (une langue à la fois). */
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+export const availKinds = (f: Film): Kind[] => [hasFilm(f) && "film", f.book && "book", f.series && "series"].filter(Boolean) as Kind[];
+export const withWorks = films.filter((f) => availKinds(f).length);
+export const withBook = films.filter((f) => f.book);
+export const withSeries = films.filter((f) => f.series);
+
+export const bookCoverSrc = (b: Book) => (b.cover ? `${BASE}/${b.cover.replace(/^\//, "")}` : "");
+export const seriesPosterSrc = (s: Series, size: string) => (s.poster ? `${IMG}${size}${s.poster}` : "");
+export const bookAuthor = (b: Book, lang: Lang) => (lang === "fr" ? b.author : b.author_en) || b.author || b.author_en;
+
+/** Tout ce qu'il faut pour dessiner la carte d'une œuvre, dans une langue. Sert au build et au navigateur. */
+export interface CardData {
+  kind: Kind; iso: string; country: string; title: string; sub: string; year: string; level: string;
+  img: string; imgAlt: string; tone: number; layout: number; size: number; href: string; key: string;
+}
+const titleSize = (title: string) => {
+  const len = [...title].length;
+  const longest = Math.max(...title.split(/\s+/).map((w) => [...w].length));
+  return Math.max(len <= 8 ? 1 : len <= 16 ? 2 : len <= 28 ? 3 : 4, longest > 10 ? 4 : longest > 7 ? 3 : longest > 5 ? 2 : 1);
+};
+export function cardData(f: Film, kind: Kind, lang: Lang): CardData | null {
+  const L = t(lang);
+  const base = { kind, iso: f.iso2, country: countryName(f.iso2, lang), href: href(lang, countrySlug(lang, f.iso2)), key: `${kind}:${f.iso2}` };
+  if (kind === "film") {
+    if (!hasFilm(f)) return null;
+    const title = f.title;
+    return { ...base, title: localTitle(f, lang), sub: "", year: f.year, level: f.level, img: posterSrc(f, "w342"), imgAlt: L.posterOf(title), tone: posterTone(f.iso2), layout: 0, size: titleSize(title) };
+  }
+  if (kind === "book") {
+    const b = f.book;
+    if (!b) return null;
+    const title = workTitle(b, lang);
+    const { tone, layout } = coverSeed(f.iso2, title);
+    return { ...base, title, sub: bookAuthor(b, lang), year: b.year, level: b.level, img: bookCoverSrc(b), imgAlt: L.coverOf(title), tone, layout, size: titleSize(title) };
+  }
+  const s = f.series;
+  if (!s) return null;
+  const title = workTitle(s, lang);
+  return { ...base, title, sub: "", year: s.year, level: s.level, img: seriesPosterSrc(s, "w342"), imgAlt: L.seriesPosterOf(title), tone: posterTone(f.iso2), layout: 0, size: titleSize(title) };
+}
+
+/** Un pays pour le navigateur : ses œuvres, déjà traduites. Sert à l'accueil, à la carte et aux rangées « ma liste ». */
 export function clientIndex(lang: Lang) {
   return films.map((f) => ({
-    iso: f.iso2, ccn3: f.ccn3, ll: f.latlng, name: countryName(f.iso2, lang), lvl: f.level,
-    title: hasFilm(f) ? f.title : "", local: hasFilm(f) ? localTitle(f, lang) : "", year: f.year,
-    lang: f.lang,
-    meta: hasFilm(f) ? metaLine(f, lang) : [],
-    poster: posterSrc(f, "w342"), backdrop: backdropSrc(f), tone: posterTone(f.iso2),
-    ov: hasFilm(f) ? overview(f, lang) : "",
-    ovl: hasFilm(f) ? overviewIn(f, lang).lang : lang,
-    ratings: hasFilm(f) ? ratingChips(f, lang).map(({ kind, label, value }) => ({ kind, label, value })) : [],
-    trailer: f.trailer || "",
+    iso: f.iso2, ccn3: f.ccn3, ll: f.latlng, name: countryName(f.iso2, lang), continent: f.continent,
+    works: Object.fromEntries(availKinds(f).map((k) => [k, cardData(f, k, lang)!])) as Partial<Record<Kind, CardData>>,
   }));
 }
-export type ClientFilm = ReturnType<typeof clientIndex>[number];
+export type ClientCountry = ReturnType<typeof clientIndex>[number];
 
-/** Attributs data-* d'une affiche, lus par le catalogue pour filtrer et trier. */
-export function itemOf(f: Film, lang: Lang): Item {
+/** Attributs du catalogue : ce que le filtre et le tri lisent sur la carte d'une œuvre. */
+export function itemOf(f: Film, kind: Kind, lang: Lang): Item {
+  const base = { kind, iso: f.iso2, country: countryName(f.iso2, lang), continent: f.continent };
+  if (kind === "film") {
+    return { ...base, title: f.title, alt: `${f.title_fr} ${f.title_en}`, year: yearNum(f), runtime: f.runtime || null, level: f.level, lang: f.lang, anim: f.animation, fr: watchableFr(f), imdb: f.ratings?.imdb?.value ?? null, rt: f.ratings?.rt?.value ?? null, pop: null };
+  }
+  const w = (kind === "book" ? f.book : f.series)!;
+  const author = kind === "book" ? `${(w as Book).author} ${(w as Book).author_en}` : "";
   return {
-    iso: f.iso2, country: countryName(f.iso2, lang), title: f.title, alt: `${f.title_fr} ${f.title_en}`,
-    year: yearNum(f), runtime: f.runtime || null, level: f.level, continent: f.continent, lang: f.lang,
-    anim: f.animation, fr: watchableFr(f), imdb: f.ratings?.imdb?.value ?? null, rt: f.ratings?.rt?.value ?? null,
+    ...base, title: workTitle(w, lang), alt: `${w.orig} ${w.fr} ${w.en} ${author}`, year: yearOf(w.year), runtime: null, level: w.level,
+    lang: kind === "series" ? (w as Series).lang : "", anim: false, fr: false, imdb: null, rt: null,
+    pop: kind === "book" ? (w as Book).links : (w as Series).votes,
   };
 }

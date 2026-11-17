@@ -1,0 +1,148 @@
+---
+/*
+  Un bloc de la fiche pays : le film, le livre ou la série. Les trois ont la même structure et le même poids :
+  image, titre, auteur et année, tampon de niveau, source, liens, boutons « vu » et « ma liste ».
+*/
+import Ratings from "./Ratings.astro";
+import Visa from "./Visa.astro";
+import Icon from "./Icon.astro";
+import { imgHtml, esc } from "../lib/cards";
+import { LANG_FIX, bookAuthor, cardData, fmtValue, langName, metaLine, type Film } from "../lib/films";
+import { byAuthor, pickOverview, wikiUrl, workLinks, workTitle, type Kind, type Lang } from "../lib/logic";
+import { figureText, href, t } from "../lib/i18n";
+
+interface Props { film: Film; kind: Kind; lang: Lang; level: 1 | 2 }
+const { film: f, kind, lang, level: top } = Astro.props;
+const L = t(lang);
+const K = L.kind[kind];
+const Hw = `h${top + 1}` as "h2";
+const Hs = `h${top + 2}` as "h3";
+const id = `work-${kind}`;
+const d = cardData(f, kind, lang);
+const book = f.book, series = f.series;
+const w = kind === "book" ? book : kind === "series" ? series : null;
+
+// titre principal (langue d'origine) et titre dans la langue de la page
+const main = kind === "film" ? f.title : w ? w.orig || workTitle(w, lang) : "";
+const local = d ? d.title : "";
+const mainLang = kind === "film" ? (LANG_FIX[f.lang] || f.lang) : kind === "series" ? series?.lang : undefined;
+const showLocal = local && local.toLowerCase() !== main.toLowerCase();
+
+const level = kind === "film" ? f.level : w?.level || "D";
+const metric = kind === "film" ? f.metric : w?.metric || "";
+const figure = kind === "film" ? figureText("film", f.metric, fmtValue(f.value, lang), lang) : w ? figureText(kind, w.metric, w.value, lang) : "";
+const author = book ? bookAuthor(book, lang) : "";
+const meta = kind === "film" ? (d ? metaLine(f, lang) : [])
+  : kind === "book" ? (book ? [author && byAuthor(author, lang), book.year].filter(Boolean) as string[] : [])
+  : series ? [series.year, langName(series.lang, lang)].filter(Boolean) as string[] : [];
+
+// liens
+const labels: Record<string, string> = { wikipedia: L.linkWikipedia, tmdb: "TMDB", source: L.linkSource };
+const links: [string, string][] = kind === "film"
+  ? ([
+      f.tmdb_id && [`https://letterboxd.com/tmdb/${f.tmdb_id}/`, "Letterboxd"],
+      f.imdb_id && [`https://www.imdb.com/title/${f.imdb_id}/`, "IMDb"],
+      f.tmdb_id && [`https://www.themoviedb.org/movie/${f.tmdb_id}`, "TMDB"],
+      f.justwatch_fr && [f.justwatch_fr, "JustWatch"],
+      f.source && !f.source.includes("themoviedb.org") && [f.source, L.linkSource],
+    ].filter(Boolean) as [string, string][])
+  : !w ? [] : workLinks(kind, w as never, lang).map((l) => [l.url, labels[l.id]] as [string, string]);
+
+const providers = Object.entries(f.providers_fr || {}).filter(([, l]) => l.length);
+const storyIn = kind === "film" ? pickOverview(f.overview_fr, f.overview_en, lang) : pickOverview(w?.overview_fr, w?.overview_en, lang);
+const story = storyIn.text;
+// l'extrait de livre vient de Wikipédia : crédit et lien vers l'article de la langue du texte
+const excerptUrl = book ? (storyIn.lang === "fr" ? book.wiki_fr : book.wiki_en) || (book.qid ? wikiUrl(book.qid, storyIn.lang) : "") : "";
+const alts = kind === "film" ? ([
+  f.tmdb_top && f.level !== "B" && f.level !== "D" && [L.tmdbTop, f.tmdb_top],
+  f.fatw && f.level !== "C" && [L.fatw, f.fatw],
+  f.video && [L.video, f.video],
+].filter(Boolean) as [string, string][]) : [];
+const linkify = (s: string) => esc(s).replace(/(https?:\/\/[^\s)]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+const note = kind === "film" ? f.note_fr : w?.research_note || "";
+const cover = book?.cover ? book.cover_credit : "";
+---
+{d ? (
+  <section class="work" id={id} data-kind={kind} data-key={d.key} aria-labelledby={`${id}-h`} data-trailer={kind === "film" ? f.trailer || undefined : undefined}>
+    <div class="work-art">
+      <span class="card-img" set:html={imgHtml(d, lang, { label: true, eager: kind === "film" })} />
+      {kind === "film" && f.poster_credit && <p class="credit">{L.posterBy} <a href={f.poster_credit} target="_blank" rel="noopener">Films Around the World</a></p>}
+      {cover && <p class="credit">{L.coverBy} {cover.startsWith("http") ? <a href={cover} target="_blank" rel="noopener">{L.linkOpenLibrary}</a> : L.linkOpenLibrary}</p>}
+    </div>
+    <div class="work-main">
+      <div class="work-head">
+        <p class="work-kind"><span class="rule" aria-hidden="true"></span>{K.the}</p>
+        <Hw class="work-title display" id={`${id}-h`} lang={mainLang}>{main}</Hw>
+        {showLocal && <p class="work-local">{local}</p>}
+        <p class="work-meta">{meta.map((m) => <span>{m}</span>)}</p>
+      </div>
+      {kind === "film" && <div class="work-ratings"><Ratings film={f} lang={lang} links /></div>}
+
+      {story && (
+        <section class="work-part work-story">
+          <Hs class="work-sub">{L.story}</Hs>
+          <p class="work-ov" lang={storyIn.lang}>{story}</p>
+          {storyIn.fallback && <p class="work-ov-note">{L.storyFallback}</p>}
+          {kind === "book" && <p class="work-ov-note">{excerptUrl ? <a href={excerptUrl} target="_blank" rel="noopener">{L.excerptWiki}</a> : L.excerptWiki}</p>}
+        </section>
+      )}
+
+      <div class="work-actions">
+        {kind === "film" && f.trailer && <button type="button" class="btn btn-primary" data-trailer-open><Icon name="play" />{L.trailer}</button>}
+        <button type="button" class="btn btn-ghost btn-seen" data-toggle="seen" data-key={d.key} aria-pressed="false"><Icon name="check" class="i-on" /><Icon name="eye" class="i-off" />{K.seenBtn}</button>
+        <button type="button" class="btn btn-ghost" data-toggle="list" data-key={d.key} aria-pressed="false"><Icon name="check" class="i-on" /><Icon name="plus" class="i-off" /><span data-label-off={L.addList} data-label-on={L.inList}>{L.addList}</span></button>
+      </div>
+      {kind === "film" && (
+        <div class="work-trailer" data-trailer-box>
+          <button type="button" class="tool" data-trailer-close aria-label={L.closeTrailer}><Icon name="close" /></button>
+        </div>
+      )}
+
+      <div class="work-why">
+        <Hs class="work-sub">{L.why}</Hs>
+        <Visa kind={kind} level={level} metric={metric} lang={lang} />
+        <div class="seen-stamp"><Visa kind={kind} level="seen" lang={lang} kicker={false} /></div>
+        {figure && <p class:list={["figure", { "figure-text": [...figure].length > 38 }]}>{figure}</p>}
+        {kind === "film" && f.runner_up && <p class="muted small">{L.runnerUp} : {f.runner_up}</p>}
+      </div>
+
+      {kind === "film" && (
+        <section class="work-part">
+          <Hs class="work-sub">{L.where}</Hs>
+          {providers.length ? (
+            <dl class="providers">
+              {providers.map(([k, names]) => <div><dt>{L.providerKinds[k] || k}</dt><dd>{names.map((n) => <span>{n}</span>)}</dd></div>)}
+            </dl>
+          ) : <p class="muted small" style="margin:0">{L.nowhere}</p>}
+        </section>
+      )}
+      {links.length > 0 && (
+        <section class="work-part">
+          <Hs class="work-sub">{L.links}</Hs>
+          <ul class="links">{links.map(([u, l]) => <li><a href={u} target="_blank" rel="noopener">{l}</a></li>)}</ul>
+        </section>
+      )}
+      {alts.length > 0 && (
+        <details class="details">
+          <summary>{L.alternatives}</summary>
+          {alts.map(([k, v]) => <p><b>{k}</b> : <Fragment set:html={linkify(v)} /></p>)}
+        </details>
+      )}
+      {note && (
+        <details class="details">
+          <summary>{L.note}</summary>
+          <p lang="fr">{note}</p>
+        </details>
+      )}
+    </div>
+  </section>
+) : (
+  <section class="work work-empty" id={id} data-kind={kind} aria-labelledby={`${id}-h`}>
+    <div class="work-main">
+      <p class="work-kind"><span class="rule" aria-hidden="true"></span>{K.the}</p>
+      <Hw class="work-none" id={`${id}-h`}>{K.none}</Hw>
+      {kind === "film" && f.note_fr && <p class="muted small" lang="fr">{f.note_fr}</p>}
+      <p class="small"><a href={href(lang, "methode/")}>{L.noWork.howLink}</a></p>
+    </div>
+  </section>
+)}

@@ -1,0 +1,261 @@
+[
+  {
+    "iso2": "DZ",
+    "book": {
+      "level": "A", "title_original": "ذاكرة الجسد", "title_fr": "Mémoires de la chair", "title_en": "Memory in the Flesh",
+      "author": "Ahlam Mosteghanemi", "year": 1993, "language": "ar", "wikidata": "Q12212596",
+      "metric": "sales",
+      "value": "plus d'un million d'exemplaires vendus dans le monde arabe, hors éditions pirates (site de l'autrice) ; 2,3 millions d'exemplaires pour l'ensemble de son œuvre selon Forbes 2006",
+      "source_url": "https://www.ahlammosteghanemi.com/biographie",
+      "note": "Chiffre mondial arabe, pas propre à l'Algérie ; source = site de l'autrice, recoupé par Wikipédia FR. Œuvre en arabe, conforme à l'override."
+    },
+    "series": {
+      "level": "A", "title_original": "عاشور العاشر", "title_fr": "Achour el Acher", "title_en": "Sultan Achour 10",
+      "year": 2015, "language": "ar", "tmdb_id": 207136,
+      "metric": "ratings",
+      "value": "plus de 18 % des téléspectateurs chaque soir sur Echorouk TV ; série la plus regardée du Ramadan 2015 et 2017 selon les sociétés de mesure d'audience",
+      "source_url": "https://www.jeuneafrique.com/449392/economie-entreprises/achour-el-acher-serie-algerienne-plus-regardee-pendant-ramadan/",
+      "note": "Confirme le choix automatique (TMDB 207136). Audience Ramadan seulement ; année 2015 déduite de « comme en 2015 » dans l'article."
+    }
+  },
+  {
+    "iso2": "BJ",
+    "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "Aucune source trouvée sur ventes, sondage ou programme scolaire béninois. Choix automatique (Couao-Zotti) non confirmé."},
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune audience ou classement béninois trouvé."}
+  },
+  {
+    "iso2": "BF",
+    "book": {
+      "level": "A", "title_original": "Crépuscule des temps anciens", "title_fr": "Crépuscule des temps anciens", "title_en": "Twilight of Ancient Times",
+      "author": "Nazi Boni", "year": 1962, "language": "fr", "wikidata": "",
+      "metric": "canon",
+      "value": "au programme de la classe de seconde au Burkina Faso ; premier roman burkinabè",
+      "source_url": "https://revues.acaref.net/wp-content/uploads/sites/3/2023/03/19-Tilado-Jerome-NATAMA.pdf",
+      "note": "Recoupé par ressources-educatives.org (étude livre jeunesse Burkina, œuvre au programme de seconde). Une enquête de lecture (BBF 2007, Kevane et Sissao) donne L'Enfant noir de Camara Laye comme plus lu des élèves, mais ce n'est pas un auteur burkinabè. QID Wikidata non vérifié."
+    },
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Candidats : Les Bobodiouf (Wikipédia dit « série la plus regardée d'Afrique francophone », sans chiffre ni source solide), Kadi Jolie, Commissariat de Tampy. Une thèse (St Andrews, 2009) note qu'il n'existe pas de mesure d'audience au Burkina. Pas de source chiffrée."}
+  },
+  {
+    "iso2": "CM",
+    "book": {
+      "level": "A", "title_original": "Une vie de boy", "title_fr": "Une vie de boy", "title_en": "Houseboy",
+      "author": "Ferdinand Oyono", "year": 1956, "language": "fr", "wikidata": "",
+      "metric": "canon",
+      "value": "classique enseigné dans les programmes scolaires depuis plusieurs décennies (avec Le Vieux Nègre et la médaille)",
+      "source_url": "http://bokundoli.org/doc/ferdinand-oyono-le-vieux-negre-et-la-medaille-1956-une-vie-de-boy-1956",
+      "note": "Source : chronique de Bernard Magnier (2009), qui parle des programmes scolaires en général, pas d'une liste camerounaise précise. Remplace Le Pauvre Christ de Bomba (choix automatique), non sourcé davantage. Autre candidat récent : Les Impatientes de Djaïli Amadou Amal (14 000 notes Babelio), sans chiffre de ventes. QID non vérifié."
+    },
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune audience mesurée trouvée pour une série camerounaise."}
+  },
+  {
+    "iso2": "CV",
+    "book": {
+      "level": "A", "title_original": "Chiquinho", "title_fr": "Chiquinho", "title_en": "Chiquinho",
+      "author": "Baltasar Lopes da Silva", "year": 1947, "language": "pt", "wikidata": "",
+      "metric": "canon",
+      "value": "« le plus grand roman cap-verdien » (Petit Futé) ; au catalogue du Plan national de lecture du Cap-Vert",
+      "source_url": "https://www.petitfute.com/p100-cap-vert/decouvrir/d3247-litterature-bd-actualite",
+      "note": "Recoupé par pnlcv.cv/chiquinho-2 (Plan national de lecture) et Wikipédia EN (« œuvre la plus connue du pays »). Écrit en 1936, publié en 1947. Remplace Germano Almeida (choix automatique). Écrit en portugais, langue officielle. QID non vérifié."
+    },
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune série cap-verdienne documentée par une audience."}
+  },
+  {
+    "iso2": "CF",
+    "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "Le choix automatique (Emmanuel Dongala, Johnny chien méchant) est douteux : Dongala est né à Brazzaville, c'est un auteur congolais. Aucune source centrafricaine trouvée."},
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune donnée."}
+  },
+  {
+    "iso2": "TD",
+    "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "Aucune source sur ventes, sondage ou programme tchadien. Choix automatique (Clarisse Nomaye) non confirmé."},
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune donnée."}
+  },
+  {
+    "iso2": "KM",
+    "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "Mon étincelle d'Ali Zamir (override) reste un candidat, mais aucune source de ventes, sondage ou programme comorien n'a été trouvée."},
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune donnée."}
+  },
+  {
+    "iso2": "CG",
+    "book": {
+      "level": "A", "title_original": "La Vie et demie", "title_fr": "La Vie et demie", "title_en": "Life and a Half",
+      "author": "Sony Labou Tansi", "year": 1979, "language": "fr", "wikidata": "",
+      "metric": "canon",
+      "value": "« devenu un classique francophone » (RFI) ; relu comme tel par la presse de Brazzaville (ADIAC)",
+      "source_url": "https://www.rfi.fr/fr/podcasts/20200510-la-vie-et-demie-sony-labou-tansi",
+      "note": "Source FAIBLE : statut de classique affirmé, mais aucun chiffre de ventes ni liste de programme congolais. ADIAC : https://www.adiac-congo.com/content/lire-ou-relire-la-vie-et-demie-de-sony-labou-tansi-130513. Concurrent : Verre cassé / Black Bazar de Mabanckou (succès critique, sans chiffre). Remplace Black Bazar (choix automatique). QID non vérifié."
+    },
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune audience de série congolaise (Brazzaville) trouvée."}
+  },
+  {
+    "iso2": "CD",
+    "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "Aucune source sur ventes, sondage ou programme congolais (RDC). Choix automatique (Désiré Bolya) non confirmé."},
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Candidats vus dans la presse sans chiffre d'audience : Chez Coco, Akufa a zongi, Mariés et seuls (Maboke TV, 5e chaîne de RDC selon Canal+). Pas de classement de séries."}
+  },
+  {
+    "iso2": "CI",
+    "book": {
+      "level": "A", "title_original": "Les Soleils des indépendances", "title_fr": "Les Soleils des indépendances", "title_en": "The Suns of Independence",
+      "author": "Ahmadou Kourouma", "year": 1968, "language": "fr", "wikidata": "",
+      "metric": "canon",
+      "value": "inscrit au programme des lycées d'Afrique ; plus de 60 000 exemplaires tirés en France de 1970 à 1984",
+      "source_url": "https://excerpts.numilog.com/books/9782850493157.pdf",
+      "note": "Programme d'Afrique en général (pas une liste ivoirienne), ventes françaises. Afrique-sur7 (2026) dit que ses romans sont aux programmes scolaires. Remplace Dadié (choix automatique). Publié à Montréal en 1968, Seuil 1970. QID non vérifié."
+    },
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Invisibles (Canal+, 2018) est la plus primée mais aucune audience n'est publiée. Pas de source de classement."}
+  },
+  {
+    "iso2": "DJ",
+    "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "Aucune source. Choix automatique (Abdourahman Waberi) non confirmé."},
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune donnée."}
+  },
+  {
+    "iso2": "EG",
+    "book": {
+      "level": "A", "title_original": "الثلاثية", "title_fr": "La Trilogie du Caire", "title_en": "The Cairo Trilogy",
+      "author": "Naguib Mahfouz", "year": 1956, "language": "ar", "wikidata": "",
+      "metric": "survey",
+      "value": "n°1 de la liste des 100 meilleurs romans arabes du XXe siècle de l'Union des écrivains arabes (2001) ; best-seller du monde arabe",
+      "source_url": "https://en.nbpublish.com/library_read_article.php?id=39906",
+      "note": "Classement arabe, pas égyptien seul. Guardian (2006) : « best-seller du monde arabe » : https://www.theguardian.com/books/2006/aug/30/culture.obituaries. Trois volumes publiés en 1956-57. Remplace Les Fils de la médina (choix automatique). QID non vérifié."
+    },
+    "series": {
+      "level": "A", "title_original": "عين سحرية", "title_fr": "Œil magique", "title_en": "Magic Eye (Ein Sehriya)",
+      "year": 2026, "language": "ar", "tmdb_id": null,
+      "metric": "press",
+      "value": "n°1 en audience d'un sondage de l'université du Caire (1 100 personnes) sur le Ramadan 2026 ; plus forte audience de la saison selon Al-Ahram",
+      "source_url": "https://emccutoday.masscomm.cu.edu.eg/details.php?nwid=779",
+      "note": "Classement d'une seule saison, pas un record historique. Al-Ahram : https://english.ahram.org.eg/News/563419.aspx. Remplace Paranormal (choix automatique). TMDB non trouvé."
+    }
+  },
+  {
+    "iso2": "GQ",
+    "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "Aucune source. La Bastarda de Melibea Obono (choix automatique) non confirmé."},
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune donnée."}
+  },
+  {
+    "iso2": "GA",
+    "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "Aucune source. Choix automatique (Angèle Rawiri) non confirmé."},
+    "series": {
+      "level": "A", "title_original": "Kiara", "title_fr": "Kiara", "title_en": "Kiara",
+      "year": 2013, "language": "fr", "tmdb_id": null,
+      "metric": "press",
+      "value": "ses douze épisodes sur Gabon Télévision « ont battu des records d'audience » (Jeune Afrique, 2014), sans chiffre",
+      "source_url": "https://www.jeuneafrique.com/135020/societe/cin-ma-et-t-l-vision-libreville-fait-craquer",
+      "note": "Source FAIBLE : aucun chiffre. Même article : Kongossa (2003) « succès fulgurant », première fiction locale. Série tournée à Libreville par Boss Playa."
+    }
+  },
+  {
+    "iso2": "GM",
+    "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "Aucune source. Chaff on the Wind d'Ebou Dibba (choix automatique) non confirmé."},
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune donnée."}
+  },
+  {
+    "iso2": "GH",
+    "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "Homegoing de Yaa Gyasi (override) reste le candidat, mais aucune source de ventes ou de programme ghanéen trouvée ; autrice élevée aux États-Unis, roman publié aux États-Unis."},
+    "series": {
+      "level": "A", "title_original": "The Billionaire's Wife", "title_fr": "The Billionaire's Wife", "title_en": "The Billionaire's Wife",
+      "year": 2023, "language": "en", "tmdb_id": null,
+      "metric": "streaming",
+      "value": "titre le plus regardé de tous les temps sur Showmax Ghana, n°1 chaque semaine depuis son lancement en mars 2023",
+      "source_url": "https://ghananewsonline.com.gh/the-billionaires-wife-becomes-the-most-watched-title-ever-on-showmax-in-ghana",
+      "note": "Classement d'une plateforme, pas une audience TV. Origine ghanéenne de la série non vérifiée dans l'article (à confirmer). Autre classement : Showmax 2021, Dede et To Have and to Hold parmi les plus vus au Ghana (https://theheraldghana.com/dede-big-brother-naija-among-most-watched-titles-in-ghana-in-2021-according-to-viewing-statistics)."
+    }
+  },
+  {
+    "iso2": "GN",
+    "book": {
+      "level": "A", "title_original": "L'Enfant noir", "title_fr": "L'Enfant noir", "title_en": "The Dark Child",
+      "author": "Camara Laye", "year": 1953, "language": "fr", "wikidata": "",
+      "metric": "canon",
+      "value": "« œuvre très vite devenue emblématique » (BnF) ; colloque « 70 ans après » sur sa place dans les lettres guinéennes ; livre le plus lu par les élèves burkinabè de villages (68 à 73 %)",
+      "source_url": "https://takamtikou.bnf.fr/bibliographies/notices/afrique/l-enfant-noir",
+      "note": "Source FAIBLE pour la Guinée : classique reconnu, pas de chiffre ni de programme guinéen précis. Colloque : https://www.fabula.org/actualites/109079/la-litterature-guineenne--ans-apres-la-publication-de-lenfant.html. Enquête BBF 2007 : https://bbf.enssib.fr/consulter/bbf-2007-02-0086-004. Remplace Sénateur Diallo (choix automatique). QID non vérifié."
+    },
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune donnée."}
+  },
+  {
+    "iso2": "GW",
+    "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "Aucune source. Abdulai Sila (choix automatique) non confirmé."},
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune donnée."}
+  },
+  {
+    "iso2": "LR",
+    "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "Aucun candidat, conforme à l'override."},
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune donnée."}
+  },
+  {
+    "iso2": "LY",
+    "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "Chewing Gum de Mansour Bushnaf (override) reste le candidat, mais aucune source de ventes, sondage ou programme libyen trouvée."},
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune donnée."}
+  },
+  {
+    "iso2": "ML",
+    "book": {
+      "level": "A", "title_original": "L'Étrange Destin de Wangrin ou Les roueries d'un interprète africain", "title_fr": "L'Étrange Destin de Wangrin", "title_en": "The Fortunes of Wangrin",
+      "author": "Amadou Hampâté Bâ", "year": 1973, "language": "fr", "wikidata": "",
+      "metric": "canon",
+      "value": "« un des classiques de la littérature négro-africaine d'expression française » dès sa parution ; Grand prix littéraire de l'Afrique noire",
+      "source_url": "https://www.rfi.fr/fr/podcasts/20200502-letrange-destin-wangrin-les-roueries-dun-interpr%C3%A8te-africain-amadou-hamp%C3%A2t%C3%A9%C3%A9b%C3%A2",
+      "note": "Source FAIBLE : statut de classique affirmé par RFI et AJOL (https://www.ajol.info/index.php/laligens/article/view/195331), pas de chiffre ni de programme malien. Né à Bandiagara (Mali). Remplace Moussa Konaté (choix automatique). QID non vérifié."
+    },
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Candidat : Les Rois de Ségou (ORTM, 2010, 21 épisodes), sans audience publiée ; Taxi Tigui cité par la presse. Pas de classement."}
+  },
+  {
+    "iso2": "MR",
+    "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "Aucun candidat sourcé, conforme à l'override."},
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune donnée."}
+  },
+  {
+    "iso2": "MA",
+    "book": {
+      "level": "A", "title_original": "La Nuit sacrée", "title_fr": "La Nuit sacrée", "title_en": "The Sacred Night",
+      "author": "Tahar Ben Jelloun", "year": 1987, "language": "fr", "wikidata": "",
+      "metric": "survey",
+      "value": "l'écrit le plus lu au Maroc : 18,67 % des titres lus, devant Le Pain nu de Choukri (9,70 %), selon une étude de lecture de 2003",
+      "source_url": "https://www.bladi.net/etude-que-lisent-les-marocains.html",
+      "note": "Contredit l'override (Le Pain nu retenu) : l'étude cite La Nuit sacrée en tête, Le Pain nu en deuxième. Le livre marocain le plus vendu est Le Défi de Hassan II (200 000 ex.), exclu comme texte politique. Étude de 2003, ancienne, l'organisme n'est pas nommé dans l'article. Prix Goncourt 1987. QID non vérifié."
+    },
+    "series": {
+      "level": "A", "title_original": "بنات للا منانة 3", "title_fr": "Bnate Lalla Menanna", "title_en": "Bnate Lalla Menanna",
+      "year": null, "language": "ar", "tmdb_id": null,
+      "metric": "ratings",
+      "value": "saison 3 : plus de 12 millions de téléspectateurs et 45,9 % d'audience sur 2M, 1re semaine du Ramadan 2026 (CIAUMD)",
+      "source_url": "https://aujourdhui.ma/culture/attaman-chkoun-kane-ygol-bnate-lalla-menanna-iii-audiences-tv-ces-productions-qui-cartonnent-sur-les-chaines",
+      "note": "Meilleur score marocain trouvé. Auparavant L'Maktoub (2M, 2022) : 9 635 000 spectateurs pour un épisode, « la plus regardée de l'histoire des séries 2M » (https://fr.le360.ma/medias/lmaktoub-la-serie-evenement-sur-2m-qui-pulverise-tous-les-records-daudience-258273). Les séries turques doublées en darija font de plus gros scores (Samhini 66 %, 2016). Remplace Casa Street (choix automatique). Année de création et TMDB non trouvés."
+    }
+  },
+  {
+    "iso2": "NE",
+    "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "Aucun candidat sourcé, conforme à l'override."},
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune donnée."}
+  },
+  {
+    "iso2": "NG",
+    "book": {
+      "level": "A", "title_original": "Things Fall Apart", "title_fr": "Le Monde s'effondre", "title_en": "Things Fall Apart",
+      "author": "Chinua Achebe", "year": 1958, "language": "en", "wikidata": "Q622400",
+      "metric": "sales",
+      "value": "plus de 20 millions d'exemplaires vendus dans le monde, traduit en 57 langues",
+      "source_url": "https://www.penguinrandomhouse.com/books/565351/things-fall-apart-by-chinua-achebe",
+      "note": "Chiffre mondial, pas nigérian ; l'anglais est langue officielle du Nigeria. Confirme le choix automatique. Premier de la liste des meilleures ventes africaines d'Amazon (source Facebook, non retenue)."
+    },
+    "series": {
+      "level": "A", "title_original": "Shanty Town", "title_fr": "Shanty Town", "title_en": "Shanty Town",
+      "year": 2023, "language": "en", "tmdb_id": null,
+      "metric": "streaming",
+      "value": "série originale africaine la plus regardée au Nigeria sur Netflix en 2023 ; 27,3 millions d'heures vues de janvier à juin 2023",
+      "source_url": "https://www.businessday.ng/life-arts/article/shanty-town-far-from-home-among-netflixs-top-10-african-original-contents/",
+      "note": "Classement Netflix, pas une audience TV nationale. En 2024, Postcards est la série nollywoodienne la plus vue de Netflix Nigeria, et en 2025 Baby Farm (3,9 M de vues selon FlixPatrol, source Facebook non retenue). Remplace Far From Home (choix automatique, 9,8 M d'heures). Dialogues en anglais et pidgin. Lien Shockng : https://shockng.com/netflix-most-watched-africa-titles-2023. TMDB non trouvé."
+    }
+  },
+  {
+    "iso2": "EH",
+    "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "Territoire non autonome : aucun candidat, conforme à l'override."},
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune donnée."}
+  },
+  {
+    "iso2": "ST",
+    "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "A Dolorosa Raiz do Micondó de Conceição Lima (choix automatique) est un recueil de poèmes ; aucune source de ventes ou de programme santoméen trouvée."},
+    "series": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "year": null, "language": "", "tmdb_id": null, "metric": "", "value": "", "source_url": "", "note": "Aucune donnée."}
+  }
+]

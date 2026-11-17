@@ -1,4 +1,8 @@
-# Méthode : un film par pays
+# Méthode : Around the World
+
+Pour chaque pays, trois œuvres nationales : le film le plus vu en salle, le livre le plus lu et la série la plus regardée dans le pays.
+
+# Films
 
 Question posée : quel est le film NATIONAL que les gens de chaque pays ont le plus vu ?
 
@@ -29,3 +33,26 @@ Question posée : quel est le film NATIONAL que les gens de chaque pays ont le p
 - EkulRF/BestFilmsByCountry sur GitHub : le film le mieux noté sur TMDB par pays, sans filtre de langue.
 - Listes Letterboxd « un film par pays » (jamesjonathan, tdieckma, johnmilton), Witterworld (BBC), Movies with Macca.
 - Wikipedia : catégorie « Lists of highest-grossing films by region ».
+
+# Livres et séries
+
+Mêmes règles d'origine et de langue que pour les films : auteur du pays, ou série produite d'abord dans le pays, dans une langue parlée dans le pays. Consigne de recherche complète : `docs/spec-livres-series.md`.
+
+## Ordre de priorité
+
+1. Recherche sourcée (`data/raw/bsA_*.json`, six agents, un par région).
+2. Arbitrage manuel (`data/overrides_livres_series.json`, chaque entrée a sa note). Un arbitrage peut aussi écarter un résultat de recherche, par exemple la série ukrainienne *Сваты*, tournée en russe.
+3. Choix automatique : pour le livre, l'œuvre littéraire d'un auteur du pays qui a le plus d'articles Wikipédia (Wikidata via QLever, textes religieux et politiques exclus) ; pour la série, la série du pays (pays d'origine cité en premier) la plus votée sur TMDB, à partir de 3 votes.
+
+## Niveaux
+
+- A : source chiffrée ou explicite. Livre : ventes dans le pays, sondage national de lecture, ou œuvre au programme scolaire national. Série : record ou moyenne d'audience mesurée dans le pays (Médiamétrie, Nielsen, BARB, Kantar…).
+- B : signal fort. Un choix de recherche qui ne tient qu'à un chiffre mondial, à une mention sans chiffre ou à une seule saison, ou un choix automatique au-dessus du seuil (au moins 10 articles Wikipédia pour un livre, 50 votes TMDB pour une série).
+- C : choix automatique sous le seuil.
+
+## Limites connues
+
+- Les petits pays ont peu de sources : 34 pays sans livre et 106 sans série.
+- Plusieurs niveaux A reposent sur des extraits de recherche plutôt que sur la page complète de la source ; la note de chaque œuvre le signale.
+- Certains titres français de séries sont des traductions faites pendant la recherche.
+- Résumés : début de l'article Wikipédia pour les livres (CC BY-SA), synopsis TMDB pour les séries. Couvertures : Open Library, sinon une couverture typographique.

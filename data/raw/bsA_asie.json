@@ -1,0 +1,938 @@
+[
+  {
+    "iso2": "AF",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "AM",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "AZ",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "BD",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "BT",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "MM",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Arbitrage existant : seuls candidats = inscriptions, chroniques, essais."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "BN",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "KH",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "CN",
+    "book": {
+      "level": "A",
+      "title_fr": "Le Monde ordinaire",
+      "title_en": "Ordinary World",
+      "wikidata": "",
+      "note": "Remplace Le Rêve dans le pavillon rouge (choix auto). Chiffre de presse, non audité ; 300 万套 déjà en 2015 selon chinanews.com.cn. QID Wikidata non trouvé.",
+      "title_original": "平凡的世界",
+      "author": "Lu Yao",
+      "year": 1986,
+      "language": "zh",
+      "metric": "sales",
+      "value": "1800万册 累计 (Liaoning Daily, 2019) ; 200万 套 selon une autre liste",
+      "source_url": "http://epaper.lnd.com.cn/lswbepaper/pad/con/201911/11/content_51246.html"
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Candidats : Le Voyage en Occident (1986) et 渴望 (1990), avec des chiffres contradictoires (89,4 % à 98 %, sources non fiables de type baidu/163). Pas de donnée CSM consultable."
+    }
+  },
+  {
+    "iso2": "KP",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Arbitrage existant : seuls candidats = écrits de Kim Il-sung et Kim Jong-il (exclus)."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "KR",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucun roman unique chiffré comme n°1 absolu. Yes24 (2016-2025, m.ch.yes24.com/article/details/81048) : 1er = 소년이 온다 (Human Acts, Han Kang), La Végétarienne 6e. Ventes cumulées par auteur seulement (Park Wan-suh, Jo Jung-rae)."
+    },
+    "series": {
+      "level": "A",
+      "title_fr": "You and I",
+      "title_en": "You and I (Gûdae geurigo na)",
+      "note": "Tableau 'Top 50 series per nationwide household rating' ; First Love 65,8 %, What Is Love 64,9 %, Sandglass 64,5 % suivent. Remplace Squid Game (choix auto).",
+      "title_original": "그대 그리고 나",
+      "year": 1997,
+      "language": "ko",
+      "tmdb_id": 27352,
+      "metric": "ratings",
+      "value": "66,9 % des foyers (Nielsen Korea, MBC, final du 26/04/1998), 1re des séries de la TV hertzienne",
+      "source_url": "https://en.wikipedia.org/wiki/Korean_drama"
+    }
+  },
+  {
+    "iso2": "GE",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "HK",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Candidats : Beyond the Realm of Conscience (2009, ep. 1 : 34 points, 2,14 M, Wikipedia), Rosy Business (moy. 33 points, pic 47). Aucune source ne les désigne comme le record absolu."
+    }
+  },
+  {
+    "iso2": "IN",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucun classement de ventes ou de sondage national consulté ; choix auto (Gitanjali) non confirmé."
+    },
+    "series": {
+      "level": "A",
+      "title_fr": "Ramayan",
+      "title_en": "Ramayan",
+      "note": "Chiffres de diffuseur et de presse, pas de BARC audité ; Wikipédia les marque 'dubious' pour 2020. Remplace Sacred Games (choix auto).",
+      "title_original": "रामायण",
+      "year": 1987,
+      "language": "hi",
+      "tmdb_id": 1990,
+      "metric": "press",
+      "value": "82 % d'audience (BBC) ; 77 millions de spectateurs en un jour le 16/04/2020 (DD National) ; plus de 650 millions de spectateurs au total (BBC)",
+      "source_url": "https://en.wikipedia.org/wiki/Ramayan_(1987_TV_series)"
+    }
+  },
+  {
+    "iso2": "ID",
+    "book": {
+      "level": "A",
+      "title_fr": "Les Guerriers de l'arc-en-ciel",
+      "title_en": "The Rainbow Troops",
+      "wikidata": "",
+      "note": "Remplace Bumi Manusia (choix auto). QID Wikidata du roman non trouvé (recherche limitée par l'API).",
+      "title_original": "Laskar Pelangi",
+      "author": "Andrea Hirata",
+      "year": 2005,
+      "language": "id",
+      "metric": "sales",
+      "value": "plus de 5 millions d'exemplaires en Indonésie, record national",
+      "source_url": "https://lareviewofbooks.org/article/the-rainbow-troops-a-visit-with-indonesias-bestselling-author"
+    },
+    "series": {
+      "level": "A",
+      "title_fr": "Ikatan Cinta",
+      "title_en": "Ikatan Cinta",
+      "note": "Page consultée via extraits de recherche seulement ; autre page : orami.co.id/magazine/sinetron-dengan-rating-tertinggi. Les sinetrons d'avant 2010 ne sont pas comparables.",
+      "title_original": "Ikatan Cinta",
+      "year": 2020,
+      "language": "id",
+      "tmdb_id": 131876,
+      "metric": "ratings",
+      "value": "rating 14,8 / share 51,5 % le 23/02/2021 (AGB Nielsen) ; présenté comme la sinetron au plus haut rating",
+      "source_url": "https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/cf50406d670ea40/termasuk-ikatan-cinta-ini-5-sinetron-yang-memperoleh-rating-tertinggi-di-indonesia"
+    }
+  },
+  {
+    "iso2": "JP",
+    "book": {
+      "level": "A",
+      "title_fr": "La Ballade de l'impossible",
+      "title_en": "Norwegian Wood",
+      "wikidata": "Q751348",
+      "note": "Recoupé par https://achikochi-data.com/book_circulation_japan_ranking_japan_general (1er, 1000万部). 'Totto-chan' (800万, témoignage) et Kokoro (750万, Shinchosha seul) viennent ensuite.",
+      "title_original": "ノルウェイの森",
+      "author": "Haruki Murakami",
+      "year": 1987,
+      "language": "ja",
+      "metric": "sales",
+      "value": "1000万部 (国内累計, Kodansha) : 1er roman de la liste des best-sellers japonais",
+      "source_url": "https://ja.wikipedia.org/wiki/ベストセラー"
+    },
+    "series": {
+      "level": "A",
+      "title_fr": "Oshin",
+      "title_en": "Oshin",
+      "note": "Confirmé par Wikipédia 'Japanese television drama'. Remplace Naruto Shippuden (choix auto).",
+      "title_original": "おしん",
+      "year": 1983,
+      "language": "ja",
+      "tmdb_id": 6231,
+      "metric": "ratings",
+      "value": "52,6 % de moyenne, pic 62,9 % le 12/11/1983 (Video Research, Kanto) : record des séries japonaises",
+      "source_url": "https://www.tt.emb-japan.go.jp/Oshin.htm"
+    }
+  },
+  {
+    "iso2": "KZ",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "KG",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "LA",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "MY",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "A",
+      "title_fr": "7 Hari Mencintaiku",
+      "title_en": "7 Days of Loving Me",
+      "note": "Saison 2 : 12 millions aussi selon NST (https://www.nst.com.my/lifestyle/groove/2020/08/619279/showbiz-7-hari-mencintaiku-2-draws-12mil-tv-viewers). TMDB 69584 = saison 1 (2016 ; Wikipédia ms dit 2017).",
+      "title_original": "7 Hari Mencintaiku",
+      "year": 2016,
+      "language": "ms",
+      "tmdb_id": 69584,
+      "metric": "ratings",
+      "value": "12 millions de téléspectateurs (Nielsen Audience Measurement), record du drama en Malaisie",
+      "source_url": "https://ms.wikipedia.org/wiki/7_Hari_Mencintaiku_(musim_1)"
+    }
+  },
+  {
+    "iso2": "MV",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "MN",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Arbitrage existant : 成吉思汗 est une production chinoise."
+    }
+  },
+  {
+    "iso2": "NP",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "UZ",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "PK",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Pir-e-Kamil est qualifié 'most popular work' d'Umera Ahmad (Wikipedia) mais aucun chiffre de ventes ni sondage trouvé."
+    },
+    "series": {
+      "level": "A",
+      "title_fr": "Meray Paas Tum Ho",
+      "title_en": "Meray Paas Tum Ho",
+      "note": "Aucun chiffre vérifié (le 59,9 TRP de wifitalents.com est invérifiable). Humsafar (2011) : 10,71 TRP moyen, pic 13,9 (Wikipedia Humsafar). Remplace Zindagi Gulzar Hai (choix auto).",
+      "title_original": "میرے پاس تم ہو",
+      "year": 2019,
+      "language": "ur",
+      "tmdb_id": 95096,
+      "metric": "press",
+      "value": "« meilleures audiences de l'histoire du Pakistan » selon Wikipédia citant la presse",
+      "source_url": "https://en.wikipedia.org/wiki/Meray_Paas_Tum_Ho"
+    }
+  },
+  {
+    "iso2": "PH",
+    "book": {
+      "level": "A",
+      "title_fr": "Noli me tangere",
+      "title_en": "Noli Me Tángere",
+      "wikidata": "Q568299",
+      "note": "Écrit en espagnol, retenu par arbitrage existant (roman fondateur). Pas de chiffre de ventes.",
+      "title_original": "Noli me tángere",
+      "author": "José Rizal",
+      "year": 1887,
+      "language": "es",
+      "metric": "canon",
+      "value": "Lecture obligatoire par la loi (Republic Act 1425, « Rizal Law ») dans tous les établissements",
+      "source_url": "https://en.wikipedia.org/wiki/Rizal_Law"
+    },
+    "series": {
+      "level": "A",
+      "title_fr": "Pangako Sa 'Yo",
+      "title_en": "The Promise",
+      "note": "Concurrents : Mara Clara (2010) finale 43,4 % (pep.ph), Ang Probinsyano record 40,6 % (abs-cbn.com). Les séries d'avant Kantar ne sont pas mesurées comparablement : choix ambigu.",
+      "title_original": "Pangako Sa 'Yo",
+      "year": 2015,
+      "language": "tl",
+      "tmdb_id": 63827,
+      "metric": "ratings",
+      "value": "44,5 % de finale (Kantar Media, national) ; moyenne 39,9 % en 2015",
+      "source_url": "https://en.wikipedia.org/wiki/Pangako_sa_%27Yo_(2015_TV_series)"
+    }
+  },
+  {
+    "iso2": "SG",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "A",
+      "title_fr": "The Little Nyonya",
+      "title_en": "The Little Nyonya",
+      "note": "Série en mandarin (langue officielle). Remplace Folklore (choix auto).",
+      "title_original": "小娘惹",
+      "year": 2008,
+      "language": "zh",
+      "tmdb_id": 8416,
+      "metric": "ratings",
+      "value": "993 000 spectateurs par épisode en moyenne, 1,67 million au finale (33,8 %) : meilleure audience en 14 ans",
+      "source_url": "https://en.wikipedia.org/wiki/The_Little_Nyonya"
+    }
+  },
+  {
+    "iso2": "LK",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "TJ",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "TW",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Fated to Love You (2008) : record des idol dramas (13,64 en pic par segment, baike.baidu.com/en/item/Taiwanese%20idol%20drama/3282169), mais le record toutes catégories n'est pas confirmé."
+    }
+  },
+  {
+    "iso2": "TH",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Love Destiny (บุพเพสันนิวาส, 2018) atteint jusqu'à 23,9 % de share (AGB Nielsen, en.wikipedia.org/wiki/Love_Destiny_(2018_TV_series)), mais rien ne le désigne comme record national. TMDB à chercher."
+    }
+  },
+  {
+    "iso2": "TL",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "TM",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Arbitrage existant : le Ruhnama est un texte de propagande."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "VN",
+    "book": {
+      "level": "A",
+      "title_fr": "Kim-Vân-Kiêu",
+      "title_en": "The Tale of Kieu",
+      "wikidata": "Q1301168",
+      "note": "Source juridique vietnamienne consultée (via résultat de recherche) ; pas de chiffre de ventes.",
+      "title_original": "Đoạn trường tân thanh (Truyện Kiều)",
+      "author": "Nguyễn Du",
+      "year": 1820,
+      "language": "vi",
+      "metric": "canon",
+      "value": "Œuvre obligatoire du programme de Ngữ văn (Thông tư 32/2018/TT-BGDĐT)",
+      "source_url": "https://thuvienphapluat.vn/phap-luat/tom-tat-truyen-kieu-ngan-nhat-truyen-kieu-cua-nguyen-du-co-phai-la-mot-tac-pham-bat-buoc-trong-noi--740932-202930.html"
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  }
+]

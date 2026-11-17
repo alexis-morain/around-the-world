@@ -2,8 +2,8 @@ import { describe, expect, it } from "vitest";
 import { dayNumber, pickDaily, parseIdSet, matches, sortItems, fmtRating, runtimeBucket, titleLen, type Item, type Filters } from "./logic";
 
 const item = (o: Partial<Item>): Item => ({
-  iso: "XX", country: "Xland", title: "Film", alt: "", year: 2000, runtime: 100, level: "A",
-  continent: "europe", lang: "fr", anim: false, fr: false, imdb: null, rt: null, ...o,
+  kind: "film", iso: "XX", country: "Xland", title: "Film", alt: "", year: 2000, runtime: 100, level: "A",
+  continent: "europe", lang: "fr", anim: false, fr: false, imdb: null, rt: null, pop: null, ...o,
 });
 const all: Filters = { q: "", continent: "", level: "", decade: "", duration: "", lang: "", fr: false, anim: false, unseen: false, list: false };
 
@@ -44,7 +44,7 @@ describe("parseIdSet", () => {
 });
 
 describe("matches", () => {
-  const ctx = { seen: new Set(["JP"]), list: new Set(["IT"]) };
+  const ctx = { seen: new Set(["film:JP"]), list: new Set(["film:IT"]) };
   it("cherche dans le pays, le titre et le titre traduit, sans accents ni casse", () => {
     const f = item({ country: "Égypte", title: "Al-Lemby", alt: "El Limby" });
     expect(matches(f, { ...all, q: "egypte" }, ctx)).toBe(true);
@@ -115,7 +115,7 @@ describe("titleLen", () => {
   it("compte les caractères, pas les octets", () => expect(titleLen("劇場版「鬼滅の刃」無限列車編")).toBe("s"));
 });
 
-import { workTitle, wikiUrl, isThin } from "./logic";
+import { workTitle, wikiUrl, isThin, SORTS, workKey, loadTracking, mapState, completedCountries, countrySlug, legacySlug, yearOf, coverSeed, workLinks, nameLen, pickOverview, type Kind } from "./logic";
 
 describe("workTitle", () => {
   const w = { orig: "Cien años de soledad", fr: "Cent ans de solitude", en: "One Hundred Years of Solitude" };
@@ -154,5 +154,178 @@ describe("byAuthor", () => {
     expect(byAuthor("Hans Christian Andersen", "fr")).toBe("de Hans Christian Andersen");
     expect(byAuthor("Goethe", "fr")).toBe("de Goethe");
     expect(byAuthor("Goethe", "en")).toBe("by Goethe");
+  });
+});
+
+describe("matches par type", () => {
+  const ctx = { seen: new Set(["book:JP"]), list: new Set(["series:IT"]) };
+  it("lit le suivi de la clé du type, pas celle des autres types", () => {
+    expect(matches(item({ kind: "book", iso: "JP" }), { ...all, unseen: true }, ctx)).toBe(false);
+    expect(matches(item({ kind: "film", iso: "JP" }), { ...all, unseen: true }, ctx)).toBe(true);
+    expect(matches(item({ kind: "series", iso: "IT" }), { ...all, list: true }, ctx)).toBe(true);
+    expect(matches(item({ kind: "book", iso: "IT" }), { ...all, list: true }, ctx)).toBe(false);
+  });
+  it("ignore les filtres propres aux films pour un livre ou une série", () => {
+    const b = item({ kind: "book", runtime: null, fr: false, anim: false });
+    expect(matches(b, { ...all, duration: "short", fr: true, anim: true }, ctx)).toBe(true);
+    const f = item({ kind: "film", runtime: 200 });
+    expect(matches(f, { ...all, duration: "short" }, ctx)).toBe(false);
+  });
+});
+
+describe("sortItems par type", () => {
+  const a = item({ kind: "book", iso: "A", country: "Zambie", pop: 12, year: 1950 });
+  const b = item({ kind: "book", iso: "B", country: "Allemagne", pop: 300, year: 1800 });
+  const c = item({ kind: "book", iso: "C", country: "Égypte", pop: null, year: null });
+  const ids = (l: Item[]) => l.map((x) => x.iso);
+  it("trie par popularité (articles ou votes), absents en dernier", () => expect(ids(sortItems([a, b, c], "pop", "fr"))).toEqual(["B", "A", "C"]));
+  it("garde les tris année pour les livres", () => expect(ids(sortItems([a, b, c], "old", "fr"))).toEqual(["B", "A", "C"]));
+});
+
+describe("SORTS", () => {
+  it("propose à chaque type ses tris, le pays en premier", () => {
+    expect(SORTS.film).toEqual(["country", "imdb", "rt", "new", "old", "runtime"]);
+    expect(SORTS.book).toEqual(["country", "pop", "new", "old"]);
+    expect(SORTS.series).toEqual(["country", "pop", "new", "old"]);
+  });
+});
+
+describe("workKey", () => {
+  it("préfixe le code pays du type de l'œuvre", () => {
+    expect(workKey("film", "FR")).toBe("film:FR");
+    expect(workKey("book", "FR")).toBe("book:FR");
+    expect(workKey("series", "FR")).toBe("series:FR");
+  });
+});
+
+describe("loadTracking", () => {
+  it("reprend une fois les anciens codes pays comme films", () => {
+    expect([...loadTracking(null, '["FR","JP"]')]).toEqual(["film:FR", "film:JP"]);
+  });
+  it("ne touche pas aux clés déjà au nouveau format", () => {
+    expect([...loadTracking(null, '["FR","book:JP"]')]).toEqual(["film:FR", "book:JP"]);
+  });
+  it("n'écrase pas le nouveau suivi par l'ancien", () => {
+    expect([...loadTracking('["book:FR"]', '["FR","JP"]')]).toEqual(["book:FR"]);
+  });
+  it("un nouveau suivi vide reste vide, l'ancien est déjà repris", () => {
+    expect(loadTracking("[]", '["FR"]').size).toBe(0);
+  });
+  it("ignore un ancien stockage corrompu", () => {
+    expect(loadTracking(null, "{oups").size).toBe(0);
+    expect(loadTracking(null, null).size).toBe(0);
+  });
+});
+
+describe("mapState", () => {
+  const seen = new Set(["film:FR", "book:FR", "series:JP"]);
+  it("donne « aucune œuvre » quand le type manque dans le pays", () => {
+    expect(mapState("series", ["film", "book"], "FR", seen).state).toBe("none");
+    expect(mapState("all", [], "FR", seen).state).toBe("none");
+  });
+  it("suit le type choisi", () => {
+    expect(mapState("film", ["film", "book"], "FR", seen)).toEqual({ state: "seen", seen: 1, of: 1 });
+    expect(mapState("series", ["film", "series"], "FR", seen)).toEqual({ state: "open", seen: 0, of: 1 });
+  });
+  it("compte les œuvres vues sur celles du pays en mode Tout", () => {
+    expect(mapState("all", ["film", "book", "series"], "FR", seen)).toEqual({ state: "seen", seen: 2, of: 3 });
+    expect(mapState("all", ["film", "book", "series"], "JP", seen)).toEqual({ state: "seen", seen: 1, of: 3 });
+    expect(mapState("all", ["film", "book"], "DE", seen)).toEqual({ state: "open", seen: 0, of: 2 });
+  });
+});
+
+describe("completedCountries", () => {
+  const avail = { FR: ["film", "book", "series"], CM: ["film", "book"], XX: [] } as Record<string, Kind[]>;
+  it("garde les pays dont toutes les œuvres sont vues", () => {
+    const done = completedCountries(avail, new Set(["film:CM", "book:CM", "film:FR"]));
+    expect([...done]).toEqual(["CM"]);
+  });
+  it("ne compte jamais un pays sans œuvre", () => expect(completedCountries(avail, new Set()).has("XX")).toBe(false));
+});
+
+describe("countrySlug", () => {
+  it("donne les chemins de la fiche pays dans chaque langue", () => {
+    expect(countrySlug("fr", "FR")).toBe("pays/fr/");
+    expect(countrySlug("en", "FR")).toBe("country/fr/");
+  });
+  it("garde le chemin de l'ancienne fiche film pour la redirection", () => {
+    expect(legacySlug("fr", "CM")).toBe("film/cm/");
+  });
+});
+
+describe("yearOf", () => {
+  it("lit l'année en tête d'une chaîne, ou rien", () => {
+    expect(yearOf("1943")).toBe(1943);
+    expect(yearOf("2004-05-01")).toBe(2004);
+    expect(yearOf("")).toBeNull();
+    expect(yearOf("vers 1850")).toBeNull();
+  });
+});
+
+describe("coverSeed", () => {
+  it("est stable et reste dans les bornes", () => {
+    expect(coverSeed("FR", "Le Petit Prince")).toEqual(coverSeed("FR", "Le Petit Prince"));
+    for (const iso of ["FR", "CM", "JP", "AD"]) {
+      const c = coverSeed(iso, "x");
+      expect(c.tone).toBeGreaterThanOrEqual(0); expect(c.tone).toBeLessThan(6);
+      expect(c.layout).toBeGreaterThanOrEqual(0); expect(c.layout).toBeLessThan(4);
+    }
+  });
+  it("varie d'un pays à l'autre", () => {
+    const seeds = new Set(["FR", "CM", "JP", "AD", "BR", "EG", "NO", "PE"].map((i) => JSON.stringify(coverSeed(i, "t"))));
+    expect(seeds.size).toBeGreaterThan(3);
+  });
+});
+
+describe("workLinks", () => {
+  it("livre : Wikipédia via le qid, puis la source si elle diffère de Wikidata", () => {
+    const l = workLinks("book", { qid: "Q1", source_url: "https://www.wikidata.org/wiki/Q1" }, "fr");
+    expect(l.map((x) => x.id)).toEqual(["wikipedia"]);
+    const m = workLinks("book", { qid: "Q1", source_url: "https://exemple.fr/ventes" }, "en");
+    expect(m.map((x) => x.id)).toEqual(["wikipedia", "source"]);
+    expect(m[0].url).toContain("enwiki/Q1");
+  });
+  it("livre absent de Wikidata : seulement la source", () => {
+    expect(workLinks("book", { qid: "", source_url: "https://exemple.fr" }, "fr")).toEqual([{ id: "source", url: "https://exemple.fr" }]);
+    expect(workLinks("book", { qid: "", source_url: "" }, "fr")).toEqual([]);
+  });
+  it("série : TMDB si l'id existe, sinon la source seule", () => {
+    expect(workLinks("series", { tmdb_id: 7, source_url: "https://www.themoviedb.org/tv/7" }, "fr")).toEqual([{ id: "tmdb", url: "https://www.themoviedb.org/tv/7" }]);
+    expect(workLinks("series", { tmdb_id: null, source_url: "https://presse.ke/x" }, "fr")).toEqual([{ id: "source", url: "https://presse.ke/x" }]);
+  });
+});
+
+describe("nameLen", () => {
+  it("réduit les noms de pays longs", () => {
+    expect(nameLen("France")).toBe("s");
+    expect(nameLen("Allemagne")).toBe("s");
+    expect(nameLen("Afrique du Sud")).toBe("m");
+    expect(nameLen("République démocratique du Congo")).toBe("l");
+  });
+});
+
+describe("pickOverview", () => {
+  it("donne le texte de la langue de la page", () => {
+    expect(pickOverview("Bonjour", "Hello", "fr")).toEqual({ text: "Bonjour", lang: "fr", fallback: false });
+    expect(pickOverview("Bonjour", "Hello", "en")).toEqual({ text: "Hello", lang: "en", fallback: false });
+  });
+  it("retombe sur l'autre langue avec la mention", () => {
+    expect(pickOverview("", "Hello", "fr")).toEqual({ text: "Hello", lang: "en", fallback: true });
+    expect(pickOverview("Bonjour", undefined, "en")).toEqual({ text: "Bonjour", lang: "fr", fallback: true });
+  });
+  it("ne donne rien si les deux manquent", () => {
+    expect(pickOverview("", "", "fr")).toEqual({ text: "", lang: "fr", fallback: false });
+    expect(pickOverview(undefined, undefined, "en").text).toBe("");
+  });
+});
+
+describe("workLinks avec l'article Wikipédia", () => {
+  it("préfère l'URL de l'article dans la langue de la page, sinon passe par Wikidata", () => {
+    const w = { qid: "Q1", wiki_fr: "https://fr.wikipedia.org/wiki/A", wiki_en: "", source_url: "" };
+    expect(workLinks("book", w, "fr")[0].url).toBe("https://fr.wikipedia.org/wiki/A");
+    expect(workLinks("book", w, "en")[0].url).toContain("enwiki/Q1");
+  });
+  it("garde l'article même sans qid", () => {
+    expect(workLinks("book", { qid: "", wiki_en: "https://en.wikipedia.org/wiki/B" }, "en").map((x) => x.id)).toEqual(["wikipedia"]);
   });
 });

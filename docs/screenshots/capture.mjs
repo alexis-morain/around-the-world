@@ -1,5 +1,5 @@
 import { chromium } from "playwright";
-const B = "https://onefilmpercountry.morain.fr/";
+const B = "https://aroundtheworld.morain.fr/";
 const out = process.argv[2];
 const b = await chromium.launch();
 async function pg(vp, scheme = "dark", dsf = 1.5) {
@@ -13,14 +13,14 @@ await shot(d, "home");
 await d.evaluate(() => document.querySelector(".map-section").scrollIntoView()); await d.waitForTimeout(1800);
 await d.evaluate(() => scrollBy(0, -20)); await d.waitForTimeout(400);
 await shot(d, "map");
-await d.goto(B + "film/kr/", { waitUntil: "networkidle" }); await d.waitForTimeout(800);
-await shot(d, "film");
-await d.goto(B + "catalogue/?sort=imdb", { waitUntil: "networkidle" }); await d.waitForTimeout(800);
+await d.goto(B + "pays/kr/", { waitUntil: "networkidle" }); await d.waitForTimeout(800);
+await shot(d, "country");
+await d.goto(B + "catalogue/?tab=book", { waitUntil: "networkidle" }); await d.waitForTimeout(800);
 await d.evaluate(() => scrollTo(0, 230)); await d.waitForTimeout(500);
 await shot(d, "catalogue");
 const l = await pg({ width: 1280, height: 800 }, "light");
-await l.goto(B + "film/eg/", { waitUntil: "networkidle" }); await l.evaluate(() => scrollTo(0, 380)); await l.waitForTimeout(600);
-await shot(l, "film-light");
+await l.goto(B + "pays/eg/", { waitUntil: "networkidle" }); await l.evaluate(() => scrollTo(0, 380)); await l.waitForTimeout(600);
+await shot(l, "country-light");
 const m = await pg({ width: 390, height: 844 }, "dark", 2);
 await m.goto(B, { waitUntil: "networkidle" }); await m.waitForTimeout(800);
 await shot(m, "mobile");

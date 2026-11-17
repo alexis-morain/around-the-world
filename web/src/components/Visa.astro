@@ -1,17 +1,18 @@
 ---
-/* Le niveau de fiabilité du choix, en tampon façon visa d'exploitation, avec sa légende en clair. */
-import type { Lang } from "../lib/logic";
-import { t } from "../lib/i18n";
+/* Le niveau de fiabilité du choix, en tampon façon visa, avec sa légende propre au type d'œuvre. */
+import { visaText, t } from "../lib/i18n";
+import type { Kind, Lang } from "../lib/logic";
 
-interface Props { level: string; lang: Lang; kicker?: boolean }
-const { level, lang, kicker = true } = Astro.props;
+interface Props { kind: Kind; level: string; lang: Lang; metric?: string; kicker?: boolean }
+const { kind, level, lang, metric = "", kicker = true } = Astro.props;
 const L = t(lang);
-// Les statuts hors niveau ont leur propre marque.
-const MARK: Record<string, string> = { none: "0", seen: lang === "fr" ? "VU" : "SEEN" };
+const seen = level === "seen";
+const text = seen ? { title: L.seenStamp, long: L.seenStampLong } : visaText(kind, level, metric, lang);
+const mark = seen ? L.kind[kind].seenTag.toUpperCase() : level;
 ---
 <div class="visa" data-level={level}>
-  <span class="visa-mark" aria-hidden="true">{MARK[level] ?? level}</span>
+  <span class="visa-mark" aria-hidden="true">{mark}</span>
   {kicker && <p class="visa-k">{L.reliability} : <span class="visually-hidden">{level}</span></p>}
-  <p class="visa-t">{L.levels[level]}</p>
-  <p class="visa-d">{L.levelLong[level]}</p>
+  <p class="visa-t">{text.title}</p>
+  <p class="visa-d">{text.long}</p>
 </div>

@@ -1,9 +1,11 @@
 ---
-import FilmPage from "../../../components/FilmPage.astro";
-import { films, type Film } from "../../../lib/films";
+import Redirect from "../../../components/Redirect.astro";
+import { films } from "../../../lib/films";
+import { countrySlug } from "../../../lib/logic";
+import { href } from "../../../lib/i18n";
 export function getStaticPaths() {
-  return films.map((film) => ({ params: { iso: film.iso2.toLowerCase() }, props: { film } }));
+  return films.map((film) => ({ params: { iso: film.iso2.toLowerCase() }, props: { iso: film.iso2 } }));
 }
-const { film } = Astro.props as { film: Film };
+const { iso } = Astro.props as { iso: string };
 ---
-<FilmPage film={film} lang="en" />
+<Redirect to={href("en", countrySlug("en", iso))} lang="en" />

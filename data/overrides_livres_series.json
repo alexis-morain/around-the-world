@@ -15,6 +15,10 @@
   "book": "Q1513820",
   "note": "Livre : Brecht est allemand : Le Joueur d'échecs de Zweig retenu."
  },
+ "AU": {
+  "book_level": "B",
+  "note": "Livre : niveau B, chiffre de ventes mondial."
+ },
  "BB": {
   "book": "Q23307454",
   "note": "Livre : In the Castle of My Skin, premier roman de Lamming et classique de la Barbade, retenu à égalité de sources."
@@ -27,10 +31,26 @@
   "book": null,
   "note": "Livre : Seul candidat : une autobiographie de Sidney Poitier."
  },
+ "CA": {
+  "book_level": "B",
+  "note": "Livre : niveau B, chiffre de ventes mondial."
+ },
+ "CG": {
+  "book_level": "B",
+  "note": "Livre : niveau B, classique cité par la presse, sans chiffre."
+ },
+ "CM": {
+  "book_level": "B",
+  "note": "Livre : niveau B, classique scolaire cité par une chronique, sans chiffre."
+ },
  "CU": {
   "book": "Q579507",
   "note": "Livre : La Guerre de guérilla est un manuel militaire : Le Royaume de ce monde de Carpentier retenu. Série : Landgericht est une série allemande ; les séries cubaines ont moins de 3 votes.",
   "series": null
+ },
+ "CV": {
+  "book_level": "B",
+  "note": "Livre : niveau B, qualifié de plus grand roman par un guide, sans chiffre."
  },
  "CY": {
   "book": null,
@@ -51,7 +71,13 @@
  },
  "DZ": {
   "book": "Q12212596",
-  "note": "Livre : Les candidats sont des textes latins ou théologiques ; Mémoires de la chair d'Ahlam Mosteghanemi, roman en arabe, retenu. Les auteurs algériens de langue française sont écartés par la règle de langue."
+  "note": "Livre : Les candidats sont des textes latins ou théologiques ; Mémoires de la chair d'Ahlam Mosteghanemi, roman en arabe, retenu. Les auteurs algériens de langue française sont écartés par la règle de langue. Livre : niveau B, ventes dans tout le monde arabe.",
+  "book_level": "B"
+ },
+ "EG": {
+  "book_level": "B",
+  "note": "Livre : niveau B, classement panarabe d'écrivains, pas de lecteurs égyptiens. Série : niveau B, sondage universitaire sur un seul Ramadan.",
+  "series_level": "B"
  },
  "EH": {
   "book": null,
@@ -61,9 +87,18 @@
   "book": null,
   "note": "Livre : Nalini Singh est néo-zélandaise : pas d'œuvre fidjienne documentée."
  },
+ "GA": {
+  "series_level": "B",
+  "note": "Série : niveau B, « records d'audience » sans chiffre."
+ },
  "GH": {
   "book": "Q30600501",
-  "note": "Livre : Daughters of Africa est une anthologie dirigée par une Britannique : No Home de Yaa Gyasi retenu."
+  "note": "Livre : Daughters of Africa est une anthologie dirigée par une Britannique : No Home de Yaa Gyasi retenu. Série : niveau B, record d'une plateforme, origine ghanéenne non vérifiée.",
+  "series_level": "B"
+ },
+ "GN": {
+  "book_level": "B",
+  "note": "Livre : niveau B, classique cité par la presse, sans chiffre."
  },
  "GR": {
   "book": "Q1059553",
@@ -71,8 +106,9 @@
  },
  "HT": {
   "book": "Q3112741",
-  "note": "Livre : De l'égalité des races humaines est un essai : Gouverneurs de la rosée de Jacques Roumain retenu. Titre anglais corrigé (libellé Wikidata erroné).",
-  "book_en": "Masters of the Dew"
+  "note": "Livre : De l'égalité des races humaines est un essai : Gouverneurs de la rosée de Jacques Roumain retenu. Titre anglais corrigé (libellé Wikidata erroné). Livre : niveau B, mention d'éditeur sans chiffre.",
+  "book_en": "Masters of the Dew",
+  "book_level": "B"
  },
  "IL": {
   "book": "Q1124669",
@@ -85,6 +121,11 @@
  "IQ": {
   "book": "Q16126775",
   "note": "Livre : Les candidats sont religieux ou signés Saddam Hussein : Frankenstein à Bagdad d'Ahmed Saadawi retenu."
+ },
+ "IR": {
+  "book_level": "B",
+  "note": "Livre : niveau B, chiffre de ventes de source secondaire. Série : niveau B, record d'une plateforme, source faible.",
+  "series_level": "B"
  },
  "JO": {
   "book": "Q6854984",
@@ -131,6 +172,10 @@
   "book": "Q29832270",
   "note": "Livre : Les Chants populaires bulgares sont un recueil de chants collectés : La Liste de Freud de Goce Smilevski retenu."
  },
+ "ML": {
+  "book_level": "B",
+  "note": "Livre : niveau B, classique cité par la presse, sans chiffre."
+ },
  "MM": {
   "book": null,
   "note": "Livre : Seuls candidats : inscriptions, chroniques et essais."
@@ -163,6 +208,14 @@
   "book": null,
   "note": "Livre : Seul candidat : un livre d'un auteur nigérian."
  },
+ "NG": {
+  "book_level": "B",
+  "note": "Livre : niveau B, chiffre de ventes mondial."
+ },
+ "NO": {
+  "book_level": "B",
+  "note": "Livre : niveau B, chiffre de ventes mondial."
+ },
  "NZ": {
   "series": 71577,
   "note": "Série : The Beatles: Get Back est un documentaire : la fiction suivante est retenue."
@@ -173,7 +226,13 @@
  },
  "PK": {
   "book": "Q7197549",
-  "note": "Livre : La Déclaration du Pakistan est un texte politique : Pir-e-Kamil d'Umera Ahmad, roman en ourdou, retenu."
+  "note": "Livre : La Déclaration du Pakistan est un texte politique : Pir-e-Kamil d'Umera Ahmad, roman en ourdou, retenu. Série : niveau B, seule une mention Wikipédia.",
+  "series_level": "B"
+ },
+ "PL": {
+  "book_level": "B",
+  "note": "Livre : niveau B, seule base solide : le canon scolaire, sans chiffre. Série : niveau B, presse, sans chiffre.",
+  "series_level": "B"
  },
  "PS": {
   "book": "Q2895697",
@@ -184,6 +243,10 @@
   "note": "Livre : Seuls candidats : des ouvrages religieux. Série : Seul candidat : un documentaire britannique.",
   "series": null
  },
+ "RU": {
+  "book_level": "B",
+  "note": "Livre : niveau B, sondage d'un portail d'emploi, pas d'un institut."
+ },
  "SA": {
   "book": "Q4120154",
   "note": "Livre : Les candidats sont religieux : Les Filles de Riyad de Rajaa Alsanea retenu."
@@ -192,17 +255,27 @@
   "book": "Q137459255",
   "note": "Livre : La Ligne bleue est d'Ingrid Betancourt, franco-colombienne : Une tortue se rappelle d'Antoine Abel retenu."
  },
+ "SD": {
+  "book_level": "B",
+  "note": "Livre : niveau B, classement panarabe d'écrivains, pas de lecteurs soudanais."
+ },
+ "SN": {
+  "series_level": "B",
+  "note": "Série : niveau B, vues YouTube, pas d'audience mesurée."
+ },
  "SO": {
   "book": "Q105742762",
   "note": "Livre : Les candidats sont religieux ou en anglais : les poèmes de Mohammed Abdullah Hassan retenus."
  },
  "SR": {
   "book": "Q87725165",
-  "note": "Livre : Hoe duur was de suiker de Cynthia McLeod, le roman surinamais le plus lu, retenu à égalité de sources."
+  "note": "Livre : Hoe duur was de suiker de Cynthia McLeod, le roman surinamais le plus lu, retenu à égalité de sources. Livre : niveau B, chiffre tiré d'une fiche éditeur.",
+  "book_level": "B"
  },
  "SY": {
   "book": "Q12188833",
-  "note": "Livre : L'Échelle sainte est un texte religieux : La Voile et la tempête de Hanna Mina retenu."
+  "note": "Livre : L'Échelle sainte est un texte religieux : La Voile et la tempête de Hanna Mina retenu. Série : niveau B, sondage de suivi, pas d'audience mesurée.",
+  "series_level": "B"
  },
  "TM": {
   "book": null,
@@ -218,12 +291,14 @@
  },
  "UA": {
   "book": "Q2658157",
-  "note": "Livre : La Chronique des temps passés est une chronique médiévale : le Kobzar de Chevtchenko retenu. Série : Нюхач est en russe : Serviteur du peuple, en ukrainien, retenu.",
-  "series": 64480
+  "note": "Livre : La Chronique des temps passés est une chronique médiévale : le Kobzar de Chevtchenko retenu. Série : Нюхач est en russe : Serviteur du peuple, en ukrainien, retenu. Série : Сваты, la plus vue selon la recherche, est tournée en russe ; Serviteur du peuple garde la place.",
+  "series": 64480,
+  "series_research": false
  },
  "UG": {
   "book": "Q1809068",
-  "note": "Livre : Daughters of Africa est une anthologie : Chant de Lawino d'Okot p'Bitek retenu."
+  "note": "Livre : Daughters of Africa est une anthologie : Chant de Lawino d'Okot p'Bitek retenu. Livre : niveau B, source faible (blog), sans chiffre.",
+  "book_level": "B"
  },
  "VA": {
   "book": null,

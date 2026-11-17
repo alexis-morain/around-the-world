@@ -1,7 +1,7 @@
 /* Point d'entrée : en-tête, thème, rangées, marques « vu » et « ma liste », puis le module de la page. */
 import { all, onChange, storage } from "./store";
 import { initSheet, openSheet, prefetch } from "./sheet";
-import { bindFilm } from "./film";
+import { bindCountry } from "./country";
 import { str } from "./ui";
 
 /* ---------- Thème ---------- */
@@ -30,11 +30,11 @@ onScroll();
 const total = Number(document.body.dataset.total);
 function paintMarks() {
   const seen = all("seen"), list = all("list");
-  const n = [...seen].length;
+  const n = seen.size;
   document.getElementById("progress")!.textContent = n ? str("progress").replace("{n}", String(n)).replace("{t}", String(total)) : "";
-  document.querySelectorAll<HTMLElement>("a.card").forEach((a) => {
-    a.classList.toggle("is-seen", seen.has(a.dataset.iso!));
-    a.classList.toggle("in-list", list.has(a.dataset.iso!));
+  document.querySelectorAll<HTMLElement>("a.card[data-key], .ct-w[data-key]").forEach((a) => {
+    a.classList.toggle("is-seen", seen.has(a.dataset.key!));
+    a.classList.toggle("in-list", list.has(a.dataset.key!));
   });
 }
 
@@ -60,29 +60,30 @@ function bindRails() {
 }
 
 /* ---------- Ouverture des fiches en modale (accueil et catalogue) ---------- */
-const filmPage = !!document.querySelector("main > #film");
+const countryPage = !!document.querySelector("main > #country");
 initSheet();
-if (!filmPage) {
+if (!countryPage) {
   document.addEventListener("click", (e) => {
-    const a = (e.target as Element).closest<HTMLAnchorElement>("a.card, a[data-bb-open]");
+    const a = (e.target as Element).closest<HTMLAnchorElement>("a.card, a.ctile, a[data-open]");
     if (!a || e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
     e.preventDefault();
-    openSheet(a.dataset.iso!, { from: a });
+    openSheet(a.dataset.iso!, { from: a, kind: a.dataset.kind });
   });
   const warm = (e: Event) => {
-    const a = (e.target as Element).closest?.<HTMLAnchorElement>("a.card, a[data-bb-open]");
+    const a = (e.target as Element).closest?.<HTMLAnchorElement>("a.card, a.ctile, a[data-open]");
     if (a) prefetch(a.dataset.iso!);
   };
   document.addEventListener("pointerover", warm, { passive: true });
   document.addEventListener("focusin", warm);
 } else {
-  bindFilm(document);
+  bindCountry(document);
 }
 
 bindRails();
 paintMarks();
 onChange(paintMarks);
 addEventListener("rails:update", paintMarks);
+document.addEventListener("marks:update", paintMarks);
 
-if (document.getElementById("billboard")) import("./home").then((m) => m.initHome());
+if (document.getElementById("hero")) import("./home").then((m) => m.initHome());
 if (document.getElementById("filters")) import("./catalogue").then((m) => m.initCatalogue());

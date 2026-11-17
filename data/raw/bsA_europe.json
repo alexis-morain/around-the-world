@@ -1,0 +1,1352 @@
+[
+ {
+  "iso2": "AL",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  }
+ },
+ {
+  "iso2": "DE",
+  "book": {
+   "level": "A",
+   "title_original": "Das Parfum",
+   "title_fr": "Le Parfum",
+   "title_en": "Perfume",
+   "author": "Patrick Süskind",
+   "year": 1985,
+   "language": "de",
+   "wikidata": "Q459303",
+   "metric": "survey",
+   "value": "4e du sondage ZDF « Unsere Besten : les livres préférés des Allemands » (2004), 1er roman de langue allemande après Tolkien, la Bible et Follett",
+   "source_url": "https://de.wikipedia.org/wiki/Unsere_Besten",
+   "note": "Rang lu dans l'ordre de la liste de Wikipédia DE ; pas de chiffre de ventes allemand consulté."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "Die Schwarzwaldklinik",
+   "title_fr": "La Clinique de la Forêt-Noire",
+   "title_en": "The Black Forest Clinic",
+   "year": 1985,
+   "language": "de",
+   "tmdb_id": 32222,
+   "metric": "ratings",
+   "value": "Épisode « Die Schuldfrage » du 17 novembre 1985 : 27,97 millions de téléspectateurs, record allemand pour une fiction (Wikipédia DE)",
+   "source_url": "https://de.wikipedia.org/wiki/Die_Schwarzwaldklinik",
+   "note": ""
+  }
+ },
+ {
+  "iso2": "AD",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  }
+ },
+ {
+  "iso2": "AT",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucun sondage ou chiffre de ventes autrichien consulté ; le Joueur d'échecs de Zweig est un choix du dépôt, non confirmé."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune audience nationale consultée pour une série autrichienne."
+  }
+ },
+ {
+  "iso2": "BE",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucun sondage ou chiffre de ventes belge consulté ; pays à deux communautés linguistiques."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "F.C. De Kampioenen",
+   "title_fr": "F.C. De Kampioenen",
+   "title_en": "F.C. De Kampioenen",
+   "year": 1990,
+   "language": "nl",
+   "tmdb_id": null,
+   "metric": "ratings",
+   "value": "Épisode « De sympathiekste » (30 décembre 1995) : 2 053 000 téléspectateurs, épisode le plus vu (Wikipédia NL)",
+   "source_url": "https://nl.wikipedia.org/wiki/F.C._De_Kampioenen_seizoen_6",
+   "note": "Flandre uniquement (VRT). Pas de série francophone comparable documentée."
+  }
+ },
+ {
+  "iso2": "BY",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  }
+ },
+ {
+  "iso2": "BA",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  }
+ },
+ {
+  "iso2": "BG",
+  "book": {
+   "level": "A",
+   "title_original": "Под игото",
+   "title_fr": "Sous le joug",
+   "title_en": "Under the Yoke",
+   "author": "Ivan Vazov",
+   "year": 1894,
+   "language": "bg",
+   "wikidata": "Q2668054",
+   "metric": "survey",
+   "value": "Vainqueur de la campagne « Голямото четене » (Big Read) de la BNT en 2009 : roman préféré des Bulgares",
+   "source_url": "https://bntnews.bg/bg/a/6074-au_pod_igoto_au_e_naj_lubimijat_roman_na_bylgarite",
+   "note": "Campagne télévisée plutôt que sondage statistique (critique de liternet.bg), mais confirmée par plusieurs médias."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "BNT dit que le premier épisode de la saison 5 de Под прикритие (plus d'un demi-million de personnes) est le plus vu de toutes les saisons ; pas de record national documenté."
+  }
+ },
+ {
+  "iso2": "VA",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  }
+ },
+ {
+  "iso2": "HR",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source consultée."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source consultée."
+  }
+ },
+ {
+  "iso2": "DK",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucun chiffre de ventes ou sondage danois consulté (recherche sans résultat)."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "Matador",
+   "title_fr": "Matador",
+   "title_en": "Matador",
+   "year": 1978,
+   "language": "da",
+   "tmdb_id": 4395,
+   "metric": "ratings",
+   "value": "Un épisode vu par 3,6 millions de spectateurs (rediffusion 1985-1986) : record d'audience au Danemark ; chiffre probablement surestimé selon Jyllands-Posten",
+   "source_url": "https://jyllands-posten.dk/kultur/film/article4863619.ece",
+   "note": ""
+  }
+ },
+ {
+  "iso2": "ES",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Don Quichotte reste le choix naturel, mais aucune source de ventes ou de sondage national fiable n'a été consultée (le seul tableau trouvé, libreriafan.com.ar, n'est pas sérieux)."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "Farmacia de guardia",
+   "title_fr": "Farmacia de guardia",
+   "title_en": "Farmacia de guardia",
+   "year": 1991,
+   "language": "es",
+   "tmdb_id": 70217,
+   "metric": "ratings",
+   "value": "Pic de 13 850 000 téléspectateurs, série espagnole ayant eu la plus forte audience selon El Debate",
+   "source_url": "https://www.eldebate.com/cine-tv-series/20251225/serie-audiencia-historia-espana_367054.html",
+   "note": "Presse ; chiffre de pic sans date d'épisode précisée dans l'article."
+  }
+ },
+ {
+  "iso2": "EE",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source consultée."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source consultée."
+  }
+ },
+ {
+  "iso2": "FI",
+  "book": {
+   "level": "A",
+   "title_original": "Seitsemän veljestä",
+   "title_fr": "Les Sept Frères",
+   "title_en": "Seven Brothers",
+   "author": "Aleksis Kivi",
+   "year": 1873,
+   "language": "fi",
+   "wikidata": "Q1219475",
+   "metric": "sales",
+   "value": "1 506 000 exemplaires imprimés (jusqu'en 2001), livre de fiction finlandais le plus imprimé",
+   "source_url": "https://www.kirjastot.fi/kysy/kaikkien-aikojen-myydyimmat-kirjat-suomessa",
+   "note": "Source : Kirjastot.fi d'après Kirja Suomessa (2000) ; tirages, pas ventes."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Les audiences finlandaises de séries trouvées sont faibles (Kotikatu : record 846 000 en 1996, Wikipédia FI) ; aucun classement national de référence consulté."
+  }
+ },
+ {
+  "iso2": "FR",
+  "book": {
+   "level": "A",
+   "title_original": "Le Petit Prince",
+   "title_fr": "Le Petit Prince",
+   "title_en": "The Little Prince",
+   "author": "Antoine de Saint-Exupéry",
+   "year": 1943,
+   "language": "fr",
+   "wikidata": "Q25338",
+   "metric": "sales",
+   "value": "Plus de 12 millions d'exemplaires vendus en France (plus de 200 millions dans le monde)",
+   "source_url": "https://fr.wikipedia.org/wiki/Le_Petit_Prince",
+   "note": "Wikipédia FR : plus gros succès de Gallimard ; d'autres titres (albums d'Astérix) dominent les ventes annuelles mais le cumul n'est pas documenté."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "Dolmen",
+   "title_fr": "Dolmen",
+   "title_en": "Dolmen",
+   "year": 2005,
+   "language": "fr",
+   "tmdb_id": 43385,
+   "metric": "ratings",
+   "value": "12 879 360 téléspectateurs (53,1 %) pour le dernier épisode, TF1, 18 juillet 2005 : plus forte audience d'une série en France (Médiamétrie)",
+   "source_url": "https://fr.wikipedia.org/wiki/Audience_de_la_t%C3%A9l%C3%A9vision_fran%C3%A7aise",
+   "note": "HPI (TF1, 2021) a atteint environ 12,4 à 12,5 millions, un peu moins (Le Parisien, La Voix du Nord)."
+  }
+ },
+ {
+  "iso2": "GR",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucun sondage ou chiffre de ventes grec consulté."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "Ψίθυροι Καρδιάς",
+   "title_fr": "Les Murmures du cœur",
+   "title_en": "Whispers of the Heart",
+   "year": 1997,
+   "language": "el",
+   "tmdb_id": 54075,
+   "metric": "ratings",
+   "value": "76,1 % de part d'audience (épisode du 9 février 1998, Mega) : record historique des séries grecques",
+   "source_url": "https://www.985.gr/oi-ellinikes-seires-poy-ekanan-tin-ypsiloteri-tiletheasi",
+   "note": "Confirmé par pronews.gr et missbloom.gr (classement des parts d'audience)."
+  }
+ },
+ {
+  "iso2": "HU",
+  "book": {
+   "level": "A",
+   "title_original": "Egri csillagok",
+   "title_fr": "Les Étoiles d'Eger",
+   "title_en": "Eclipse of the Crescent Moon",
+   "author": "Géza Gárdonyi",
+   "year": 1901,
+   "language": "hu",
+   "wikidata": "Q987956",
+   "metric": "survey",
+   "value": "N°1 du vote A Nagy Könyv 2005 : « roman préféré des Hongrois »",
+   "source_url": "https://hu.wikipedia.org/wiki/A_Nagy_K%C3%B6nyv",
+   "note": "Roman publié en 1899 en feuilleton, 1901 en livre."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Szomszédok est présentée comme la série hongroise la plus populaire des années 1990 (kozonseg.hu, hu.wikipedia), sans chiffre d'audience consulté."
+  }
+ },
+ {
+  "iso2": "IE",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucun sondage ou chiffre de ventes irlandais consulté."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Love/Hate approcherait le million de téléspectateurs sur RTÉ One (Wikipédia EN), sans classement national consulté."
+  }
+ },
+ {
+  "iso2": "IS",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source consultée."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source consultée."
+  }
+ },
+ {
+  "iso2": "IT",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucun sondage ou chiffre de ventes national consulté ; I promessi sposi (canon scolaire) et la Divine Comédie sont les candidats."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "Il commissario Montalbano",
+   "title_fr": "Commissaire Montalbano",
+   "title_en": "Inspector Montalbano",
+   "year": 1999,
+   "language": "it",
+   "tmdb_id": 37290,
+   "metric": "ratings",
+   "value": "Épisode « La giostra degli scambi » : 11,386 millions de téléspectateurs, 45,1 % de part (13 février 2018), épisode de fiction le plus vu de l'histoire (ANSA)",
+   "source_url": "https://www.ansa.it/sito/notizie/cultura/2018/02/13/ascolti-record-per-montalbano-lepisodio-piu-visto-di-sempre_aa0d4ba9-bc68-4a76-b894-8d3f40d38d05.html",
+   "note": ""
+  }
+ },
+ {
+  "iso2": "XK",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  }
+ },
+ {
+  "iso2": "LV",
+  "book": {
+   "level": "A",
+   "title_original": "Kaķīša dzirnavas",
+   "title_fr": "Le Moulin du chaton",
+   "title_en": "The Cat's Mill",
+   "author": "Kārlis Skalbe",
+   "year": 1913,
+   "language": "lv",
+   "wikidata": "",
+   "metric": "survey",
+   "value": "Livre préféré des Lettons : vainqueur de « Lielā lasīšana » (Latvijas Televīzija, 2014), près de 40 000 votants",
+   "source_url": "https://diena.lv/raksts/kd/literatura/par-latvija-iemilotako-gramatu-atzita-karla-skalbes-pasaka-kakisa-dzirnavas-14077616",
+   "note": "Conte (publié en 1913 dans le recueil de contes de Skalbe) ; confirmé par LSM."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune audience nationale consultée pour une série lettone."
+  }
+ },
+ {
+  "iso2": "LI",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  }
+ },
+ {
+  "iso2": "LT",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source consultée."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source consultée ; aucune série lituanienne dans le choix du dépôt."
+  }
+ },
+ {
+  "iso2": "LU",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  }
+ },
+ {
+  "iso2": "MK",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  }
+ },
+ {
+  "iso2": "MT",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  }
+ },
+ {
+  "iso2": "MD",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  }
+ },
+ {
+  "iso2": "MC",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  }
+ },
+ {
+  "iso2": "ME",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  }
+ },
+ {
+  "iso2": "NO",
+  "book": {
+   "level": "A",
+   "title_original": "Sofies verden",
+   "title_fr": "Le Monde de Sophie",
+   "title_en": "Sophie's World",
+   "author": "Jostein Gaarder",
+   "year": 1991,
+   "language": "no",
+   "wikidata": "Q61324",
+   "metric": "sales",
+   "value": "Plus de 50 millions d'exemplaires dans le monde ; roman le plus vendu au monde en 1995",
+   "source_url": "https://no.wikipedia.org/wiki/Sofies_verden",
+   "note": "Chiffre mondial ; pas de total norvégien consulté. Un roman norvégien en tête des ventes mondiales reste le choix le plus documenté."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune audience nationale consultée pour une série norvégienne."
+  }
+ },
+ {
+  "iso2": "NL",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucun sondage ou chiffre de ventes néerlandais consulté."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "Baantjer",
+   "title_fr": "Baantjer",
+   "title_en": "Baantjer",
+   "year": 1995,
+   "language": "nl",
+   "tmdb_id": 14555,
+   "metric": "ratings",
+   "value": "Moyenne de 2 861 000 téléspectateurs par épisode en 2003-2004 ; série néerlandaise la plus regardée à l'époque (Wikipédia NL)",
+   "source_url": "https://nl.wikipedia.org/wiki/Baantjer_(televisieserie)",
+   "note": "Source secondaire (Wikipédia)."
+  }
+ },
+ {
+  "iso2": "PL",
+  "book": {
+   "level": "A",
+   "title_original": "Lalka",
+   "title_fr": "La Poupée",
+   "title_en": "The Doll",
+   "author": "Bolesław Prus",
+   "year": 1890,
+   "language": "pl",
+   "wikidata": "",
+   "metric": "canon",
+   "value": "Lecture obligatoire du lycée polonais ; classée n°1 des meilleurs livres polonais d'après un classement de lecteurs (Goodreads) relayé par Elle.pl",
+   "source_url": "https://www.elle.pl/lifestyle/oto-najlepsza-polska-ksiazka-wszech-czasow-historia-o-odrzuceniu-i-zdradzie-porusza-najglebsze-struny-nawet-135-lat-pozniej",
+   "note": "Pas de chiffre de ventes ni de sondage national consulté ; le classement est celui de lecteurs sur Goodreads, donc faible. Solaris (choix automatique) est 3e du même classement (well.pl)."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "Czterej pancerni i pies",
+   "title_fr": "Quatre tankistes et un chien",
+   "title_en": "Four Tank-Men and a Dog",
+   "year": 1966,
+   "language": "pl",
+   "tmdb_id": 1574,
+   "metric": "press",
+   "value": "Désigné série polonaise la plus populaire par le plébiscite TVP de juin 1995 ; la presse la qualifie de série polonaise la plus populaire",
+   "source_url": "https://telemagazyn.pl/czterej-pancerni-i-pies-wracaja-najpopularniejszy-polski-serial-pokaze-teraz-kino-polska/ar/c13p2-27669327",
+   "note": "Pas de chiffre d'audience. Pour les audiences mesurées : Klan (TVP1) a eu 7,3 M en 2000 (Wikipédia PL), mais c'est une moyenne annuelle."
+  }
+ },
+ {
+  "iso2": "PT",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucun sondage ou chiffre de ventes portugais consulté."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "La Wikipédia PT classe plusieurs telenovelas (Mar Salgado 7e, Dancin' Days 5e) dans le top 10 des plus vues, sans donner la première ni de chiffre."
+  }
+ },
+ {
+  "iso2": "RO",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucun sondage ou chiffre de ventes roumain consulté (la recherche n'a rien donné)."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Las Fierbinți (Pro TV) mène les audiences actuelles avec près de 3 millions de téléspectateurs sur sa minute de pointe (radardemedia.ro), mais ce n'est pas un record historique documenté."
+  }
+ },
+ {
+  "iso2": "GB",
+  "book": {
+   "level": "A",
+   "title_original": "The Lord of the Rings",
+   "title_fr": "Le Seigneur des anneaux",
+   "title_en": "The Lord of the Rings",
+   "author": "J. R. R. Tolkien",
+   "year": 1954,
+   "language": "en",
+   "wikidata": "Q15228",
+   "metric": "survey",
+   "value": "N°1 du sondage BBC The Big Read 2003 (plus de 700 000 votes) : roman préféré des Britanniques",
+   "source_url": "https://www.bbc.co.uk/arts/bigread/top100.shtml",
+   "note": "Sondage national sérieux ; confirmé par Wikipédia EN The Big Read."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "EastEnders",
+   "title_fr": "EastEnders",
+   "title_en": "EastEnders",
+   "year": 1985,
+   "language": "en",
+   "tmdb_id": 1871,
+   "metric": "ratings",
+   "value": "Épisode de Noël 1986 : environ 30 millions de téléspectateurs (record Barb avec la rediffusion), 30,15 M selon Adalyser",
+   "source_url": "https://www.bbc.com/news/entertainment-arts-16671101",
+   "note": "Feuilleton. Pour une série non-soap : Only Fools and Horses « Time on Our Hands » 24,3 M (1996), Wikipédia EN."
+  }
+ },
+ {
+  "iso2": "RU",
+  "book": {
+   "level": "A",
+   "title_original": "Мастер и Маргарита",
+   "title_fr": "Le Maître et Marguerite",
+   "title_en": "The Master and Margarita",
+   "author": "Mikhaïl Boulgakov",
+   "year": 1967,
+   "language": "ru",
+   "wikidata": "Q188538",
+   "metric": "survey",
+   "value": "Livre préféré des Russes : 16 % des 3 000 répondants (SuperJob), devant Guerre et Paix (7 %)",
+   "source_url": "https://www.superjob.ru/community/literary/36319",
+   "note": "Sondage d'un portail d'emploi, pas d'un institut d'État ; l'enquête SuperJob de 2026 le place encore en tête (1sept.ru)."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune audience nationale consultée pour une série russe."
+  }
+ },
+ {
+  "iso2": "SM",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale consultée (petit pays ou corpus non documenté)."
+  }
+ },
+ {
+  "iso2": "RS",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucun sondage ou chiffre de ventes serbe consulté."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "Срећни људи",
+   "title_fr": "Srećni ljudi",
+   "title_en": "Happy People",
+   "year": 1993,
+   "language": "sr",
+   "tmdb_id": 58140,
+   "metric": "press",
+   "value": "Premier épisode vu par 5,5 millions de personnes (1993) ; rediffusions 2005-2017 entre 1,2 et 1,7 million par épisode (RTS)",
+   "source_url": "https://www.rts.rs/magazin/film-i-tv/3541005/srecni-ljudi--emocije-gledalaca-kao-i-pre-cetvrt-veka.html",
+   "note": "Chiffre RTS non issu d'un panel ; la série passe aussi pour la plus populaire des Balkans."
+  }
+ },
+ {
+  "iso2": "SK",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source consultée."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source consultée."
+  }
+ },
+ {
+  "iso2": "SI",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source consultée."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source consultée."
+  }
+ },
+ {
+  "iso2": "SE",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucun sondage ou chiffre de ventes national consulté. Pippi Långstrump est dans le canon culturel suédois depuis 2025 (Wikipédia SV), à confirmer."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune audience nationale trouvée pour une série suédoise ; le Calendrier de Noël Trolltider (SVT) est cité comme le plus vu de son genre (Wikipédia SV)."
+  }
+ },
+ {
+  "iso2": "CH",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucun sondage ou chiffre de ventes suisse consulté ; Heidi (Spyri) serait à vérifier."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune audience nationale consultée pour une série suisse ; Pingu est un choix automatique non confirmé."
+  }
+ },
+ {
+  "iso2": "CZ",
+  "book": {
+   "level": "A",
+   "title_original": "Saturnin",
+   "title_fr": "Saturnin",
+   "title_en": "Saturnin",
+   "author": "Zdeněk Jirotka",
+   "year": 1942,
+   "language": "cs",
+   "wikidata": "",
+   "metric": "survey",
+   "value": "N°1 de l'enquête nationale « Kniha mého srdce » de la Česká televize (2009), devant La Grand-mère de Němcová",
+   "source_url": "https://cesky.radio.cz/saturnin-knihou-ceskych-srdci-8580014",
+   "note": "Confirmé par ČT24 et Wikipédia CS."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "Nemocnice na kraji města po dvaceti letech",
+   "title_fr": "L'Hôpital à la périphérie, vingt ans après",
+   "title_en": "Hospital at the End of the City: 20 Years Later",
+   "year": 2003,
+   "language": "cs",
+   "tmdb_id": 77612,
+   "metric": "ratings",
+   "value": "Premier épisode vu par environ 4 millions de personnes sur ČT1, plus de trois quarts de l'audience (idnes.cz, 2003)",
+   "source_url": "https://www.idnes.cz/kultura/film-televize/nemocnici-videly-rekordni-4-miliony.A031021_103136_filmvideo_jup",
+   "note": "Seuls le titre et le chapô de l'article ont pu être lus. La série d'origine (1978) n'a pas de chiffre trouvé."
+  }
+ },
+ {
+  "iso2": "UA",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucun sondage ou chiffre de ventes ukrainien consulté."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "Сваты",
+   "title_fr": "Svaty",
+   "title_en": "Matchmakers",
+   "year": 2008,
+   "language": "ru",
+   "tmdb_id": 46014,
+   "metric": "ratings",
+   "value": "Épisodes du 20 décembre 2021 : 4,10 millions de téléspectateurs ; saison 7 meilleure série de 2021 (part 18,4 %), 1+1",
+   "source_url": "https://www.facebook.com/1plus1.ua/videos/%D1%81%D0%B2%D0%B0%D1%82%D0%B8-7-%D1%81%D1%82%D0%B0%D0%B2-%D0%BD%D0%B0%D0%B9%D0%BA%D1%80%D0%B0%D1%89%D0%B8%D0%BC-%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB%D0%BE%D0%BC-%D0%B7%D0%B0-2021-%D1%80%D1%96%D0%BA/304799704991108",
+   "note": "Tournée en russe (série ukrainienne). Chiffres issus de publications de la chaîne ; pas de classement global trouvé. À écarter si la langue pose problème."
+  }
+ }
+]

@@ -1,0 +1,29 @@
+---
+/*
+  Fiche complète d'un pays : film, livre et série à égalité. Rendue seule sur /pays/<iso>/ et chargée telle quelle
+  dans la modale de l'accueil et du catalogue : une seule source de rendu, et les liens marchent sans JavaScript.
+*/
+import Work from "./Work.astro";
+import Icon from "./Icon.astro";
+import { availKinds, countryName, type Film } from "../lib/films";
+import { KINDS, type Lang } from "../lib/logic";
+import { t } from "../lib/i18n";
+
+interface Props { film: Film; lang: Lang; headingLevel?: 1 | 2 }
+const { film: f, lang, headingLevel = 1 } = Astro.props;
+const L = t(lang);
+const H = `h${headingLevel}` as "h1";
+const n = availKinds(f).length;
+---
+<article class="country" id="country" data-iso={f.iso2} data-total={n} aria-labelledby="country-title">
+  <header class="c-head">
+    <p class="c-kicker"><span class="rule" aria-hidden="true"></span>{L.continents[f.continent]}</p>
+    <H class="c-title display" id="country-title">{countryName(f.iso2, lang)}</H>
+    <div class="c-line">
+      <p class="c-prog" data-prog data-tpl-zero={L.countryProgress(0, n)} data-tpl={L.countryProgress(-1, n).replace("-1", "{n}")}>{L.countryProgress(0, n)}</p>
+      <button type="button" class="btn btn-ghost" data-share><Icon name="link" />{L.share}</button>
+    </div>
+  </header>
+  {KINDS.map((k) => <Work film={f} kind={k} lang={lang} level={headingLevel} />)}
+  <slot />
+</article>

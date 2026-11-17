@@ -1,3 +1,4 @@
+import { countrySlug } from "../lib/logic";
 /* Petits services partagés : textes, toast, annonces, mouvement réduit. */
 type Strings = Record<string, string>;
 let S: Strings | null = null;
@@ -20,5 +21,5 @@ export function announce(text: string) {
   const el = document.getElementById("announce");
   if (el) el.textContent = text;
 }
-export const filmUrl = (iso: string) =>
-  `${document.body.dataset.base}/${lang() === "en" ? "en/" : ""}film/${iso.toLowerCase()}/`;
+export const countryUrl = (iso: string) =>
+  `${document.body.dataset.base}/${lang() === "en" ? "en/" : ""}${countrySlug(lang(), iso)}`;

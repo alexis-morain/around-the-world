@@ -1,55 +1,92 @@
 ---
 import Visa from "./Visa.astro";
-import type { Lang } from "../lib/logic";
+import type { Kind, Lang } from "../lib/logic";
 import { REPO, t } from "../lib/i18n";
 import { films } from "../lib/films";
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const L = t(lang);
-const n = (l: string) => films.filter((f) => f.level === l).length;
 const fr = lang === "fr";
+const levelOf = (k: Kind, f: (typeof films)[number]) => (k === "film" ? f.level : k === "book" ? f.book?.level : f.series?.level);
+const n = (k: Kind, l: string) => films.filter((f) => levelOf(k, f) === l).length;
+const total = (k: Kind) => films.filter((f) => levelOf(k, f)).length;
+const counts = (k: Kind) => ["A", "B", "C", "D"].map((l) => `${n(k, l)} ${fr ? "en" : "at"} ${l}`).join(", ");
 ---
 <div class="page-head"><h1 class="display">{L.methodTitle}</h1></div>
 <div class="prose">
   {fr ? (
     <>
-      <p><strong>La question : quel film national les gens de chaque pays ont-ils le plus vu ?</strong> Pas le plus gros succès à l’export, pas le mieux noté par la critique. Le film qu’un pays est allé voir.</p>
-      <p>Un film compte pour un pays si sa production et son équipe créative viennent de là, s’il est tourné dans une langue du pays, et si c’est une fiction. L’animation est acceptée. Un même film ne sert qu’une fois.</p>
+      <p><strong>La question : quel film, quel livre et quelle série les gens de chaque pays ont-ils le plus vus ou lus ?</strong> Pas le plus gros succès à l’export, pas le mieux noté par la critique. L’œuvre que le pays a vraiment choisie.</p>
+      <p>Un pays, trois œuvres, le même poids. Chacune porte son niveau de fiabilité, parce que la donnée n’existe pas partout : on connaît les entrées en salle de la France, pas les ventes de livres du Tuvalu.</p>
+      <p>Une œuvre compte pour un pays si son auteur ou son équipe de production vient de là, et si elle est écrite ou tournée dans une langue du pays. Une œuvre ne sert qu’une fois.</p>
       <h2>Quatre niveaux de fiabilité</h2>
-      <p>Chaque fiche porte le niveau de son choix. Sur {films.length} pays et territoires : {n("A")} en A, {n("B")} en B, {n("C")} en C, {n("D")} en D.</p>
+      <p>A : un chiffre ou une source explicite. B : pas de chiffre, mais un signal solide. C : un signal faible. D : dernier recours. Les critères changent d’un type à l’autre, ils sont détaillés ci-dessous.</p>
     </>
   ) : (
     <>
-      <p><strong>The question: which national film did people in each country watch the most?</strong> Not the biggest export hit, not the critics’ favourite. The film a country actually went to see.</p>
-      <p>A film counts for a country if its production and creative team come from there, if it is in a language spoken there, and if it is fiction. Animation is allowed. A film is used only once.</p>
+      <p><strong>The question: which film, which book and which series did people in each country watch or read the most?</strong> Not the biggest export hit, not the critics’ favourite. The work a country actually chose.</p>
+      <p>One country, three works, the same weight. Each carries its own reliability level, because the data does not exist everywhere: we know France’s cinema admissions, not Tuvalu’s book sales.</p>
+      <p>A work counts for a country if its author or production team comes from there, and if it is written or shot in a language spoken there. A work is used only once.</p>
       <h2>Four levels of reliability</h2>
-      <p>Every film page shows the level of its pick. Out of {films.length} countries and territories: {n("A")} at A, {n("B")} at B, {n("C")} at C, {n("D")} at D.</p>
+      <p>A: a figure or an explicit source. B: no figure, but a solid signal. C: a weak signal. D: last resort. The criteria differ from one type to the next and are detailed below.</p>
     </>
   )}
-  {["A", "B", "C", "D", "none", "seen"].map((l) => <Visa level={l} lang={lang} kicker={false} />)}
+
+  <h2>{L.kind.film.plural}</h2>
+  {fr ? (
+    <p>Une fiction, animation acceptée. On prend le film national qui a fait le plus d’entrées dans le pays, ou à défaut le plus de recettes. Sans box-office publié, le film du pays le plus noté sur TMDB (50 votes minimum). Sur {total("film")} films : {counts("film")}.</p>
+  ) : (
+    <p>A fiction film, animation allowed. We take the national film with the most admissions in the country, or failing that the highest gross. With no published box office, the country’s most-rated film on TMDB (50 votes minimum). Out of {total("film")} films: {counts("film")}.</p>
+  )}
+  {["A", "B", "C", "D"].map((l) => <Visa kind="film" level={l} lang={lang} kicker={false} />)}
+
+  <h2>{L.kind.book.plural}</h2>
   {fr ? (
     <>
+      <p>Une œuvre littéraire (roman, nouvelles, poésie, théâtre, conte, bande dessinée) d’un auteur du pays. Les textes sacrés et politiques sont écartés. Un auteur d’un État disparu compte pour le pays où il est né. Sur {total("book")} livres : {counts("book")}.</p>
+      <p>Niveau A : les ventes cumulées dans le pays, un sondage national sur les livres les plus lus, ou un classique du programme scolaire cité comme tel par une source. Niveau B : au moins 10 articles Wikipédia. Niveau C : moins de 10. Niveau D : choix manuel sans signal. Quand un livre n’a pas de page Wikidata, la fiche renvoie à sa source.</p>
+    </>
+  ) : (
+    <>
+      <p>A literary work (novel, short stories, poetry, drama, tale, comics) by an author from the country. Sacred and political texts are left out. An author from a state that no longer exists counts for the country where they were born. Out of {total("book")} books: {counts("book")}.</p>
+      <p>Level A: cumulative sales in the country, a national survey of the most-read books, or a school curriculum classic cited as such by a source. Level B: at least 10 Wikipedia articles. Level C: fewer than 10. Level D: manual pick with no signal. When a book has no Wikidata page, its page links to the source instead.</p>
+    </>
+  )}
+  {["A", "B", "C", "D"].map((l) => <Visa kind="book" level={l} lang={lang} kicker={false} />)}
+
+  <h2>{L.kind.series.plural}</h2>
+  {fr ? (
+    <>
+      <p>Une fiction télévisée ou en streaming, produite d’abord dans le pays, animation acceptée. L’information, la téléréalité, les jeux et les talk-shows sont écartés. Sur {total("series")} séries : {counts("series")}.</p>
+      <p>Niveau A : une audience mesurée dans le pays (Médiamétrie, Nielsen, BARB…), le classement d’une plateforme nationale, ou une source explicite. Niveau B : au moins 50 votes sur TMDB. Niveau C : moins de 50. Niveau D : choix manuel sans signal. Une série absente de TMDB renvoie à sa source et porte une affiche typographique.</p>
+    </>
+  ) : (
+    <>
+      <p>A TV or streaming fiction, produced first in the country, animation allowed. News, reality TV, game shows and talk shows are left out. Out of {total("series")} series: {counts("series")}.</p>
+      <p>Level A: an audience measured in the country (Médiamétrie, Nielsen, BARB…), a national platform’s ranking, or an explicit source. Level B: at least 50 votes on TMDB. Level C: fewer than 50. Level D: manual pick with no signal. A series missing from TMDB links to its source and gets a typographic poster.</p>
+    </>
+  )}
+  {["A", "B", "C", "D"].map((l) => <Visa kind="series" level={l} lang={lang} kicker={false} />)}
+
+  {fr ? (
+    <>
+      <h2>Le suivi</h2>
+      <p>« Vu » et « ma liste » se règlent œuvre par œuvre : le film, le livre et la série d’un même pays se cochent séparément. Le suivi reste dans votre navigateur, rien n’est envoyé.</p>
+      <Visa kind="film" level="seen" lang={lang} kicker={false} />
       <h2>Les limites</h2>
-      <p>Les records mélangent les époques : la Pologne et le Royaume-Uni ont des records des années 1950 comptés en entrées, d’autres pays des records récents comptés en recettes. Une vingtaine de choix ont été vérifiés à part, et chaque arbitrage manuel est expliqué sur la fiche du film.</p>
+      <p>Les records mélangent les époques : la Pologne et le Royaume-Uni ont des records de films des années 1950 comptés en entrées, d’autres pays des records récents comptés en recettes. Les chiffres de ventes et d’audience sont rapportés tels que la source les donne, en français. Chaque arbitrage manuel est expliqué sur la fiche.</p>
       <p>Les notes IMDb, TMDB et Rotten Tomatoes ne servent pas au classement : elles aident à choisir sa soirée.</p>
-      <h2>Le livre et la série</h2>
-      <p>Chaque fiche propose aussi un livre et une série du pays. Ils sont choisis automatiquement, sans recherche de ventes ni d’audiences.</p>
-      <p><strong>Le livre</strong> : l’œuvre littéraire (roman, poésie, théâtre, nouvelles) d’un auteur du pays, écrite dans une langue du pays, qui a des articles dans le plus grand nombre de Wikipédias. Les textes sacrés et politiques sont écartés. Un auteur d’un État disparu compte pour le pays où il est né.</p>
-      <p><strong>La série</strong> : la série produite d’abord dans le pays qui a reçu le plus de votes sur TMDB, hors information, téléréalité et talk-shows. L’animation est acceptée.</p>
-      <p>Sous 10 articles Wikipédia ou 50 votes TMDB, la fiche signale un choix fragile.</p>
       <p>Une erreur, un meilleur candidat ? Les données et le code sont sur <a href={REPO}>GitHub</a>, les corrections sourcées sont bienvenues.</p>
     </>
   ) : (
     <>
+      <h2>Tracking</h2>
+      <p>“Done” and “my list” are set work by work: a country’s film, book and series are ticked separately. Tracking stays in your browser, nothing is sent.</p>
+      <Visa kind="film" level="seen" lang={lang} kicker={false} />
       <h2>Limits</h2>
-      <p>Records span eras: Poland and the UK have 1950s records counted in admissions, other countries recent records counted in revenue. About twenty picks were checked separately, and every manual call is explained on the film’s page (notes are in French).</p>
-      <p>IMDb, TMDB and Rotten Tomatoes ratings play no part in the ranking: they help you pick a movie night.</p>
-      <h2>The book and the series</h2>
-      <p>Every page also suggests a book and a series from the country. They are picked automatically, without sales or audience research.</p>
-      <p><strong>The book</strong>: the literary work (novel, poetry, drama, short stories) by an author from the country, written in a language of the country, with articles in the most Wikipedias. Sacred and political texts are left out. An author from a state that no longer exists counts for the country where they were born.</p>
-      <p><strong>The series</strong>: the series produced first in the country with the most votes on TMDB, excluding news, reality TV and talk shows. Animation is allowed.</p>
-      <p>Below 10 Wikipedia articles or 50 TMDB votes, the page flags a tentative pick.</p>
+      <p>Records span eras: Poland and the UK have 1950s film records counted in admissions, other countries recent records counted in revenue. Sales and audience figures are reported as the source gives them, in French. Every manual call is explained on the country’s page.</p>
+      <p>IMDb, TMDB and Rotten Tomatoes ratings play no part in the ranking: they help you pick a night in.</p>
       <p>Spotted a mistake or a better candidate? Data and code are on <a href={REPO}>GitHub</a>, sourced corrections are welcome.</p>
     </>
   )}

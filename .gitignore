@@ -12,3 +12,6 @@ data/raw/*_log.txt
 .impeccable/
 .playwright-mcp/
 .taste-skill/
+data/raw/bs_tmdb.json
+lab/
+/films.json

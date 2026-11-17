@@ -1,0 +1,30 @@
+---
+/* Page partageable d'un pays : la fiche, puis d'autres pays du même continent. */
+import Base from "../layouts/Base.astro";
+import CountryDetail from "./CountryDetail.astro";
+import Row from "./Row.astro";
+import { tileHtml } from "../lib/cards";
+import { backdropSrc, clientIndex, countryName, localTitle, hasFilm, posterSrc, seriesPosterSrc, type Film } from "../lib/films";
+import { countrySlug, workTitle, type Lang } from "../lib/logic";
+import { href, t } from "../lib/i18n";
+
+interface Props { film: Film; lang: Lang }
+const { film: f, lang } = Astro.props;
+const L = t(lang);
+const other: Lang = lang === "fr" ? "en" : "fr";
+const country = countryName(f.iso2, lang);
+const titles = [hasFilm(f) && localTitle(f, lang), f.book && workTitle(f.book, lang), f.series && workTitle(f.series, lang)].filter(Boolean) as string[];
+const title = titles.length ? `${country} : ${titles.join(", ")}` : country;
+const desc = lang === "fr"
+  ? `Le film, le livre et la série de ${country} : ${titles.join(", ")}. Le choix de chaque œuvre est sourcé et son niveau de fiabilité affiché.`
+  : `The film, the book and the series of ${country}: ${titles.join(", ")}. Every pick is sourced and its reliability level shown.`;
+const image = backdropSrc(f) || (hasFilm(f) && f.poster ? posterSrc(f, "w780") : f.series?.poster ? seriesPosterSrc(f.series, "w780") : "");
+const col = new Intl.Collator(lang);
+const index = clientIndex(lang);
+const near = index.filter((c) => c.continent === f.continent && c.iso !== f.iso2 && Object.keys(c.works).length).sort((a, b) => col.compare(a.name, b.name));
+---
+<Base lang={lang} page="country" solidHeader title={title} description={desc} image={image} alt={href(other, countrySlug(other, f.iso2))}>
+  <CountryDetail film={f} lang={lang}>
+    <div data-near><Row id="row-near" title={L.sameRegion(L.continents[f.continent] || "")} cards={near.map((c) => tileHtml(c, lang))} lang={lang} tiles /></div>
+  </CountryDetail>
+</Base>

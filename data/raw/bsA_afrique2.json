@@ -1,0 +1,812 @@
+[
+ {
+  "iso2": "ZA",
+  "book": {
+   "level": "A",
+   "title_original": "Kringe in 'n bos",
+   "title_fr": "Cercles dans la forêt",
+   "title_en": "Circles in a Forest",
+   "author": "Dalene Matthee",
+   "year": 1984,
+   "language": "af",
+   "wikidata": "Q55607665",
+   "metric": "sales",
+   "value": "308 091 exemplaires vendus pour les 4 éditions afrikaans (chiffre éditeur cité dans une étude de 2004), roman inscrit au programme scolaire",
+   "source_url": "https://repository.up.ac.za/server/api/core/bitstreams/538d0080-d69e-44f3-a996-4cec69985e6c/content",
+   "note": "Chiffre ancien (2004) et gonflé par les lectures imposées. Concurrent : Spud de John van de Ruit (anglais), présenté comme le roman sud-africain le plus vendu avec 80 000 à 100 000 exemplaires (Imraan Coovadia, Five Books, 2011), donc moins que Matthee. Disgrace (choix automatique) n'a aucune source de ventes ou de lecture au pays."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "Uzalo",
+   "title_fr": "Uzalo",
+   "title_en": "Uzalo",
+   "year": 2015,
+   "language": "zu",
+   "tmdb_id": 239120,
+   "metric": "ratings",
+   "value": "Émission la plus regardée du pays, 1re chaque mois de janvier à novembre 2024 (BRCSA) ; épisode le plus vu de 2024 : 5,7 millions ; 10,2 millions de téléspectateurs annoncés par la SABC en 2018",
+   "source_url": "https://techcentral.co.za/south-africas-most-watched-tv-shows-2024/256608",
+   "note": "Mesure BRCSA (Nielsen), linéaire seulement. Autres sources : MyBroadband (oct. 2024, 4,81 millions) et SABC 2018. Blood & Water (choix automatique) est un titre Netflix sans mesure d'audience nationale."
+  }
+ },
+ {
+  "iso2": "AO",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidats sans source de lecture nationale : Luuanda (Luandino Vieira), Mayombe (Pepetela). Les livres les plus connus se rapportant à l'Angola sur Goodreads sont d'Agualusa, sans mesure nationale (https://fromtheheartofeurope.eu/the-best-known-books-set-in-each-country-angola)."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "BW",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "A Question of Power (Bessie Head, née en Afrique du Sud, citoyenne du Botswana) : aucune source de lecture nationale trouvée."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "BI",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Baho ! de Roland Rugero : aucune source de lecture ou de ventes burundaise."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "ER",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source de ventes, de sondage national ou de programme scolaire trouvée."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "SZ",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source de ventes, de sondage national ou de programme scolaire trouvée."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "ET",
+  "book": {
+   "level": "A",
+   "title_original": "ፍቅር እስከ መቃብር",
+   "title_fr": "L'Amour jusqu'au tombeau",
+   "title_en": "Love Unto Crypt",
+   "author": "Haddis Alemayehu",
+   "year": 1966,
+   "language": "am",
+   "wikidata": "Q13146588",
+   "metric": "canon",
+   "value": "Texte au programme de littérature amharique des lycées éthiopiens, onze éditions, lu en feuilleton à la radio",
+   "source_url": "https://arefe.wordpress.com/2008/10/17/remembering-haddis-alemayehu",
+   "note": "Pas de chiffre de ventes. Thèse AAU : « le seul roman éthiopien publié onze fois ». Wikipédia : l'un des romans les plus lus d'Éthiopie. Source principale : blog Addis Journal (secondaire), recoupée par la thèse https://etd.aau.edu.et/server/api/core/bitstreams/33fa0d55-8931-4f17-9e0a-323b8e3db938/content"
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Kana TV (34 % de part de marché, mars 2017, Kantar-GeoPoll) domine, mais ses 8 des 10 meilleures audiences sont des séries turques doublées, non nationales (https://en.wikipedia.org/wiki/Television_in_Ethiopia). Betoch (sitcom amharique) est citée comme « l'une des émissions les plus regardées d'EBC » (The Reporter, 2022), sans chiffre ni rang : insuffisant."
+  }
+ },
+ {
+  "iso2": "KE",
+  "book": {
+   "level": "A",
+   "title_original": "Kidagaa Kimemwozea",
+   "title_fr": "",
+   "title_en": "",
+   "author": "Ken Walibora",
+   "year": 2012,
+   "language": "sw",
+   "wikidata": "",
+   "metric": "canon",
+   "value": "Livre imposé au lycée kényan depuis 2013, l'un des livres scolaires les plus piratés du pays (jusqu'à environ 400 000 exemplaires par an pour un livre imposé, estimation de la Kenya Publishers Association)",
+   "source_url": "https://www.bbc.co.uk/news/world-africa-52397678",
+   "note": "Remplace Enfant, ne pleure pas (anglais, aucune source de lecture nationale). Le chiffre de 400 000 exemplaires vaut pour les livres imposés en général, pas pour ce titre précisément (https://kenyanbooks.wordpress.com/2014/05/29/these-are-kenyas-most-pirated-books). Siku Njema du même auteur fut imposé de 1997 à 2003. QID Wikidata non trouvé (limitation de débit de l'API)."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "Maria",
+   "title_fr": "Maria",
+   "title_en": "Maria",
+   "year": 2019,
+   "language": "sw",
+   "tmdb_id": null,
+   "metric": "ratings",
+   "value": "Programme le plus regardé du pays au T4 2019, 31,77 % de part d'audience en moyenne à 19h30 en semaine (GeoPoll)",
+   "source_url": "https://www.geopoll.com/blog/audience-ratings-q4-2019-kenya/",
+   "note": "Mesure sur un trimestre, pas un record absolu. 2e : Auntie Boss (NTV) 12,26 %. Absente de TMDB. Country Queen (choix automatique) est un titre Netflix sans audience nationale. Citizen TV annonce 6 à 8 millions de spectateurs par épisode en prime time (Kenyans.co.ke 2024), déclaration de la chaîne."
+  }
+ },
+ {
+  "iso2": "LS",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Chaka de Thomas Mofolo (sesotho, 1925) est un classique reconnu, mais je n'ai trouvé ni ventes ni mention de programme scolaire."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "MG",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "L'Aube rouge de Rabearivelo : aucune source de lecture ou de ventes malgache trouvée."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "MW",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "A Love Poem for My Country (Chipasula) sans année ni source de lecture : non retenu."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "MU",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Le Procès-verbal de Le Clézio : auteur franco-mauricien, aucune source de lecture ou de ventes à Maurice. À arbitrer."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Agent (choix automatique) est une série indienne sans lien avec Maurice établi."
+  }
+ },
+ {
+  "iso2": "MZ",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidat : Terra Sonâmbula de Mia Couto (portugais), choisi par un jury de la Foire du livre du Zimbabwe parmi les 12 meilleurs livres africains du XXe siècle (https://www.goodreads.com/book/show/18106157-terra-son-mbula). Classement continental, pas de source nationale de ventes ou de programme."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "NA",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Seul candidat automatique : mémoires de Sam Nujoma (écarté par l'arbitrage existant). Rien d'autre trouvé."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "RW",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Notre-Dame du Nil (Mukasonga) : roman reconnu, mais aucune source de ventes ou de lecture au Rwanda."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "SN",
+  "book": {
+   "level": "A",
+   "title_original": "Une si longue lettre",
+   "title_fr": "Une si longue lettre",
+   "title_en": "So Long a Letter",
+   "author": "Mariama Bâ",
+   "year": 1979,
+   "language": "fr",
+   "wikidata": "Q7549373",
+   "metric": "canon",
+   "value": "Plus de 750 000 exemplaires vendus dans le monde, inscrit au programme scolaire sénégalais",
+   "source_url": "https://www.lepoint.fr/afrique/une-si-longue-lettre-au-cinema-46-ans-apres-le-roman-de-mariama-ba-renait-en-un-film-brulant-d-actualite-12-07-2025-2594231_3826.php",
+   "note": "Les 750 000 exemplaires sont mondiaux, pas sénégalais. Roman inscrit au programme scolaire (Le Point, Wikipédia). Remplace Les Contes d'Amadou Koumba, sans source de lecture. Le QID Q7549373 est celui de l'édition anglaise 1981, un autre élément Q136557098 existe : à vérifier."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "Maîtresse d'un homme marié",
+   "title_fr": "Maîtresse d'un homme marié",
+   "title_en": "Mistress of a Married Man",
+   "year": 2019,
+   "language": "wo",
+   "tmdb_id": 312497,
+   "metric": "streaming",
+   "value": "Entre 2 et 5 millions de vues par épisode sur YouTube dont 65 % depuis le Sénégal (Marodi), 1,5 million de vues en moyenne par épisode en saison 1",
+   "source_url": "https://www.lemonde.fr/afrique/article/2020/10/25/les-series-senegalaises-a-l-assaut-de-la-planete-pour-faire-de-dakar-un-petit-hollywood_6057309_3212.html",
+   "note": "Présentée comme la série qui a lancé l'essor des séries sénégalaises ; pas de mesure d'audience télé indépendante. Tournée en wolof, sous-titrée en français. Remplace Sakho et Mangane (4 votes TMDB, aucune audience). Autres sources : https://fr.wikipedia.org/wiki/Ma%C3%AEtresse_d'un_homme_mari%C3%A9 et https://www.nytimes.com/2019/08/22/world/africa/senegal-mistress-of-a-married-man.html"
+  }
+ },
+ {
+  "iso2": "SC",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Une tortue se rappelle ! d'Antoine Abel (1977) : aucune source de ventes ou de lecture trouvée."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "SL",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Beneath the Tamarind Tree d'Isha Sesay est un récit documentaire, hors œuvre littéraire. Aucun substitut trouvé."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "SO",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Poèmes de Mohammed Abdullah Hassan retenus par arbitrage, aucune source de lecture ou de ventes trouvée."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "SD",
+  "book": {
+   "level": "A",
+   "title_original": "موسم الهجرة إلى الشمال",
+   "title_fr": "Saison de la migration vers le nord",
+   "title_en": "Season of Migration to the North",
+   "author": "Tayeb Salih",
+   "year": 1966,
+   "language": "ar",
+   "wikidata": "Q921128",
+   "metric": "survey",
+   "value": "Élu « roman arabe le plus important du XXe siècle » en 2001 par l'Académie littéraire arabe de Damas ; 1er du classement Banipal des 100 meilleurs romans arabes (61 nominations)",
+   "source_url": "http://news.bbc.co.uk/2/hi/africa/7896724.stm",
+   "note": "Le classement est panarabe (écrivains et critiques), pas un sondage de lecteurs soudanais : le critère « livre le plus lu au Soudan » n'est pas documenté. Banipal : https://thearabweekly.com/banipal-magazines-revealing-list-100-best-arabic-novels"
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "SS",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "They Poured Fire on Us From the Sky est un récit autobiographique en anglais : hors périmètre « œuvre littéraire »."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "TZ",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Paradise de Gurnah (anglais, auteur installé au Royaume-Uni) n'a aucune source de lecture nationale. Pas de livre swahili classé trouvé."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidates sans mesure : Huba (Maisha Magic Bongo, 14 saisons, finie juin 2026), décrite comme « l'une des plus reconnaissables » (The Citizen, https://www.thecitizen.co.tz/tanzania/news/entertainment/huba-ends-after-nearly-a-decade-on-screen-5509654), sans audience. JQ Knew That (choix automatique) est une série d'enfants anglaise sans source."
+  }
+ },
+ {
+  "iso2": "TG",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Cola Cola jazz de Kangni Alem : aucune source de ventes ou de lecture togolaise."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "TN",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Le poème d'Abou el Kacem Chebbi retenu automatiquement est un poème, sans source de lecture ou de ventes. Enquêtes Emrhod : 61 % des Tunisiens ne lisent aucun livre (https://kapitalis.com/tunisie/2019/04/11/enquete-emrhod-61-des-tunisiens-ne-lisent-pas-du-tout-de-livres), pas de classement de titres trouvé."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "أولاد مفيدة",
+   "title_fr": "Awled Moufida",
+   "title_en": "Sons of Moufida",
+   "year": 2015,
+   "language": "ar",
+   "tmdb_id": 89274,
+   "metric": "ratings",
+   "value": "1re émission du Ramadan 2016 : 34,4 % d'audience moyenne quotidienne, 3,4 millions de téléspectateurs, 73 % de part d'audience (Sigma Conseil) ; 32,1 % et 3,21 millions en 2015",
+   "source_url": "https://www.sigma.tn/Fr/actualites_7_10_D59",
+   "note": "Série tunisienne en dialecte tunisien, El Hiwar Ettounsi. Mesures ponctuelles de Ramadan, pas un record toutes années prouvé. Concurrente : la sitcom Nsibti Laaziza (Nessma), 19 % en 2016, 27,7 % en 2014 (Sigma). Remplace Harga (4 votes TMDB). Au Ramadan 2026, la meilleure fiction citée (Accident) fait 1,2 million (https://www.tuniscope.com/article/425681/actualites/societe/ramadan-tv545110), sous ce record."
+  }
+ },
+ {
+  "iso2": "UG",
+  "book": {
+   "level": "A",
+   "title_original": "Wer pa Lawino",
+   "title_fr": "Chant de Lawino",
+   "title_en": "Song of Lawino",
+   "author": "Okot p'Bitek",
+   "year": 1966,
+   "language": "ach",
+   "wikidata": "Q1809068",
+   "metric": "canon",
+   "value": "Réimprimé 15 fois par East African Educational Publishers en 2011 ; décrit comme l'œuvre littéraire d'Afrique subsaharienne la plus lue",
+   "source_url": "https://muwado.com/the-top-10-ugandan-poetry-books-from-2000-2020",
+   "note": "Poème long (théâtre/poésie accepté). Source faible : blog littéraire pour les 15 réimpressions, pas de chiffre de ventes. « Le plus lu » vient du Bristol Museums (https://collections.bristolmuseums.org.uk/stories/bristols-black-history/okot-pbitek-african-poet-and-post-colonial-pioneer), formule non sourcée. Écrit en acholi, version anglaise de l'auteur de 1966."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "The Hostel (NTV Uganda, anglais) : « n° 1 des programmes de Synovate en 2011 et 2012 » selon Wikipédia (https://en.wikipedia.org/wiki/The_Hostel_(TV_series)), section signalée sans source. Rapport GeoPoll T1 2019 sur les telenovelas non lisible gratuitement. Non retenu faute de preuve."
+  }
+ },
+ {
+  "iso2": "ZM",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Quand le lion a faim de Wilbur Smith (né en Rhodésie du Nord, publié à l'export) sans source de lecture zambienne. Non retenu."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ },
+ {
+  "iso2": "ZW",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidat : Nervous Conditions (Dangarembga, anglais), top 10 des 100 meilleurs livres africains du XXe siècle, « l'un des romans les plus célèbres du Zimbabwe » (https://theconversation.com/nervous-conditions-on-translating-one-of-zimbabwes-most-famous-novels-into-shona-222403) ; aucun programme scolaire ni chiffre de ventes zimbabwéen trouvé."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune mesure d'audience ni classement de presse trouvé pour une série nationale."
+  }
+ }
+]

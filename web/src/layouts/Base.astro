@@ -2,16 +2,17 @@
 import "../styles/global.css";
 import Icon from "../components/Icon.astro";
 import { href, t, REPO } from "../lib/i18n";
-import { updated, withFilm } from "../lib/films";
+import { updated, films } from "../lib/films";
 import type { Lang } from "../lib/logic";
 
 interface Props {
   lang: Lang; title?: string; description?: string; image?: string;
-  page: "home" | "catalogue" | "method" | "film"; alt: string; solidHeader?: boolean;
+  page: "home" | "catalogue" | "method" | "country"; alt: string; solidHeader?: boolean;
 }
 const { lang, title, description, image, page, alt, solidHeader = false } = Astro.props;
 const L = t(lang);
-const fullTitle = title ? `${title} · ${L.htmlTitle}` : L.htmlTitle;
+const fullTitle = title ? `${title} · ${L.htmlTitle}` : `${L.htmlTitle} : ${L.tagline}`;
+const total = films.reduce((n, f) => n + (f.level ? 1 : 0) + (f.book ? 1 : 0) + (f.series ? 1 : 0), 0);
 const desc = description || L.description;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const altUrl = new URL(alt, Astro.site).href;
@@ -39,6 +40,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
   <link rel="canonical" href={canonical} />
   <link rel="alternate" hreflang={lang === "fr" ? "en" : "fr"} href={altUrl} />
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content={L.htmlTitle} />
   <meta property="og:title" content={fullTitle} />
   <meta property="og:description" content={desc} />
   <meta property="og:url" content={canonical} />
@@ -47,12 +49,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
   <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
   <link rel="preconnect" href="https://image.tmdb.org" />
 </head>
-<body data-lang={lang} data-base={base} data-total={withFilm.length}>
+<body data-lang={lang} data-base={base} data-total={total}>
   <a class="skip" href="#main">{L.skip}</a>
   <header class:list={["masthead", { always: solidHeader }]} id="masthead">
     <a class="brand" href={href(lang)}>
-      <svg class="brand-mark" viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="11.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="13" cy="7.6" r="2.4" fill="currentColor"/><circle cx="13" cy="18.4" r="2.4" fill="currentColor"/><circle cx="7.6" cy="13" r="2.4" fill="currentColor"/><circle cx="18.4" cy="13" r="2.4" fill="currentColor"/></svg>
+      <svg class="brand-mark" viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="11.5" fill="none" stroke="currentColor" stroke-width="2"/><ellipse cx="13" cy="13" rx="5" ry="11.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M2 13h22M4 7.6h18M4 18.4h18" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
       <span class="brand-name">{L.brand}</span>
+      <span class="brand-tag">{L.tagline}</span>
     </a>
     <nav class="nav" aria-label="Navigation">
       <a href={href(lang)} aria-current={page === "home" ? "page" : undefined}>{L.nav.home}</a>
@@ -72,7 +75,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
   <footer class="colophon">
     <p>
       {lang === "fr" ? "Données : " : "Data: "}<a href="https://www.themoviedb.org/">TMDB</a>
-      {lang === "fr" ? " (fiches, affiches, plateformes via JustWatch), listes de box-office Wikipedia et instituts nationaux, " : " (films, posters, streaming via JustWatch), Wikipedia box office lists and national film institutes, "}
+      {lang === "fr" ? " (films et séries, affiches, plateformes via JustWatch), " : " (films and series, posters, streaming via JustWatch), "}
+      <a href="https://www.wikidata.org/">Wikidata</a>{lang === "fr" ? " et Wikipédia (livres), " : " and Wikipedia (books), "}
+      <a href="https://openlibrary.org/">Open Library</a>{lang === "fr" ? " (couvertures), listes de box-office Wikipedia et instituts nationaux, " : " (covers), Wikipedia box office lists and national film institutes, "}
       <a href="https://filmsaroundthe.world/">Films Around the World</a>{lang === "fr" ? " pour les choix éditoriaux. Carte : Natural Earth via world-atlas. " : " for editorial picks. Map: Natural Earth via world-atlas. "}
       {L.updated(date)} <a href={REPO}>{lang === "fr" ? "Code et données sur GitHub" : "Code and data on GitHub"}</a>.
     </p>
@@ -80,13 +85,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     <p>{L.tmdbNotice}</p>
   </footer>
 
-  <dialog class="sheet" id="sheet" aria-labelledby="film-title">
+  <dialog class="sheet" id="sheet" aria-labelledby="country-title">
     <button type="button" class="tool btn-icon sheet-close" data-sheet-close aria-label={L.close}><Icon name="close" /></button>
     <div id="sheet-body"></div>
   </dialog>
   <p class="toast" id="toast" role="status"></p>
   <p class="visually-hidden" id="announce" role="status"></p>
-  <script id="strings" type="application/json" set:html={JSON.stringify({ progress: L.progress(-1, -2).replace("-1", "{n}").replace("-2", "{t}"), copied: L.copied, addList: L.addList, inList: L.inList, daily: L.daily, drawn: L.drawn, mapKeyNone: L.mapKeyNone, mapError: L.mapError, loading: "…" })} />
+  <script id="strings" type="application/json" set:html={JSON.stringify({ progress: L.progress(-1, -2).replace("-1", "{n}").replace("-2", "{t}"), copied: L.copied, addList: L.addList, inList: L.inList, daily: L.daily, drawn: L.drawn, mapError: L.mapError, mapSeen: L.mapTipSeen, loading: "…" })} />
   <script>
     import "../scripts/app";
   </script>

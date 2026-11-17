@@ -1,10 +1,20 @@
 /* Logique pure partagée entre le build et le navigateur : tirage du jour, filtres, tri, formats. */
 
 export type Lang = "fr" | "en";
-export type SortKey = "country" | "imdb" | "rt" | "new" | "old" | "runtime";
+export type Kind = "film" | "book" | "series";
+export const KINDS: Kind[] = ["film", "book", "series"];
+export type SortKey = "country" | "imdb" | "rt" | "new" | "old" | "runtime" | "pop";
 
-/** Ce que le catalogue sait d'un film pour le filtrer et le trier (lu dans les attributs data-*). */
+/** Les tris proposés à chaque type d'œuvre. pop : articles Wikipédia (livre) ou votes TMDB (série). */
+export const SORTS: Record<Kind, SortKey[]> = {
+  film: ["country", "imdb", "rt", "new", "old", "runtime"],
+  book: ["country", "pop", "new", "old"],
+  series: ["country", "pop", "new", "old"],
+};
+
+/** Ce que le catalogue sait d'une œuvre pour la filtrer et la trier (lu dans les attributs data-*). */
 export interface Item {
+  kind: Kind;
   iso: string;
   country: string;
   title: string;
@@ -18,6 +28,7 @@ export interface Item {
   fr: boolean;
   imdb: number | null;
   rt: number | null;
+  pop: number | null;
 }
 
 export interface Filters {
@@ -33,12 +44,63 @@ export interface Filters {
   list: boolean;
 }
 
-/** Numéro du jour local : le film du jour change à minuit chez le visiteur. */
+/** Clé de suivi d'une œuvre : « film:FR », « book:FR », « series:FR ». */
+export const workKey = (kind: Kind, iso: string) => `${kind}:${iso}`;
+
+/**
+  Suivi « vu » et « ma liste ». Le nouveau stockage gagne s'il existe ; sinon on reprend une fois
+  l'ancien (codes pays de films seuls, « FR ») en les passant au format « film:FR ».
+*/
+export function loadTracking(raw: string | null, legacy: string | null): Set<string> {
+  if (raw !== null) return parseIdSet(raw);
+  return new Set([...parseIdSet(legacy)].map((k) => (k.includes(":") ? k : workKey("film", k))));
+}
+
+export type MapMode = Kind | "all";
+export interface MapState { state: "none" | "open" | "seen"; seen: number; of: number }
+
+/** Ce que la carte montre d'un pays : aucune œuvre du type choisi, à voir, ou vu (avec le compte en mode Tout). */
+export function mapState(mode: MapMode, avail: Kind[], iso: string, seen: Set<string>): MapState {
+  const kinds = mode === "all" ? avail : avail.filter((k) => k === mode);
+  if (!kinds.length) return { state: "none", seen: 0, of: 0 };
+  const n = kinds.filter((k) => seen.has(workKey(k, iso))).length;
+  return { state: n ? "seen" : "open", seen: n, of: kinds.length };
+}
+
+/** Les pays dont toutes les œuvres sont vues (jamais un pays sans œuvre). */
+export function completedCountries(avail: Record<string, Kind[]>, seen: Set<string>): Set<string> {
+  const out = new Set<string>();
+  for (const [iso, kinds] of Object.entries(avail)) {
+    if (kinds.length && kinds.every((k) => seen.has(workKey(k, iso)))) out.add(iso);
+  }
+  return out;
+}
+
+/** Chemin de la fiche d'un pays dans chaque langue, et celui de l'ancienne fiche film (qui redirige). */
+export const countrySlug = (lang: Lang, iso: string) => `${lang === "fr" ? "pays" : "country"}/${iso.toLowerCase()}/`;
+export const legacySlug = (_lang: Lang, iso: string) => `film/${iso.toLowerCase()}/`;
+
+/** Année en tête d'une chaîne (« 2004 », « 2004-05-01 »), sinon null. */
+export function yearOf(s: string): number | null {
+  const m = /^(\d{4})/.exec(s || "");
+  return m ? Number(m[1]) : null;
+}
+
+/** Dessin de la couverture typographique : une teinte (6) et une mise en page (4), stables pour un pays et un titre. */
+export function coverSeed(iso: string, title: string): { tone: number; layout: number } {
+  let h = 7;
+  for (const c of iso + "|" + title) h = (h * 31 + c.charCodeAt(0)) % 100003;
+  let g = 5;
+  for (const c of iso) g = (g * 41 + c.charCodeAt(0)) % 9973;
+  return { tone: h % 6, layout: g % 4 };
+}
+
+/** Numéro du jour local : le pays du jour change à minuit chez le visiteur. */
 export function dayNumber(d: Date): number {
   return Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000);
 }
 
-/** Même film toute la journée, en sautant les films déjà vus tant qu'il en reste. */
+/** Même pays toute la journée, en sautant les pays déjà vus tant qu'il en reste. */
 export function pickDaily(pool: string[], seen: Set<string>, d: Date): string | null {
   if (!pool.length) return null;
   const start = (dayNumber(d) * 7919) % pool.length;
@@ -70,12 +132,16 @@ export function matches(f: Item, flt: Filters, ctx: { seen: Set<string>; list: S
   if (flt.continent && f.continent !== flt.continent) return false;
   if (flt.level && f.level !== flt.level) return false;
   if (flt.decade && (!f.year || Math.floor(f.year / 10) * 10 !== Number(flt.decade))) return false;
-  if (flt.duration && runtimeBucket(f.runtime) !== flt.duration) return false;
   if (flt.lang && f.lang !== flt.lang) return false;
-  if (flt.fr && !f.fr) return false;
-  if (flt.anim && !f.anim) return false;
-  if (flt.unseen && ctx.seen.has(f.iso)) return false;
-  if (flt.list && !ctx.list.has(f.iso)) return false;
+  // durée, « en France » et animation n'existent que pour les films
+  if (f.kind === "film") {
+    if (flt.duration && runtimeBucket(f.runtime) !== flt.duration) return false;
+    if (flt.fr && !f.fr) return false;
+    if (flt.anim && !f.anim) return false;
+  }
+  const key = workKey(f.kind, f.iso);
+  if (flt.unseen && ctx.seen.has(key)) return false;
+  if (flt.list && !ctx.list.has(key)) return false;
   const q = fold(flt.q.trim());
   if (q && !fold(`${f.country} ${f.title} ${f.alt}`).includes(q)) return false;
   return true;
@@ -102,6 +168,7 @@ export function sortItems(items: Item[], key: SortKey, lang: Lang): Item[] {
     new: byNumber((f) => f.year, -1),
     old: byNumber((f) => f.year, 1),
     runtime: byNumber((f) => f.runtime, 1),
+    pop: byNumber((f) => f.pop, -1),
   }[key];
   return [...items].sort((a, b) => cmp(a, b) || byCountry(a, b));
 }
@@ -112,10 +179,16 @@ export function fmtRating(v: number, kind: "imdb" | "tmdb" | "rt", lang: Lang): 
   return v.toLocaleString(loc, { minimumFractionDigits: 1, maximumFractionDigits: 1 });
 }
 
-/** Classe de taille du titre du billboard : s jusqu'à 22 caractères, m jusqu'à 40, l au-delà. */
+/** Classe de taille d'un titre d'affiche : s jusqu'à 22 caractères, m jusqu'à 40, l au-delà. */
 export function titleLen(title: string): "s" | "m" | "l" {
   const n = [...title].length;
   return n <= 22 ? "s" : n <= 40 ? "m" : "l";
+}
+
+/** Taille du nom de pays en grand : s jusqu'à 9 caractères, m jusqu'à 16, l au-delà. */
+export function nameLen(name: string): "s" | "m" | "l" {
+  const n = [...name].length;
+  return n <= 9 ? "s" : n <= 16 ? "m" : "l";
 }
 
 /** Titre d'un livre ou d'une série : langue de la page, puis titre original, puis l'autre langue. */
@@ -135,4 +208,33 @@ export const isThin = (kind: keyof typeof THIN, n: number) => n < THIN[kind];
 export function byAuthor(name: string, lang: Lang): string {
   if (lang === "en") return `by ${name}`;
   return /^[aeiouyàâäéèêëîïôöùûüœæ]/i.test(name) ? `d’${name}` : `de ${name}`;
+}
+
+export interface LinkTarget { id: "wikipedia" | "tmdb" | "source"; url: string }
+
+/**
+  Liens externes d'un livre ou d'une série, sans jamais en inventer : pas de qid (livre absent de Wikidata)
+  donc pas de Wikipédia, pas de tmdb_id (série absente de TMDB) donc pas de TMDB. La source citée s'ajoute
+  dès qu'elle diffère de la page déjà proposée.
+*/
+export function workLinks(kind: "book" | "series", w: { qid?: string; tmdb_id?: number | null; source_url?: string; wiki_fr?: string; wiki_en?: string }, lang: Lang): LinkTarget[] {
+  const out: LinkTarget[] = [];
+  let own = "";
+  if (kind === "book") {
+    const article = (lang === "fr" ? w.wiki_fr : w.wiki_en) || (w.qid ? wikiUrl(w.qid, lang) : "");
+    if (article) out.push({ id: "wikipedia", url: article });
+    if (w.qid) own = `https://www.wikidata.org/wiki/${w.qid}`;
+  }
+  if (kind === "series" && w.tmdb_id) { own = `https://www.themoviedb.org/tv/${w.tmdb_id}`; out.push({ id: "tmdb", url: own }); }
+  if (w.source_url && w.source_url !== own) out.push({ id: "source", url: w.source_url });
+  return out;
+}
+
+/** Le résumé dans la langue de la page, ou l'autre langue en repli (avec la langue réelle du texte), ou rien si les deux manquent. */
+export function pickOverview(fr: string | undefined, en: string | undefined, lang: Lang): { text: string; lang: Lang; fallback: boolean } {
+  const own = (lang === "fr" ? fr : en) || "";
+  if (own) return { text: own, lang, fallback: false };
+  const other: Lang = lang === "fr" ? "en" : "fr";
+  const text = (other === "fr" ? fr : en) || "";
+  return { text, lang: text ? other : lang, fallback: !!text };
 }
