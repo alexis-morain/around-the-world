@@ -16,6 +16,8 @@ export interface Film {
   trailer?: string;
   book?: Book | null;
   series?: Series | null;
+  /** Film le mieux noté du pays sur Letterboxd, quand il diffère du film retenu (scripts/letterboxd_best.py). */
+  lb_best?: { tmdb_id: number; slug: string; year: string; orig: string; fr: string; en: string } | null;
 }
 /** Champs communs au livre et à la série après la fusion de la recherche (scripts/books_series.py). */
 interface WorkMeta { overview_fr?: string; overview_en?: string; level: string; metric: string; value: string; source_url: string; research_note?: string }

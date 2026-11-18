@@ -77,6 +77,7 @@ const counts = (k: Kind) => ["A", "B", "C", "D"].map((l) => `${n(k, l)} ${fr ? "
       <h2>Les limites</h2>
       <p>Les records mélangent les époques : la Pologne et le Royaume-Uni ont des records de films des années 1950 comptés en entrées, d’autres pays des records récents comptés en recettes. Les chiffres de ventes et d’audience sont rapportés tels que la source les donne, en français. Chaque arbitrage manuel est expliqué sur la fiche.</p>
       <p>Les notes IMDb, TMDB et Rotten Tomatoes ne servent pas au classement : elles aident à choisir sa soirée.</p>
+      <p>Sous le film le plus vu, la fiche cite parfois le film du pays le mieux noté sur Letterboxd, d’après <a href="https://letterboxd.com/matiaslunae/list/the-best-movie-from-every-country-in-the/">la liste de Matias Luna</a> (octobre 2025). Il n’apparaît que s’il vient du pays et diffère du choix du site.</p>
       <p>Une erreur, un meilleur candidat ? Les données et le code sont sur <a href={REPO}>GitHub</a>, les corrections sourcées sont bienvenues.</p>
     </>
   ) : (
@@ -87,6 +88,7 @@ const counts = (k: Kind) => ["A", "B", "C", "D"].map((l) => `${n(k, l)} ${fr ? "
       <h2>Limits</h2>
       <p>Records span eras: Poland and the UK have 1950s film records counted in admissions, other countries recent records counted in revenue. Sales and audience figures are reported as the source gives them, in French. Every manual call is explained on the country’s page.</p>
       <p>IMDb, TMDB and Rotten Tomatoes ratings play no part in the ranking: they help you pick a night in.</p>
+      <p>Below the most-watched film, a country’s page sometimes names its best-rated film on Letterboxd, taken from <a href="https://letterboxd.com/matiaslunae/list/the-best-movie-from-every-country-in-the/">Matias Luna’s list</a> (October 2025). It only shows when the film comes from the country and differs from the site’s pick.</p>
       <p>Spotted a mistake or a better candidate? Data and code are on <a href={REPO}>GitHub</a>, sourced corrections are welcome.</p>
     </>
   )}

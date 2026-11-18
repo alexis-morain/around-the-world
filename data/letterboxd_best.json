@@ -1,0 +1,933 @@
+{
+ "source": "https://letterboxd.com/matiaslunae/list/the-best-movie-from-every-country-in-the/",
+ "films": {
+  "AD": {
+   "tmdb_id": 1367416,
+   "slug": "the-evil-eye-2024",
+   "year": "2024",
+   "orig": "El mal donat",
+   "fr": "El mal donat",
+   "en": "The Evil Eye"
+  },
+  "AE": {
+   "tmdb_id": 1284426,
+   "slug": "alfiya-ahmed",
+   "year": "2024",
+   "orig": "Alfiya & Ahmed",
+   "fr": "Alfiya & Ahmed",
+   "en": "Alfiya & Ahmed"
+  },
+  "AL": {
+   "tmdb_id": 286368,
+   "slug": "red-poppies-on-the-wall",
+   "year": "1976",
+   "orig": "Lulëkuqet mbi mure",
+   "fr": "Coquelicots rouges sur les murs",
+   "en": "Red Poppies on the Wall"
+  },
+  "AR": {
+   "tmdb_id": 25376,
+   "slug": "the-secret-in-their-eyes",
+   "year": "2009",
+   "orig": "El secreto de sus ojos",
+   "fr": "Dans ses yeux",
+   "en": "The Secret in Their Eyes"
+  },
+  "AT": {
+   "tmdb_id": 32761,
+   "slug": "the-seventh-continent",
+   "year": "1989",
+   "orig": "Der siebente Kontinent",
+   "fr": "Le Septième Continent",
+   "en": "The Seventh Continent"
+  },
+  "AU": {
+   "tmdb_id": 24238,
+   "slug": "mary-and-max",
+   "year": "2009",
+   "orig": "Mary and Max",
+   "fr": "Mary et Max.",
+   "en": "Mary and Max"
+  },
+  "AZ": {
+   "tmdb_id": 524601,
+   "slug": "the-day-passed",
+   "year": "1971",
+   "orig": "Gün Keçdi",
+   "fr": "Gün Keçdi",
+   "en": "The Day Passed"
+  },
+  "BA": {
+   "tmdb_id": 728118,
+   "slug": "quo-vadis-aida",
+   "year": "2020",
+   "orig": "Quo Vadis, Aida?",
+   "fr": "La Voix d'Aïda",
+   "en": "Quo Vadis, Aida?"
+  },
+  "BB": {
+   "tmdb_id": 640584,
+   "slug": "daybreak-2015",
+   "year": "2015",
+   "orig": "Daybreak",
+   "fr": "Daybreak",
+   "en": "Daybreak"
+  },
+  "BD": {
+   "tmdb_id": 91777,
+   "slug": "monpura",
+   "year": "2009",
+   "orig": "মনপুরা",
+   "fr": "মনপুরা",
+   "en": "Monpura"
+  },
+  "BH": {
+   "tmdb_id": 1503220,
+   "slug": "the-dark-side-of-japan",
+   "year": "2025",
+   "orig": "الجانب المظلم من اليابان",
+   "fr": "الجانب المظلم من اليابان",
+   "en": "The dark side of Japan"
+  },
+  "BO": {
+   "tmdb_id": 913820,
+   "slug": "utama",
+   "year": "2022",
+   "orig": "Utama",
+   "fr": "Utama : la terre oubliée",
+   "en": "Utama"
+  },
+  "BR": {
+   "tmdb_id": 598,
+   "slug": "city-of-god",
+   "year": "2002",
+   "orig": "Cidade de Deus",
+   "fr": "La Cité de Dieu",
+   "en": "City of God"
+  },
+  "BS": {
+   "tmdb_id": 39366,
+   "slug": "rain-2008-2",
+   "year": "2008",
+   "orig": "Rain",
+   "fr": "Rain",
+   "en": "Rain"
+  },
+  "BT": {
+   "tmdb_id": 1109237,
+   "slug": "the-monk-and-the-gun",
+   "year": "2023",
+   "orig": "The Monk and the Gun",
+   "fr": "Le Moine et le fusil",
+   "en": "The Monk and the Gun"
+  },
+  "BY": {
+   "tmdb_id": 25237,
+   "slug": "come-and-see",
+   "year": "1985",
+   "orig": "Иди и смотри",
+   "fr": "Requiem pour un massacre",
+   "en": "Come and See"
+  },
+  "CA": {
+   "tmdb_id": 46738,
+   "slug": "incendies",
+   "year": "2010",
+   "orig": "Incendies",
+   "fr": "Incendies",
+   "en": "Incendies"
+  },
+  "CH": {
+   "tmdb_id": 1175235,
+   "slug": "riverboom",
+   "year": "2023",
+   "orig": "Riverboom",
+   "fr": "Riverboom",
+   "en": "Riverboom"
+  },
+  "CL": {
+   "tmdb_id": 132144,
+   "slug": "the-battle-of-chile-part-i",
+   "year": "1975",
+   "orig": "La batalla de Chile (Parte 1). La insurrección de la burguesía",
+   "fr": "La bataille du Chili, Partie 1 : L'insurrection de la bourgeoisie",
+   "en": "The Battle of Chile: Part I"
+  },
+  "CN": {
+   "tmdb_id": 10997,
+   "slug": "farewell-my-concubine",
+   "year": "1993",
+   "orig": "霸王别姬",
+   "fr": "Adieu ma concubine",
+   "en": "Farewell My Concubine"
+  },
+  "CO": {
+   "tmdb_id": 336808,
+   "slug": "embrace-of-the-serpent",
+   "year": "2015",
+   "orig": "El abrazo de la serpiente",
+   "fr": "L'Étreinte du serpent",
+   "en": "Embrace of the Serpent"
+  },
+  "CR": {
+   "tmdb_id": 1232350,
+   "slug": "memories-of-a-burning-body",
+   "year": "2024",
+   "orig": "Memorias de un cuerpo que arde",
+   "fr": "Mémoires d’un corps brûlant",
+   "en": "Memories of a Burning Body"
+  },
+  "CY": {
+   "tmdb_id": 1264402,
+   "slug": "africa-star",
+   "year": "2024",
+   "orig": "Africa Star",
+   "fr": "Africa Star",
+   "en": "Africa Star"
+  },
+  "CZ": {
+   "tmdb_id": 18352,
+   "slug": "the-cremator",
+   "year": "1969",
+   "orig": "Spalovač mrtvol",
+   "fr": "L’Incinérateur de cadavres",
+   "en": "The Cremator"
+  },
+  "DE": {
+   "tmdb_id": 832,
+   "slug": "m",
+   "year": "1931",
+   "orig": "M - Eine Stadt sucht einen Mörder",
+   "fr": "M le maudit",
+   "en": "M"
+  },
+  "DK": {
+   "tmdb_id": 48035,
+   "slug": "ordet",
+   "year": "1955",
+   "orig": "Ordet",
+   "fr": "Ordet",
+   "en": "Ordet"
+  },
+  "DM": {
+   "tmdb_id": 713492,
+   "slug": "uncivilized",
+   "year": "2019",
+   "orig": "Uncivilized",
+   "fr": "Uncivilized",
+   "en": "Uncivilized"
+  },
+  "DO": {
+   "tmdb_id": 1234410,
+   "slug": "bionicos-bachata",
+   "year": "2024",
+   "orig": "La Bachata de Bionico",
+   "fr": "La Bachata de Bionico",
+   "en": "Bionico's Bachata"
+  },
+  "EG": {
+   "tmdb_id": 68738,
+   "slug": "kit-kat",
+   "year": "1991",
+   "orig": "الكيت كات",
+   "fr": "الكيت كات",
+   "en": "Kit Kat"
+  },
+  "ES": {
+   "tmdb_id": 51857,
+   "slug": "cria",
+   "year": "1976",
+   "orig": "Cría cuervos",
+   "fr": "Cría cuervos",
+   "en": "Cria!"
+  },
+  "FI": {
+   "tmdb_id": 7294,
+   "slug": "the-man-without-a-past",
+   "year": "2002",
+   "orig": "Mies vailla menneisyyttä",
+   "fr": "L'Homme sans passé",
+   "en": "The Man Without a Past"
+  },
+  "FJ": {
+   "tmdb_id": 88082,
+   "slug": "reel-paradise",
+   "year": "2005",
+   "orig": "Reel Paradise",
+   "fr": "Reel Paradise",
+   "en": "Reel Paradise"
+  },
+  "FM": {
+   "tmdb_id": 346073,
+   "slug": "papa-mau-the-wayfinder",
+   "year": "2010",
+   "orig": "Papa Mau",
+   "fr": "Papa Mau",
+   "en": "Papa Mau: The Wayfinder"
+  },
+  "FR": {
+   "tmdb_id": 406,
+   "slug": "la-haine",
+   "year": "1995",
+   "orig": "La Haine",
+   "fr": "La Haine",
+   "en": "La Haine"
+  },
+  "GD": {
+   "tmdb_id": 911779,
+   "slug": "forward-ever-the-killing-of-a-revolution",
+   "year": "2013",
+   "orig": "Forward Ever: The Killing of a Revolution",
+   "fr": "Forward Ever: The Killing of a Revolution",
+   "en": "Forward Ever: The Killing of a Revolution"
+  },
+  "GE": {
+   "tmdb_id": 142798,
+   "slug": "blue-mountains-or-an-unbelievable-story",
+   "year": "1983",
+   "orig": "ცისფერი მთები ანუ დაუჯერებელი ამბავი",
+   "fr": "Les Montagnes bleues",
+   "en": "Blue Mountains, or an Unbelievable Story"
+  },
+  "GM": {
+   "tmdb_id": 448439,
+   "slug": "jahas-promise",
+   "year": "2017",
+   "orig": "Jaha's Promise",
+   "fr": "Jaha's Promise",
+   "en": "Jaha's Promise"
+  },
+  "GN": {
+   "tmdb_id": 1061651,
+   "slug": "the-cemetery-of-cinema",
+   "year": "2023",
+   "orig": "Au cimetière de la pellicule",
+   "fr": "Au cimetière de la pellicule",
+   "en": "The Cemetery of Cinema"
+  },
+  "GW": {
+   "tmdb_id": 218117,
+   "slug": "those-whom-death-refused",
+   "year": "1988",
+   "orig": "Mortu Nega",
+   "fr": "Mortu Nega",
+   "en": "Those Whom Death Refused"
+  },
+  "GY": {
+   "tmdb_id": 402103,
+   "slug": "the-terror-and-the-time",
+   "year": "1978",
+   "orig": "The Terror and the Time",
+   "fr": "The Terror and the Time",
+   "en": "The Terror and the Time"
+  },
+  "HK": {
+   "tmdb_id": 843,
+   "slug": "in-the-mood-for-love",
+   "year": "2000",
+   "orig": "花樣年華",
+   "fr": "In the Mood for Love",
+   "en": "In the Mood for Love"
+  },
+  "HN": {
+   "tmdb_id": 1121276,
+   "slug": "with-this-light",
+   "year": "2022",
+   "orig": "Con esta luz",
+   "fr": "Con esta luz",
+   "en": "With This Light"
+  },
+  "HR": {
+   "tmdb_id": 1403843,
+   "slug": "fiume-o-morte",
+   "year": "2025",
+   "orig": "Fiume o morte!",
+   "fr": "Fiume ou la mort !",
+   "en": "Fiume o morte!"
+  },
+  "HU": {
+   "tmdb_id": 31414,
+   "slug": "satantango",
+   "year": "1994",
+   "orig": "Sátántangó",
+   "fr": "Le Tango de Satan",
+   "en": "Satantango"
+  },
+  "IE": {
+   "tmdb_id": 110416,
+   "slug": "song-of-the-sea",
+   "year": "2014",
+   "orig": "Song of the Sea",
+   "fr": "Le Chant de la mer",
+   "en": "Song of the Sea"
+  },
+  "IL": {
+   "tmdb_id": 8885,
+   "slug": "waltz-with-bashir",
+   "year": "2008",
+   "orig": "ואלס עם באשיר",
+   "fr": "Valse avec Bachir",
+   "en": "Waltz with Bashir"
+  },
+  "IN": {
+   "tmdb_id": 896,
+   "slug": "apur-sansar",
+   "year": "1959",
+   "orig": "অপুর সংসার",
+   "fr": "Le Monde d'Apu",
+   "en": "The World of Apu"
+  },
+  "IR": {
+   "tmdb_id": 30017,
+   "slug": "close-up",
+   "year": "1990",
+   "orig": "کلوزآپ ، نمای نزدیک",
+   "fr": "Close-up",
+   "en": "Close-Up"
+  },
+  "IS": {
+   "tmdb_id": 14793,
+   "slug": "heima",
+   "year": "2007",
+   "orig": "Heima",
+   "fr": "Heima",
+   "en": "Heima"
+  },
+  "IT": {
+   "tmdb_id": 429,
+   "slug": "the-good-the-bad-and-the-ugly",
+   "year": "1966",
+   "orig": "Il buono, il brutto, il cattivo",
+   "fr": "Le Bon, la Brute et le Truand",
+   "en": "The Good, the Bad and the Ugly"
+  },
+  "JM": {
+   "tmdb_id": 15717,
+   "slug": "rockers",
+   "year": "1978",
+   "orig": "Rockers",
+   "fr": "Rockers",
+   "en": "Rockers"
+  },
+  "JO": {
+   "tmdb_id": 856437,
+   "slug": "farha",
+   "year": "2021",
+   "orig": "Farha",
+   "fr": "Farha",
+   "en": "Farha"
+  },
+  "JP": {
+   "tmdb_id": 14537,
+   "slug": "harakiri",
+   "year": "1962",
+   "orig": "切腹",
+   "fr": "Harakiri",
+   "en": "Harakiri"
+  },
+  "KE": {
+   "tmdb_id": 493915,
+   "slug": "supa-modo",
+   "year": "2018",
+   "orig": "Supa Modo",
+   "fr": "Supa Modo",
+   "en": "Supa Modo"
+  },
+  "KG": {
+   "tmdb_id": 853760,
+   "slug": "ala-kachuu-take-and-run",
+   "year": "2020",
+   "orig": "Ala kachuu",
+   "fr": "Ala Kachuu - Take and Run",
+   "en": "Ala Kachuu – Take and Run"
+  },
+  "KM": {
+   "tmdb_id": 276190,
+   "slug": "ashes-of-dreams",
+   "year": "2011",
+   "orig": "L'Ivresse d'une Oasis",
+   "fr": "L'Ivresse d'une Oasis",
+   "en": "Ashes of Dreams"
+  },
+  "KP": {
+   "tmdb_id": 186105,
+   "slug": "the-flower-girl",
+   "year": "1972",
+   "orig": "꽃파는 처녀",
+   "fr": "La Fille aux fleurs",
+   "en": "The Flower Girl"
+  },
+  "KR": {
+   "tmdb_id": 496243,
+   "slug": "parasite-2019",
+   "year": "2019",
+   "orig": "기생충",
+   "fr": "Parasite",
+   "en": "Parasite"
+  },
+  "KW": {
+   "tmdb_id": 352975,
+   "slug": "the-sword-of-the-arabs",
+   "year": "1992",
+   "orig": "مسرحية سيف العرب",
+   "fr": "مسرحية سيف العرب",
+   "en": "The Sword Of The Arabs"
+  },
+  "KZ": {
+   "tmdb_id": 160156,
+   "slug": "harmony-lessons",
+   "year": "2013",
+   "orig": "Уроки гармонии",
+   "fr": "Leçons d'harmonie",
+   "en": "Harmony Lessons"
+  },
+  "LA": {
+   "tmdb_id": 1309940,
+   "slug": "satu-year-of-the-rabbit",
+   "year": "2024",
+   "orig": "Satu - Year of the Rabbit",
+   "fr": "Satu - Year of the Rabbit",
+   "en": "Satu - Year of the Rabbit"
+  },
+  "LB": {
+   "tmdb_id": 329293,
+   "slug": "children-of-shatila",
+   "year": "1998",
+   "orig": "أطفال شاتيلا",
+   "fr": "Children of Shatila",
+   "en": "Children of Shatila"
+  },
+  "LI": {
+   "tmdb_id": 851179,
+   "slug": "nail-2016",
+   "year": "2016",
+   "orig": "Цвях",
+   "fr": "Цвях",
+   "en": "Nail"
+  },
+  "LR": {
+   "tmdb_id": 8929,
+   "slug": "johnny-mad-dog",
+   "year": "2008",
+   "orig": "Johnny Mad Dog",
+   "fr": "Johnny Mad Dog",
+   "en": "Johnny Mad Dog"
+  },
+  "LU": {
+   "tmdb_id": 286545,
+   "slug": "troublemaker",
+   "year": "1988",
+   "orig": "Troublemaker",
+   "fr": "Troublemaker",
+   "en": "Troublemaker"
+  },
+  "LY": {
+   "tmdb_id": 26842,
+   "slug": "the-message-1976",
+   "year": "1976",
+   "orig": "The Message",
+   "fr": "Le Message",
+   "en": "The Message"
+  },
+  "MD": {
+   "tmdb_id": 1043352,
+   "slug": "love-is-not-an-orange",
+   "year": "2022",
+   "orig": "Love Is Not an Orange",
+   "fr": "Love Is Not an Orange",
+   "en": "Love Is Not an Orange"
+  },
+  "ME": {
+   "tmdb_id": 4560,
+   "slug": "the-beauty-of-vice",
+   "year": "1986",
+   "orig": "Lepota poroka",
+   "fr": "La beauté du péché",
+   "en": "The Beauty of Vice"
+  },
+  "MK": {
+   "tmdb_id": 566213,
+   "slug": "honeyland-2019",
+   "year": "2019",
+   "orig": "Медена земја",
+   "fr": "Honeyland",
+   "en": "Honeyland"
+  },
+  "ML": {
+   "tmdb_id": 62652,
+   "slug": "bamako",
+   "year": "2006",
+   "orig": "Bamako",
+   "fr": "Bamako",
+   "en": "Bamako"
+  },
+  "MM": {
+   "tmdb_id": 287250,
+   "slug": "thingyan-rain",
+   "year": "1985",
+   "orig": "သင်္ကြန်မိုး",
+   "fr": "သင်္ကြန်မိုး",
+   "en": "Thingyan Rain"
+  },
+  "MN": {
+   "tmdb_id": 1393,
+   "slug": "the-cave-of-the-yellow-dog",
+   "year": "2005",
+   "orig": "Шар нохойн там",
+   "fr": "Le Chien jaune de Mongolie",
+   "en": "The Cave of the Yellow Dog"
+  },
+  "MT": {
+   "tmdb_id": 776544,
+   "slug": "luzzu",
+   "year": "2021",
+   "orig": "Luzzu",
+   "fr": "Luzzu",
+   "en": "Luzzu"
+  },
+  "MU": {
+   "tmdb_id": 837163,
+   "slug": "the-children-of-troumaron",
+   "year": "2012",
+   "orig": "Les enfants de Troumaron",
+   "fr": "Les enfants de Troumaron",
+   "en": "The Children of Troumaron"
+  },
+  "MW": {
+   "tmdb_id": 491480,
+   "slug": "the-boy-who-harnessed-the-wind",
+   "year": "2019",
+   "orig": "The Boy Who Harnessed the Wind",
+   "fr": "Le Garçon qui dompta le vent",
+   "en": "The Boy Who Harnessed the Wind"
+  },
+  "MX": {
+   "tmdb_id": 122019,
+   "slug": "macario",
+   "year": "1960",
+   "orig": "Macario",
+   "fr": "Macario",
+   "en": "Macario"
+  },
+  "MY": {
+   "tmdb_id": 120624,
+   "slug": "mukhsin",
+   "year": "2006",
+   "orig": "Mukhsin",
+   "fr": "Mukhsin",
+   "en": "Mukhsin"
+  },
+  "MZ": {
+   "tmdb_id": 337279,
+   "slug": "mueda-memory-and-massacre",
+   "year": "1980",
+   "orig": "Mueda, Memória e Massacre",
+   "fr": "Mueda, Memória e Massacre",
+   "en": "Mueda, Memory and Massacre"
+  },
+  "NA": {
+   "tmdb_id": 1340353,
+   "slug": "my-fk-marelize",
+   "year": "2025",
+   "orig": "My F*k, Marelize!",
+   "fr": "My F*k, Marelize!",
+   "en": "My F*k, Marelize!"
+  },
+  "NG": {
+   "tmdb_id": 1432605,
+   "slug": "my-fathers-shadow-2025",
+   "year": "2025",
+   "orig": "My Father's Shadow",
+   "fr": "Un jour avec mon père",
+   "en": "My Father's Shadow"
+  },
+  "NL": {
+   "tmdb_id": 216095,
+   "slug": "metal-and-melancholy",
+   "year": "1994",
+   "orig": "Metaal en melancholie",
+   "fr": "Metaal en melancholie",
+   "en": "Metal and Melancholy"
+  },
+  "NO": {
+   "tmdb_id": 50254,
+   "slug": "edvard-munch",
+   "year": "1974",
+   "orig": "Edvard Munch",
+   "fr": "Edvard Munch, la danse de la vie",
+   "en": "Edvard Munch"
+  },
+  "PA": {
+   "tmdb_id": 1326068,
+   "slug": "beloved-tropic",
+   "year": "2024",
+   "orig": "Querido Trópico",
+   "fr": "Querido Trópico",
+   "en": "Beloved Tropic"
+  },
+  "PE": {
+   "tmdb_id": 53123,
+   "slug": "the-mouth-of-the-wolf-1988",
+   "year": "1988",
+   "orig": "La Boca del Lobo",
+   "fr": "La Boca del Lobo",
+   "en": "The Mouth of the Wolf"
+  },
+  "PH": {
+   "tmdb_id": 70580,
+   "slug": "manila-in-the-claws-of-light",
+   "year": "1975",
+   "orig": "Maynila sa mga Kuko ng Liwanag",
+   "fr": "Manille",
+   "en": "Manila in the Claws of Light"
+  },
+  "PK": {
+   "tmdb_id": 962571,
+   "slug": "joyland-2022",
+   "year": "2022",
+   "orig": "جوائے لینڈ",
+   "fr": "Joyland",
+   "en": "Joyland"
+  },
+  "PS": {
+   "tmdb_id": 1232493,
+   "slug": "no-other-land",
+   "year": "2024",
+   "orig": "لا أرض أخرى",
+   "fr": "No Other Land",
+   "en": "No Other Land"
+  },
+  "PT": {
+   "tmdb_id": 469172,
+   "slug": "manoels-destinies",
+   "year": "1984",
+   "orig": "Manuel na Ilha das Maravilhas",
+   "fr": "Manuel na Ilha das Maravilhas",
+   "en": "Manoel’s Destinies"
+  },
+  "PY": {
+   "tmdb_id": 1404184,
+   "slug": "under-the-flags-the-sun",
+   "year": "2025",
+   "orig": "Bajo las banderas, el sol",
+   "fr": "Derrière les drapeaux, le soleil",
+   "en": "Under the Flags, the Sun"
+  },
+  "RO": {
+   "tmdb_id": 2009,
+   "slug": "4-months-3-weeks-and-2-days",
+   "year": "2007",
+   "orig": "4 luni, 3 săptămâni și 2 zile",
+   "fr": "4 mois, 3 semaines, 2 jours",
+   "en": "4 Months, 3 Weeks and 2 Days"
+  },
+  "RS": {
+   "tmdb_id": 11902,
+   "slug": "underground-1995",
+   "year": "1995",
+   "orig": "Подземље",
+   "fr": "Underground",
+   "en": "Underground"
+  },
+  "RU": {
+   "tmdb_id": 38360,
+   "slug": "the-cranes-are-flying",
+   "year": "1957",
+   "orig": "Летят журавли",
+   "fr": "Quand passent les cigognes",
+   "en": "The Cranes Are Flying"
+  },
+  "SA": {
+   "tmdb_id": 129112,
+   "slug": "wadjda",
+   "year": "2012",
+   "orig": "Das Mädchen Wadjda",
+   "fr": "Wadjda",
+   "en": "Wadjda"
+  },
+  "SD": {
+   "tmdb_id": 577054,
+   "slug": "talking-about-trees",
+   "year": "2019",
+   "orig": "Talking About Trees",
+   "fr": "Talking About Trees",
+   "en": "Talking About Trees"
+  },
+  "SE": {
+   "tmdb_id": 5961,
+   "slug": "fanny-and-alexander",
+   "year": "1982",
+   "orig": "Fanny och Alexander",
+   "fr": "Fanny et Alexandre",
+   "en": "Fanny and Alexander"
+  },
+  "SG": {
+   "tmdb_id": 188598,
+   "slug": "ilo-ilo",
+   "year": "2013",
+   "orig": "爸妈不在家",
+   "fr": "Ilo Ilo",
+   "en": "Ilo Ilo"
+  },
+  "SK": {
+   "tmdb_id": 25905,
+   "slug": "the-shop-on-main-street",
+   "year": "1965",
+   "orig": "Obchod na korze",
+   "fr": "Le Miroir aux alouettes",
+   "en": "The Shop on Main Street"
+  },
+  "SN": {
+   "tmdb_id": 103203,
+   "slug": "camp-de-thiaroye",
+   "year": "1988",
+   "orig": "Camp de Thiaroye",
+   "fr": "Camp de Thiaroye",
+   "en": "Camp de Thiaroye"
+  },
+  "SS": {
+   "tmdb_id": 928364,
+   "slug": "no-simple-way-home",
+   "year": "2022",
+   "orig": "No Simple Way Home",
+   "fr": "Mère de la Nation",
+   "en": "No Simple Way Home"
+  },
+  "ST": {
+   "tmdb_id": 347257,
+   "slug": "little-fruit-from-the-equator",
+   "year": "1998",
+   "orig": "Früchtchen - Am Äquator ist alles möglich",
+   "fr": "Früchtchen - Am Äquator ist alles möglich",
+   "en": "Little Fruit from the Equator"
+  },
+  "SV": {
+   "tmdb_id": 25168,
+   "slug": "the-crazy-life",
+   "year": "2008",
+   "orig": "La vida loca",
+   "fr": "La vida loca",
+   "en": "The Crazy Life"
+  },
+  "SZ": {
+   "tmdb_id": 461844,
+   "slug": "liyana",
+   "year": "2017",
+   "orig": "Liyana",
+   "fr": "Liyana",
+   "en": "Liyana"
+  },
+  "TD": {
+   "tmdb_id": 24171,
+   "slug": "dry-season",
+   "year": "2006",
+   "orig": "Daratt",
+   "fr": "Daratt",
+   "en": "Dry Season"
+  },
+  "TG": {
+   "tmdb_id": 1211326,
+   "slug": "togoland-projections",
+   "year": "2023",
+   "orig": "Togoland Projektionen",
+   "fr": "Togoland Projektionen",
+   "en": "Togoland Projections"
+  },
+  "TH": {
+   "tmdb_id": 1103621,
+   "slug": "how-to-make-millions-before-grandma-dies",
+   "year": "2024",
+   "orig": "หลานม่า",
+   "fr": "Comment devenir riche (grâce à sa grand-mère)",
+   "en": "How to Make Millions Before Grandma Dies"
+  },
+  "TR": {
+   "tmdb_id": 265169,
+   "slug": "winter-sleep",
+   "year": "2014",
+   "orig": "Kış Uykusu",
+   "fr": "Winter Sleep",
+   "en": "Winter Sleep"
+  },
+  "TV": {
+   "tmdb_id": 272778,
+   "slug": "thuletuvalu",
+   "year": "2014",
+   "orig": "ThuleTuvalu",
+   "fr": "ThuleTuvalu",
+   "en": "ThuleTuvalu"
+  },
+  "TW": {
+   "tmdb_id": 25538,
+   "slug": "yi-yi",
+   "year": "2000",
+   "orig": "一一",
+   "fr": "Yi Yi",
+   "en": "Yi Yi"
+  },
+  "TZ": {
+   "tmdb_id": 1231481,
+   "slug": "the-empty-grave",
+   "year": "2024",
+   "orig": "Das leere Grab",
+   "fr": "Das leere Grab",
+   "en": "The Empty Grave"
+  },
+  "US": {
+   "tmdb_id": 389,
+   "slug": "12-angry-men",
+   "year": "1957",
+   "orig": "12 Angry Men",
+   "fr": "Douze hommes en colère",
+   "en": "12 Angry Men"
+  },
+  "UY": {
+   "tmdb_id": 833358,
+   "slug": "film:748957",
+   "year": "2021",
+   "orig": "Bosco",
+   "fr": "Bosco",
+   "en": "Bosco"
+  },
+  "UZ": {
+   "tmdb_id": 613700,
+   "slug": "osmondagi-bolalar",
+   "year": "2002",
+   "orig": "Osmondagi Bolalar",
+   "fr": "Osmondagi Bolalar",
+   "en": "Osmondagi Bolalar"
+  },
+  "VA": {
+   "tmdb_id": 1504841,
+   "slug": "leon-de-peru",
+   "year": "2025",
+   "orig": "León de Perú",
+   "fr": "León de Perú",
+   "en": "León de Perú"
+  },
+  "VE": {
+   "tmdb_id": 89688,
+   "slug": "araya",
+   "year": "1959",
+   "orig": "Araya",
+   "fr": "Araya",
+   "en": "Araya"
+  },
+  "VN": {
+   "tmdb_id": 893030,
+   "slug": "children-of-the-mist",
+   "year": "2021",
+   "orig": "Những Đứa Trẻ Trong Sương",
+   "fr": "Children of the Mist",
+   "en": "Children of the Mist"
+  },
+  "YE": {
+   "tmdb_id": 553082,
+   "slug": "10-days-before-the-wedding",
+   "year": "2018",
+   "orig": "10 أيام قبل الزفة",
+   "fr": "10 days before the wedding",
+   "en": "10 Days Before the Wedding"
+  }
+ }
+}

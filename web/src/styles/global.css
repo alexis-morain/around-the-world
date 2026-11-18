@@ -435,6 +435,7 @@ button, input, select { font: inherit; color: inherit; }
 .visa-d { margin: .3rem 0 0; font-size: .9rem; color: var(--text-2); line-height: 1.5; }
 .figure { margin: 1rem 0 0; font-family: var(--font-display); font-weight: 800; font-size: 1.75rem; line-height: 1.05; }
 .figure-text { font-family: var(--font-sans); font-weight: 600; font-size: 1.02rem; line-height: 1.45; max-width: 60ch; }
+.lb-best a { text-decoration: underline; text-underline-offset: 2px; }
 .details { margin-top: 1.9rem; border-top: 1px solid var(--line); }
 .details summary { cursor: pointer; padding: .9rem 0; font-weight: 600; list-style: none; display: flex; justify-content: space-between; }
 .details summary::after { content: "+"; color: var(--text-3); font-size: 1.2rem; line-height: 1; }

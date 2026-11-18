@@ -64,6 +64,8 @@ def decade(annee):
 
 BS_PATH = ROOT / "data" / "livres_series.json"
 BOOKS_SERIES = json.loads(BS_PATH.read_text()) if BS_PATH.exists() else {}
+LB_PATH = ROOT / "data" / "letterboxd_best.json"
+LB_BEST = json.loads(LB_PATH.read_text())["films"] if LB_PATH.exists() else {}
 
 films = []
 for r in rows:
@@ -91,6 +93,7 @@ for r in rows:
         "trailer": (ratings_row.get("trailer") or {}).get("key", ""),
         "book": (BOOKS_SERIES.get(r["iso2"]) or {}).get("book"),
         "series": (BOOKS_SERIES.get(r["iso2"]) or {}).get("series"),
+        "lb_best": LB_BEST.get(r["iso2"]),
     })
 
 out = {"updated": date.today().isoformat(), "name_to_iso": NAME_TO_ISO, "films": films}

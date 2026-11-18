@@ -61,6 +61,10 @@ const alts = kind === "film" ? ([
 const linkify = (s: string) => esc(s).replace(/(https?:\/\/[^\s)]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
 const note = kind === "film" ? f.note_fr : w?.research_note || "";
 const cover = kind === "book" && book?.cover ? book.cover_credit : "";
+// en regard du plus vu : le mieux noté du pays sur Letterboxd, s'il est différent
+const lb = kind === "film" ? f.lb_best : null;
+const colon = lang === "fr" ? " : " : ": ";
+const lbTitle = lb ? (lang === "fr" ? lb.fr : lb.en) || lb.orig : "";
 ---
 {d ? (
   <section class="work" id={id} data-kind={kind} data-key={d.key} aria-labelledby={`${id}-h`} data-trailer={kind === "film" ? f.trailer || undefined : undefined}>
@@ -103,7 +107,8 @@ const cover = kind === "book" && book?.cover ? book.cover_credit : "";
         <Visa kind={kind} level={level} metric={metric} lang={lang} />
         <div class="seen-stamp"><Visa kind={kind} level="seen" lang={lang} kicker={false} /></div>
         {figure && <p class:list={["figure", { "figure-text": [...figure].length > 38 }]}>{figure}</p>}
-        {kind === "film" && f.runner_up && <p class="muted small">{L.runnerUp} : {f.runner_up}</p>}
+        {kind === "film" && f.runner_up && <p class="muted small">{L.runnerUp}{colon}{f.runner_up}</p>}
+        {lb && <p class="muted small lb-best">{L.lbBest}{colon}<a href={`https://letterboxd.com/film/${lb.slug}/`} target="_blank" rel="noopener">{lbTitle}</a>{lb.year && ` (${lb.year})`}</p>}
       </div>
 
       {kind === "film" && (
@@ -142,6 +147,7 @@ const cover = kind === "book" && book?.cover ? book.cover_credit : "";
       <p class="work-kind"><span class="rule" aria-hidden="true"></span>{K.the}</p>
       <Hw class="work-none" id={`${id}-h`}>{K.none}</Hw>
       {kind === "film" && f.note_fr && <p class="muted small" lang="fr">{f.note_fr}</p>}
+      {lb && <p class="muted small lb-best">{L.lbBest}{colon}<a href={`https://letterboxd.com/film/${lb.slug}/`} target="_blank" rel="noopener">{lbTitle}</a>{lb.year && ` (${lb.year})`}</p>}
       <p class="small"><a href={href(lang, "methode/")}>{L.noWork.howLink}</a></p>
     </div>
   </section>
