@@ -39,7 +39,7 @@ Les autres listes « un film par pays » classent à la note ou à la réputatio
   - série : A audience mesurée ou source explicite, B au moins 50 votes TMDB, C moins, D choix manuel sans signal.
 - Notes IMDb, TMDB et Rotten Tomatoes et bandes-annonces relevées au build (`data/ratings.json`), aucune clé côté client.
 - Bilingue français et anglais. Les notes d'arbitrage et les chiffres de ventes ou d'audience sont en français ; la fiche anglaise le signale.
-- Affiches de films et de séries et résumés viennent de TMDB, avec la mention d'attribution obligatoire. Les plateformes de diffusion en France viennent de JustWatch, via TMDB. Les couvertures de livres viennent d'Open Library (crédit affiché), sinon une couverture typographique dessinée en CSS. Les extraits de livres viennent de Wikipédia (CC BY-SA), crédités avec le lien de l'article.
+- Affiches de films et de séries et résumés viennent de TMDB, avec la mention d'attribution obligatoire. Les plateformes de diffusion en France viennent de JustWatch, via TMDB. Les couvertures de livres viennent d'Open Library (crédit affiché), sinon une couverture typographique dessinée en CSS. Les extraits de livres viennent de Wikipédia (CC BY-SA), crédités avec le lien de l'article. Le film le mieux noté sur Letterboxd vient de la liste de Matias Luna (octobre 2025), cité en page Méthode ; il complète le choix sans le remplacer.
 - Les micro-États sans polygone visible sur la carte sont représentés par un point.
 
 ## Evidence on Hand

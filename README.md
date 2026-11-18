@@ -50,7 +50,7 @@ Every manual call is written down with its reason, in French: [`data/overrides.j
 ## The site
 
 - A country of the day up top, with its film, book and series, then the world map: click a country to open it, or draw one at random.
-- Each country has its own page (`/pays/<code>/`, `/en/country/<code>/`): for each work, the image, original and translated title, synopsis, a stamp saying how reliable the pick is (A to D) and why, the source and links. Films also get ratings, trailer and where to watch in France (via JustWatch).
+- Each country has its own page (`/pays/<code>/`, `/en/country/<code>/`): for each work, the image, original and translated title, synopsis, a stamp saying how reliable the pick is (A to D) and why, the source and links. Films also get ratings, trailer, where to watch in France (via JustWatch) and, when it differs, the country's best-rated film on Letterboxd (from [Matias Luna's list](https://letterboxd.com/matiaslunae/list/the-best-movie-from-every-country-in-the/)).
 - A catalogue with three tabs (films, books, series) you can filter by continent, decade and reliability, then sort.
 - "Seen" and "My list" for every work. The map colours countries by what you have seen, read or watched. Everything stays in your browser (localStorage), no account, nothing sent anywhere.
 - French and English, light and dark themes.
@@ -73,6 +73,7 @@ Requires a free [TMDB API key](https://www.themoviedb.org/settings/api) in a `.e
 python3 scripts/tmdb_tier_b.py      # films, level B: most-rated national films per country (TMDB)
 python3 scripts/build.py            # one film per country, A > B > C > D, applies overrides
 python3 scripts/enrich_ratings.py   # IMDb, TMDB, Rotten Tomatoes ratings and trailers, into data/ratings.json
+python3 scripts/letterboxd_best.py  # best-rated film per country on Letterboxd, into data/letterboxd_best.json
 python3 scripts/books_series.py     # books and series: research > overrides > automatic picks (Wikidata via QLever, TMDB)
 python3 scripts/book_covers.py      # book covers from Open Library, into web/public/covers/
 python3 scripts/export_site.py      # writes web/src/data/films.json
