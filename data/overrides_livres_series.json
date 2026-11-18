@@ -23,6 +23,10 @@
   "book": "Q23307454",
   "note": "Livre : In the Castle of My Skin, premier roman de Lamming et classique de la Barbade, retenu à égalité de sources."
  },
+ "BE": {
+  "book_level": "B",
+  "note": "Livre : niveau B, 4e d'un vote de lecteurs à l'organisateur incertain."
+ },
  "BO": {
   "book": "Q42194838",
   "note": "Livre : Bolívar est vénézuélien : Raza de bronce d'Arguedas retenu."
@@ -31,6 +35,10 @@
   "book": null,
   "note": "Livre : Seul candidat : une autobiographie de Sidney Poitier."
  },
+ "BY": {
+  "book_level": "B",
+  "note": "Livre : niveau B, une seule année de ventes d'un détaillant, extrait seul."
+ },
  "CA": {
   "book_level": "B",
   "note": "Livre : niveau B, chiffre de ventes mondial."
@@ -38,6 +46,10 @@
  "CG": {
   "book_level": "B",
   "note": "Livre : niveau B, classique cité par la presse, sans chiffre."
+ },
+ "CH": {
+  "series_level": "B",
+  "note": "Série : niveau B, chiffre de 1,5 M peu plausible."
  },
  "CM": {
   "book_level": "B",
@@ -59,7 +71,7 @@
  },
  "DK": {
   "book": "Q11859",
-  "note": "Livre : Les contes d'Andersen n'entraient pas dans les types d'œuvres retenus : La Petite Sirène, son conte le plus présent sur Wikipédia."
+  "note": "Livre : Les contes d'Andersen n'entraient pas dans les types d'œuvres retenus : La Petite Sirène, son conte le plus présent sur Wikipédia. Recherche passe 2 : Kongens Fald (votes Politiken et Berlingske 1999) prime."
  },
  "DM": {
   "series": null,
@@ -74,6 +86,10 @@
   "note": "Livre : Les candidats sont des textes latins ou théologiques ; Mémoires de la chair d'Ahlam Mosteghanemi, roman en arabe, retenu. Les auteurs algériens de langue française sont écartés par la règle de langue. Livre : niveau B, ventes dans tout le monde arabe.",
   "book_level": "B"
  },
+ "EE": {
+  "series_level": "B",
+  "note": "Série : niveau B, lectures en ligne et non audience télé."
+ },
  "EG": {
   "book_level": "B",
   "note": "Livre : niveau B, classement panarabe d'écrivains, pas de lecteurs égyptiens. Série : niveau B, sondage universitaire sur un seul Ramadan.",
@@ -82,6 +98,10 @@
  "EH": {
   "book": null,
   "note": "Livre : Seuls candidats : des poèmes latins de Corippe."
+ },
+ "FI": {
+  "series_level": "B",
+  "note": "Série : niveau B, portée annuelle et non classement."
  },
  "FJ": {
   "book": null,
@@ -93,8 +113,9 @@
  },
  "GH": {
   "book": "Q30600501",
-  "note": "Livre : Daughters of Africa est une anthologie dirigée par une Britannique : No Home de Yaa Gyasi retenu. Série : niveau B, record d'une plateforme, origine ghanéenne non vérifiée.",
-  "series_level": "B"
+  "note": "Livre : Daughters of Africa est une anthologie dirigée par une Britannique : No Home de Yaa Gyasi retenu. Série : niveau B, record d'une plateforme, origine ghanéenne non vérifiée. Livre : The Marriage of Anansewa, au programme WAEC commun à cinq pays, niveau B.",
+  "series_level": "B",
+  "book_level": "B"
  },
  "GN": {
   "book_level": "B",
@@ -103,6 +124,14 @@
  "GR": {
   "book": "Q1059553",
   "note": "Livre : Les Vies parallèles de Plutarque sont des biographies : Alexis Zorba de Kazantzakis retenu."
+ },
+ "HK": {
+  "series_level": "B",
+  "note": "Série : niveau B, chiffres de TVB repris par Wikipédia."
+ },
+ "HR": {
+  "series_level": "B",
+  "note": "Série : niveau B, record lu en extraits seulement."
  },
  "HT": {
   "book": "Q3112741",
@@ -135,6 +164,10 @@
   "book": "Q3953479",
   "note": "Livre : Décoloniser l'esprit est un essai : Enfant, ne pleure pas, roman de Ngugi, retenu."
  },
+ "KH": {
+  "book_orig": "ទុំទាវ",
+  "note": "Livre : titre khmer forcé, absent de Wikidata."
+ },
  "KM": {
   "book": "Q137458972",
   "note": "Livre : La Tresse est de Laetitia Colombani, française : Mon étincelle d'Ali Zamir retenu."
@@ -147,6 +180,10 @@
   "book": "Q1196302",
   "note": "Livre : Le Prophète de Khalil Gibran, écrit en anglais, retenu malgré la règle de langue : aucun candidat en arabe n'est documenté."
  },
+ "LK": {
+  "book_orig": "The Seven Moons of Maali Almeida",
+  "note": "Livre : titre original forcé (Wikidata renvoie un titre japonais)."
+ },
  "LR": {
   "book": null,
   "note": "Livre : Seuls candidats : des mémoires et des anthologies peu documentés."
@@ -155,6 +192,10 @@
   "book": "Q7762870",
   "note": "Livre : Le catéchisme de Mažvydas est religieux : Les Saisons de Donelaitis, premier poème lituanien, retenu. Série : Ølhunden Berit est norvégienne ; les séries lituaniennes ont moins de 3 votes.",
   "series": null
+ },
+ "LV": {
+  "series_level": "B",
+  "note": "Série : niveau B, superlatif sans chiffre."
  },
  "LY": {
   "book": "Q18786522",
@@ -210,11 +251,13 @@
  },
  "NG": {
   "book_level": "B",
-  "note": "Livre : niveau B, chiffre de ventes mondial."
+  "note": "Livre : niveau B, chiffre de ventes mondial. Livre : Dream Count (1re des ventes d'une chaîne en 2025) écarté, une seule année.",
+  "book_research": false
  },
  "NO": {
   "book_level": "B",
-  "note": "Livre : niveau B, chiffre de ventes mondial."
+  "note": "Livre : niveau B, chiffre de ventes mondial. Mengele Zoo (vote NRK 2007, 2 491 votants) écarté.",
+  "book_research": false
  },
  "NZ": {
   "series": 71577,
@@ -231,8 +274,7 @@
  },
  "PL": {
   "book_level": "B",
-  "note": "Livre : niveau B, seule base solide : le canon scolaire, sans chiffre. Série : niveau B, presse, sans chiffre.",
-  "series_level": "B"
+  "note": "Livre : niveau B, seule base solide : le canon scolaire, sans chiffre. Série : Ranczo, audience AGB Nielsen (passe 2), niveau A."
  },
  "PS": {
   "book": "Q2895697",
@@ -244,8 +286,7 @@
   "series": null
  },
  "RU": {
-  "book_level": "B",
-  "note": "Livre : niveau B, sondage d'un portail d'emploi, pas d'un institut."
+  "note": "Livre : Guerre et Paix, sondages VTsIOM 2018 et SuperJob (passe 2), niveau A."
  },
  "SA": {
   "book": "Q4120154",
@@ -258,6 +299,10 @@
  "SD": {
   "book_level": "B",
   "note": "Livre : niveau B, classement panarabe d'écrivains, pas de lecteurs soudanais."
+ },
+ "SI": {
+  "series_level": "B",
+  "note": "Série : niveau B, superlatif de presse, chiffres en extrait."
  },
  "SN": {
   "series_level": "B",
@@ -277,6 +322,10 @@
   "note": "Livre : L'Échelle sainte est un texte religieux : La Voile et la tempête de Hanna Mina retenu. Série : niveau B, sondage de suivi, pas d'audience mesurée.",
   "series_level": "B"
  },
+ "TH": {
+  "series_level": "B",
+  "note": "Série : niveau B, record annoncé par le diffuseur."
+ },
  "TM": {
   "book": null,
   "note": "Livre : Le Ruhnama est un texte de propagande de Niazov ; aucun autre candidat littéraire."
@@ -284,6 +333,10 @@
  "TO": {
   "series": null,
   "note": "Série : Seule candidate : une série turque."
+ },
+ "TR": {
+  "book_level": "B",
+  "note": "Livre : niveau B, chiffre d'un seul éditeur arrêté en 2017."
  },
  "TW": {
   "book": "Q5191138",

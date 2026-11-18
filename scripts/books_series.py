@@ -296,9 +296,15 @@ def main():
             # libellés Wikidata parfois faux (titre anglais en guise de titre français)
             book["fr"] = rb.get("title_fr") or book["fr"]
             book["en"] = rb.get("title_en") or book["en"]
+            # champs vides côté Wikidata : ceux de la recherche
+            for f, rf in (("orig", "title_original"), ("author", "author"), ("author_en", "author"), ("year", "year")):
+                if not book.get(f) and rb.get(rf):
+                    book[f] = str(rb[rf])
         if book:
             if o.get("book_en"):
                 book["en"] = o["book_en"]
+            if o.get("book_orig"):
+                book["orig"] = o["book_orig"]
             if o.get("book_level"):
                 book["level"] = o["book_level"]
             sm = summaries.get(book["qid"], {}) if book["qid"] else {}

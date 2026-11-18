@@ -1,0 +1,328 @@
+[
+ {
+  "iso2": "RO",
+  "book": {
+   "level": "none",
+   "note": "Candidat : Moromeții (Preda) cité comme classique par une librairie, sans chiffre ni sondage ; Luceafărul (Eminescu) est le choix actuel. Recherche d'un « Marele Roman / Big Read » roumain : rien trouvé."
+  },
+  "series": {
+   "title_original": "Las Fierbinți",
+   "title_fr": "Las Fierbinți",
+   "title_en": "Las Fierbinți",
+   "year": 2012,
+   "language": "ro",
+   "tmdb_id": 46917,
+   "metric": "ratings",
+   "value": "record d'audience du premier : près de 3 millions de téléspectateurs à la minute de pointe (12 octobre 2012), 11,3 points de rating sur l'ensemble de la population ; « série roumaine la plus regardée depuis l'introduction du peoplemeter » sur la cible de Pro TV",
+   "source_url": "https://www.zf.ro/media-advertising/record-de-audienta-las-fierbinti-circa-3-milioane-de-romani-au-stat-cu-ochii-pe-serialul-pro-tv-10202090",
+   "note": "Page ouverte (Ziarul Financiar, 2012). Le superlatif porte sur la cible commerciale de Pro TV, et la source date de 2012 : des saisons postérieures ont pu faire mieux (radardemedia.ro : pic de 2,2 M plus tard, extrait seulement).",
+   "level": "A"
+  }
+ },
+ {
+  "iso2": "RS",
+  "book": {
+   "level": "none",
+   "note": "Aucun sondage ni chiffre de tirage serbe trouvé ; srpskamisao.rs écrit qu'il n'existe pas de statistique officielle des livres les plus lus. Candidats : Dictionnaire khazar (choix actuel), Derviš i smrt (Selimović), Ivo Andrić."
+  }
+ },
+ {
+  "iso2": "HR",
+  "book": {
+   "level": "none",
+   "note": "Aucun sondage ni chiffre de ventes croate trouvé (extraits de recherche vides). Candidat actuel : Judita de Marulić (1521)."
+  },
+  "series": {
+   "title_original": "Larin izbor",
+   "title_fr": "Larin izbor",
+   "title_en": "Lara's Choice",
+   "year": 2011,
+   "language": "hr",
+   "tmdb_id": 39686,
+   "metric": "ratings",
+   "value": "épisode le plus regardé : 1 220 000 téléspectateurs (Nova TV, 2011), programme le plus regardé de Croatie en 2011 ; plus d'un million par jour en moyenne ; 21,2 % de part de marché en moyenne",
+   "source_url": "https://mojtv.hr/magazin/6170/larin-izbor-u-cetvrtak-gledalo-1220000-gledatelja.aspx",
+   "note": "EXTRAITS DE RÉSULTATS DE RECHERCHE seulement (mojtv.hr, tportal.hr « najgledanija epizoda imala je 1,2 milijuna », novatv.dnevnik.hr) ; pages non ouvertes. Source : mesure Nielsen citée par la presse ; pas de comparaison avec les séries d'avant 2011.",
+   "level": "A"
+  }
+ },
+ {
+  "iso2": "SI",
+  "book": {
+   "level": "none",
+   "note": "Aucune source trouvée. Candidats : Martin Krpan (Levstik) et Hlapec Jernej (Cankar), classiques scolaires non sourcés ici ; Belo se pere na devetdeset (Žakelj) est le plus vendu de 2015-2025 selon cangura.com (extrait de recherche), mais il s'agit d'un témoignage de santé, pas d'un classique."
+  },
+  "series": {
+   "title_original": "Ena žlahtna štorija",
+   "title_fr": "Ena žlahtna štorija",
+   "title_en": "Ena žlahtna štorija",
+   "year": 2015,
+   "language": "sl",
+   "tmdb_id": 70655,
+   "metric": "press",
+   "value": "titre de l'article de siol.net (Planet TV, 12 octobre 2015) : « la série slovène la plus regardée » ; meilleur épisode : 28,44 % de part sur les 18-54 ans, soit 85 000 téléspectateurs",
+   "source_url": "https://siol.net/planet-tv/ena-zlahtna-storija/ena-zlahtna-storija-je-najbolj-gledana-slovenska-serija-446839",
+   "note": "Titre lu sur la page ouverte ; chiffres (28,44 %, 85 000) tirés de l'extrait de recherche, le corps de l'article n'ayant pas été relu. Article de 2015, donc des séries plus récentes (Jezero, Vijolična kot morje) peuvent l'avoir dépassée. Mesure AGB Nielsen.",
+   "level": "A"
+  }
+ },
+ {
+  "iso2": "SK",
+  "book": {
+   "level": "none",
+   "note": "Aucune source de ventes ou de sondage slovaque trouvée."
+  },
+  "series": {
+   "title_original": "Susedia",
+   "title_fr": "Susedia",
+   "title_en": "Susedia",
+   "year": 2006,
+   "language": "sk",
+   "tmdb_id": 36494,
+   "metric": "ratings",
+   "value": "« série originale la plus regardée » de Slovaquie ; dépassait un million de téléspectateurs et 60 % de part de marché (2006-2007) ; le premier épisode de 2018 a attiré près de 1,1 million de téléspectateurs de plus de 12 ans (record)",
+   "source_url": "https://strategie.hnonline.sk/news/media/1765423-susedia-maju-letnu-pauzu-vratia-sa-opat-na-jesen",
+   "note": "Page ouverte (HN Online / Stratégie). sk.wikipedia écrit aussi « le plus regardé des séries slovaques originales produites depuis 1989 » (extrait seulement).",
+   "level": "A"
+  }
+ },
+ {
+  "iso2": "LT",
+  "book": {
+   "level": "none",
+   "note": "Aucun sondage ni chiffre de ventes lituanien trouvé. Candidat actuel : Metai (Donelaitis, 1765), classique scolaire non sourcé ici."
+  },
+  "series": {
+   "level": "none",
+   "note": "Candidat : Moterys meluoja geriau (TMDB 59804, TV3), « la série dramatique lituanienne la plus regardée de tous les temps » selon Wikipédia anglais seulement, sans chiffre ni source ; Giminės (TMDB 228993) a fait 144 000 téléspectateurs et 12,5 % de part en 2015 (TNS LT via kinfo.lt, page ouverte), donc pas un record national."
+  }
+ },
+ {
+  "iso2": "LV",
+  "series": {
+   "title_original": "Likteņa līdumnieki",
+   "title_fr": "Likteņa līdumnieki",
+   "title_en": "Likteņa līdumnieki",
+   "year": 2003,
+   "language": "lv",
+   "tmdb_id": 59157,
+   "metric": "press",
+   "value": "« le feuilleton le plus regardé de tous les temps en Lettonie » (LTV1, 56 épisodes, 2003-2008)",
+   "source_url": "https://www.apollo.lv/5641215/serialam-liktena-lidumnieki-10-gadi",
+   "note": "Page ouverte (article des 10 ans de la série, apollo.lv). Pas de chiffre d'audience ; lv.wikipedia reprend « le plus populaire de tous les temps ».",
+   "level": "A"
+  }
+ },
+ {
+  "iso2": "EE",
+  "book": {
+   "title_original": "Tõde ja õigus",
+   "title_fr": "Vérité et Justice",
+   "title_en": "Truth and Justice",
+   "author": "A. H. Tammsaare",
+   "year": 1926,
+   "language": "et",
+   "wikidata": "Q3737463",
+   "metric": "survey",
+   "value": "1re place du vote « livre préféré de tous les temps » des lecteurs estoniens (Apollo, avec l'Union des écrivains, l'Union des éditeurs et le Centre de littérature jeunesse), devant Kevade d'O. Luts et Rehepapp de Kivirähk ; vote 2024 à un peu plus de 5 100 participants",
+   "source_url": "https://apollo.ee/et/uudised/selgusid-2024-aasta-rahvahaaletuse-lemmikraamatud",
+   "note": "Page ouverte. Vote d'une librairie en ligne (Apollo), pas un institut de sondage ; les 5 100 participants sont ceux du vote entier, pas de la seule catégorie « de tous les temps ».",
+   "level": "A"
+  },
+  "series": {
+   "title_original": "Kättemaksukontor",
+   "title_fr": "Kättemaksukontor",
+   "title_en": "Revenge Office",
+   "year": 2009,
+   "language": "et",
+   "tmdb_id": 112456,
+   "metric": "streaming",
+   "value": "« série la plus regardée d'Estonie sur internet » : 22 145 373 lectures sur TV3 Play (2017) ; pic à la télévision de 254 900 téléspectateurs simultanés (saison 2) ; 161 900 pour le 1er épisode",
+   "source_url": "https://www.ohtuleht.ee/melu/830789/kattemaksukontor-pustitas-internetis-vaatamise-rekordi",
+   "note": "Page ouverte (Õhtuleht, 28 septembre 2017). Chiffre fourni par la chaîne TV3 ; la série a continué jusqu'à 34 saisons, donc le total est plus élevé aujourd'hui. Les lecteurs d'Õhtuleht l'ont aussi élue « meilleure série locale ».",
+   "level": "A"
+  }
+ },
+ {
+  "iso2": "UA",
+  "book": {
+   "level": "none",
+   "note": "Candidat actuel : Кобзар (Chevtchenko). Les extraits trouvés (УІК, « 30 знакових книжок Незалежності », vote de 34 797 personnes) donnent en tête Справа Василя Стуса (Kipiani), un essai documentaire, donc exclu ; aucun sondage de lecteurs de fiction ni chiffre de ventes ukrainien trouvé."
+  },
+  "series": {
+   "level": "none",
+   "note": "Candidat en ukrainien : Спіймати Кайдаша (TMDB 101504, STB, 2020), « 10 millions de téléspectateurs en un mois » selon des communiqués relayés par gwaramedia.com et itc.ua (extraits de recherche) ; parlée en surjyk (mélange ukrainien-russe). Школа (TMDB, 1+1, 2018) : 2 M pour le 1er épisode, 10 M en deux jours (ru.wikipedia, extrait). Aucun des deux n'est présenté comme la plus regardée du pays ni mesuré par un panel : none."
+  }
+ },
+ {
+  "iso2": "BY",
+  "book": {
+   "title_original": "Дзікае паляванне караля Стаха",
+   "title_fr": "La Chasse sauvage du roi Stakh",
+   "title_en": "King Stakh's Wild Hunt",
+   "author": "Ouladzimir Karatkievitch",
+   "year": 1964,
+   "language": "be",
+   "wikidata": "Q2857818",
+   "metric": "sales",
+   "value": "livre le plus vendu de 2023 chez Biełkniha, le détaillant d'État du livre en Biélorussie (déclaration de son directeur, Uładzimir Matusievič)",
+   "source_url": "https://pozirk.online/en/news/72204",
+   "note": "EXTRAIT DE RÉSULTAT DE RECHERCHE seulement : la page (pozirk.online, 72204 et 73274) n'a pas pu être ouverte (délai dépassé). Ventes d'une seule année et d'un seul réseau (d'État). Le classique de Kolas, Новая зямля, est l'autre candidat scolaire.",
+   "level": "A"
+  },
+  "series": {
+   "level": "none",
+   "note": "Recherche web épuisée (quota) avant d'avoir pu chercher ce pays : aucune source consultée."
+  }
+ },
+ {
+  "iso2": "MD",
+  "book": {
+   "level": "none",
+   "note": "Recherche web épuisée (quota) avant d'avoir pu chercher ce pays : aucune source consultée."
+  }
+ },
+ {
+  "iso2": "BG",
+  "series": {
+   "level": "none",
+   "note": "Candidat : Под прикритие (TMDB 43424, BNT), présentée comme « le plus regardé » et « le plus réussi » des séries bulgares (BNT, kafene.bg ; extraits), mais sans chiffre d'audience ni classement."
+  }
+ },
+ {
+  "iso2": "BA",
+  "book": {
+   "level": "none",
+   "note": "Recherche web épuisée (quota) avant d'avoir pu chercher ce pays : aucune source consultée."
+  },
+  "series": {
+   "level": "none",
+   "note": "Recherche web épuisée (quota) avant d'avoir pu chercher ce pays : aucune source consultée."
+  }
+ },
+ {
+  "iso2": "AL",
+  "book": {
+   "level": "none",
+   "note": "Candidat : Gjenerali i ushtrisë së vdekur (Kadare), mais seulement des extraits sur sa reconnaissance internationale (Le Monde) ; aucun chiffre albanais trouvé."
+  },
+  "series": {
+   "level": "none",
+   "note": "Recherche web épuisée (quota) avant d'avoir pu chercher ce pays : aucune source consultée."
+  }
+ },
+ {
+  "iso2": "MK",
+  "book": {
+   "level": "none",
+   "note": "Recherche web épuisée (quota) avant d'avoir pu chercher ce pays : aucune source consultée."
+  },
+  "series": {
+   "level": "none",
+   "note": "Recherche web épuisée (quota) avant d'avoir pu chercher ce pays : aucune source consultée."
+  }
+ },
+ {
+  "iso2": "RU",
+  "book": {
+   "title_original": "Война и мир",
+   "title_fr": "Guerre et Paix",
+   "title_en": "War and Peace",
+   "author": "Léon Tolstoï",
+   "year": 1869,
+   "language": "ru",
+   "wikidata": "Q161531",
+   "metric": "survey",
+   "value": "1er livre cité comme unissant les Russes (VTsIOM, 2018, presque 3 fois plus cité que Pouchkine) ; 12 % « meilleure œuvre » (SuperJob, 2021, 3 000 répondants) devant Le Maître et Marguerite 11 % ; 32 % « lecture obligatoire » (SuperJob, 2012)",
+   "source_url": "https://snob.ru/news/167672/",
+   "note": "Pages ouvertes : snob.ru (VTsIOM 2018), interfax.ru/russia/787081 (SuperJob 2021), rg.ru/2012/01/26/knigi-site.html (SuperJob 2012). Question VTsIOM = « ce qui unit les Russes », pas « livre préféré ». Concurrent : Le Maître et Marguerite (16 % en 2009 selon adindex.ru, extrait seulement ; 9 % en 2026 selon un extrait de résultat de recherche), donc classement serré entre les deux ; Tolstoï l'emporte sur 3 sondages sur 5.",
+   "level": "A"
+  },
+  "series": {
+   "level": "none",
+   "note": "Aucun record historique trouvé. Mediascope cite chaque année la série de l'année (Skliffossovski 11 en 2023-24, Tainy sledstviya 22 avec 5,9 % de rating en 2022, Pervyj otdel en 2023 à 14,9 % de part), ce qui ne dit rien sur le meilleur résultat de tous les temps."
+  }
+ },
+ {
+  "iso2": "PL",
+  "book": {
+   "level": "none",
+   "note": "Lalka (Prus) classée n°1 des meilleurs livres polonais par un classement de lecteurs Goodreads relayé par Elle.pl, donc pas un sondage national ; Pan Tadeusz et Quo vadis ont eu le Narodowe Czytanie (opération de lecture publique, pas un classement). Aucun sondage de lecteurs ni chiffre de ventes polonais trouvé (recherches Wielkie Czytanie / plébiscites : Lubimyczytać ne porte que sur les livres de l'année)."
+  },
+  "series": {
+   "title_original": "Ranczo",
+   "title_fr": "Ranczo",
+   "title_en": "Ranczo",
+   "year": 2006,
+   "language": "pl",
+   "tmdb_id": 33587,
+   "metric": "ratings",
+   "value": "4e saison : 8,28 millions de téléspectateurs en moyenne (AGB Nielsen), 8,7 millions après trois épisodes ; 7,3 millions pour la 6e saison",
+   "source_url": "https://www.press.pl/tresc/16615,czwarta-seria-rancza-w-tvp-1-ma-srednio-8_7-mln-widzow",
+   "note": "Titre de press.pl lu sur la page ouverte (8,7 M, AGB Nielsen) ; 8,28 M (Onet) tiré d'un extrait de recherche. Pas un record absolu de toute l'histoire : Polskie drogi (1977) aurait attiré jusqu'à 18 millions selon des documents de presse non mesurés (Radio ZET), Czterej pancerni i pies (choix précédent) n'a pas de chiffre.",
+   "level": "A"
+  }
+ },
+ {
+  "iso2": "AM",
+  "book": {
+   "level": "none",
+   "note": "Extraits d'une « Carte du livre d'Arménie » de la Bibliothèque nationale d'Arménie (nla.am, prêts en bibliothèques) : Khent de Raffi en tête des dix premiers de septembre, Samvel de Raffi et Gevorg Marzpetuni de Muratsan parmi les dix premiers de février, Tumanyan l'auteur le plus demandé. Page impossible à ouvrir (403) et mois incohérents : candidat Khent (Raffi), non confirmé."
+  },
+  "series": {
+   "level": "none",
+   "note": "Recherche web épuisée (quota) avant d'avoir pu chercher ce pays : aucune source consultée."
+  }
+ },
+ {
+  "iso2": "AZ",
+  "book": {
+   "level": "none",
+   "note": "Recherche web épuisée (quota) avant d'avoir pu chercher ce pays : aucune source consultée."
+  },
+  "series": {
+   "level": "none",
+   "note": "Recherche web épuisée (quota) avant d'avoir pu chercher ce pays : aucune source consultée."
+  }
+ },
+ {
+  "iso2": "GE",
+  "book": {
+   "level": "none",
+   "note": "Recherche web épuisée (quota) avant d'avoir pu chercher ce pays : aucune source consultée."
+  },
+  "series": {
+   "level": "none",
+   "note": "Recherche web épuisée (quota) avant d'avoir pu chercher ce pays : aucune source consultée."
+  }
+ },
+ {
+  "iso2": "KZ",
+  "book": {
+   "level": "none",
+   "note": "Recherche web épuisée (quota) avant d'avoir pu chercher ce pays : aucune source consultée."
+  },
+  "series": {
+   "level": "none",
+   "note": "Recherche web épuisée (quota) avant d'avoir pu chercher ce pays : aucune source consultée."
+  }
+ },
+ {
+  "iso2": "KG",
+  "book": {
+   "level": "none",
+   "note": "Candidat : Jamila (Aïtmatov, 1958). Seuls des indicateurs mondiaux (Goodreads) trouvés ; aucune source nationale."
+  }
+ },
+ {
+  "iso2": "UZ",
+  "book": {
+   "level": "none",
+   "note": "Une liste « dix livres les plus achetés » (zamin.uz, 2025, données de librairies de Tachkent, sans chiffre) place Khamsa de Navoï en 1er et Les Jours passés (O'tkan kunlar) de Qodiriy en 2e ; page ouverte mais sans chiffre ni méthode, donc none. Candidat : Khamsa (Navoï) ou Les Jours passés."
+  },
+  "series": {
+   "level": "none",
+   "note": "Recherche web épuisée (quota) avant d'avoir pu chercher ce pays : aucune source consultée."
+  }
+ }
+]

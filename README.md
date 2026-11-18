@@ -37,9 +37,9 @@ Fiction only, animation allowed, documentaries excluded. A film is used only onc
 
 | Level | Books | Series | Rule |
 |---|---|---|---|
-| A | 23 | 35 | Sourced: national sales, a national reading poll or a set text of the school curriculum for books; a measured audience record (Nielsen, BARB, Médiamétrie, Kantar…) for series. |
-| B | 63 | 28 | Strong signal: a sourced pick that rests only on a worldwide figure, a mention without a figure or a single season, or an automatic pick with a strong signal (10+ Wikipedia articles for a book, 50+ TMDB votes for a series). |
-| C | 79 | 30 | Automatic pick with a weak signal. |
+| A | 32 | 42 | Sourced: national sales, a national reading poll or a set text of the school curriculum for books; a measured audience record (Nielsen, BARB, Médiamétrie, Kantar…) for series. |
+| B | 57 | 27 | Strong signal: a sourced pick that rests only on a worldwide figure, a mention without a figure or a single season, or an automatic pick with a strong signal (10+ Wikipedia articles for a book, 50+ TMDB votes for a series). |
+| C | 76 | 24 | Automatic pick with a weak signal. |
 
 Automatic picks: the literary work by an author of the country with the most Wikipedia articles (Wikidata, religious and political texts excluded), and the country's most-voted series on TMDB. 34 countries have no book and 106 no series yet, mostly small states.
 

@@ -1,0 +1,552 @@
+[
+ {
+  "iso2": "AO",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidats : Mayombe (Pepetela), Luuanda (Luandino Vieira) : aucune source de lecture, de ventes ni de programme angolais consultée."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source trouvée."
+  }
+ },
+ {
+  "iso2": "BF",
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidats : Les Bobodiouf, Kadi Jolie, Commissariat de Tampy ; aucune mesure d'audience burkinabè trouvée (voir bsA_afrique1)."
+  }
+ },
+ {
+  "iso2": "BJ",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source de ventes, de sondage ni de programme béninois trouvée."
+  }
+ },
+ {
+  "iso2": "CD",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidat de première passe : Cannibale (Bolya), sans source. Aucun programme scolaire congolais (RDC), sondage ni ventes trouvés."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidats : Chez Coco, Akufa a zongi, Mariés et seuls ; Ma famille (ivoirienne) serait en tête des audiences au Congo-Kinshasa selon Wikipédia, mais ce n'est pas une série nationale. Pas de classement."
+  }
+ },
+ {
+  "iso2": "CG",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidat : La Vie et demie (Sony Labou Tansi) : statut de classique affirmé par RFI et la presse de Brazzaville, sans chiffre ni programme national consulté (résultats de recherche seulement : RFI, Lettres Noires, Revue Noire)."
+  }
+ },
+ {
+  "iso2": "CI",
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidate : Ma famille (RTI, 2002-2007) : Le Monde (2016, accès bloqué, extrait de recherche seulement) écrit que la première saison « avait pulvérisé les records [d'audience] », sans chiffre ; Wikipédia FR dit qu'elle est en tête des audiences au Congo-Kinshasa. Étude Médiamétrie citée en part d'audience de chaînes seulement. Pas de chiffre par série."
+  }
+ },
+ {
+  "iso2": "CM",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidat : Une vie de boy (Oyono). Seules sources trouvées : une chronique de classique scolaire et des fiches d'élèves ; un document Scribd « Œuvres littéraires au programme au Cameroun » et des listes Facebook, non ouverts (blocage Scribd). Pas de programme officiel MINESEC consulté, aucun chiffre de lecture ou de ventes camerounais."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune audience de série camerounaise trouvée."
+  }
+ },
+ {
+  "iso2": "CV",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidat : Chiquinho (Baltasar Lopes da Silva) : « le plus grand roman cap-verdien » (Petit Futé), cité dans le manuel officiel d'histoire du ministère de l'Éducation (minedu.gov.cv, 6e année, « le premier grand roman cap-verdien ») et au catalogue du Plan national de lecture. Aucun programme de lecture obligatoire ni chiffre de lecture ou de ventes consulté : niveau B, à ne pas promouvoir sans la page du Plan national de lecture ou le programme de Portugais."
+  }
+ },
+ {
+  "iso2": "ET",
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Kana TV (34 % de part de marché, Kantar-GeoPoll, 2017) : 8 des 10 meilleures audiences sont des séries turques doublées ; aucune série éthiopienne classée par audience trouvée."
+  }
+ },
+ {
+  "iso2": "GA",
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidate : Kiara (2013), « records d'audience » selon Jeune Afrique (2014), sans chiffre : niveau B. Aucune mesure trouvée."
+  }
+ },
+ {
+  "iso2": "GH",
+  "book": {
+   "level": "A",
+   "title_original": "The Marriage of Anansewa",
+   "title_fr": "Le Mariage d'Anansewa",
+   "title_en": "The Marriage of Anansewa",
+   "author": "Efua Sutherland",
+   "year": 1975,
+   "language": "en",
+   "wikidata": "",
+   "metric": "canon",
+   "value": "seule œuvre d'une autrice ghanéenne inscrite en prose ou théâtre à la liste harmonisée WAEC 2026-2030 de Literature-in-English (théâtre africain), au programme du WASSCE passé au Ghana",
+   "source_url": "https://www.waecnigeria.org/sites/default/files/2023-06/LITERATURE-IN-ENG%202026-2030.pdf",
+   "note": "Source consultée par extrait de résultat de recherche (tableau « Harmonized list of Literature-in-English texts for WASSCE 2026-2030 ») ; le PDF est un scan sans texte extractible chez moi. Liste commune au Ghana, au Nigeria, à la Sierra Leone, au Liberia et à la Gambie, donc pas propre au Ghana : niveau A discutable, à décider par le relecteur (alternative : B). Les autres textes africains de la liste sont sierra-léonais (So the Path Does Not Die, Pede Hollist), libérien (Redemption Road, Elma Shaw) ou nigérians (Once Upon an Elephant). Pas de chiffre de lecture ou de ventes ghanéen. Homegoing (Gyasi) écarté : autrice américaine, publiée aux États-Unis."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidate : The Billionaire's Wife (Showmax Ghana, 2023), « la plus regardée de tous les temps sur Showmax Ghana » : classement d'une plateforme déjà jugé B. Les mesures GeoPoll et Kantar trouvées ne portent que sur les chaînes (UTV, Adom, TV3), pas sur des séries."
+  }
+ },
+ {
+  "iso2": "GN",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidat : L'Enfant noir (Camara Laye) : « texte fondateur » selon Wikipédia et la BnF, mais aucun programme officiel guinéen ni chiffre de lecture consulté."
+  }
+ },
+ {
+  "iso2": "MG",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source de lecture, de ventes ni de programme malgache trouvée pour L'Aube rouge ou une autre œuvre."
+  }
+ },
+ {
+  "iso2": "ML",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidat : L'Étrange Destin de Wangrin (Amadou Hampâté Bâ) : classique cité par RFI, sans programme officiel malien ni chiffre trouvés (le programme cadre du ministère n'est pas en ligne)."
+  }
+ },
+ {
+  "iso2": "MW",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source malawienne trouvée."
+  }
+ },
+ {
+  "iso2": "MZ",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidat : Terra Sonâmbula (Mia Couto) : classement continental (jury de la Foire du livre du Zimbabwe), manuels brésiliens, pas de programme ni ventes mozambicains consultés."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source trouvée."
+  }
+ },
+ {
+  "iso2": "NE",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucun candidat sourcé."
+  }
+ },
+ {
+  "iso2": "NG",
+  "book": {
+   "level": "A",
+   "title_original": "Dream Count",
+   "title_fr": "Dream Count",
+   "title_en": "Dream Count",
+   "author": "Chimamanda Ngozi Adichie",
+   "year": 2025,
+   "language": "en",
+   "wikidata": "",
+   "metric": "sales",
+   "value": "n°1 de la fiction et n°2 du Top 100 de la Rovingheights Bestseller List 2025 (ventes en librairie au Nigeria) ; sa percée dépasse celle de chaque n°1 du Top 100 des quatre années de la liste, dont les 2 204 exemplaires de Nearly All the Men in Lagos Are Mad en 2022",
+   "source_url": "https://opencountrymag.com/the-rovingheights-bestseller-list-2025-presented-by-open-country-mag/",
+   "note": "Page ouverte et lue en entier. Liste nigériane de ventes (une chaîne de librairies, Rovingheights, publiée par Open Country Mag, qui la présente comme la première liste formelle de best-sellers du Nigeria) : elle écarte les ventes de piratage et les ventes directes d'éditeurs. Remplace Things Fall Apart (chiffre mondial). Hors fiction, le n°1 2025 du Top 100 est un livre d'affaires (Making It Big, Femi Otedola). Attention : Dream Count est un roman récent (2025), un seul millésime ; second candidat sourcé et plus stable, Nearly All the Men in Lagos Are Mad (Damilare Kuku, 2022, nouvelles, n°1 du Top 100 2022 avec 2 204 exemplaires, encore n°7 du Top 100 2025). Adichie place chaque année le plus de titres au Top 100 (Purple Hibiscus n°8, Half of a Yellow Sun n°18, Americanah n°18-19 en 2025). Le chiffre exact de ventes de Dream Count n'est pas publié (seul le n°1 dépasse 8 000 exemplaires)."
+  }
+ },
+ {
+  "iso2": "RW",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source nationale trouvée pour Notre-Dame du Nil ou une autre œuvre rwandaise."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source trouvée (recherche sans résultat pour Seburikoko, Impanga, Papa Sava)."
+  }
+ },
+ {
+  "iso2": "SN",
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidate : Maîtresse d'un homme marié (Marodi, 2019) : vues YouTube déjà jugées B (voir bsA_afrique2). Karma, Dérapages, Moeurs, Infidèles et Jigeen ne sont citées que dans une liste de couples sur YouTube. Pas d'audience TV mesurée par série."
+  }
+ },
+ {
+  "iso2": "TG",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source de ventes, de sondage ni de programme togolais trouvée."
+  }
+ },
+ {
+  "iso2": "TZ",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidats : Kusadikika (Shaaban Robert), classique du programme de swahili selon plusieurs blogs et une publication Instagram (« des générations d'élèves tanzaniens l'ont étudié »), non confirmé par un document officiel TIE ; Paradise (Gurnah) écarté (auteur au Royaume-Uni, aucune lecture nationale). Une enquête de lecteurs de Gromov (2008) nomme des titres swahili sans classement exploitable."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune audience de série tanzanienne trouvée (GeoPoll : ITV, East Africa TV, Clouds en parts de chaînes). Candidate : Huba, sans chiffre."
+  }
+ },
+ {
+  "iso2": "UG",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidat : Song of Lawino (Okot p'Bitek) : Wikipédia EN : « l'une des œuvres littéraires originaires d'Afrique les plus lues » (sans chiffre) ; la liste A-Level 2024-2028 du NCDC (ncdc.go.ug) est un scan illisible chez moi, donc l'inscription au programme n'est pas vérifiée. Niveau B."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidate : The Hostel (NTV Uganda), « n°1 des programmes Synovate 2011-2012 » selon Wikipédia, sans source ; GeoPoll classe les chaînes (NTV en tête), pas les séries."
+  }
+ },
+ {
+  "iso2": "ZM",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source zambienne trouvée (When the Lion Feeds : auteur né en Rhodésie du Nord mais publié à l'export). Pas de liste de livres prescrits ECZ consultée."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Aucune source trouvée."
+  }
+ },
+ {
+  "iso2": "ZW",
+  "book": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "author": "",
+   "year": null,
+   "language": "",
+   "wikidata": "",
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "Candidat : Nervous Conditions (Dangarembga, anglais), n°66 du classement BBC 2018 des 100 livres qui ont façonné le monde (Wikipédia EN, ouvert), mais ZIMSEC publie ses textes prescrits chaque année par circulaire, sans liste consultable ; le programme MOPSE/ZIMSEC ne nomme pas ses œuvres. Pas de source nationale."
+  },
+  "series": {
+   "level": "none",
+   "title_original": "",
+   "title_fr": "",
+   "title_en": "",
+   "year": null,
+   "language": "",
+   "tmdb_id": null,
+   "metric": "",
+   "value": "",
+   "source_url": "",
+   "note": "ZAMPS (Zimbabwe All Media and Products Survey) classe les chaînes (ZBC en tête) ; Studio 263 et Makorokoza sont citées comme feuilletons populaires par un ouvrage (Public Broadcast in Africa, Zimbabwe) sans chiffre."
+  }
+ }
+]

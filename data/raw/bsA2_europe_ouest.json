@@ -1,0 +1,346 @@
+[
+  {
+    "iso2": "ES",
+    "book": {
+      "level": "A",
+      "title_original": "La catedral del mar",
+      "title_fr": "La Cathédrale de la mer",
+      "title_en": "Cathedral of the Sea",
+      "author": "Ildefonso Falcones",
+      "year": 2006,
+      "language": "es",
+      "wikidata": "Q2081254",
+      "metric": "survey",
+      "value": "2e livre préféré des lecteurs espagnols (Barómetro de Hábitos de Lectura y Compra de Libros en España 2019, 5 022 entretiens), juste derrière Los pilares de la tierra de Ken Follett (auteur britannique, écarté) ; Don Quichotte est 4e",
+      "source_url": "https://www.huffingtonpost.es/entry/los-diez-libros-favoritos-de-los-lectores-espanoles-segun-adultos-y-ninos-ganan-los-bestsellers_es_5e559cf8c5b6fc7a9e367c31.html",
+      "note": "Extrait de résultat de recherche seulement (la page n'a pas pu être rechargée). Le baromètre est celui de la Federación de Gremios de Editores de España. Œuvre espagnole la mieux classée du sondage ; Don Quichotte reste le candidat canon."
+    }
+  },
+  {
+    "iso2": "IT",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "author": "",
+      "year": null,
+      "language": "",
+      "wikidata": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucun sondage de lecteurs ni chiffre de ventes en Italie trouvé. Seuls des chiffres mondiaux : Il nome della rosa (~50 M d'exemplaires dans le monde), Pinocchio (~80 M). I promessi sposi est présenté comme le roman le plus diffusé en Italie grâce à l'école (eroicafenice.com), sans chiffre. Candidat à garder : I promessi sposi."
+    }
+  },
+  {
+    "iso2": "PT",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "author": "",
+      "year": null,
+      "language": "",
+      "wikidata": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucun classement de ventes cumulées ni résultat de sondage trouvé. Le vote DGLAB #UmaBibliotecaUmLeitor (23/04/2020, 10 titres dont l'Essai sur l'aveuglement de Saramago) : liste des candidats lue, résultat introuvable. GfK 2024 : auteurs portugais les plus vendus = J. Rodrigues dos Santos, Saramago, Raul Minh'alma (auteurs, pas un livre). Candidat : Ensaio sobre a Cegueira (Saramago)."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "tmdb_id": null,
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Le record d'audience de fiction cité par un blog télé (quinto-canal.com, d'après Marktest MediaMonitor) est Deixa Que Te Leve (TVI, 2005) : 23,5 % de rating moyen, 52,8 % de share ; à l'ère GfK, final de Mar Salgado (SIC, 2015) 19,6 % / 42,8 %. Source blog, non retenue. Obitel/Marktest ne donne que le top 2025 (A Promessa, SIC, rating 7,9) et 2021 (Amor, Amor). Candidat : Deixa Que Te Leve."
+    }
+  },
+  {
+    "iso2": "NL",
+    "book": {
+      "level": "A",
+      "title_original": "De ontdekking van de hemel",
+      "title_fr": "La Découverte du ciel",
+      "title_en": "The Discovery of Heaven",
+      "author": "Harry Mulisch",
+      "year": 1992,
+      "language": "nl",
+      "wikidata": "Q1212173",
+      "metric": "survey",
+      "value": "N°1 du vote du public néerlandais NRC Handelsblad / NPS en mars 2007 (« beste Nederlandstalige boek aller tijden ») : 9 635 votants selon Athenaeum, environ 6 500 selon Wikipédia NL",
+      "source_url": "https://athenaeumscheltema.nl/nieuws/2026/het-beste-nederlandstalige-boek-aller-tijden-volgens-het-publiek-nrc-nps",
+      "note": "Vote ouvert aux Pays-Bas seulement (pas à la Belgique). Page Athenaeum ouverte ; le nombre de votants diffère selon les sources. Confirmé par nl.wikipedia.org/wiki/Lijst_van_beste_Nederlandstalige_boeken et par le Hebban 1000 2022 (même titre en tête)."
+    }
+  },
+  {
+    "iso2": "BE",
+    "book": {
+      "level": "A",
+      "title_original": "De Kapellekensbaan",
+      "title_fr": "De Kapellekensbaan",
+      "title_en": "Chapel Road",
+      "author": "Louis Paul Boon",
+      "year": 1953,
+      "language": "nl",
+      "wikidata": "Q744859",
+      "metric": "survey",
+      "value": "4e du vote de lecteurs belges de 2014 sur le roman préféré, premier auteur belge du top 10 (devant Het verdriet van België de Hugo Claus, 7e) ; n°1 Cent ans de solitude, n°3 Mulisch",
+      "source_url": "http://www.nrc.nl/nieuws/2014/12/18/belgen-roepen-honderd-jaar-eenzaamheid-uit-tot-lievelingsroman-a1467077",
+      "note": "Page NRC ouverte (top 10 complet lu). L'organisateur du vote (De Standaard et Le Soir selon bibman.blogspot.com) n'est pas nommé dans la partie lisible de l'article. Aucune œuvre francophone dans le top 10. À relire si une source plus directe apparaît."
+    }
+  },
+  {
+    "iso2": "DK",
+    "book": {
+      "level": "A",
+      "title_original": "Kongens Fald",
+      "title_fr": "La Chute du roi",
+      "title_en": "The Fall of the King",
+      "author": "Johannes V. Jensen",
+      "year": 1901,
+      "language": "da",
+      "wikidata": "Q1758876",
+      "metric": "survey",
+      "value": "N°1 de deux votes de lecteurs en 1999 : Politiken (3 783 voix, résultat du 13/05/1999) et Berlingske Tidende (24/04/1999) pour le « livre danois du siècle » ; tirage cumulé de 250 000 à 300 000 exemplaires (Litteratursiden)",
+      "source_url": "https://www.litteraturpriser.dk/polaarh.htm",
+      "note": "Les deux classements ont été lus sur litteraturpriser.dk et dansksiderne.dk (top 10 des deux journaux). Le nombre de voix de Politiken vient de la page Wikipédia DA (référence DR du 13/05/1999). Remplace le choix automatique La Petite Sirène (Andersen)."
+    }
+  },
+  {
+    "iso2": "SE",
+    "book": {
+      "level": "A",
+      "title_original": "Utvandrarna",
+      "title_fr": "Les Émigrants",
+      "title_en": "The Emigrants",
+      "author": "Vilhelm Moberg",
+      "year": 1949,
+      "language": "sv",
+      "wikidata": "Q3847492",
+      "metric": "survey",
+      "value": "N°1 du vote des téléspectateurs de SVT Röda rummet en 1998 (environ 17 000 votants) pour le livre suédois du siècle : la suite des Émigrants (Utvandrar-sviten) devant Aniara et Röde Orm",
+      "source_url": "https://runeberg.org/admin/19980525.html",
+      "note": "Page Project Runeberg ouverte (top 100 complet), confirmée par sv.wikipedia.org (Röda rummet, TV-program). Le vote porte sur la suite de quatre romans (QID Q3847492) ; le premier tome est Utvandrarna (Q7731890). On peut afficher le premier tome."
+    },
+    "series": {
+      "level": "A",
+      "title_original": "Svensson, Svensson",
+      "title_fr": "Svensson, Svensson",
+      "title_en": "Svensson, Svensson",
+      "year": 1994,
+      "language": "sv",
+      "tmdb_id": null,
+      "metric": "ratings",
+      "value": "Épisode le plus vu : 3 395 000 téléspectateurs (17 novembre 1996, SVT) ; la saison 2 dépassait toujours 2,5 millions par épisode (MMS Hottop)",
+      "source_url": "https://sv.wikipedia.org/wiki/Svensson%2C_Svensson",
+      "note": "Chiffre MMS repris par Wikipédia SV (source d'origine archivée, non rouverte). Aucune fiction suédoise plus regardée trouvée (Saltön 2017 : 1,6 M ; calendrier de Noël Trolltider 2023 : 2,1 M par épisode au MMS). Id TMDB non trouvé."
+    }
+  },
+  {
+    "iso2": "NO",
+    "book": {
+      "level": "A",
+      "title_original": "Mengele Zoo",
+      "title_fr": "Mengele Zoo",
+      "title_en": "Mengele Zoo",
+      "author": "Gert Nygårdshaug",
+      "year": 1989,
+      "language": "no",
+      "wikidata": "Q6816979",
+      "metric": "survey",
+      "value": "N°1 du vote public NRK / Dagbladet / festival de Lillehammer du 01/06/2007 (« tidenes beste norske bok ») : 624 voix, 25,05 % sur 2 491 votants, devant Markens Grøde (23,44 %) ; plus de 150 000 exemplaires vendus en Norvège (Store norske leksikon)",
+      "source_url": "https://www.nrk.no/kultur/her-er-vinneren-1.2583119",
+      "note": "Page NRK ouverte (classement complet). Écart de quelques dizaines de voix avec Markens Grøde ; l'auteur lui-même juge la consultation peu sérieuse. Remplace Sofies verden (chiffre mondial)."
+    },
+    "series": {
+      "level": "A",
+      "title_original": "Kampen om tungtvannet",
+      "title_fr": "Opération Eau lourde",
+      "title_en": "The Heavy Water War",
+      "year": 2015,
+      "language": "no",
+      "tmdb_id": null,
+      "metric": "ratings",
+      "value": "1,346 million de téléspectateurs en moyenne par épisode en direct, 1,6 à 1,7 million avec enregistrement et web ; « série la plus regardée de ce millénaire » selon l'analyste en chef de NRK (TNS Gallup)",
+      "source_url": "https://www.aftenposten.no/kultur/i/ly2y/tungtvannet-mest-sette-tv-serie-i-vaart-aartusen",
+      "note": "Page Aftenposten (02/02/2015) vue en extrait de recherche ; le chiffre 1,7 M est confirmé par le rapport annuel NRK 2015 (TNS Gallup). La série Tande på programmet (2 M, 1992) est un divertissement, pas une fiction. Série coproduite (NRK, Norvège/Danemark/Royaume-Uni), tournée en norvégien, allemand et anglais. Id TMDB non trouvé."
+    }
+  },
+  {
+    "iso2": "IE",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "author": "",
+      "year": null,
+      "language": "",
+      "wikidata": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Vote public An Post Irish Book Awards (avril 2026) : Top 20 des livres irlandais favoris des vingt dernières années, publié sans classement dans les pages lues (irishbookawards.ie et independent.ie) ; Normal People (Rooney), The Boy in the Striped Pyjamas (Boyne), Small Things Like These (Keegan) en font partie. Pas de n°1 identifié. Candidat : Normal People ou The Boy in the Striped Pyjamas."
+    },
+    "series": {
+      "level": "A",
+      "title_original": "Love/Hate",
+      "title_fr": "Love/Hate",
+      "title_en": "Love/Hate",
+      "year": 2010,
+      "language": "en",
+      "tmdb_id": null,
+      "metric": "ratings",
+      "value": "Saison 2 : émission la plus regardée d'Irlande en 2011 ; ouverture de la saison 4 à 970 600 téléspectateurs, finale (10/11/2013) à plus d'un million (Irish Independent, Nielsen/TAM Ireland)",
+      "source_url": "https://en.wikipedia.org/wiki/Love/Hate_(TV_series)",
+      "note": "Chiffres lus sur Wikipédia EN (références Irish Independent, Evening Herald) ; RTÉ confirme qu'elle reste dans le top 10 d'écoute en 2023. SBS la nomme « la série dramatique la plus populaire d'Irlande ». Glenroe (591 000 pour le dernier épisode) n'a pas de record vérifié. Langue : anglais, langue parlée dans le pays. Id TMDB non trouvé."
+    }
+  },
+  {
+    "iso2": "AT",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "author": "",
+      "year": null,
+      "language": "",
+      "wikidata": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucun sondage ni chiffre de ventes autrichiens consultables : seules des listes de best-sellers mensuelles (buchhandel.at, Schwarzer). Candidat : Le Joueur d'échecs (Zweig) du choix précédent, non confirmé."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "tmdb_id": null,
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Kaisermühlen Blues : premier épisode vu par 1 978 000 personnes le 26/10/1992, « l'une des séries ORF les plus réussies » (hdgö.at), sans classement. Kommissar Rex « série policière autrichienne la plus réussie » (de.wikipedia, sans chiffre). Ein echter Wiener geht nicht unter (Mundl) cité sans chiffre. Candidat : Kaisermühlen Blues."
+    }
+  },
+  {
+    "iso2": "CH",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "author": "",
+      "year": null,
+      "language": "",
+      "wikidata": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Le Lesebarometer 2025 d'Ex Libris (Sotomo, 1 044 personnes en Suisse alémanique) conclut qu'il n'y a pas de favori universel ; Le Petit Prince et La Bibliothèque de minuit sont cités. Heidi (Spyri) arrive en tête des romans situés en Suisse (Goodreads, LibraryThing, StoryGraph) : mesure mondiale. Pas de ventes suisses. Candidat : Heidi."
+    },
+    "series": {
+      "level": "A",
+      "title_original": "Fascht e Familie",
+      "title_fr": "Fascht e Familie",
+      "title_en": "Fascht e Familie",
+      "year": 1994,
+      "language": "gsw",
+      "tmdb_id": null,
+      "metric": "press",
+      "value": "« La plus réussie de toutes les séries télévisées suisses » selon SRF ; certains épisodes ont atteint 1,5 million de téléspectateurs en début de soirée",
+      "source_url": "https://www.srf.ch/radio-srf-1/1960er-jahre-bis-heute-schweizer-tv-serien-im-wandel-der-zeit",
+      "note": "Sources SRF (page de la série radio et audio « Vor 30 Jahren lief die erste Folge », 04/11/2024), extraits de recherche : pas de chiffre Mediapulse daté. Le chiffre de 1,5 million paraît élevé pour la Suisse alémanique : à relire. Lüthi und Blanc : environ 650 000 spectateurs en moyenne. Langue : suisse allemand ; diffusion SRF. Id TMDB non trouvé."
+    }
+  },
+  {
+    "iso2": "GR",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "author": "",
+      "year": null,
+      "language": "",
+      "wikidata": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucun classement de ventes ni vote de lecteurs grec trouvé. L'enquête Public/Truberries de juin 2026 (816 personnes) porte sur les habitudes de lecture, sans titre en tête. Candidat : Alexis Zorba (Kazantzákis) du choix précédent, non confirmé."
+    }
+  },
+  {
+    "iso2": "IS",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "author": "",
+      "year": null,
+      "language": "",
+      "wikidata": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Sjálfstætt fólk (Laxness) serait « kosin besta skáldsaga aldarinnar árið 1999 » selon la description de l'éditeur sur Goodreads (texte de présentation, source du vote non trouvée) ; il est « souvent enseigné au lycée » (Wikipédia IS). Candidat : Sjálfstætt fólk ; la source du vote de 1999 manque."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "tmdb_id": null,
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Gallup Iceland (Klapptré, 24/02/2026) : en 2025, Vigdís 31,5 % / 83 475 spectateurs par épisode et Felix og Klara 31 % ; pas de classement de tous les temps. Vísir cite Spaugstofan (émission satirique, pas une fiction) à 48,6 % comme ancien record. Candidats : Vigdís (2025), Næturvaktin, Verbúðin."
+    }
+  },
+  {
+    "iso2": "FI",
+    "series": {
+      "level": "A",
+      "title_original": "Salatut elämät",
+      "title_fr": "Salatut elämät",
+      "title_en": "Secret Lives",
+      "year": 1999,
+      "language": "fi",
+      "tmdb_id": null,
+      "metric": "ratings",
+      "value": "4,3 millions de Finlandais l'ont regardée en 2023, près de 80 % de la population (Finnpanel TV-mittaritutkimus et TotalTV) ; 445 000 spectateurs par épisode à 19 h 30, 700 000 avec VOD",
+      "source_url": "https://www.finnpanel.fi/lataukset/tv_vuosi_2024.pdf",
+      "note": "Chiffre de portée (au moins 3 minutes) tiré d'un diaporama Finnpanel présenté pour MTV, pas un classement officiel des séries : aucune série finlandaise plus regardée trouvée (Kotikatu : record de 846 000 en 1996). Id TMDB non trouvé."
+    }
+  },
+  {
+    "iso2": "HU",
+    "series": {
+      "level": "A",
+      "title_original": "Szomszédok",
+      "title_fr": "Szomszédok",
+      "title_en": "Neighbours",
+      "year": 1987,
+      "language": "hu",
+      "tmdb_id": null,
+      "metric": "ratings",
+      "value": "Épisode 277 (4 décembre 1997, MTV) : 3 627 553 téléspectateurs, 69 % de part d'audience, 3e programme le plus regardé de novembre 1997 à octobre 2004 (AGB Hungary) ; l'épisode 278 en a eu 3 587 624",
+      "source_url": "https://index.hu/kultur/media/top100/",
+      "note": "Page index.hu ouverte, chiffres AGB Hungary ; seuls devant elle : Vészhelyzet (ER, importée) et Szeszélyes évszakok (cabaret). Plus grande part d'audience de la liste. Origo (2025) écrit aussi que plus de 6 millions de personnes la suivaient, sans mesure citée. Id TMDB non trouvé."
+    }
+  }
+]

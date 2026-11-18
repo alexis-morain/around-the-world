@@ -460,24 +460,25 @@
  },
  "BE": {
   "book": {
-   "orig": "Mémoires d'Hadrien",
-   "fr": "Mémoires d'Hadrien",
-   "en": "Memoirs of Hadrian",
-   "author": "Marguerite Yourcenar",
-   "author_en": "Marguerite Yourcenar",
-   "year": "1951",
-   "qid": "Q1233795",
-   "links": 25,
+   "orig": "De Kapellekensbaan",
+   "fr": "De Kapellekensbaan",
+   "en": "Chapel Road",
+   "author": "Louis Paul Boon",
+   "author_en": "Louis Paul Boon",
+   "year": "1953",
+   "qid": "Q744859",
+   "links": 2,
    "level": "B",
-   "metric": "wikipedia",
-   "value": "25",
-   "source_url": "https://www.wikidata.org/wiki/Q1233795",
-   "cover": "/covers/Q1233795.jpg",
-   "cover_credit": "https://openlibrary.org/works/OL106837W",
-   "overview_fr": "Mémoires d'Hadrien est un roman historique de Marguerite Yourcenar (1903-1987), publié en 1951. Ces pseudo-mémoires de l'empereur romain Hadrien (76-138) ont rencontré un succès international fulgurant assurant la célébrité à son auteur. Si le sujet a inspiré Marguerite Yourcenar encore adolescente, cette dernière l'a néanmoins considéré comme trop ambitieux pour être une œuvre de jeunesse car de la trempe de ceux « qu’on ne doit pas oser avant d’avoir dépassé quarante ans ».",
-   "overview_en": "Memoirs of Hadrian is a French-language novel by the Belgian-born French writer Marguerite Yourcenar about the life and death of the Roman Emperor Hadrian. First published in France in 1951, the book was a critical and commercial success. It was translated into English by Grace Frick and published as Hadrian's Memoirs in 1954 by Farrar, Straus and Young and the following year in the UK as Memoirs of Hadrian. American editions of this translation are now published under the latter title.",
-   "wiki_fr": "https://fr.wikipedia.org/wiki/M%C3%A9moires_d'Hadrien",
-   "wiki_en": "https://en.wikipedia.org/wiki/Memoirs_of_Hadrian"
+   "metric": "survey",
+   "value": "4e du vote de lecteurs belges de 2014 sur le roman préféré, premier auteur belge du top 10 (devant Het verdriet van België de Hugo Claus, 7e) ; n°1 Cent ans de solitude, n°3 Mulisch",
+   "source_url": "http://www.nrc.nl/nieuws/2014/12/18/belgen-roepen-honderd-jaar-eenzaamheid-uit-tot-lievelingsroman-a1467077",
+   "cover": "/covers/Q744859.jpg",
+   "cover_credit": "https://openlibrary.org/works/OL770671W",
+   "research_note": "Page NRC ouverte (top 10 complet lu). L'organisateur du vote (De Standaard et Le Soir selon bibman.blogspot.com) n'est pas nommé dans la partie lisible de l'article. Aucune œuvre francophone dans le top 10. À relire si une source plus directe apparaît.",
+   "overview_fr": "",
+   "overview_en": "",
+   "wiki_fr": "",
+   "wiki_en": ""
   },
   "series": {
    "orig": "F.C. De Kampioenen",
@@ -496,7 +497,7 @@
    "source_url": "https://nl.wikipedia.org/wiki/F.C._De_Kampioenen_seizoen_6",
    "research_note": "Flandre uniquement (VRT). Pas de série francophone comparable documentée."
   },
-  "note": ""
+  "note": "Livre : niveau B, 4e d'un vote de lecteurs à l'organisateur incertain."
  },
  "BF": {
   "book": {
@@ -681,24 +682,25 @@
  },
  "BR": {
   "book": {
-   "orig": "The Alchemist",
-   "fr": "L'Alchimiste",
-   "en": "The Alchemist",
-   "author": "Paulo Coelho",
-   "author_en": "Paulo Coelho",
-   "year": "1988",
-   "qid": "Q179021",
-   "links": 92,
-   "level": "B",
-   "metric": "wikipedia",
-   "value": "92",
-   "source_url": "https://www.wikidata.org/wiki/Q179021",
-   "cover": "/covers/Q179021.jpg",
-   "cover_credit": "https://openlibrary.org/works/OL42974242W",
-   "overview_fr": "L'Alchimiste est un conte philosophique de Paulo Coelho paru en 1988. La traduction française, signée Jean Orecchioni, a été publiée en 1994.",
-   "overview_en": "The Alchemist is a novel by Brazilian author Paulo Coelho which was first published in 1988. Originally written in Portuguese, it became a widely translated international bestseller. The story follows Santiago, a shepherd boy, in his journey across North Africa to the Egyptian pyramids after he dreams of finding treasure there. It has since been translated into more than 65 languages and has sold more than 150 million copies worldwide.",
-   "wiki_fr": "https://fr.wikipedia.org/wiki/L'Alchimiste_(roman%2C_Coelho)",
-   "wiki_en": "https://en.wikipedia.org/wiki/The_Alchemist_(novel)"
+   "orig": "Turma da Mônica",
+   "fr": "La Bande à Mônica",
+   "en": "Monica's Gang",
+   "author": "Mauricio de Sousa",
+   "author_en": "Mauricio de Sousa",
+   "year": "1963",
+   "qid": "Q938975",
+   "links": 16,
+   "level": "A",
+   "metric": "survey",
+   "value": "3e livre le plus cité comme « le plus marquant » (54 citations), après la Bible (485) et Le Petit Prince (59), et 1re œuvre brésilienne, dans Retratos da Leitura no Brasil 2024 (Instituto Pró-Livro, sondage national)",
+   "source_url": "https://www.prolivro.org.br/wp-content/uploads/2024/11/Apresentac%CC%A7a%CC%83o_Retratos_da_Leitura_2024_13-11_SITE.pdf",
+   "cover": null,
+   "cover_credit": "",
+   "research_note": "Bande dessinée (gibis), tirée du PDF du sondage ouvert en entier. Première œuvre brésilienne ; Sítio do Pica-Pau Amarelo (Lobato) 27 citations, Dom Casmurro 16, Violetas na Janela 18. QID Wikidata à compléter.",
+   "overview_fr": "Turma da Mônica est une série populaire de bande dessinée brésilienne créée par Mauricio de Sousa. Elle raconte les aventures d'un groupe d'enfants de six ans qui vivent dans le quartier de Bairro do Limoeiro, à São Paulo. Un spin-off intitulé Turma da Mônica Jovem, dans lequel les personnages sont des adolescents de quinze ans, a été lancé au Brésil en août 2008.",
+   "overview_en": "Monica and Friends, previously published as Monica's Gang in Anglophone territories and as Frizz and Friends in London, is a Brazilian comic book series and media franchise created by Mauricio de Sousa.",
+   "wiki_fr": "https://fr.wikipedia.org/wiki/Turma_da_M%C3%B4nica",
+   "wiki_en": "https://en.wikipedia.org/wiki/Monica_and_Friends"
   },
   "series": {
    "orig": "Avenida Brasil",
@@ -755,24 +757,25 @@
  },
  "BY": {
   "book": {
-   "orig": "Чернобыльская молитва",
-   "fr": "La Supplication - Tchernobyl, chronique du monde après l'apocalypse",
-   "en": "Voices from Chernobyl",
-   "author": "Svetlana Aleksievitch",
-   "author_en": "Svetlana Alexievich",
-   "year": "1997",
-   "qid": "Q7939693",
-   "links": 24,
+   "orig": "Дзікае паляванне караля Стаха",
+   "fr": "La Chasse sauvage du roi Stakh",
+   "en": "King Stakh's Wild Hunt",
+   "author": "Ouladzimir Karatkievitch",
+   "author_en": "Uladzimir Karatkievich",
+   "year": "1964",
+   "qid": "Q2857818",
+   "links": 7,
    "level": "B",
-   "metric": "wikipedia",
-   "value": "24",
-   "source_url": "https://www.wikidata.org/wiki/Q7939693",
+   "metric": "sales",
+   "value": "livre le plus vendu de 2023 chez Biełkniha, le détaillant d'État du livre en Biélorussie (déclaration de son directeur, Uładzimir Matusievič)",
+   "source_url": "https://pozirk.online/en/news/72204",
    "cover": null,
    "cover_credit": "",
-   "overview_fr": "La Supplication : Tchernobyl, chronique du monde après l'apocalypse est un livre à la croisée de plusieurs genres tels que le récit polyphonique, la non-fiction, et par certains aspects l'essai. Écrit par l'écrivaine biélorusse Svetlana Alexievitch, lauréate du prix Nobel de littérature en 2015, cet ouvrage est consacré à la catastrophe nucléaire de Tchernobyl survenue le 26 avril 1986. Tchernobyl est une ville située en Ukraine, à la frontière avec la Biélorussie.",
-   "overview_en": "Voices from Chernobyl: The Oral History of a Nuclear Disaster, published as Chernobyl Prayer: A Chronicle of the Future in the United Kingdom, is a book about the Chernobyl disaster by the Belarusian Nobel Laureate Svetlana Alexievich.",
-   "wiki_fr": "https://fr.wikipedia.org/wiki/La_Supplication",
-   "wiki_en": "https://en.wikipedia.org/wiki/Voices_from_Chernobyl"
+   "research_note": "EXTRAIT DE RÉSULTAT DE RECHERCHE seulement : la page (pozirk.online, 72204 et 73274) n'a pas pu être ouverte (délai dépassé). Ventes d'une seule année et d'un seul réseau (d'État). Le classique de Kolas, Новая зямля, est l'autre candidat scolaire.",
+   "overview_fr": "",
+   "overview_en": "King Stakh's Wild Hunt is a novel by author Uladzimir Karatkievich published in 1964. It is based on the Wild Hunt, a motif that occurs in the folklore of various Northern and Eastern European cultures.",
+   "wiki_fr": "",
+   "wiki_en": "https://en.wikipedia.org/wiki/King_Stakh's_Wild_Hunt"
   },
   "series": {
    "orig": "Талаш",
@@ -790,7 +793,7 @@
    "value": "3",
    "source_url": "https://www.themoviedb.org/tv/246619"
   },
-  "note": ""
+  "note": "Livre : niveau B, une seule année de ventes d'un détaillant, extrait seul."
  },
  "BZ": {
   "book": {
@@ -952,22 +955,23 @@
    "wiki_en": ""
   },
   "series": {
-   "orig": "Pingu",
-   "fr": "Pingu",
-   "en": "Pingu",
-   "year": "1986",
-   "overview_fr": "Pingu est un enfant manchot dont les petites aventures se déroulent essentiellement et évidemment en Antarctique. Il vit avec sa famille – son père est facteur et sa mère s'occupe du foyer – dans une maison dont les caractéristiques sont très proches de l'igloo, voire semblable à l'habitat traditionnel des eskimos de l'Arctique, celle-ci bénéficiant du confort moderne comme l'électricité, un poêle, le téléphone et divers autres ameublements et aménagements telles les fameuses toilettes qui occupent tout un épisode.",
-   "overview_en": "Playful penguin Pingu lives with his family in Antarctica, where he often finds himself caught up in mischievous high jinks with his pal Robby.",
-   "tmdb_id": 9262,
-   "poster": "/nLE7NR3EsEbv2NfG0bLIaOEhGfY.jpg",
-   "votes": 166,
-   "lang": "en",
+   "orig": "Fascht e Familie",
+   "fr": "Fascht e Familie",
+   "en": "Fascht e Familie",
+   "year": "1994",
+   "overview_fr": "",
+   "overview_en": "",
+   "tmdb_id": 63402,
+   "poster": "/4Tk3XkNq9bqVGcWriJpC57NDDj6.jpg",
+   "votes": 4,
+   "lang": "de",
    "level": "B",
-   "metric": "tmdb_votes",
-   "value": "166",
-   "source_url": "https://www.themoviedb.org/tv/9262"
+   "metric": "press",
+   "value": "« La plus réussie de toutes les séries télévisées suisses » selon SRF ; certains épisodes ont atteint 1,5 million de téléspectateurs en début de soirée",
+   "source_url": "https://www.srf.ch/radio-srf-1/1960er-jahre-bis-heute-schweizer-tv-serien-im-wandel-der-zeit",
+   "research_note": "Sources SRF (page de la série radio et audio « Vor 30 Jahren lief die erste Folge », 04/11/2024), extraits de recherche : pas de chiffre Mediapulse daté. Le chiffre de 1,5 million paraît élevé pour la Suisse alémanique : à relire. Lüthi und Blanc : environ 650 000 spectateurs en moyenne. Langue : suisse allemand ; diffusion SRF. Id TMDB non trouvé."
   },
-  "note": ""
+  "note": "Série : niveau B, chiffre de 1,5 M peu plausible."
  },
  "CI": {
   "book": {
@@ -976,7 +980,7 @@
    "en": "The Suns of Independence",
    "author": "Ahmadou Kourouma",
    "author_en": "Ahmadou Kourouma",
-   "year": "",
+   "year": "1968",
    "qid": "Q3235569",
    "links": 5,
    "level": "A",
@@ -1041,7 +1045,7 @@
    "en": "Houseboy",
    "author": "Ferdinand Oyono",
    "author_en": "Ferdinand Oyono",
-   "year": "",
+   "year": "1956",
    "qid": "Q3549839",
    "links": 3,
    "level": "B",
@@ -1189,7 +1193,7 @@
  },
  "CV": {
   "book": {
-   "orig": "",
+   "orig": "Chiquinho",
    "fr": "Chiquinho",
    "en": "Chiquinho",
    "author": "Baltasar Lopes da Silva",
@@ -1234,7 +1238,7 @@
  },
  "CZ": {
   "book": {
-   "orig": "",
+   "orig": "Saturnin",
    "fr": "Saturnin",
    "en": "Saturnin",
    "author": "Zdeněk Jirotka",
@@ -1340,24 +1344,25 @@
  },
  "DK": {
   "book": {
-   "orig": "Den lille Havfrue",
-   "fr": "La Petite Sirène",
-   "en": "The Little Mermaid",
-   "author": "Hans Christian Andersen",
-   "author_en": "Hans Christian Andersen",
-   "year": "1837",
-   "qid": "Q11859",
-   "links": 107,
-   "level": "B",
-   "metric": "wikipedia",
-   "value": "107",
-   "source_url": "https://www.wikidata.org/wiki/Q11859",
-   "cover": "/covers/Q11859.jpg",
-   "cover_credit": "https://openlibrary.org/works/OL24425978W",
-   "overview_fr": "La Petite Sirène, parfois appelé La Petite Ondine, est un conte de Hans Christian Andersen paru le 7 avril 1837.",
-   "overview_en": "\"The Little Mermaid\", sometimes translated in English as \"The Little Sea Maid\", is a literary fairy tale written by Danish author Hans Christian Andersen. Originally published in 1837 as part of a collection of fairy tales for children, the story follows the journey of a young mermaid princess who is willing to give up her life in the sea as a mermaid to gain a human soul.",
-   "wiki_fr": "https://fr.wikipedia.org/wiki/La_Petite_Sir%C3%A8ne",
-   "wiki_en": "https://en.wikipedia.org/wiki/The_Little_Mermaid"
+   "orig": "Kongens Fald",
+   "fr": "La Chute du roi",
+   "en": "The Fall of the King",
+   "author": "Johannes V. Jensen",
+   "author_en": "Johannes V. Jensen",
+   "year": "1901",
+   "qid": "Q1758876",
+   "links": 8,
+   "level": "A",
+   "metric": "survey",
+   "value": "N°1 de deux votes de lecteurs en 1999 : Politiken (3 783 voix, résultat du 13/05/1999) et Berlingske Tidende (24/04/1999) pour le « livre danois du siècle » ; tirage cumulé de 250 000 à 300 000 exemplaires (Litteratursiden)",
+   "source_url": "https://www.litteraturpriser.dk/polaarh.htm",
+   "cover": "/covers/Q1758876.jpg",
+   "cover_credit": "https://openlibrary.org/works/OL8801838W",
+   "research_note": "Les deux classements ont été lus sur litteraturpriser.dk et dansksiderne.dk (top 10 des deux journaux). Le nombre de voix de Politiken vient de la page Wikipédia DA (référence DR du 13/05/1999). Remplace le choix automatique La Petite Sirène (Andersen).",
+   "overview_fr": "La Chute du roi est un roman moderniste et d'apparence historique écrit par Johannes V. Jensen, et paru entre 1900 et 1901. Il raconte la vie de Mikkel Thøgersen, qui se déroule en parallèle à celle du roi Christian II.",
+   "overview_en": "The Fall of the King is a novel by Danish author Johannes V. Jensen, published in three parts from 1900 to 1901. It tells the story of Mikkel Thøgersen and the social entanglements which bring him into the service of king Christian II of Denmark.",
+   "wiki_fr": "https://fr.wikipedia.org/wiki/La_Chute_du_roi",
+   "wiki_en": "https://en.wikipedia.org/wiki/The_Fall_of_the_King"
   },
   "series": {
    "orig": "Matador",
@@ -1376,7 +1381,7 @@
    "source_url": "https://jyllands-posten.dk/kultur/film/article4863619.ece",
    "research_note": ""
   },
-  "note": "Livre : Les contes d'Andersen n'entraient pas dans les types d'œuvres retenus : La Petite Sirène, son conte le plus présent sur Wikipédia."
+  "note": "Livre : Les contes d'Andersen n'entraient pas dans les types d'œuvres retenus : La Petite Sirène, son conte le plus présent sur Wikipédia. Recherche passe 2 : Kongens Fald (votes Politiken et Berlingske 1999) prime."
  },
  "DM": {
   "book": {
@@ -1424,7 +1429,7 @@
  },
  "DZ": {
   "book": {
-   "orig": "",
+   "orig": "ذاكرة الجسد",
    "fr": "Mémoires de la chair",
    "en": "Memory in the Flesh",
    "author": "Ahlam Mosteghanemi",
@@ -1505,41 +1510,43 @@
  "EE": {
   "book": {
    "orig": "Tõde ja õigus",
-   "fr": "",
+   "fr": "Vérité et Justice",
    "en": "Truth and Justice",
    "author": "Anton Hansen Tammsaare",
    "author_en": "A. H. Tammsaare",
-   "year": "",
+   "year": "1926",
    "qid": "Q3737463",
    "links": 9,
-   "level": "C",
-   "metric": "wikipedia",
-   "value": "9",
-   "source_url": "https://www.wikidata.org/wiki/Q3737463",
+   "level": "A",
+   "metric": "survey",
+   "value": "1re place du vote « livre préféré de tous les temps » des lecteurs estoniens (Apollo, avec l'Union des écrivains, l'Union des éditeurs et le Centre de littérature jeunesse), devant Kevade d'O. Luts et Rehepapp de Kivirähk ; vote 2024 à un peu plus de 5 100 participants",
+   "source_url": "https://apollo.ee/et/uudised/selgusid-2024-aasta-rahvahaaletuse-lemmikraamatud",
    "cover": null,
    "cover_credit": "",
+   "research_note": "Page ouverte. Vote d'une librairie en ligne (Apollo), pas un institut de sondage ; les 5 100 participants sont ceux du vote entier, pas de la seule catégorie « de tous les temps ».",
    "overview_fr": "",
    "overview_en": "Truth and Justice I-V, written in 1926–1933, is a pentalogy by A. H. Tammsaare, considered to be one of the major works of Estonian literature and \"The Estonian Novel\".",
    "wiki_fr": "",
    "wiki_en": "https://en.wikipedia.org/wiki/Truth_and_Justice"
   },
   "series": {
-   "orig": "Klass - Elu pärast",
-   "fr": "Klass - Elu pärast",
-   "en": "The Class: Life After",
-   "year": "2010",
+   "orig": "Kättemaksukontor",
+   "fr": "Kättemaksukontor",
+   "en": "Revenge Office",
+   "year": "2009",
    "overview_fr": "",
-   "overview_en": "The Class: Life After is a follow-up to the feature film The Class (Klass) and deals with the aftermath of a school shooting. Each one-hour episode focuses on a different character who survived or witnessed the tragic event. There are kids from the class, their parents, the class teacher, a boy who survived the shooting, and finally, one of the culprits in the very last episode.",
-   "tmdb_id": 79872,
-   "poster": "/pgKwBa2npoKbKsmEl1WullzBNsG.jpg",
-   "votes": 9,
+   "overview_en": "A group of women create an organization named \"Kättemaksukontor\" to fight for the rights of women and help solve murder mysteries for the police.",
+   "tmdb_id": 112456,
+   "poster": "/uGCshATIq90S0RWXjWLCujkJgBf.jpg",
+   "votes": 2,
    "lang": "et",
-   "level": "C",
-   "metric": "tmdb_votes",
-   "value": "9",
-   "source_url": "https://www.themoviedb.org/tv/79872"
+   "level": "B",
+   "metric": "streaming",
+   "value": "« série la plus regardée d'Estonie sur internet » : 22 145 373 lectures sur TV3 Play (2017) ; pic à la télévision de 254 900 téléspectateurs simultanés (saison 2) ; 161 900 pour le 1er épisode",
+   "source_url": "https://www.ohtuleht.ee/melu/830789/kattemaksukontor-pustitas-internetis-vaatamise-rekordi",
+   "research_note": "Page ouverte (Õhtuleht, 28 septembre 2017). Chiffre fourni par la chaîne TV3 ; la série a continué jusqu'à 34 saisons, donc le total est plus élevé aujourd'hui. Les lecteurs d'Õhtuleht l'ont aussi élue « meilleure série locale »."
   },
-  "note": ""
+  "note": "Série : niveau B, lectures en ligne et non audience télé."
  },
  "EG": {
   "book": {
@@ -1594,24 +1601,25 @@
  },
  "ES": {
   "book": {
-   "orig": "Don Quijote de la Mancha",
-   "fr": "Don Quichotte",
-   "en": "Don Quixote",
-   "author": "Miguel de Cervantes",
-   "author_en": "Miguel de Cervantes",
-   "year": "1605",
-   "qid": "Q480",
-   "links": 147,
-   "level": "B",
-   "metric": "wikipedia",
-   "value": "147",
-   "source_url": "https://www.wikidata.org/wiki/Q480",
-   "cover": "/covers/Q480.jpg",
-   "cover_credit": "https://openlibrary.org/works/OL503666W",
-   "overview_fr": "L’Ingénieux Hidalgo Don Quichotte de la Manche ou L'Ingénieux Noble Don Quichotte de la Manche, généralement simplement abrégé en Don Quichotte, est un roman écrit par Miguel de Cervantes et publié à Madrid en deux parties, la première en 1605 puis la seconde en 1615.",
-   "overview_en": "Don Quixote is a novel by Miguel de Cervantes, written in Early Modern Spanish and published in two parts in 1605 and 1615. It is considered a founding work of Western literature and the first modern novel. Don Quixote is one of the most-translated books in the world and one of the best-selling books in history.",
-   "wiki_fr": "https://fr.wikipedia.org/wiki/Don_Quichotte",
-   "wiki_en": "https://en.wikipedia.org/wiki/Don_Quixote"
+   "orig": "La catedral del mar",
+   "fr": "La Cathédrale de la mer",
+   "en": "Cathedral of the Sea",
+   "author": "Ildefonso Falcones",
+   "author_en": "Ildefonso Falcones",
+   "year": "2006",
+   "qid": "Q2081254",
+   "links": 17,
+   "level": "A",
+   "metric": "survey",
+   "value": "2e livre préféré des lecteurs espagnols (Barómetro de Hábitos de Lectura y Compra de Libros en España 2019, 5 022 entretiens), juste derrière Los pilares de la tierra de Ken Follett (auteur britannique, écarté) ; Don Quichotte est 4e",
+   "source_url": "https://www.huffingtonpost.es/entry/los-diez-libros-favoritos-de-los-lectores-espanoles-segun-adultos-y-ninos-ganan-los-bestsellers_es_5e559cf8c5b6fc7a9e367c31.html",
+   "cover": "/covers/Q2081254.jpg",
+   "cover_credit": "https://openlibrary.org/works/OL2223951W",
+   "research_note": "Extrait de résultat de recherche seulement (la page n'a pas pu être rechargée). Le baromètre est celui de la Federación de Gremios de Editores de España. Œuvre espagnole la mieux classée du sondage ; Don Quichotte reste le candidat canon.",
+   "overview_fr": "",
+   "overview_en": "Cathedral of the Sea is a 2006 historical novel by Spanish author Ildefonso Falcones. The action takes place in 14th century Barcelona at the height of the city's trade and military power in the Mediterranean, during the construction of Santa Maria del Mar serving as background to the story.",
+   "wiki_fr": "",
+   "wiki_en": "https://en.wikipedia.org/wiki/Cathedral_of_the_Sea"
   },
   "series": {
    "orig": "Farmacia de guardia",
@@ -1634,7 +1642,7 @@
  },
  "ET": {
   "book": {
-   "orig": "",
+   "orig": "ፍቅር እስከ መቃብር",
    "fr": "L'Amour jusqu'au tombeau",
    "en": "Love Unto Crypt",
    "author": "Haddis Alemayehu",
@@ -1680,22 +1688,23 @@
    "wiki_en": "https://en.wikipedia.org/wiki/Seitsem%C3%A4n_veljest%C3%A4"
   },
   "series": {
-   "orig": "Karppi",
-   "fr": "Deadwind",
-   "en": "Deadwind",
-   "year": "2018",
-   "overview_fr": "Quelques mois à peine après avoir perdu un être cher, l'inspectrice Sofia Karppi enquête sur le meurtre d'une femme liée à une entreprise en bâtiment d'Helsinki.",
-   "overview_en": "When Sofia Karppi, a detective in her 30's who is trying to get over her husband's death, discovers the body of a young woman on a construction site, she triggers a chain of events that threatens to destroy her life again.",
-   "tmdb_id": 74802,
-   "poster": "/opXFXboNfdOUnCyB2ITd6H3OiN4.jpg",
-   "votes": 175,
+   "orig": "Salatut elämät",
+   "fr": "Salatut elämät",
+   "en": "Secret Lives",
+   "year": "1999",
+   "overview_fr": "",
+   "overview_en": "Salatut elämät (Secret Lives) is a Finnish television soap opera that premiered on MTV3 on 25 January 1999. The series' storylines follow the daily lives of several families who live in the same apartment block in Helsinki.",
+   "tmdb_id": 14610,
+   "poster": "/ugYAGyxwajuplDUUYT8Bzbj8eNR.jpg",
+   "votes": 24,
    "lang": "fi",
    "level": "B",
-   "metric": "tmdb_votes",
-   "value": "175",
-   "source_url": "https://www.themoviedb.org/tv/74802"
+   "metric": "ratings",
+   "value": "4,3 millions de Finlandais l'ont regardée en 2023, près de 80 % de la population (Finnpanel TV-mittaritutkimus et TotalTV) ; 445 000 spectateurs par épisode à 19 h 30, 700 000 avec VOD",
+   "source_url": "https://www.finnpanel.fi/lataukset/tv_vuosi_2024.pdf",
+   "research_note": "Chiffre de portée (au moins 3 minutes) tiré d'un diaporama Finnpanel présenté pour MTV, pas un classement officiel des séries : aucune série finlandaise plus regardée trouvée (Kotikatu : record de 846 000 en 1996). Id TMDB non trouvé."
   },
-  "note": ""
+  "note": "Série : niveau B, portée annuelle et non classement."
  },
  "FJ": {
   "book": null,
@@ -1894,24 +1903,25 @@
  },
  "GH": {
   "book": {
-   "orig": "Homegoing",
-   "fr": "No Home",
-   "en": "Homegoing",
-   "author": "Yaa Gyasi",
-   "author_en": "Yaa Gyasi",
-   "year": "2016",
-   "qid": "Q30600501",
-   "links": 4,
-   "level": "C",
-   "metric": "wikipedia",
-   "value": "4",
-   "source_url": "https://www.wikidata.org/wiki/Q30600501",
-   "cover": "/covers/Q30600501.jpg",
-   "cover_credit": "https://openlibrary.org/works/OL17795349W",
-   "overview_fr": "No Home (Homegoing) est un roman historique de la Ghanéo-Américaine Yaa Gyasi paru en 2016.",
-   "overview_en": "Homegoing is the debut historical fiction novel by Ghanaian-American author Yaa Gyasi, published in 2016. Each chapter in the novel follows a different descendant of an Asante woman named Maame, starting in the 18th century with her two daughters, who are half-sisters, separated by circumstance: Effia marries James Collins, the British governor in charge of Cape Coast Castle, while her half-sister Esi is sadly held captive in the dungeons below. Subsequent chapters follow their children and following generations. The chapters go into detail and speak about their individual and very interesting experiences.",
-   "wiki_fr": "https://fr.wikipedia.org/wiki/No_Home",
-   "wiki_en": "https://en.wikipedia.org/wiki/Homegoing_(Gyasi_novel)"
+   "orig": "The Marriage of Anansewa",
+   "fr": "Le Mariage d'Anansewa",
+   "en": "The Marriage of Anansewa",
+   "author": "Efua Sutherland",
+   "author_en": "Efua Theodora Sutherland",
+   "year": "1975",
+   "qid": "Q119996810",
+   "links": 0,
+   "level": "B",
+   "metric": "canon",
+   "value": "seule œuvre d'une autrice ghanéenne inscrite en prose ou théâtre à la liste harmonisée WAEC 2026-2030 de Literature-in-English (théâtre africain), au programme du WASSCE passé au Ghana",
+   "source_url": "https://www.waecnigeria.org/sites/default/files/2023-06/LITERATURE-IN-ENG%202026-2030.pdf",
+   "cover": "/covers/Q119996810.jpg",
+   "cover_credit": "https://openlibrary.org/works/OL4844381W",
+   "research_note": "Source consultée par extrait de résultat de recherche (tableau « Harmonized list of Literature-in-English texts for WASSCE 2026-2030 ») ; le PDF est un scan sans texte extractible chez moi. Liste commune au Ghana, au Nigeria, à la Sierra Leone, au Liberia et à la Gambie, donc pas propre au Ghana : niveau A discutable, à décider par le relecteur (alternative : B). Les autres textes africains de la liste sont sierra-léonais (So the Path Does Not Die, Pede Hollist), libérien (Redemption Road, Elma Shaw) ou nigérians (Once Upon an Elephant). Pas de chiffre de lecture ou de ventes ghanéen. Homegoing (Gyasi) écarté : autrice américaine, publiée aux États-Unis.",
+   "overview_fr": "",
+   "overview_en": "",
+   "wiki_fr": "",
+   "wiki_en": ""
   },
   "series": {
    "orig": "The Billionaire's Wife",
@@ -1928,7 +1938,7 @@
    "source_url": "https://ghananewsonline.com.gh/the-billionaires-wife-becomes-the-most-watched-title-ever-on-showmax-in-ghana",
    "research_note": "Classement d'une plateforme, pas une audience TV. Origine ghanéenne de la série non vérifiée dans l'article (à confirmer). Autre classement : Showmax 2021, Dede et To Have and to Hold parmi les plus vus au Ghana (https://theheraldghana.com/dede-big-brother-naija-among-most-watched-titles-in-ghana-in-2021-according-to-viewing-statistics)."
   },
-  "note": "Livre : Daughters of Africa est une anthologie dirigée par une Britannique : No Home de Yaa Gyasi retenu. Série : niveau B, record d'une plateforme, origine ghanéenne non vérifiée."
+  "note": "Livre : Daughters of Africa est une anthologie dirigée par une Britannique : No Home de Yaa Gyasi retenu. Série : niveau B, record d'une plateforme, origine ghanéenne non vérifiée. Livre : The Marriage of Anansewa, au programme WAEC commun à cinq pays, niveau B."
  },
  "GM": {
   "book": {
@@ -2118,22 +2128,23 @@
  "HK": {
   "book": null,
   "series": {
-   "orig": "愛·回家之開心速遞",
-   "fr": "Come Home Love: Lo and Behold",
-   "en": "Come Home Love: Lo and Behold",
-   "year": "2017",
-   "overview_fr": "Hung Sue Gan partant du bas, a créé sa propre entreprise de logistique, qui fonctionne maintenant bien. Sa seule préoccupation maintenant, ce sont ses trois filles. Sa fille aînée a immigré à l'étranger. Sa deuxième fille, Hung Yeuk Shui, a atteint l'âge du mariage, mais n'a aucun espoir de se marier de si tôt.  Hung Sue Yan, le frère de Hung Sue Gan, emménage avec la famille, mettant temporairement fin à sa vie de photographe nomade. Il rejoint l'entreprise de Hung Yeuk Shui et rencontre Ko Pak Fei, le directeur d'une boutique en ligne. Depuis que Hung Sue Yan a emménagé, une série d'événements étranges se sont produits dans la famille. Après enquête, la source est retrouvée jusqu'à Lung Ging Fung, un jeune homme prometteur qui est le fils du magnat des grands magasins Lung Gam Wai.",
-   "overview_en": "Hung Sue Gan starting from the bottom, established his own logistics company, which is now running smoothly. His only concern now are his three daughters. His eldest daughter has immigrated overseas. His second daughter Hung Yeuk Shui has reached the marriageable age, but has no hopes for marriage anytime soon. She is constantly bickering with her younger sister Hung Sum Yue, who is an honour student, over trivial matters, causing their father to not know whether to laugh or cry. Hung Sue Yan, Hung Sue Gan's brother, moves in with the family, temporarily ending his life as a nomadic photographer. He joins Hung Yeuk Shui's company and encounters Ko Pak Fei, the director of an online shop. The two appear to be former lovers, making for lots of laughter. Since Hung Sue Yan moved in, a series of strange events have occurred in the family. Upon investigation, the source is traced to Lung Ging Fung, a promising young man who is the son of department store mogul Lung Gam Wai.",
-   "tmdb_id": 91759,
-   "poster": "/lgD4j9gUGmMckZpWWRJjorWqGVT.jpg",
-   "votes": 48,
+   "orig": "射鵰英雄傳",
+   "fr": "射鵰英雄傳",
+   "en": "The Legend of the Condor Heroes",
+   "year": "1983",
+   "overview_fr": "",
+   "overview_en": "The Legend of the Condor Heroes is a Hong Kong television series adapted from Louis Cha's novel of the same title. It was first broadcast on TVB Jade in Hong Kong in 1983. The 59 episodes long series is divided into three parts. This 1983 version is considered by many to be a classic television adaptation of the novel and features the breakthrough role of Barbara Yung, who played Huang Rong.",
+   "tmdb_id": 104,
+   "poster": "/wuOGPke8Dm5g5X4qfYwHu3gXAyX.jpg",
+   "votes": 23,
    "lang": "cn",
-   "level": "C",
-   "metric": "tmdb_votes",
-   "value": "48",
-   "source_url": "https://www.themoviedb.org/tv/91759"
+   "level": "B",
+   "metric": "ratings",
+   "value": "Moyenne de 65 points d'audience, pic de 99 % (TVB Jade, 1983), plus de 3,5 millions de téléspectateurs par épisode : série la plus regardée de l'histoire de Hong Kong",
+   "source_url": "https://zh.wikipedia.org/wiki/射鵰英雄傳_(1983年電視劇)",
+   "research_note": "Pages Wikipédia zh et en ouvertes (mêmes chiffres) ; source primaire (TVB) non consultée. Remplace Come Home Love: Lo and Behold (choix auto). Série en cantonais, adaptée de Jin Yong ; production TVB de Hong Kong."
   },
-  "note": ""
+  "note": "Série : niveau B, chiffres de TVB repris par Wikipédia."
  },
  "HN": {
   "book": {
@@ -2161,7 +2172,7 @@
  },
  "HR": {
   "book": {
-   "orig": "Libar Marka Marula Splićanina u kom se uzdarži istorija svete udovice Judit u versih harvacki složena, kako ona ubi vojvodu Oloferna posridu vojske njegove i oslobodi puk israelski od velike pogibili",
+   "orig": "Judita",
    "fr": "",
    "en": "Judita",
    "author": "Marko Marulić",
@@ -2181,22 +2192,23 @@
    "wiki_en": ""
   },
   "series": {
-   "orig": "Uspjeh",
-   "fr": "Uspjeh",
-   "en": "Success",
-   "year": "2019",
+   "orig": "Larin izbor",
+   "fr": "Larin izbor",
+   "en": "Lara's Choice",
+   "year": "2011",
    "overview_fr": "",
-   "overview_en": "Follow the intertwining stories of four strangers who are bound together by a violent event.",
-   "tmdb_id": 85549,
-   "poster": "/hubkYnikJDmlCZCQuQN1oCqqPUF.jpg",
-   "votes": 24,
+   "overview_en": "Larin izbor is a Croatian telenovela created by Jelena Popović Volarić and written by Tomislav Hrpka. The series premiered on September 4, 2011 on Nova TV. It has been sold to over seventeen countries worldwide.",
+   "tmdb_id": 39686,
+   "poster": "/3HgII2tgaOsTcU9HsLnlHjyxdBE.jpg",
+   "votes": 0,
    "lang": "hr",
-   "level": "C",
-   "metric": "tmdb_votes",
-   "value": "24",
-   "source_url": "https://www.themoviedb.org/tv/85549"
+   "level": "B",
+   "metric": "ratings",
+   "value": "épisode le plus regardé : 1 220 000 téléspectateurs (Nova TV, 2011), programme le plus regardé de Croatie en 2011 ; plus d'un million par jour en moyenne ; 21,2 % de part de marché en moyenne",
+   "source_url": "https://mojtv.hr/magazin/6170/larin-izbor-u-cetvrtak-gledalo-1220000-gledatelja.aspx",
+   "research_note": "EXTRAITS DE RÉSULTATS DE RECHERCHE seulement (mojtv.hr, tportal.hr « najgledanija epizoda imala je 1,2 milijuna », novatv.dnevnik.hr) ; pages non ouvertes. Source : mesure Nielsen citée par la presse ; pas de comparaison avec les séries d'avant 2011."
   },
-  "note": ""
+  "note": "Série : niveau B, record lu en extraits seulement."
  },
  "HT": {
   "book": {
@@ -2246,20 +2258,21 @@
    "wiki_en": "https://en.wikipedia.org/wiki/Eclipse_of_the_Crescent_Moon"
   },
   "series": {
-   "orig": "A martfüi rém",
-   "fr": "Fausse Piste",
-   "en": "Strangled",
-   "year": "2020",
-   "overview_fr": "La Hongrie, dans les années 1960. À la suite d'une série de meurtres atroces, la petite bourgade de Martfú est sous le choc. Tandis qu’un innocent, accusé à tort, est condamné pour des crimes qu’il n’a pu objectivement commettre, un tueur psychotique rôde dans les environs et continue d’assassiner d’autres jeunes femmes. Obsédé par cette affaire, l’inspecteur chargé de l’enquête subit la pression du procureur qui souhaite voir l’auteur de ces meurtres rapidement pendu.",
-   "overview_en": "In 1960s socialist Hungary, a serial killer targeting young women torments a small town and the determined detective on his trail. Based on true events.",
-   "tmdb_id": 106937,
-   "poster": "/sCOLQmALJzPAhvaU0EU3DBGZqJ.jpg",
-   "votes": 63,
+   "orig": "Szomszédok",
+   "fr": "Szomszédok",
+   "en": "Szomszédok",
+   "year": "1987",
+   "overview_fr": "",
+   "overview_en": "Szomszédok was a Hungarian television series, occasionally called the Hungarian Dallas, that ran from 1987–1999 and produced 331 episodes, airing its grand finale on December 31, 1999.\n\nThe series was a soap opera, dealing with the lives of ordinary people, living and working in or around an average lakótelep. Its characters were explored, over time, in equal depth: ranging from elderly pensioners, busy middle aged professionals, up-and-coming young people, and children growing into their teens.\n\nMany consider Szomszédok to be the definitive Hungarian television series, being a period piece of sorts that covers the last few years of the communist era, the rendszerváltozás, and nearly a decade of the new market economy Hungary thereafter.",
+   "tmdb_id": 35437,
+   "poster": "/y9bQWK6bJgde3YseKKaLvpwmF0T.jpg",
+   "votes": 12,
    "lang": "hu",
-   "level": "B",
-   "metric": "tmdb_votes",
-   "value": "63",
-   "source_url": "https://www.themoviedb.org/tv/106937"
+   "level": "A",
+   "metric": "ratings",
+   "value": "Épisode 277 (4 décembre 1997, MTV) : 3 627 553 téléspectateurs, 69 % de part d'audience, 3e programme le plus regardé de novembre 1997 à octobre 2004 (AGB Hungary) ; l'épisode 278 en a eu 3 587 624",
+   "source_url": "https://index.hu/kultur/media/top100/",
+   "research_note": "Page index.hu ouverte, chiffres AGB Hungary ; seuls devant elle : Vészhelyzet (ER, importée) et Szeszélyes évszakok (cabaret). Plus grande part d'audience de la liste. Origo (2025) écrit aussi que plus de 6 millions de personnes la suivaient, sans mesure citée. Id TMDB non trouvé."
   },
   "note": ""
  },
@@ -2326,20 +2339,21 @@
    "wiki_en": "https://en.wikipedia.org/wiki/Gulliver's_Travels"
   },
   "series": {
-   "orig": "The Fall",
-   "fr": "The Fall",
-   "en": "The Fall",
-   "year": "2013",
-   "overview_fr": "La série suit une enquête du Service de police d'Irlande du Nord (PSNI en anglais pour Police Service of Northern Ireland) sur une série de meurtres récents. Après 28 jours d'investigations sans résultats, la PSNI fait appel au Superintendant Stella Gibson de la Metropolitan Police Service pour réexaminer le dossier.",
-   "overview_en": "When the Police Service of Northern Ireland are unable to close a case after 28 days, Detective Superintendent Stella Gibson of the Metropolitan Police Service is called in to review the case. Under her new leadership, the local detectives must track down and stop a serial killer who is terrorising the city of Belfast.",
-   "tmdb_id": 49010,
-   "poster": "/kIrpNZDuuKfo7Yd1U6LHxVXdfmC.jpg",
-   "votes": 1030,
+   "orig": "Love/Hate",
+   "fr": "Love/Hate",
+   "en": "Love/Hate",
+   "year": "2010",
+   "overview_fr": "La vie des jeunes membres d'un gang de Dublin dont l'activité principale est le trafic de drogue...",
+   "overview_en": "Modern-day underworld characters Nidge and John Boy wrestle for control of Dublin's illicit drug trade in this forceful crime drama.",
+   "tmdb_id": 33273,
+   "poster": "/oLnOU5wYp7I6egnI6lzAIWOqS1D.jpg",
+   "votes": 47,
    "lang": "en",
-   "level": "B",
-   "metric": "tmdb_votes",
-   "value": "1030",
-   "source_url": "https://www.themoviedb.org/tv/49010"
+   "level": "A",
+   "metric": "ratings",
+   "value": "Saison 2 : émission la plus regardée d'Irlande en 2011 ; ouverture de la saison 4 à 970 600 téléspectateurs, finale (10/11/2013) à plus d'un million (Irish Independent, Nielsen/TAM Ireland)",
+   "source_url": "https://en.wikipedia.org/wiki/Love/Hate_(TV_series)",
+   "research_note": "Chiffres lus sur Wikipédia EN (références Irish Independent, Evening Herald) ; RTÉ confirme qu'elle reste dans le top 10 d'écoute en 2023. SBS la nomme « la série dramatique la plus populaire d'Irlande ». Glenroe (591 000 pour le dernier épisode) n'a pas de record vérifié. Langue : anglais, langue parlée dans le pays. Id TMDB non trouvé."
   },
   "note": ""
  },
@@ -2464,7 +2478,7 @@
  },
  "IR": {
   "book": {
-   "orig": "",
+   "orig": "سووشون",
    "fr": "Souvashoun",
    "en": "Savushun",
    "author": "Simin Daneshvar",
@@ -2496,10 +2510,10 @@
    "votes": 12,
    "lang": "fa",
    "level": "B",
-   "metric": "streaming",
-   "value": "Paytakht 7 : 58 millions de vues sur Telewebion, record de la plateforme (résumé d'un post Instagram relayant le sondage de la télévision publique)",
-   "source_url": "https://www.instagram.com/p/C5lrmVVrh8C/",
-   "research_note": "Source faible (post Instagram vu en résultat de recherche, page non ouverte). Le sondage Tasnim 2023 donne Gildokht à 38 % comme série la plus regardée de l'année. À revérifier."
+   "metric": "ratings",
+   "value": "Paytakht 6 : 75 % des personnes interrogées l'ont regardé (1re série de Norouz 1399, devant Doping 42 %), sondage national du Centre de recherche de la Radio-Télévision (IRIB), première semaine de Norouz 2020",
+   "source_url": "https://www.jamaran.news/%D8%A8%D8%AE%D8%B4-%D8%AC%DB%8C-%D9%BE%D9%84%D8%A7%D8%B3-70/1391515-%D9%BE%D8%A7%DB%8C%D8%AA%D8%AE%D8%AA-%D9%BE%D8%B1%D8%A8%DB%8C%D9%86%D9%86%D8%AF%D9%87-%D8%AA%D8%B1%DB%8C%D9%86-%D8%B3%D8%B1%DB%8C%D8%A7%D9%84-%D9%86%D9%88%D8%B1%D9%88%D8%B2%DB%8C-%D8%AF%D8%B1%D8%B5%D8%AF-%D9%85%D8%B1%D8%AF%D9%85-%D9%85%D8%AE%D8%A7%D8%B7%D8%A8-%D8%AA%D9%84%D9%88%DB%8C%D8%B2%DB%8C%D9%88%D9%86",
+   "research_note": "Page ouverte (Jamaran News). Mesure d'une saison (6) sur une semaine, par le diffuseur d'État : pas un record toutes séries confondues. khabaronline.ir (non ouvert) la dit « série rediffusée la plus regardée » selon la même source. Remplace le record Telewebion (source Instagram) du niveau B."
   },
   "note": "Livre : niveau B, chiffre de ventes de source secondaire. Série : niveau B, record d'une plateforme, source faible."
  },
@@ -2751,27 +2765,28 @@
  },
  "KH": {
   "book": {
-   "orig": "",
-   "fr": "",
-   "en": "Kolab Pailin",
-   "author": "Nhok Them",
-   "author_en": "Nhok Them",
-   "year": "1960",
-   "qid": "Q19752403",
-   "links": 2,
-   "level": "C",
-   "metric": "wikipedia",
-   "value": "2",
-   "source_url": "https://www.wikidata.org/wiki/Q19752403",
+   "orig": "ទុំទាវ",
+   "fr": "Tum Teav",
+   "en": "Tum Teav",
+   "author": "Preah Botumthera Som (version de 1915, d'après un récit du XIXe s.)",
+   "author_en": "Preah Botumthera Som (version de 1915, d'après un récit du XIXe s.)",
+   "year": "1915",
+   "qid": "Q7852455",
+   "links": 4,
+   "level": "A",
+   "metric": "canon",
+   "value": "Partie obligatoire du programme national du secondaire cambodgien depuis les années 1950",
+   "source_url": "https://en.wikipedia.org/wiki/Tum_Teav",
    "cover": null,
    "cover_credit": "",
-   "overview_fr": "",
-   "overview_en": "",
-   "wiki_fr": "",
-   "wiki_en": ""
+   "research_note": "Page Wikipédia ouverte : 'compulsory part of the Cambodian secondary national curriculum since the 1950s' (note [1] de la page non ouverte). Un diaporama indique une intégration depuis 1957 (extrait de recherche). Pas de chiffre de ventes. Remplace Kolab Pailin (choix auto, 2 liens). Œuvre issue d'un récit populaire fixé par écrit en 1915.",
+   "overview_fr": "Tum Teav est une tragédie romantique cambodgienne du milieu du dix-neuvième siècle. Adapté d'un poème, il est considéré comme le « Roméo et Juliette cambodgien ». Depuis les années 1950, il est étudié à l'école secondaire au Cambodge.",
+   "overview_en": "\nTum Teav is a mid-19th century Cambodian romantic tragedy folk tale. It is originally based on a poem and is considered the \"Cambodian Romeo and Juliet\" and has been a compulsory part of the Cambodian secondary national curriculum since the 1950s.",
+   "wiki_fr": "https://fr.wikipedia.org/wiki/Tum_Teav",
+   "wiki_en": "https://en.wikipedia.org/wiki/Tum_Teav"
   },
   "series": null,
-  "note": ""
+  "note": "Livre : titre khmer forcé, absent de Wikidata."
  },
  "KI": {
   "book": null,
@@ -2848,24 +2863,25 @@
  },
  "KR": {
   "book": {
-   "orig": "채식주의자",
-   "fr": "La Végétarienne",
-   "en": "The Vegetarian",
+   "orig": "소년이 온다",
+   "fr": "Celui qui revient",
+   "en": "Human Acts",
    "author": "Han Kang",
    "author_en": "Han Kang",
-   "year": "2007",
-   "qid": "Q24082770",
-   "links": 25,
-   "level": "B",
-   "metric": "wikipedia",
-   "value": "25",
-   "source_url": "https://www.wikidata.org/wiki/Q24082770",
-   "cover": "/covers/Q24082770.jpg",
-   "cover_credit": "https://openlibrary.org/works/OL17334243W",
-   "overview_fr": "La Végétarienne est un roman de l'autrice sud-coréenne Han Kang, Prix Nobel de littérature 2024, publié en 2007. Il s'agit de son dixième roman, lauréat du prix international Booker 2016.",
-   "overview_en": "The Vegetarian (Korean: 채식주의자) is a 2007 novel by South Korean writer Han Kang, winner of the 2024 Nobel Prize in Literature. Based on Han's 1997 short story \"The Fruit of My Woman\", The Vegetarian is a three-part novel set in modern-day Seoul and tells the story of Yeong-hye, a part-time graphic artist and home-maker, whose decision to stop eating meat or animal products after a bloody nightmare about human cruelty leads to devastating consequences in her personal and family life.",
-   "wiki_fr": "https://fr.wikipedia.org/wiki/La_V%C3%A9g%C3%A9tarienne",
-   "wiki_en": "https://en.wikipedia.org/wiki/The_Vegetarian"
+   "year": "2014",
+   "qid": "Q19657306",
+   "links": 6,
+   "level": "A",
+   "metric": "sales",
+   "value": "1er de tous les livres vendus chez Yes24 sur 2016-2025 (classement des ventes, livres nationaux hors manuels) ; La Végétarienne 6e, Impossibles adieux 7e",
+   "source_url": "https://m.ch.yes24.com/article/details/81048",
+   "cover": "/covers/Q19657306.jpg",
+   "cover_credit": "https://openlibrary.org/works/OL17764836W",
+   "research_note": "Page ouverte (Channel Yes24, avril 2025). Source = un seul libraire (Yes24), 10 ans, pic après le Nobel 2024 ; pas de chiffre d'exemplaires. Titre FR à vérifier : 'Celui qui revient' (édition Picquier).",
+   "overview_fr": "",
+   "overview_en": "Human Acts is a South Korean novel written by Han Kang. The novel draws upon the suppression of the Gwangju Uprising in May 1980 by the recently installed government of coup d'état leader Chun Doo-hwan. In the novel, the death of a young boy, Dong-ho, and its defining role in the lives of his friends and family members, allows for a multidimensional analysis of the long-term impact of the crisis on the residents of Gwangju. Human Acts won Korea's Manhae Prize for Literature and Italy's Premio Malaparte.",
+   "wiki_fr": "",
+   "wiki_en": "https://en.wikipedia.org/wiki/Human_Acts"
   },
   "series": {
    "orig": "그대 그리고 나",
@@ -3093,7 +3109,7 @@
    "value": "13",
    "source_url": "https://www.themoviedb.org/tv/77068"
   },
-  "note": ""
+  "note": "Livre : titre original forcé (Wikidata renvoie un titre japonais)."
  },
  "LR": {
   "book": null,
@@ -3194,7 +3210,7 @@
    "en": "The Cat's Mill",
    "author": "Kārlis Skalbe",
    "author_en": "Kārlis Skalbe",
-   "year": "",
+   "year": "1913",
    "qid": "Q109889294",
    "links": 0,
    "level": "A",
@@ -3210,22 +3226,23 @@
    "wiki_en": ""
   },
   "series": {
-   "orig": "Padomju džinsi",
-   "fr": "Soviet Jeans",
-   "en": "Soviet Jeans",
-   "year": "2024",
-   "overview_fr": "Dans la Lettonie soviétique de 1979, résister au KGB peut encore coûter cher, comme l’apprend à ses dépens un jeune costumier de théâtre tombé amoureux de la metteuse en scène finlandaise qu’il devait espionner. Le début de la fin de l’URSS à Riga dans une vibrante comédie romantique en forme de plaidoyer pour la liberté.",
-   "overview_en": "In the late 1970s – at a time when the fiercest propaganda against Western culture was being waged throughout the USSR – an ardent rock and roll fan sets up a successful and illegal underground jeans factory in a Latvian psychiatric hospital.",
-   "tmdb_id": 244047,
-   "poster": "/u3zxl5d8Lyh91nXSdKZCFathgu6.jpg",
-   "votes": 11,
+   "orig": "Likteņa Līdumnieki",
+   "fr": "Likteņa Līdumnieki",
+   "en": "Likteņa Līdumnieki",
+   "year": "2003",
+   "overview_fr": "",
+   "overview_en": "Based on the novels by Vladimirs Kaijaks, the series tell the history of a Latvian family - the Nārbuļi family - from 1885 throughout all the events of the 20th century in the history of Latvia, up to 1995.",
+   "tmdb_id": 59157,
+   "poster": "/evGDuDSjXCAfs1VQiFhXdEGFNj.jpg",
+   "votes": 0,
    "lang": "lv",
-   "level": "C",
-   "metric": "tmdb_votes",
-   "value": "11",
-   "source_url": "https://www.themoviedb.org/tv/244047"
+   "level": "B",
+   "metric": "press",
+   "value": "« le feuilleton le plus regardé de tous les temps en Lettonie » (LTV1, 56 épisodes, 2003-2008)",
+   "source_url": "https://www.apollo.lv/5641215/serialam-liktena-lidumnieki-10-gadi",
+   "research_note": "Page ouverte (article des 10 ans de la série, apollo.lv). Pas de chiffre d'audience ; lv.wikipedia reprend « le plus populaire de tous les temps »."
   },
-  "note": ""
+  "note": "Série : niveau B, superlatif sans chiffre."
  },
  "LY": {
   "book": {
@@ -3413,7 +3430,7 @@
  },
  "ML": {
   "book": {
-   "orig": "",
+   "orig": "L'Étrange Destin de Wangrin ou Les roueries d'un interprète africain",
    "fr": "L'Étrange Destin de Wangrin",
    "en": "The Fortunes of Wangrin",
    "author": "Amadou Hampâté Bâ",
@@ -3680,7 +3697,7 @@
  "NG": {
   "book": {
    "orig": "Things Fall Apart",
-   "fr": "Le Monde s'effondre",
+   "fr": "Le monde s'effondre",
    "en": "Things Fall Apart",
    "author": "Chinua Achebe",
    "author_en": "Chinua Achebe",
@@ -3688,12 +3705,11 @@
    "qid": "Q622400",
    "links": 38,
    "level": "B",
-   "metric": "sales",
-   "value": "plus de 20 millions d'exemplaires vendus dans le monde, traduit en 57 langues",
-   "source_url": "https://www.penguinrandomhouse.com/books/565351/things-fall-apart-by-chinua-achebe",
+   "metric": "wikipedia",
+   "value": "38",
+   "source_url": "https://www.wikidata.org/wiki/Q622400",
    "cover": "/covers/Q622400.jpg",
    "cover_credit": "https://openlibrary.org/works/OL891786W",
-   "research_note": "Chiffre mondial, pas nigérian ; l'anglais est langue officielle du Nigeria. Confirme le choix automatique. Premier de la liste des meilleures ventes africaines d'Amazon (source Facebook, non retenue).",
    "overview_fr": "Tout s'effondre, auparavant intitulé Le monde s'effondre dans la première traduction française, est un roman de l'écrivain nigérian Chinua Achebe.",
    "overview_en": "Things Fall Apart is the 1958 debut novel by Nigerian author Chinua Achebe. Set in Colonial Nigeria, it portrays the story of Okonkwo, a traditional and influential leader of the fictional Ibo clan of Umuofia, who opposes colonialism and early Christianity. Written when Achebe was working at the Nigerian Broadcasting Corporation, it was first published in London by Heinemann on 17 June 1958.",
    "wiki_fr": "https://fr.wikipedia.org/wiki/Tout_s'effondre",
@@ -3716,7 +3732,7 @@
    "source_url": "https://www.businessday.ng/life-arts/article/shanty-town-far-from-home-among-netflixs-top-10-african-original-contents/",
    "research_note": "Classement Netflix, pas une audience TV nationale. En 2024, Postcards est la série nollywoodienne la plus vue de Netflix Nigeria, et en 2025 Baby Farm (3,9 M de vues selon FlixPatrol, source Facebook non retenue). Remplace Far From Home (choix automatique, 9,8 M d'heures). Dialogues en anglais et pidgin. Lien Shockng : https://shockng.com/netflix-most-watched-africa-titles-2023. TMDB non trouvé."
   },
-  "note": "Livre : niveau B, chiffre de ventes mondial."
+  "note": "Livre : niveau B, chiffre de ventes mondial. Livre : Dream Count (1re des ventes d'une chaîne en 2025) écarté, une seule année."
  },
  "NI": {
   "book": {
@@ -3744,24 +3760,25 @@
  },
  "NL": {
   "book": {
-   "orig": "Max Havelaar",
-   "fr": "Max Havelaar",
-   "en": "Max Havelaar",
-   "author": "Multatuli",
-   "author_en": "Multatuli",
-   "year": "1940",
-   "qid": "Q919067",
-   "links": 33,
-   "level": "B",
-   "metric": "wikipedia",
-   "value": "33",
-   "source_url": "https://www.wikidata.org/wiki/Q919067",
-   "cover": null,
-   "cover_credit": "",
-   "overview_fr": "Max Havelaar est un roman néerlandais écrit par Multatuli, paru en 1860, dont le récit se déroule à Java et dénonce l'exploitation coloniale dans les Indes néerlandaises.",
-   "overview_en": "Max Havelaar; or, The Coffee Auctions of the Dutch Trading Company is an 1860 novel by Multatuli, which played a key role in shaping and modifying Dutch colonial policy in the Dutch East Indies in the nineteenth and early twentieth century. In the novel, the protagonist, Max Havelaar, tries to battle against a corrupt government system in Java, which was then a Dutch colony. The novel's opening line is famous: \"Ik ben makelaar in koffie, en woon op de Lauriergracht, Nº 37.\".",
-   "wiki_fr": "https://fr.wikipedia.org/wiki/Max_Havelaar_(roman)",
-   "wiki_en": "https://en.wikipedia.org/wiki/Max_Havelaar"
+   "orig": "De ontdekking van de hemel",
+   "fr": "La Découverte du ciel",
+   "en": "The Discovery of Heaven",
+   "author": "Harry Mulisch",
+   "author_en": "Harry Mulisch",
+   "year": "1992",
+   "qid": "Q1212173",
+   "links": 13,
+   "level": "A",
+   "metric": "survey",
+   "value": "N°1 du vote du public néerlandais NRC Handelsblad / NPS en mars 2007 (« beste Nederlandstalige boek aller tijden ») : 9 635 votants selon Athenaeum, environ 6 500 selon Wikipédia NL",
+   "source_url": "https://athenaeumscheltema.nl/nieuws/2026/het-beste-nederlandstalige-boek-aller-tijden-volgens-het-publiek-nrc-nps",
+   "cover": "/covers/Q1212173.jpg",
+   "cover_credit": "https://openlibrary.org/works/OL659062W",
+   "research_note": "Vote ouvert aux Pays-Bas seulement (pas à la Belgique). Page Athenaeum ouverte ; le nombre de votants diffère selon les sources. Confirmé par nl.wikipedia.org/wiki/Lijst_van_beste_Nederlandstalige_boeken et par le Hebban 1000 2022 (même titre en tête).",
+   "overview_fr": "",
+   "overview_en": "The Discovery of Heaven is a 1992 novel by Dutch writer Harry Mulisch. It is considered Mulisch's masterpiece and was voted best book in the Dutch language in a 2007 poll among the readers of NRC Handelsblad.",
+   "wiki_fr": "",
+   "wiki_en": "https://en.wikipedia.org/wiki/The_Discovery_of_Heaven"
   },
   "series": {
    "orig": "Baantjer",
@@ -3793,34 +3810,34 @@
    "qid": "Q61324",
    "links": 53,
    "level": "B",
-   "metric": "sales",
-   "value": "Plus de 50 millions d'exemplaires dans le monde ; roman le plus vendu au monde en 1995",
-   "source_url": "https://no.wikipedia.org/wiki/Sofies_verden",
+   "metric": "wikipedia",
+   "value": "53",
+   "source_url": "https://www.wikidata.org/wiki/Q61324",
    "cover": "/covers/Q61324.jpg",
    "cover_credit": "https://openlibrary.org/works/OL922430W",
-   "research_note": "Chiffre mondial ; pas de total norvégien consulté. Un roman norvégien en tête des ventes mondiales reste le choix le plus documenté.",
    "overview_fr": "Le Monde de Sophie est un roman philosophique publié en 1991 et écrit par l'écrivain norvégien Jostein Gaarder. Il est traduit en 54 langues. Le roman se veut une introduction à la philosophie, à ses différents mouvements et à son évolution.",
    "overview_en": "Sophie's World: A Novel About the History of Philosophy is a 1991 novel by Norwegian writer Jostein Gaarder. It follows Sophie Amundsen, a Norwegian teenager, who is introduced to the history of philosophy as she is asked \"Who are you?\" \"Where does this world come from?\" in a letter from an unknown philosopher. The nonfictional content of the book roughly aligns with Bertrand Russell's A History of Western Philosophy.",
    "wiki_fr": "https://fr.wikipedia.org/wiki/Le_Monde_de_Sophie",
    "wiki_en": "https://en.wikipedia.org/wiki/Sophie's_World"
   },
   "series": {
-   "orig": "Ragnarok",
-   "fr": "Ragnarök",
-   "en": "Ragnarok",
-   "year": "2020",
-   "overview_fr": "Dans un village norvégien pollué et troublé par la fonte des glaciers, la fin des temps semble bien réelle. Mais un combat doit opposer une légende à un mal ancestral.",
-   "overview_en": "A small Norwegian town experiencing warm winters and violent downpours seems to be headed for another Ragnarök -- unless someone intervenes in time.",
-   "tmdb_id": 91557,
-   "poster": "/9HfeuiRHwLoIdWXzk6Br09RA7aQ.jpg",
-   "votes": 1166,
+   "orig": "Kampen om tungtvannet",
+   "fr": "The Heavy Water War : Les soldats de l'ombre",
+   "en": "The Saboteurs",
+   "year": "2015",
+   "overview_fr": "La Seconde Guerre mondiale commence et l'Allemagne lance son programme nucléaire. Le prix Nobel Werner Heisenberg, responsable du programme, a besoin de l'eau lourde pour alimenter le réacteur qu'il construit. Cette dernière est produite en Norvège, dans une usine à Vemork, près de Rjukan, et le directeur Bjørn Henriksen doit négocier avec les Allemands. Le créateur de la fabrique d'eau lourde,...",
+   "overview_en": "When the Nazis secure a heavy water plant to realize their plan to create an atomic bomb, the Norwegian Allies struggle to sabotage the operation.",
+   "tmdb_id": 61836,
+   "poster": "/pyfXZus9x7j78PsnA9dysh5rL9Z.jpg",
+   "votes": 92,
    "lang": "no",
-   "level": "B",
-   "metric": "tmdb_votes",
-   "value": "1166",
-   "source_url": "https://www.themoviedb.org/tv/91557"
+   "level": "A",
+   "metric": "ratings",
+   "value": "1,346 million de téléspectateurs en moyenne par épisode en direct, 1,6 à 1,7 million avec enregistrement et web ; « série la plus regardée de ce millénaire » selon l'analyste en chef de NRK (TNS Gallup)",
+   "source_url": "https://www.aftenposten.no/kultur/i/ly2y/tungtvannet-mest-sette-tv-serie-i-vaart-aartusen",
+   "research_note": "Page Aftenposten (02/02/2015) vue en extrait de recherche ; le chiffre 1,7 M est confirmé par le rapport annuel NRK 2015 (TNS Gallup). La série Tande på programmet (2 M, 1992) est un divertissement, pas une fiction. Série coproduite (NRK, Norvège/Danemark/Royaume-Uni), tournée en norvégien, allemand et anglais. Id TMDB non trouvé."
   },
-  "note": "Livre : niveau B, chiffre de ventes mondial."
+  "note": "Livre : niveau B, chiffre de ventes mondial. Mengele Zoo (vote NRK 2007, 2 491 votants) écarté."
  },
  "NP": {
   "book": {
@@ -4088,23 +4105,23 @@
    "wiki_en": "https://en.wikipedia.org/wiki/The_Doll_(Prus_novel)"
   },
   "series": {
-   "orig": "Czterej pancerni i pies",
-   "fr": "Czterej pancerni i pies",
-   "en": "Four Tank-Men and a Dog",
-   "year": "1966",
+   "orig": "Ranczo",
+   "fr": "Ranczo",
+   "en": "Ranczo",
+   "year": "2006",
    "overview_fr": "",
-   "overview_en": "Czterej pancerni i pies was a Polish black and white TV series based on the book by Janusz Przymanowski. Made between 1966 and 1970, the series is composed of 21 episodes of 55 minutes each, divided into three seasons. It is set in 1944 and 1945, during World War II, and follows the adventures of a tank crew and their T-34 tank in the 1st Polish Army. Although both the book and the TV series contain elements of pro-Soviet propaganda, they have achieved and retain a cult series status in Poland, Soviet Union and other Eastern Bloc countries.\n\nThe T-34 tank Rudy with the identifying number \"102\", a German Shepherd dog from Siberia Szarik and to a lesser extent the crew Jan Kos, Gustaw Jeleń, Grigorij Saakaszwili, Tomasz Czereśniak, and their commander and mentor Olgierd Jarosz, as well as other heroes of the series, have become icons in Polish popular culture.",
-   "tmdb_id": 1574,
-   "poster": "/mP3CkGW34GhJZ3IEgjrV8zap9nP.jpg",
-   "votes": 53,
+   "overview_en": "Ranczo [\"Ranch\"] is a Polish television comedy series, directed by Wojciech Adamczyk, that has aired since March 2006 on TVP1. It follows the story of Lucy Wilska, a Polish-American who has inherited her grandmother's country home in the fictional small town of Wilkowyje. She arrives in Wilkowyje intent on selling the cottage but, after seeing the charm of the village, decides to stay.",
+   "tmdb_id": 33587,
+   "poster": "/uxnjx2QM3BzSSeffcFZHHRHMVaq.jpg",
+   "votes": 17,
    "lang": "pl",
-   "level": "B",
-   "metric": "press",
-   "value": "Désigné série polonaise la plus populaire par le plébiscite TVP de juin 1995 ; la presse la qualifie de série polonaise la plus populaire",
-   "source_url": "https://telemagazyn.pl/czterej-pancerni-i-pies-wracaja-najpopularniejszy-polski-serial-pokaze-teraz-kino-polska/ar/c13p2-27669327",
-   "research_note": "Pas de chiffre d'audience. Pour les audiences mesurées : Klan (TVP1) a eu 7,3 M en 2000 (Wikipédia PL), mais c'est une moyenne annuelle."
+   "level": "A",
+   "metric": "ratings",
+   "value": "4e saison : 8,28 millions de téléspectateurs en moyenne (AGB Nielsen), 8,7 millions après trois épisodes ; 7,3 millions pour la 6e saison",
+   "source_url": "https://www.press.pl/tresc/16615,czwarta-seria-rancza-w-tvp-1-ma-srednio-8_7-mln-widzow",
+   "research_note": "Titre de press.pl lu sur la page ouverte (8,7 M, AGB Nielsen) ; 8,28 M (Onet) tiré d'un extrait de recherche. Pas un record absolu de toute l'histoire : Polskie drogi (1977) aurait attiré jusqu'à 18 millions selon des documents de presse non mesurés (Radio ZET), Czterej pancerni i pies (choix précédent) n'a pas de chiffre."
   },
-  "note": "Livre : niveau B, seule base solide : le canon scolaire, sans chiffre. Série : niveau B, presse, sans chiffre."
+  "note": "Livre : niveau B, seule base solide : le canon scolaire, sans chiffre. Série : Ranczo, audience AGB Nielsen (passe 2), niveau A."
  },
  "PS": {
   "book": {
@@ -4225,20 +4242,21 @@
    "wiki_en": "https://en.wikipedia.org/wiki/Luceaf%C4%83rul_(poem)"
   },
   "series": {
-   "orig": "Umbre",
-   "fr": "Umbre",
-   "en": "Shadows",
-   "year": "2014",
-   "overview_fr": "Relu a deux enfants, une femme et une double vie. Aux yeux de sa famille, Relu Oncescu est un chauffeur de taxi ordinaire. Personne ne soupçonne qu'il est l'un des hommes de Capitanu, un gangster local. Aucun de sa famille ou de la mafia ne connaît l'existence de l'autre. Relu parvient à garder tout sous contrôle, mais plus pour longtemps. Après avoir tué accidentellement un homme, il essaie de sortir de la pègre, mais en vain. Jour après jour, les secrets et les mensonges, qui ne cessent de devenir de plus en plus oppressants, commencent à faire surface...",
-   "overview_en": "Relu is a family man. He has two children, a wife and a double life. Seen through the eyes of his family, Relu Oncescu appears to be an ordinary taxi driver. No one suspects that Relu works as a collector for Capitanu', a local mobster. Neither of the two worlds (his family and the mafia) knows of the other's existence. Relu manages to keep everything under control, but not for long. After accidentally killing a man, he tries to get out of the underworld, but he can't find his way back. Day by day, the secrets he keeps become increasingly oppressive and the lies begin to surface, one by one.",
-   "tmdb_id": 62111,
-   "poster": "/anYqLjFi1CuGQDIlsSuEfTEBjBz.jpg",
-   "votes": 63,
+   "orig": "Las Fierbinţi",
+   "fr": "Las Fierbinţi",
+   "en": "Las Fierbinti",
+   "year": "2012",
+   "overview_fr": "",
+   "overview_en": "\"Las Fierbinti\" is a Romanian drama-comedy series set in a fictional small village, where everyday life, local politics, and village gossip turn into humor and chaos.",
+   "tmdb_id": 46917,
+   "poster": "/qZJlqFWGm46PxSkPLteOeV6PIbT.jpg",
+   "votes": 22,
    "lang": "ro",
-   "level": "B",
-   "metric": "tmdb_votes",
-   "value": "63",
-   "source_url": "https://www.themoviedb.org/tv/62111"
+   "level": "A",
+   "metric": "ratings",
+   "value": "record d'audience du premier : près de 3 millions de téléspectateurs à la minute de pointe (12 octobre 2012), 11,3 points de rating sur l'ensemble de la population ; « série roumaine la plus regardée depuis l'introduction du peoplemeter » sur la cible de Pro TV",
+   "source_url": "https://www.zf.ro/media-advertising/record-de-audienta-las-fierbinti-circa-3-milioane-de-romani-au-stat-cu-ochii-pe-serialul-pro-tv-10202090",
+   "research_note": "Page ouverte (Ziarul Financiar, 2012). Le superlatif porte sur la cible commerciale de Pro TV, et la source date de 2012 : des saisons postérieures ont pu faire mieux (radardemedia.ro : pic de 2,2 M plus tard, extrait seulement)."
   },
   "note": ""
  },
@@ -4284,25 +4302,25 @@
  },
  "RU": {
   "book": {
-   "orig": "Мастер и Маргарита",
-   "fr": "Le Maître et Marguerite",
-   "en": "The Master and Margarita",
-   "author": "Mikhaïl Boulgakov",
-   "author_en": "Mikhail Bulgakov",
-   "year": "1928",
-   "qid": "Q188538",
-   "links": 79,
-   "level": "B",
+   "orig": "Война и мир",
+   "fr": "Guerre et Paix",
+   "en": "War and Peace",
+   "author": "Léon Tolstoï",
+   "author_en": "Leo Tolstoy",
+   "year": "1869",
+   "qid": "Q161531",
+   "links": 97,
+   "level": "A",
    "metric": "survey",
-   "value": "Livre préféré des Russes : 16 % des 3 000 répondants (SuperJob), devant Guerre et Paix (7 %)",
-   "source_url": "https://www.superjob.ru/community/literary/36319",
-   "cover": "/covers/Q188538.jpg",
-   "cover_credit": "https://openlibrary.org/works/OL33021574W",
-   "research_note": "Sondage d'un portail d'emploi, pas d'un institut d'État ; l'enquête SuperJob de 2026 le place encore en tête (1sept.ru).",
-   "overview_fr": "Le Maître et Marguerite est un roman écrit par l'écrivain soviétique Mikhaïl Boulgakov entre 1927 et 1940 puis achevé après sa mort par son épouse Elena Sergeevna Boulgakova. À la fois histoire d'amour, critique politique et sociale, comédie burlesque et conte fantastique, il est considéré comme l'une des œuvres majeures de la littérature russe du XXe siècle.",
-   "overview_en": "The Master and Margarita is a novel by Mikhail Bulgakov, written in the Soviet Union between 1928 and 1940. A censored version, with several chapters cut by editors, was published posthumously in Moscow magazine in 1966–1967 by his widow Elena Bulgakova. The manuscript was first published as a book in 1967, in Paris, France. A samizdat version circulated that included parts cut out by official censors, and these were incorporated in a 1969 version published in Frankfurt. The novel has since been published in several languages and editions. It satirizes Soviet bureaucracy and atheism.",
-   "wiki_fr": "https://fr.wikipedia.org/wiki/Le_Ma%C3%AEtre_et_Marguerite",
-   "wiki_en": "https://en.wikipedia.org/wiki/The_Master_and_Margarita"
+   "value": "1er livre cité comme unissant les Russes (VTsIOM, 2018, presque 3 fois plus cité que Pouchkine) ; 12 % « meilleure œuvre » (SuperJob, 2021, 3 000 répondants) devant Le Maître et Marguerite 11 % ; 32 % « lecture obligatoire » (SuperJob, 2012)",
+   "source_url": "https://snob.ru/news/167672/",
+   "cover": "/covers/Q161531.jpg",
+   "cover_credit": "https://openlibrary.org/works/OL267171W",
+   "research_note": "Pages ouvertes : snob.ru (VTsIOM 2018), interfax.ru/russia/787081 (SuperJob 2021), rg.ru/2012/01/26/knigi-site.html (SuperJob 2012). Question VTsIOM = « ce qui unit les Russes », pas « livre préféré ». Concurrent : Le Maître et Marguerite (16 % en 2009 selon adindex.ru, extrait seulement ; 9 % en 2026 selon un extrait de résultat de recherche), donc classement serré entre les deux ; Tolstoï l'emporte sur 3 sondages sur 5.",
+   "overview_fr": "Guerre et Paix ou La Guerre et la Paix est un roman de l'écrivain russe Léon Tolstoï.",
+   "overview_en": "War and Peace is an epic novel by the Russian author Leo Tolstoy. Set during the Napoleonic Wars, the work comprises both a fictional narrative and chapters in which Tolstoy discusses history and philosophy. An early version was published serially beginning in 1865, after which the entire book was rewritten and published in 1869. The novel has claims to be the greatest novel written. It is regarded, with Anna Karenina, as Tolstoy's finest literary achievement, and it remains an internationally praised classic of world literature.",
+   "wiki_fr": "https://fr.wikipedia.org/wiki/Guerre_et_Paix",
+   "wiki_en": "https://en.wikipedia.org/wiki/War_and_Peace"
   },
   "series": {
    "orig": "Лучше, чем люди",
@@ -4320,7 +4338,7 @@
    "value": "473",
    "source_url": "https://www.themoviedb.org/tv/84380"
   },
-  "note": "Livre : niveau B, sondage d'un portail d'emploi, pas d'un institut."
+  "note": "Livre : Guerre et Paix, sondages VTsIOM 2018 et SuperJob (passe 2), niveau A."
  },
  "RW": {
   "book": {
@@ -4441,40 +4459,42 @@
  },
  "SE": {
   "book": {
-   "orig": "Nils Holgerssons underbara resa genom Sverige",
-   "fr": "Le Merveilleux Voyage de Nils Holgersson à travers la Suède",
-   "en": "The Wonderful Adventures of Nils",
-   "author": "Selma Lagerlöf",
-   "author_en": "Selma Lagerlöf",
-   "year": "1906",
-   "qid": "Q726254",
-   "links": 45,
-   "level": "B",
-   "metric": "wikipedia",
-   "value": "45",
-   "source_url": "https://www.wikidata.org/wiki/Q726254",
-   "cover": "/covers/Q726254.jpg",
-   "cover_credit": "https://openlibrary.org/works/OL644990W",
-   "overview_fr": "",
-   "overview_en": "",
-   "wiki_fr": "",
-   "wiki_en": ""
+   "orig": "Utvandrarna",
+   "fr": "Les Émigrants",
+   "en": "The Emigrants",
+   "author": "Vilhelm Moberg",
+   "author_en": "Vilhelm Moberg",
+   "year": "1949",
+   "qid": "Q3847492",
+   "links": 10,
+   "level": "A",
+   "metric": "survey",
+   "value": "N°1 du vote des téléspectateurs de SVT Röda rummet en 1998 (environ 17 000 votants) pour le livre suédois du siècle : la suite des Émigrants (Utvandrar-sviten) devant Aniara et Röde Orm",
+   "source_url": "https://runeberg.org/admin/19980525.html",
+   "cover": "/covers/Q3847492.jpg",
+   "cover_credit": "https://openlibrary.org/works/OL1379953W",
+   "research_note": "Page Project Runeberg ouverte (top 100 complet), confirmée par sv.wikipedia.org (Röda rummet, TV-program). Le vote porte sur la suite de quatre romans (QID Q3847492) ; le premier tome est Utvandrarna (Q7731890). On peut afficher le premier tome.",
+   "overview_fr": "La Saga des émigrants (Utvandrarserien) est une série romanesque de l'écrivain suédois Vilhelm Moberg. Elle se compose de quatre romans : Utvandrarna (1949), Invandrarna (1952), Nybyggarna (1956) et Sista brevet till Sverige (1959).",
+   "overview_en": "The Emigrants is a series of four novels by Swedish author Vilhelm Moberg:The Emigrants, 1949\nUnto a Good Land, 1952\nThe Settlers, 1956\nThe Last Letter Home, 1959",
+   "wiki_fr": "https://fr.wikipedia.org/wiki/La_Saga_des_%C3%A9migrants",
+   "wiki_en": "https://en.wikipedia.org/wiki/The_Emigrants_(novel_series)"
   },
   "series": {
-   "orig": "Young Royals",
-   "fr": "Young Royals",
-   "en": "Young Royals",
-   "year": "2021",
-   "overview_fr": "Le prince Wilhelm s'adapte à la vie à Hillerska, son nouveau pensionnat prestigieux, mais suivre son cœur s'avère plus compliqué que prévu.",
-   "overview_en": "Prince Wilhelm adjusts to life at his prestigious new boarding school, Hillerska, but following his heart proves more challenging than anticipated.",
-   "tmdb_id": 125910,
-   "poster": "/uGGAoM8ojRHOXj16n6xWiccKr34.jpg",
-   "votes": 1243,
+   "orig": "Svensson, Svensson",
+   "fr": "Svensson, Svensson",
+   "en": "Svensson, Svensson",
+   "year": "1994",
+   "overview_fr": "",
+   "overview_en": "Svensson, Svensson is a Swedish sitcom. It has also been made into a feature film and a play.\n\nTwo seasons consisting of 12 episodes each were broadcast in the autumn of 1994 and the autumn of 1996. They have since been repeated numerous times. The series was revived for a third season in 2007.\n\nSvensson, Svensson is one of the most successful sitcoms in Swedish television history. During the second season, each episode gathered more than 2.5 million viewers, in a country which at the time had a population of around 8.8 million people. The most watched episode was broadcast on 17 November 1996 and gathered 3,395,000 viewers.\n\nThe series centres around the Svensson family who lives in the Vivalla area of Örebro. The family consists of the father Gustav who works as mailman, the mother Lena who works at a bank, their teenage daughter Lina and their son Max.\n\nFor the revival, Gustav has had to retire from his work at the post office, while Lena works for the local government. Max now works at the bank and Lina has married the conductor John who brought his daughter Greta into the family.",
+   "tmdb_id": 15372,
+   "poster": "/kkpQVyC8VvgaZHwgQkG9hA7y2W1.jpg",
+   "votes": 15,
    "lang": "sv",
-   "level": "B",
-   "metric": "tmdb_votes",
-   "value": "1243",
-   "source_url": "https://www.themoviedb.org/tv/125910"
+   "level": "A",
+   "metric": "ratings",
+   "value": "Épisode le plus vu : 3 395 000 téléspectateurs (17 novembre 1996, SVT) ; la saison 2 dépassait toujours 2,5 millions par épisode (MMS Hottop)",
+   "source_url": "https://sv.wikipedia.org/wiki/Svensson%2C_Svensson",
+   "research_note": "Chiffre MMS repris par Wikipédia SV (source d'origine archivée, non rouverte). Aucune fiction suédoise plus regardée trouvée (Saltön 2017 : 1,6 M ; calendrier de Noël Trolltider 2023 : 2,1 M par épisode au MMS). Id TMDB non trouvé."
   },
   "note": ""
  },
@@ -4540,22 +4560,23 @@
    "wiki_en": "https://en.wikipedia.org/wiki/Zdravljica"
   },
   "series": {
-   "orig": "Trezor",
-   "fr": "Trezor",
-   "en": "The Vault",
-   "year": "2026",
+   "orig": "Ena žlahtna štorija",
+   "fr": "Ena žlahtna štorija",
+   "en": "The Finest Story",
+   "year": "2015",
    "overview_fr": "",
-   "overview_en": "The inspiration for the series The Vault was one of the most notorious and, to this day, not fully explained robberies in Slovenian history: the robbery of the SKB Bank safe deposit boxes in Ljubljana more than two decades ago. At the center of the story is security guard Sonja, who is found at the crime scene as the only person left behind after a daring bank vault heist and therefore becomes the prime suspect.",
-   "tmdb_id": 334057,
-   "poster": "/yGqq1NIYaaCalJV2jxXO3uTk6er.jpg",
-   "votes": 4,
+   "overview_en": "The story takes place in the Goriska region, on an estate worth several million euros, which is also a tourist facility outside the series. The Spacapans have owned this estate since 1715. The current owner of the estate is Berto Spacapan, whose wife Tonka died in an accident.",
+   "tmdb_id": 70655,
+   "poster": "/dl9vGyv6OnezDzpRgkG9OkxZ3Y5.jpg",
+   "votes": 0,
    "lang": "sl",
-   "level": "C",
-   "metric": "tmdb_votes",
-   "value": "4",
-   "source_url": "https://www.themoviedb.org/tv/334057"
+   "level": "B",
+   "metric": "press",
+   "value": "titre de l'article de siol.net (Planet TV, 12 octobre 2015) : « la série slovène la plus regardée » ; meilleur épisode : 28,44 % de part sur les 18-54 ans, soit 85 000 téléspectateurs",
+   "source_url": "https://siol.net/planet-tv/ena-zlahtna-storija/ena-zlahtna-storija-je-najbolj-gledana-slovenska-serija-446839",
+   "research_note": "Titre lu sur la page ouverte ; chiffres (28,44 %, 85 000) tirés de l'extrait de recherche, le corps de l'article n'ayant pas été relu. Article de 2015, donc des séries plus récentes (Jezero, Vijolična kot morje) peuvent l'avoir dépassée. Mesure AGB Nielsen."
   },
-  "note": ""
+  "note": "Série : niveau B, superlatif de presse, chiffres en extrait."
  },
  "SK": {
   "book": {
@@ -4579,20 +4600,21 @@
    "wiki_en": "https://en.wikipedia.org/wiki/Mar%C3%ADna"
   },
   "series": {
-   "orig": "Mama na prenájom",
-   "fr": "Mama na prenájom",
-   "en": "Mom for rent",
-   "year": "2023",
-   "overview_fr": "",
-   "overview_en": "Abandoned by his wife, Martin is lying to his daughter not to be upset. But as Hanka grows, these lies become unbearable. Martin meets Nada unexpectedly, asked her to be a rent-a-mother and all lives are completely changed.",
-   "tmdb_id": 218145,
-   "poster": "/fH7PP2Rkdlo414IHvZABBHhtoqd.jpg",
-   "votes": 33,
+   "orig": "Susedia",
+   "fr": "Susedia",
+   "en": "The Neighbours",
+   "year": "2006",
+   "overview_fr": "Les couples mariés vivent côte à côte, mais le tempérament, les opinions et les modes de vie sont assez différents. Ils vivent des situations humoristiques basées sur des incompréhensions et des coïncidences que la vie apporte.",
+   "overview_en": "While married couples live side by side, but temperament, opinions and ways of life are quite different. They experience humorous situations based on misunderstandings and coincidences that life brings.",
+   "tmdb_id": 36494,
+   "poster": "/d81pOo7Ei0T1Za6PY9mg7cWT7DA.jpg",
+   "votes": 8,
    "lang": "sk",
-   "level": "C",
-   "metric": "tmdb_votes",
-   "value": "33",
-   "source_url": "https://www.themoviedb.org/tv/218145"
+   "level": "A",
+   "metric": "ratings",
+   "value": "« série originale la plus regardée » de Slovaquie ; dépassait un million de téléspectateurs et 60 % de part de marché (2006-2007) ; le premier épisode de 2018 a attiré près de 1,1 million de téléspectateurs de plus de 12 ans (record)",
+   "source_url": "https://strategie.hnonline.sk/news/media/1765423-susedia-maju-letnu-pauzu-vratia-sa-opat-na-jesen",
+   "research_note": "Page ouverte (HN Online / Stratégie). sk.wikipedia écrit aussi « le plus regardé des séries slovaques originales produites depuis 1989 » (extrait seulement)."
   },
   "note": ""
  },
@@ -4692,7 +4714,7 @@
  },
  "SR": {
   "book": {
-   "orig": "",
+   "orig": "Hoe duur was de suiker?",
    "fr": "",
    "en": "The Cost of Sugar",
    "author": "Cynthia McLeod",
@@ -4720,8 +4742,8 @@
    "orig": "",
    "fr": "",
    "en": "They Poured Fire on Us From the Sky",
-   "author": "Benson Deng, Alephonsion Deng",
-   "author_en": "Benson Deng, Alephonsion Deng",
+   "author": "Alephonsion Deng, Benson Deng",
+   "author_en": "Alephonsion Deng, Benson Deng",
    "year": "2005",
    "qid": "Q7783748",
    "links": 1,
@@ -4902,22 +4924,23 @@
    "wiki_en": "https://en.wikipedia.org/wiki/Khu_Kam"
   },
   "series": {
-   "orig": "เด็กใหม่",
-   "fr": "Girl From Nowhere",
-   "en": "Girl from Nowhere",
-   "year": "2018",
-   "overview_fr": "Une fille aussi mystérieuse que brillante appelée Nanno passe d'une école à l'autre, dévoilant dans la foulée les mensonges et méfaits des élèves et professeurs.",
-   "overview_en": "A mysterious, clever girl named Nanno transfers to different schools, exposing the lies and misdeeds of the students and faculty at every turn.",
-   "tmdb_id": 83639,
-   "poster": "/eOmhBPnWj0HoPtuAra4IQbH22GP.jpg",
-   "votes": 973,
+   "orig": "คู่กรรม",
+   "fr": "คู่กรรม",
+   "en": "Koo Gum",
+   "year": "1990",
+   "overview_fr": "",
+   "overview_en": "Kobori, a young Japanese soldier, falls in love with Angsumalin, a Thai woman, with pure intentions. However, their love is interrupted by political games, turning it into a bittersweet affair. By the time Angsumalin, who is deeply devoted to her country, realizes the truth in her heart, it might be too late.",
+   "tmdb_id": 340839,
+   "poster": "/tEud8OQn4qChWYS8MuPEet0f11A.jpg",
+   "votes": 0,
    "lang": "th",
    "level": "B",
-   "metric": "tmdb_votes",
-   "value": "973",
-   "source_url": "https://www.themoviedb.org/tv/83639"
+   "metric": "press",
+   "value": "Rating de 40 (Channel 7, 1990), présenté comme le plus haut rating de l'histoire des séries thaïlandaises",
+   "source_url": "https://th.wikipedia.org/wiki/คู่กรรม",
+   "research_note": "Page Wikipédia thaï ouverte ; elle cite un reportage de Channel 7 (17/04/2012, 'สร้างประวัติศาสตร์เรตติ้งสูงสุดของละครไทย เรตติ้ง 40'), non consulté. Chiffre de diffuseur, pas d'audit AGB (1990, avant AGB Nielsen). Wikipédia anglais le dit aussi ('highest record to date'). Remplace Girl From Nowhere (choix auto). Série Channel 7, 26 épisodes, Thongchai McIntyre et Kwang Komoltithi ; adaptation du roman de Thommayanti."
   },
-  "note": ""
+  "note": "Série : niveau B, record annoncé par le diffuseur."
  },
  "TJ": {
   "book": {
@@ -5038,24 +5061,25 @@
  },
  "TR": {
   "book": {
-   "orig": "Benim Adım Kırmızı",
-   "fr": "Mon nom est Rouge",
-   "en": "My Name Is Red",
-   "author": "Orhan Pamuk",
-   "author_en": "Orhan Pamuk",
-   "year": "1998",
-   "qid": "Q470464",
-   "links": 40,
+   "orig": "Kürk Mantolu Madonna",
+   "fr": "La Madone au manteau de fourrure",
+   "en": "Madonna in a Fur Coat",
+   "author": "Sabahattin Ali",
+   "author_en": "Sabahattin Ali",
+   "year": "1943",
+   "qid": "Q6092439",
+   "links": 9,
    "level": "B",
-   "metric": "wikipedia",
-   "value": "40",
-   "source_url": "https://www.wikidata.org/wiki/Q470464",
-   "cover": "/covers/Q470464.jpg",
-   "cover_credit": "https://openlibrary.org/works/OL1019598W",
-   "overview_fr": "Mon nom est Rouge est un roman d'Orhan Pamuk publié à Istanbul aux éditions İletişim Yayınları en 1998. Le récit se déroule dans le milieu des peintres miniaturistes à Constantinople vers la fin du XVIe siècle : c'est une enquête policière doublée d'une intrigue amoureuse, qui contient aussi de nombreuses allusions à l'histoire de la peinture de miniatures.",
-   "overview_en": "My Name Is Red is a 1998 Turkish novel by writer Orhan Pamuk translated into English by Erdağ Göknar in 2001. The novel, concerning miniaturists in the Ottoman Empire of 1591, established Pamuk's international reputation and contributed to his reception of the Nobel Prize in Literature in 2006.",
-   "wiki_fr": "https://fr.wikipedia.org/wiki/Mon_nom_est_Rouge",
-   "wiki_en": "https://en.wikipedia.org/wiki/My_Name_Is_Red"
+   "metric": "sales",
+   "value": "1 625 922 exemplaires vendus en Turquie, 85 éditions entre 1998 et juillet 2017 (chiffres de Yapı Kredi Yayınları, un seul éditeur ; Kuyucaklı Yusuf du même auteur : 789 499)",
+   "source_url": "https://www.neokuyorum.org/kurk-mantolu-madonna-kac-adet-satti/",
+   "cover": "/covers/Q6092439.jpg",
+   "cover_credit": "https://openlibrary.org/works/OL24327596W",
+   "research_note": "Page ouverte (portail Ne Okuyorum ? relayant Vatan Kitap). Chiffre d'un seul éditeur, arrêté en 2017 ; pas de comparaison chiffrée avec d'autres romans turcs. La liste « yerli bestseller » de soylentidergi.com (extrait de recherche) place aussi ce roman en tête, sans chiffre. Paru en feuilleton en 1940-41, en volume en 1943. QID Wikidata non vérifié.",
+   "overview_fr": "",
+   "overview_en": "Madonna in a Fur Coat (Turkish: Kürk Mantolu Madonna) is a novel written by Turkish author Sabahattin Ali. It was published in 1943.",
+   "wiki_fr": "",
+   "wiki_en": "https://en.wikipedia.org/wiki/Madonna_in_a_Fur_Coat"
   },
   "series": {
    "orig": "Asmalı Konak",
@@ -5074,7 +5098,7 @@
    "source_url": "https://www.facebook.com/DiziReytingleri/posts/t%C3%BCrk-tv-tarihinin-en-fazla-izlenen-dizileri1-asmal%C4%B1-konak-2850-reyting-y%C3%BCzde-810/2161385750617198/",
    "research_note": "Liste relayée sur Facebook et X (extrait de recherche, page non chargée) : source secondaire à confirmer. Wikidata Q2250216."
   },
-  "note": ""
+  "note": "Livre : niveau B, chiffre d'un seul éditeur arrêté en 2017."
  },
  "TT": {
   "book": {
@@ -5515,7 +5539,7 @@
  },
  "ZA": {
   "book": {
-   "orig": "",
+   "orig": "Kringe in 'n bos",
    "fr": "Cercles dans la forêt",
    "en": "Circles in a Forest",
    "author": "Dalene Matthee",

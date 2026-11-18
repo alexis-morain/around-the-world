@@ -1,0 +1,162 @@
+[
+ {
+  "iso2": "TR",
+  "book": {
+   "level": "A",
+   "title_original": "Kürk Mantolu Madonna",
+   "title_fr": "La Madone au manteau de fourrure",
+   "title_en": "Madonna in a Fur Coat",
+   "author": "Sabahattin Ali",
+   "year": 1943,
+   "language": "tr",
+   "wikidata": "",
+   "metric": "sales",
+   "value": "1 625 922 exemplaires vendus en Turquie, 85 éditions entre 1998 et juillet 2017 (chiffres de Yapı Kredi Yayınları, un seul éditeur ; Kuyucaklı Yusuf du même auteur : 789 499)",
+   "source_url": "https://www.neokuyorum.org/kurk-mantolu-madonna-kac-adet-satti/",
+   "note": "Page ouverte (portail Ne Okuyorum ? relayant Vatan Kitap). Chiffre d'un seul éditeur, arrêté en 2017 ; pas de comparaison chiffrée avec d'autres romans turcs. La liste « yerli bestseller » de soylentidergi.com (extrait de recherche) place aussi ce roman en tête, sans chiffre. Paru en feuilleton en 1940-41, en volume en 1943. QID Wikidata non vérifié."
+  }
+ },
+ {
+  "iso2": "IL",
+  "book": {
+   "level": "none",
+   "note": "Candidat : Une histoire d'amour et de ténèbres d'Amos Oz (2002, hébreu). Le Guardian (2004) le dit « thought to be the biggest-selling literary work in Israeli history » et Haaretz (2011) donne plus d'un million d'exemplaires dans le monde : aucun chiffre israélien, extraits de recherche et page Haaretz archivée seulement (page Guardian non ouverte). Listes Steimatzky / Ynet (100 livres, jury de personnalités) non exploitables : pas de ventes cumulées."
+  }
+ },
+ {
+  "iso2": "IR",
+  "book": {
+   "level": "none",
+   "note": "Candidat : Souvashoun de Simin Daneshvar (déjà B). Aucune source nationale plus solide : seule la Wikipédia persane (page ouverte) donne « estimé à plus de 500 000 exemplaires en 2016 » et cite Mirabedini/Haqooqi comme « roman iranien le plus vendu » ; djketab.com : 28e édition en 2021 ; Taaghche/Basalam : listes de pop. sans chiffres. Pas de tirage cumulé d'un éditeur ou du ministère de la Culture trouvé."
+  },
+  "series": {
+   "level": "A",
+   "title_original": "پایتخت",
+   "title_fr": "Paytakht",
+   "title_en": "Paytakht (The Capital)",
+   "year": 2011,
+   "language": "fa",
+   "tmdb_id": 100754,
+   "metric": "ratings",
+   "value": "Paytakht 6 : 75 % des personnes interrogées l'ont regardé (1re série de Norouz 1399, devant Doping 42 %), sondage national du Centre de recherche de la Radio-Télévision (IRIB), première semaine de Norouz 2020",
+   "source_url": "https://www.jamaran.news/%D8%A8%D8%AE%D8%B4-%D8%AC%DB%8C-%D9%BE%D9%84%D8%A7%D8%B3-70/1391515-%D9%BE%D8%A7%DB%8C%D8%AA%D8%AE%D8%AA-%D9%BE%D8%B1%D8%A8%DB%8C%D9%86%D9%86%D8%AF%D9%87-%D8%AA%D8%B1%DB%8C%D9%86-%D8%B3%D8%B1%DB%8C%D8%A7%D9%84-%D9%86%D9%88%D8%B1%D9%88%D8%B2%DB%8C-%D8%AF%D8%B1%D8%B5%D8%AF-%D9%85%D8%B1%D8%AF%D9%85-%D9%85%D8%AE%D8%A7%D8%B7%D8%A8-%D8%AA%D9%84%D9%88%DB%8C%D8%B2%DB%8C%D9%88%D9%86",
+   "note": "Page ouverte (Jamaran News). Mesure d'une saison (6) sur une semaine, par le diffuseur d'État : pas un record toutes séries confondues. khabaronline.ir (non ouvert) la dit « série rediffusée la plus regardée » selon la même source. Remplace le record Telewebion (source Instagram) du niveau B."
+  }
+ },
+ {
+  "iso2": "LB",
+  "book": {
+   "level": "none",
+   "note": "Candidat actuel : Le Prophète de Gibran (écrit en anglais). Aucun sondage ni chiffre de ventes libanais trouvé (Ipsos Liban : études de consommation, pas de lecture)."
+  },
+  "series": {
+   "level": "none",
+   "note": "Candidat actuel : Lel Maout (Till Death). Aucune mesure d'audience libanaise publique trouvée (Ipsos Liban sans classement de séries)."
+  }
+ },
+ {
+  "iso2": "SY",
+  "book": {
+   "level": "none",
+   "note": "Candidat : La Voile et la tempête de Hanna Mina. Aucune source de ventes, sondage ou programme syrien trouvée."
+  }
+ },
+ {
+  "iso2": "JO",
+  "book": {
+   "level": "none",
+   "note": "Candidat : Villes de sel d'Abdelrahman Mounif. Aucune source de ventes, sondage ou programme jordanien trouvée."
+  },
+  "series": {
+   "level": "none",
+   "note": "Candidat actuel : AlRawabi School for Girls (Netflix). Aucun classement jordanien chiffré trouvé."
+  }
+ },
+ {
+  "iso2": "IQ",
+  "book": {
+   "level": "none",
+   "note": "Candidat : Frankenstein à Bagdad d'Ahmed Saadawi. Seuls des classements de ventes du salon de Bagdad (posts Instagram/Facebook, titres traduits et récents en tête) : aucun chiffre ni source ouverte."
+  },
+  "series": {
+   "level": "none",
+   "note": "Candidat actuel : Heera (TMDB 209247). Aucune audience irakienne mesurée trouvée."
+  }
+ },
+ {
+  "iso2": "SA",
+  "book": {
+   "level": "none",
+   "note": "Candidat : Les Filles de Riyad de Rajaa Alsanea. Seulement des classements de ventes de salons (Riyad, Djeddah) sans chiffres cumulés, dominés par des ouvrages religieux ou traduits ; pas de source chiffrée."
+  },
+  "series": {
+   "level": "none",
+   "note": "Candidats : Tash Ma Tash (19 saisons, comédie, le plus cité, sans chiffre), Omar (2012). Ipsos/MRC Arabie saoudite publie des mesures par chaîne ou par semaine de Ramadan, sans record de série ouvert ; PRWeek (page bloquée, extrait seul) mentionne Abou Shallakh comme programme le mieux noté de la TV saoudienne, ancien et non vérifié."
+  }
+ },
+ {
+  "iso2": "AE",
+  "book": {
+   "level": "none",
+   "note": "Candidat : Shahenda de Rashid Abdullah Al Noaimi. Seuls des classements de librairie (Jarir) sans chiffres cumulés."
+  }
+ },
+ {
+  "iso2": "KW",
+  "book": {
+   "level": "none",
+   "note": "Candidat : Le Bambou et la Porte de Saud Alsanousi. Aucune source de ventes ou de sondage koweïtienne trouvée."
+  },
+  "series": {
+   "level": "none",
+   "note": "Candidat actuel : The Exchange (Al-Safqa). Aucune audience mesurée trouvée ; seulement des classements Netflix hebdomadaires (An-Nafs al-Mutma'inna) qui ne sont pas un record national."
+  }
+ },
+ {
+  "iso2": "EG",
+  "book": {
+   "level": "none",
+   "note": "Candidat : La Trilogie du Caire de Naguib Mahfouz (déjà B, classement panarabe). Aucun chiffre de ventes ou sondage égyptien trouvé."
+  },
+  "series": {
+   "level": "none",
+   "note": "Candidat : Ein Sehreya (Œil magique, Ramadan 2026, tête des intentions de visionnage Ipsos Égypte, TMDB à confirmer). Ipsos ne donne que des intentions de visionnage et un score de réputation sociale ; Al Jazeera (page ouverte) rappelle qu'aucun organisme ne publie d'audience officielle, les classements viennent de Watch It/Shahid. Pas d'audience mesurée."
+  }
+ },
+ {
+  "iso2": "DZ",
+  "book": {
+   "level": "none",
+   "note": "Candidat : Mémoires de la chair d'Ahlam Mosteghanemi (déjà B, chiffre panarabe). Aucune vente algérienne trouvée (non cherché au-delà du site de l'autrice et de Forbes)."
+  }
+ },
+ {
+  "iso2": "TN",
+  "book": {
+   "level": "none",
+   "note": "Candidat : aucun titre établi. Enquête Emrhod (61 % des Tunisiens ne lisent aucun livre) sans classement de titres ; listes de ventes de la Foire du livre de Tunis 2026 (posts d'éditeurs) : aucun chiffre ni classement national."
+  }
+ },
+ {
+  "iso2": "LY",
+  "book": {
+   "level": "none",
+   "note": "Candidat : Chewing Gum de Mansour Bushnaf. Aucune source de ventes, sondage ou programme libyen trouvée."
+  },
+  "series": {
+   "level": "none",
+   "note": "Aucun candidat ni source d'audience libyenne trouvée."
+  }
+ },
+ {
+  "iso2": "SD",
+  "book": {
+   "level": "none",
+   "note": "Candidat : Saison de la migration vers le nord de Tayeb Salih (déjà B, classement panarabe de critiques). Aucune vente ou sondage de lecteurs soudanais trouvé."
+  },
+  "series": {
+   "level": "none",
+   "note": "Aucun candidat ni source d'audience soudanaise trouvée."
+  }
+ }
+]

@@ -553,5 +553,44 @@
   "file": "/covers/Q212340.jpg",
   "credit": "https://openlibrary.org/works/OL3140822W"
  },
- "Q55607665": null
+ "Q55607665": null,
+ "Q744859": {
+  "file": "/covers/Q744859.jpg",
+  "credit": "https://openlibrary.org/works/OL770671W"
+ },
+ "Q938975": null,
+ "Q2857818": null,
+ "Q1758876": {
+  "file": "/covers/Q1758876.jpg",
+  "credit": "https://openlibrary.org/works/OL8801838W"
+ },
+ "Q2081254": {
+  "file": "/covers/Q2081254.jpg",
+  "credit": "https://openlibrary.org/works/OL2223951W"
+ },
+ "Q119996810": {
+  "file": "/covers/Q119996810.jpg",
+  "credit": "https://openlibrary.org/works/OL4844381W"
+ },
+ "Q7852455": null,
+ "Q19657306": {
+  "file": "/covers/Q19657306.jpg",
+  "credit": "https://openlibrary.org/works/OL17764836W"
+ },
+ "Q1212173": {
+  "file": "/covers/Q1212173.jpg",
+  "credit": "https://openlibrary.org/works/OL659062W"
+ },
+ "Q161531": {
+  "file": "/covers/Q161531.jpg",
+  "credit": "https://openlibrary.org/works/OL267171W"
+ },
+ "Q3847492": {
+  "file": "/covers/Q3847492.jpg",
+  "credit": "https://openlibrary.org/works/OL1379953W"
+ },
+ "Q6092439": {
+  "file": "/covers/Q6092439.jpg",
+  "credit": "https://openlibrary.org/works/OL24327596W"
+ }
 }

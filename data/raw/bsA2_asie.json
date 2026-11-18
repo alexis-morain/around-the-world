@@ -1,0 +1,371 @@
+[
+  {
+    "iso2": "KR",
+    "book": {
+      "level": "A",
+      "title_original": "소년이 온다",
+      "title_fr": "Celui qui revient",
+      "title_en": "Human Acts",
+      "author": "Han Kang",
+      "year": 2014,
+      "language": "ko",
+      "wikidata": "Q19657306",
+      "metric": "sales",
+      "value": "1er de tous les livres vendus chez Yes24 sur 2016-2025 (classement des ventes, livres nationaux hors manuels) ; La Végétarienne 6e, Impossibles adieux 7e",
+      "source_url": "https://m.ch.yes24.com/article/details/81048",
+      "note": "Page ouverte (Channel Yes24, avril 2025). Source = un seul libraire (Yes24), 10 ans, pic après le Nobel 2024 ; pas de chiffre d'exemplaires. Titre FR à vérifier : 'Celui qui revient' (édition Picquier)."
+    }
+  },
+  {
+    "iso2": "IN",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucun classement de ventes ou sondage national trouvé. Candidats : Five Point Someone (Chetan Bhagat, 2004, anglais, 'plus d'un million d'exemplaires dans le monde' selon Wikipédia/CSMonitor) ; Godaan (Premchand), Madhushala (Bachchan) sans chiffre consulté. Rien ne désigne un n°1 en Inde."
+    }
+  },
+  {
+    "iso2": "PK",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Candidat : Pir-e-Kamil (Umera Ahmad, 2004, 'most popular work' selon Wikipédia) ; aucun chiffre de ventes ni sondage trouvé. Page Wikipédia ouverte, sans chiffre."
+    }
+  },
+  {
+    "iso2": "BD",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Candidat : Humayun Ahmed, 'meilleures ventes de la Ekushey Book Fair chaque année des années 1990 et 2000' (Wikipédia citant le Daily Star), mais le classement porte sur l'auteur, pas sur un livre unique (Daily Star 2014 cite Eisob Dinratri, Kothao Keu Nei, Jyotsna O Jononir Golpo sans chiffres). Aucun titre désigné n°1."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Candidats : Kothao Keu Nei (1992-93, BTV, Humayun Ahmed) et Bohubrihi (1988) cités comme 'meilleurs' ou 'incontournables' sans chiffre d'audience. Aucune mesure (BARC, TRP) consultée."
+    }
+  },
+  {
+    "iso2": "TH",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Candidat : Si Phaendin / Four Reigns (Kukrit Pramoj, 1953) : Britannica écrit 'probably the best-selling Thai novel of all time' (extrait de recherche, wikipédia thaï le reprend), sans chiffre ni sondage : insuffisant. Autres : Khu Kam (Thommayanti)."
+    },
+    "series": {
+      "level": "A",
+      "title_original": "คู่กรรม",
+      "title_fr": "Koo Gum",
+      "title_en": "Koo Gum",
+      "year": 1990,
+      "language": "th",
+      "tmdb_id": 340839,
+      "metric": "press",
+      "value": "Rating de 40 (Channel 7, 1990), présenté comme le plus haut rating de l'histoire des séries thaïlandaises",
+      "source_url": "https://th.wikipedia.org/wiki/คู่กรรม",
+      "note": "Page Wikipédia thaï ouverte ; elle cite un reportage de Channel 7 (17/04/2012, 'สร้างประวัติศาสตร์เรตติ้งสูงสุดของละครไทย เรตติ้ง 40'), non consulté. Chiffre de diffuseur, pas d'audit AGB (1990, avant AGB Nielsen). Wikipédia anglais le dit aussi ('highest record to date'). Remplace Girl From Nowhere (choix auto). Série Channel 7, 26 épisodes, Thongchai McIntyre et Kwang Komoltithi ; adaptation du roman de Thommayanti."
+    }
+  },
+  {
+    "iso2": "TW",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, sondage ou programme scolaire trouvée. Garçons de cristal (Pai Hsien-yung) reste le choix auto sans confirmation."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Candidat : Fated to Love You (2008, SET/TTV) : record des idol dramas avec 13,64 en pic par segment (Baidu Baike) ; le record toutes catégories (dramas en hokkien, feuilletons) n'est pas confirmé. Aucune source AGB Nielsen consultée."
+    }
+  },
+  {
+    "iso2": "HK",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, sondage ou programme scolaire trouvée pour Hong Kong."
+    },
+    "series": {
+      "level": "A",
+      "title_original": "射鵰英雄傳",
+      "title_fr": "La Légende des héros chinois",
+      "title_en": "The Legend of the Condor Heroes",
+      "year": 1983,
+      "language": "yue",
+      "tmdb_id": 104,
+      "metric": "ratings",
+      "value": "Moyenne de 65 points d'audience, pic de 99 % (TVB Jade, 1983), plus de 3,5 millions de téléspectateurs par épisode : série la plus regardée de l'histoire de Hong Kong",
+      "source_url": "https://zh.wikipedia.org/wiki/射鵰英雄傳_(1983年電視劇)",
+      "note": "Pages Wikipédia zh et en ouvertes (mêmes chiffres) ; source primaire (TVB) non consultée. Remplace Come Home Love: Lo and Behold (choix auto). Série en cantonais, adaptée de Jin Yong ; production TVB de Hong Kong."
+    }
+  },
+  {
+    "iso2": "MY",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Candidats : Ombak Rindu (Fauziah Ashari, 2002 : 23 tirages, 24e tirage vendu à 20 000 sur 40 000 selon ms.wikipedia, loin d'un record) ; Tombiruo (Ramlee Awang Murshid, 1998) sans chiffre. Aucun n°1 sourcé."
+    }
+  },
+  {
+    "iso2": "SG",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes ou de sondage trouvée. Crazy Rich Asians (Kevin Kwan) n'est pas documenté comme n°1 à Singapour. Singaporean literature (Wikipédia) cite Catherine Lim comme 'most widely read author' sans titre ni chiffre."
+    }
+  },
+  {
+    "iso2": "LK",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Candidats : Gamperaliya / Madol Doova / Viragaya (Martin Wickramasinghe), 'most important Sinhalese novelist' (Monash) ; aucun chiffre de ventes ni programme officiel consulté."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "NP",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Candidats : Muna Madan (Devkota, 1936) : Wikipédia écrit 'one of the most commercially successful Nepali books ever' mais la phrase est marquée [citation needed] ; 'régulièrement étudié dans les écoles' sans texte officiel. Palpasa Café (Narayan Wagle, 2005) : record de 25 000 exemplaires la première année, 52 000 en 2012 (Wikipédia), n'établit pas le n°1 de tous les temps."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "MN",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée. Choix auto Gologdson huuhen (Damdinsüren) non confirmé."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée. Arbitrage existant : 成吉思汗 est une production chinoise."
+    }
+  },
+  {
+    "iso2": "KH",
+    "book": {
+      "level": "A",
+      "title_original": "ទុំទាវ",
+      "title_fr": "Tum Teav",
+      "title_en": "Tum Teav",
+      "author": "Preah Botumthera Som (version de 1915, d'après un récit du XIXe s.)",
+      "year": 1915,
+      "language": "km",
+      "wikidata": "Q7852455",
+      "metric": "canon",
+      "value": "Partie obligatoire du programme national du secondaire cambodgien depuis les années 1950",
+      "source_url": "https://en.wikipedia.org/wiki/Tum_Teav",
+      "note": "Page Wikipédia ouverte : 'compulsory part of the Cambodian secondary national curriculum since the 1950s' (note [1] de la page non ouverte). Un diaporama indique une intégration depuis 1957 (extrait de recherche). Pas de chiffre de ventes. Remplace Kolab Pailin (choix auto, 2 liens). Œuvre issue d'un récit populaire fixé par écrit en 1915."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "MM",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Arbitrage existant : seuls candidats = inscriptions, chroniques, essais. Aucune source de ventes ou de sondage trouvée pour un roman."
+    },
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source d'audience trouvée."
+    }
+  },
+  {
+    "iso2": "LA",
+    "book": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Aucune source de ventes, de sondage ou de programme scolaire trouvée."
+    }
+  },
+  {
+    "iso2": "CN",
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Candidats : 渴望 (1990, 'plus de 90 %' selon zh.wikipedia, qui cite une revue de 1993 'non consultable' pour 90,78 %) ; 敌营十八年 (1981, 99 %) et 西游记 (1986, 96 %) dans une liste de 'top 10 de l'histoire' sans source de mesure officielle. Aucun chiffre CSM/CVB officiel consulté désignant un record national ; pour la période CSM, 人民的名义 (2017, 3,661 % moy. sur Hunan TV) est un record par chaîne, pas national. Extraits de recherche seulement pour les pages CVB/CSM."
+    }
+  },
+  {
+    "iso2": "VN",
+    "series": {
+      "level": "none",
+      "title_original": "",
+      "title_fr": "",
+      "title_en": "",
+      "year": null,
+      "language": "",
+      "metric": "",
+      "value": "",
+      "source_url": "",
+      "note": "Candidat : Hương vị tình thân (VTV3, 2021), 'xếp hạng người xem cao' selon vi.wikipedia sans chiffre ; 11 tháng 5 ngày cité par Vietcetera comme tendance. Aucun chiffre Kantar/Nielsen consulté."
+    }
+  }
+]

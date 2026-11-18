@@ -1,0 +1,208 @@
+[
+ {
+  "iso2": "BR",
+  "book": {
+   "level": "A",
+   "title_original": "Turma da Mônica",
+   "title_fr": "La Bande à Mônica",
+   "title_en": "Monica's Gang",
+   "author": "Mauricio de Sousa",
+   "year": 1963,
+   "language": "pt",
+   "wikidata": "Q938975",
+   "metric": "survey",
+   "value": "3e livre le plus cité comme « le plus marquant » (54 citations), après la Bible (485) et Le Petit Prince (59), et 1re œuvre brésilienne, dans Retratos da Leitura no Brasil 2024 (Instituto Pró-Livro, sondage national)",
+   "source_url": "https://www.prolivro.org.br/wp-content/uploads/2024/11/Apresentac%CC%A7a%CC%83o_Retratos_da_Leitura_2024_13-11_SITE.pdf",
+   "note": "Bande dessinée (gibis), tirée du PDF du sondage ouvert en entier. Première œuvre brésilienne ; Sítio do Pica-Pau Amarelo (Lobato) 27 citations, Dom Casmurro 16, Violetas na Janela 18. QID Wikidata à compléter."
+  }
+ },
+ {
+  "iso2": "CL",
+  "book": {
+   "level": "none",
+   "note": "Aucun chiffre vérifié. Extrait de recherche d'un mémoire de l'Université du Chili (page bloquée par Anubis, non ouverte) : un éditeur affirme avoir vendu 56 000 exemplaires de La isla bajo el mar d'Isabel Allende au Chili et doute qu'un livre ait fait mieux ; 44 000 pour Inés del alma mía. Candidat non confirmé : La isla bajo el mar ; le choix actuel (La casa de los espíritus) reste plausible."
+  }
+ },
+ {
+  "iso2": "CO",
+  "book": {
+   "level": "none",
+   "note": "Aucun chiffre de ventes national. Cien años de soledad est au programme du bachillerato selon Semana (especiales.semana.com/cien-anos-de-soledad), sans source officielle ni classement : insuffisant. Candidat : Cien años de soledad."
+  }
+ },
+ {
+  "iso2": "PE",
+  "book": {
+   "level": "none",
+   "note": "Encuesta Nacional de Lectura 2022 (INEI) ne publie pas de titres. Aucune vente ni sondage de titres trouvé. Candidats non confirmés : Los ríos profundos (élu par 70 spécialistes), La ciudad y los perros, Paco Yunque (édité par le ministère de la Culture)."
+  }
+ },
+ {
+  "iso2": "VE",
+  "book": {
+   "level": "none",
+   "note": "Aucune vente ni sondage trouvé. Candidat : Doña Bárbara (Gallegos)."
+  },
+  "series": {
+   "level": "none",
+   "note": "Seulement des posts réseaux sociaux (pics à 94 % pour Por estas calles, non sourcé) ; pas de mesure AGB trouvée. Candidats : Por estas calles, Kassandra, Cristal."
+  }
+ },
+ {
+  "iso2": "CU",
+  "book": {
+   "level": "none",
+   "note": "Aucune vente ni sondage trouvé. Candidat : El reino de este mundo (Carpentier)."
+  },
+  "series": {
+   "level": "none",
+   "note": "Sol de batey (1985) décrite par Cuballama comme record d'audience et 'paralysant Cuba', et Tierra brava (1997) comme ayant dépassé la novela brésilienne, mais sans mesure chiffrée. Candidat : Sol de batey."
+  }
+ },
+ {
+  "iso2": "DO",
+  "book": {
+   "level": "none",
+   "note": "Aucun chiffre ni sondage national trouvé (recherche : seulement des listes Goodreads de livres sur le pays). Candidats non confirmés : Over (Marrero Aristy), Enriquillo (Galván)."
+  },
+  "series": {
+   "level": "none",
+   "note": "Aucune audience trouvée. Candidat actuel Líos de familia non confirmé."
+  }
+ },
+ {
+  "iso2": "UY",
+  "book": {
+   "level": "none",
+   "note": "Aucune vente nationale trouvée. Candidat : La tregua (Benedetti)."
+  },
+  "series": {
+   "level": "none",
+   "note": "Obitel 2024 (Kantar Ibope Uruguay) montre un top 10 dominé par des fictions étrangères (Brésil, Mexique) ; aucune série uruguayenne record trouvée."
+  }
+ },
+ {
+  "iso2": "PY",
+  "book": {
+   "level": "none",
+   "note": "Aucun chiffre trouvé. Candidat : Yo el Supremo (Roa Bastos)."
+  },
+  "series": {
+   "level": "none",
+   "note": "Aucune audience de fiction paraguayenne trouvée (la telenovela brésilienne Renacer domine Telefuturo). "
+  }
+ },
+ {
+  "iso2": "BO",
+  "book": {
+   "level": "none",
+   "note": "Aucun chiffre trouvé. Candidat : Raza de bronce (Arguedas)."
+  },
+  "series": {
+   "level": "none",
+   "note": "Aucune audience trouvée."
+  }
+ },
+ {
+  "iso2": "EC",
+  "book": {
+   "level": "none",
+   "note": "Aucun chiffre fiable trouvé. Candidat : Huasipungo (Icaza)."
+  },
+  "series": {
+   "level": "none",
+   "note": "Aucune audience par titre trouvée (Kantar Ibope Ecuador publie des parts par genre seulement)."
+  }
+ },
+ {
+  "iso2": "GT",
+  "book": {
+   "level": "none",
+   "note": "Aucun chiffre trouvé. Candidat : El señor Presidente (Asturias)."
+  },
+  "series": {
+   "level": "none",
+   "note": "Aucune audience trouvée."
+  }
+ },
+ {
+  "iso2": "CR",
+  "book": {
+   "level": "none",
+   "note": "Cocorí (Joaquín Gutiérrez, 1947) décrit comme fondamental dans le canon national (Radio Ambulante) et l'un des deux livres costaricains les plus populaires (Instituto Cervantes São Paulo, extrait Facebook), sans chiffre de ventes ni source de programme scolaire ouverte. Candidat : Cocorí."
+  },
+  "series": {
+   "level": "none",
+   "note": "Aucune audience trouvée."
+  }
+ },
+ {
+  "iso2": "HN",
+  "book": {
+   "level": "none",
+   "note": "Aucun chiffre trouvé. Candidat non confirmé : El dinosaurio (Monterroso, né au Guatemala)."
+  },
+  "series": {
+   "level": "none",
+   "note": "Aucune audience trouvée."
+  }
+ },
+ {
+  "iso2": "SV",
+  "book": {
+   "level": "none",
+   "note": "Aucun chiffre trouvé. Candidat : El jetón (Ambrogi)."
+  },
+  "series": {
+   "level": "none",
+   "note": "Aucune audience trouvée."
+  }
+ },
+ {
+  "iso2": "PA",
+  "book": {
+   "level": "none",
+   "note": "Aucun chiffre trouvé."
+  },
+  "series": {
+   "level": "none",
+   "note": "Aucune audience trouvée."
+  }
+ },
+ {
+  "iso2": "NI",
+  "book": {
+   "level": "none",
+   "note": "Aucun chiffre trouvé. Candidat : Azul… (Rubén Darío)."
+  }
+ },
+ {
+  "iso2": "JM",
+  "book": {
+   "level": "none",
+   "note": "Aucun chiffre ni sondage trouvé. Candidat : A Brief History of Seven Killings (Marlon James)."
+  },
+  "series": {
+   "level": "none",
+   "note": "Aucune audience trouvée."
+  }
+ },
+ {
+  "iso2": "TT",
+  "book": {
+   "level": "none",
+   "note": "Aucun chiffre trouvé."
+  },
+  "series": {
+   "level": "none",
+   "note": "Aucune audience trouvée. Candidat de la première passe : Westwood Park (blog, sans mesure)."
+  }
+ },
+ {
+  "iso2": "CA",
+  "book": {
+   "level": "none",
+   "note": "Aucun chiffre canadien trouvé : seuls des chiffres mondiaux (Anne of Green Gables, plus de 50 millions, CBC Books) ; la Canadian Encyclopedia ne donne pas de classement chiffré. Non remplacé."
+  }
+ }
+]
