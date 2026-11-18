@@ -87,3 +87,21 @@ l'id TMDB sont précieux : cherche-les (wikidata.org, themoviedb.org).
 
 Réponds à la fin par un résumé : nombre de livres et de séries de niveau A,
 pays ambigus.
+
+## Deuxième passe (bsA2)
+
+Ciblée sur les pays sans niveau A, listés dans ta mission avec le type cherché
+(livre, série ou les deux). Mêmes règles, avec trois précisions tirées de la
+première passe :
+
+- `A` seulement si la source porte sur le pays : ventes ou tirages dans le pays,
+  sondage de lecteurs ou de téléspectateurs du pays, programme scolaire national,
+  audience mesurée dans le pays. Un chiffre mondial, un classement régional
+  (panarabe, latino-américain), une mention sans chiffre, un blog ou un réseau
+  social ne suffisent pas : mets `none` et nomme le candidat dans `note`.
+- Ouvre la page source elle-même. Si tu n'as vu qu'un extrait de résultat de
+  recherche, écris-le dans `note`.
+- N'écris que les pays de ta liste, et seulement le type demandé (l'autre clé
+  absente). Un `none` n'efface pas un A existant : pas besoin de recopier.
+
+Fichier de sortie : `data/raw/bsA2_<region>.json`, même format.

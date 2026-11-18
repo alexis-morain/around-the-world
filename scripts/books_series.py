@@ -115,13 +115,26 @@ def resolve(auto_id, override, research, kind):
     return "auto", auto_id
 
 
-def load_research():
-    """iso -> {book, series} des fichiers data/raw/bsA_*.json (recherche sourcée par région)."""
+def merge_research(passes):
+    """Fusionne des passes de recherche, par pays et par type : un A plus récent remplace, un none n'efface rien."""
     out = {}
-    for f in sorted((ROOT / "data" / "raw").glob("bsA_*.json")):
-        for e in json.loads(f.read_text()):
-            out[e["iso2"]] = e
+    for entries in passes:
+        for e in entries:
+            cur = out.setdefault(e["iso2"], {"iso2": e["iso2"]})
+            for kind in ("book", "series"):
+                new = e.get(kind)
+                if not new:
+                    continue
+                if new.get("level") == "A" or (cur.get(kind) or {}).get("level") != "A":
+                    cur[kind] = new
     return out
+
+
+def load_research():
+    """iso -> {book, series} des fichiers data/raw/bsA_*.json (1re passe), puis bsA2_*.json (2e passe)."""
+    raw = ROOT / "data" / "raw"
+    files = sorted(raw.glob("bsA_*.json")) + sorted(raw.glob("bsA2_*.json"))
+    return merge_research(json.loads(f.read_text()) for f in files)
 
 
 def find_qid(titles, author, langs=("en", "fr")):

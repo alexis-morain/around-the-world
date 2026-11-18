@@ -115,7 +115,7 @@ const fr = {
     levelShort: { A: "Source chiffrée", B: "Signal solide", C: "Signal faible", D: "Dernier recours" } as Record<string, string>,
     fr: "Visible en France",
     anim: "Animation",
-    unseen: "Pas encore vus",
+    unseen: "À découvrir",
     list: "Ma liste",
     reset: "Tout effacer",
     count: {

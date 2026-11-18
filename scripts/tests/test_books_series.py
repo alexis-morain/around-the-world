@@ -28,6 +28,25 @@ class Resolve(unittest.TestCase):
         self.assertEqual(bs.resolve(5, {}, {"level": "A", "tmdb_id": 9}, "series"), ("research", 9))
 
 
+class MergeResearch(unittest.TestCase):
+    def test_un_a_plus_recent_remplace_par_type(self):
+        first = [{"iso2": "SE", "book": {"level": "A", "wikidata": "Q1"}, "series": {"level": "none"}}]
+        second = [{"iso2": "SE", "book": {"level": "none"}, "series": {"level": "A", "tmdb_id": 9}}]
+        out = bs.merge_research([first, second])
+        self.assertEqual(out["SE"]["book"]["wikidata"], "Q1")
+        self.assertEqual(out["SE"]["series"]["tmdb_id"], 9)
+
+    def test_un_none_n_efface_pas_un_a(self):
+        first = [{"iso2": "SE", "book": {"level": "A", "wikidata": "Q1"}}]
+        second = [{"iso2": "SE", "book": {"level": "none", "note": "rien"}}]
+        self.assertEqual(bs.merge_research([first, second])["SE"]["book"]["wikidata"], "Q1")
+
+    def test_le_dernier_a_gagne(self):
+        first = [{"iso2": "SE", "book": {"level": "A", "wikidata": "Q1"}}]
+        second = [{"iso2": "SE", "book": {"level": "A", "wikidata": "Q2"}}]
+        self.assertEqual(bs.merge_research([first, second])["SE"]["book"]["wikidata"], "Q2")
+
+
 class AutoLevel(unittest.TestCase):
     def test_seuils(self):
         self.assertEqual(bs.auto_level("book", 10), "B")
