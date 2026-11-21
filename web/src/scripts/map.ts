@@ -4,7 +4,7 @@ import { select } from "d3-selection";
 import { zoom as d3zoom, zoomIdentity, type ZoomBehavior } from "d3-zoom";
 import "d3-transition";
 import { feature } from "topojson-client";
-import { mapState, KINDS, type Kind, type MapMode } from "../lib/logic";
+import { mapState, focusBox, KINDS, type Box, type Kind, type MapMode } from "../lib/logic";
 import type { ClientCountry } from "../lib/films";
 import { all } from "./store";
 import { reduced, str } from "./ui";
@@ -14,6 +14,7 @@ const MICRO_AREA = 3e-4; // sous cette aire (stéradians), un pays reçoit un po
 
 let g: any, svg: any, zb: ZoomBehavior<SVGSVGElement, unknown>, W = 0, H = 0;
 let byIso = new Map<string, MapFilm>();
+let pieces = new Map<string, Box[]>(); // boîtes projetées de chaque morceau de pays, pour le cadrage
 let current: string | null = null;
 let mode: MapMode = "film";
 const kindsOf = (c: MapFilm) => KINDS.filter((k) => c.works[k]);
@@ -43,6 +44,13 @@ export async function drawMap(films: MapFilm[], nameToIso: Record<string, string
       .on("mouseleave", hideTip)
       .on("click", function (this: Element, _e: MouseEvent, d: any) { if (d.iso && kindsOf(byIso.get(d.iso)!).length) onPick(d.iso, this); });
 
+    for (const ft of features) {
+      if (!ft.iso || !ft.geometry) continue;
+      const polys = ft.geometry.type === "MultiPolygon" ? ft.geometry.coordinates : [ft.geometry.coordinates];
+      const list = pieces.get(ft.iso) || [];
+      for (const c of polys) { const [[a, b], [cc, dd]] = path.bounds({ type: "Polygon", coordinates: c } as any); if (isFinite(a)) list.push([a, b, cc, dd]); }
+      pieces.set(ft.iso, list);
+    }
     const drawn = new Map<string, number>();
     for (const ft of features) if (ft.iso) drawn.set(ft.iso, (drawn.get(ft.iso) || 0) + geoArea(ft));
     const dots = films.filter((f) => f.ll && (drawn.get(f.iso) || 0) < MICRO_AREA);
@@ -108,12 +116,14 @@ export function flash(iso: string | null) {
 /** Cadre le pays (fonctionne aussi pour les pays en plusieurs morceaux). */
 export function focusCountry(iso: string) {
   if (!g) return;
-  const nodes = g.selectAll(".country").filter(function (this: Element) { return this.getAttribute("data-iso") === iso; }).nodes() as SVGGraphicsElement[];
-  if (!nodes.length) return;
-  let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
-  for (const n of nodes) { const b = n.getBBox(); x0 = Math.min(x0, b.x); y0 = Math.min(y0, b.y); x1 = Math.max(x1, b.x + b.width); y1 = Math.max(y1, b.y + b.height); }
-  // un pays coupé par l'antiméridien couvre toute la largeur : on ne zoome pas dessus
-  if (x1 - x0 > W * 0.6) return;
+  let boxes = pieces.get(iso) || [];
+  if (!boxes.length) {
+    const nodes = g.selectAll(".country").filter(function (this: Element) { return this.getAttribute("data-iso") === iso; }).nodes() as SVGGraphicsElement[];
+    boxes = nodes.map((n) => { const b = n.getBBox(); return [b.x, b.y, b.x + b.width, b.y + b.height] as Box; });
+  }
+  const fb = focusBox(boxes, W);
+  if (!fb) return;
+  const [x0, y0, x1, y1] = fb;
   const k = Math.max(1, Math.min(6, 0.35 / Math.max((x1 - x0) / W, (y1 - y0) / H)));
   const t = zoomIdentity.translate(W / 2, H / 2).scale(k).translate(-(x0 + x1) / 2, -(y0 + y1) / 2);
   svg.transition().duration(reduced() ? 0 : 650).call(zb.transform, t);

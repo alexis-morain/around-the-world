@@ -238,3 +238,23 @@ export function pickOverview(fr: string | undefined, en: string | undefined, lan
   const text = (other === "fr" ? fr : en) || "";
   return { text, lang: text ? other : lang, fallback: !!text };
 }
+
+export type Box = [number, number, number, number];
+const union = (bs: Box[]): Box => bs.reduce((u, b) => [Math.min(u[0], b[0]), Math.min(u[1], b[1]), Math.max(u[2], b[2]), Math.max(u[3], b[3])]);
+const surf = (bs: Box[]) => bs.reduce((s, b) => s + (b[2] - b[0]) * (b[3] - b[1]), 0);
+
+/** Cadre à zoomer pour un pays donné par les boîtes de ses morceaux (projetés, largeur de carte W).
+ *  Un pays coupé par l'antiméridien (Fidji, îles Chukotka) a des morceaux aux deux bords :
+ *  on ne garde que le côté le plus étendu. */
+export function focusBox(boxes: Box[], W: number): Box | null {
+  if (!boxes.length) return null;
+  const u = union(boxes);
+  if (u[2] - u[0] <= W * 0.6) return u;
+  // un morceau lui-même à cheval sur l'antiméridien a une boîte de toute la largeur : on l'écarte
+  const parts = boxes.filter((b) => b[2] - b[0] <= W * 0.6);
+  const left = parts.filter((b) => (b[0] + b[2]) / 2 < W / 2);
+  const right = parts.filter((b) => (b[0] + b[2]) / 2 >= W / 2);
+  if (!left.length && !right.length) return null;
+  const side = !left.length ? right : !right.length ? left : surf(right) >= surf(left) ? right : left;
+  return union(side);
+}

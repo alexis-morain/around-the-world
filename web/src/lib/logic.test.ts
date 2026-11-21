@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { dayNumber, pickDaily, parseIdSet, matches, sortItems, fmtRating, runtimeBucket, titleLen, type Item, type Filters } from "./logic";
+import { focusBox, dayNumber, pickDaily, parseIdSet, matches, sortItems, fmtRating, runtimeBucket, titleLen, type Item, type Filters } from "./logic";
 
 const item = (o: Partial<Item>): Item => ({
   kind: "film", iso: "XX", country: "Xland", title: "Film", alt: "", year: 2000, runtime: 100, level: "A",
@@ -327,5 +327,22 @@ describe("workLinks avec l'article Wikipédia", () => {
   });
   it("garde l'article même sans qid", () => {
     expect(workLinks("book", { qid: "", wiki_en: "https://en.wikipedia.org/wiki/B" }, "en").map((x) => x.id)).toEqual(["wikipedia"]);
+  });
+});
+
+describe("focusBox", () => {
+  const W = 1000;
+  it("réunit les morceaux d'un pays ordinaire", () => {
+    expect(focusBox([[100, 100, 120, 110], [130, 90, 140, 100]], W)).toEqual([100, 90, 140, 110]);
+  });
+  it("pays coupé par l'antiméridien : garde le côté le plus étendu (Fidji)", () => {
+    // gros morceaux à droite, îlot à gauche
+    expect(focusBox([[960, 500, 990, 520], [970, 530, 980, 540], [5, 505, 8, 508]], W)).toEqual([960, 500, 990, 540]);
+  });
+  it("ignore un îlot coupé en deux dont la boîte couvre toute la carte", () => {
+    expect(focusBox([[960, 500, 990, 520], [5, 505, 8, 508], [4, 510, 995, 512]], W)).toEqual([960, 500, 990, 520]);
+  });
+  it("aucun morceau : null", () => {
+    expect(focusBox([], W)).toBeNull();
   });
 });
