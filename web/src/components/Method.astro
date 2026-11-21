@@ -1,8 +1,8 @@
 ---
 import Visa from "./Visa.astro";
 import type { Kind, Lang } from "../lib/logic";
-import { REPO, t } from "../lib/i18n";
-import { films } from "../lib/films";
+import { REPO, href, t } from "../lib/i18n";
+import { films, withFilm } from "../lib/films";
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -40,6 +40,11 @@ const counts = (k: Kind) => ["A", "B", "C", "D"].map((l) => `${n(k, l)} ${fr ? "
     <p>A fiction film, animation allowed. We take the national film with the most admissions in the country, or failing that the highest gross. With no published box office, the country’s most-rated film on TMDB (50 votes minimum). Out of {total("film")} films: {counts("film")}.</p>
   )}
   {["A", "B", "C", "D"].map((l) => <Visa kind="film" level={l} lang={lang} kicker={false} />)}
+  {fr ? (
+    <p>Pour suivre les films dans Letterboxd : <a href={href("fr", "around-the-world-films.csv")} download>téléchargez la liste au format CSV</a> ({withFilm.length} films), puis créez une liste sur Letterboxd et choisissez « Import ». Chaque film garde son pays et son niveau en note.</p>
+  ) : (
+    <p>To follow the films on Letterboxd: <a href={href("en", "around-the-world-films.csv")} download>download the list as CSV</a> ({withFilm.length} films), then create a list on Letterboxd and choose “Import”. Each film keeps its country and level as a note.</p>
+  )}
 
   <h2>{L.kind.book.plural}</h2>
   {fr ? (

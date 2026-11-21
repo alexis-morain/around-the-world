@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { focusBox, dayNumber, pickDaily, parseIdSet, matches, sortItems, fmtRating, runtimeBucket, titleLen, type Item, type Filters } from "./logic";
+import { solidRating, letterboxdCsv, type LbFilm, focusBox, dayNumber, pickDaily, parseIdSet, matches, sortItems, fmtRating, runtimeBucket, titleLen, type Item, type Filters } from "./logic";
 
 const item = (o: Partial<Item>): Item => ({
   kind: "film", iso: "XX", country: "Xland", title: "Film", alt: "", year: 2000, runtime: 100, level: "A",
@@ -344,5 +344,40 @@ describe("focusBox", () => {
   });
   it("aucun morceau : null", () => {
     expect(focusBox([], W)).toBeNull();
+  });
+});
+
+describe("letterboxdCsv", () => {
+  const f = (o: Partial<LbFilm>): LbFilm => ({ iso: "FR", country: "France", title: "Film", year: 2000, tmdb: 1, imdb: "tt1", level: "A", ...o });
+  it("en-tête Letterboxd, un film par ligne, triés par pays", () => {
+    const csv = letterboxdCsv([f({ iso: "JP", country: "Japon", tmdb: 2 }), f({})], "fr");
+    expect(csv.split("\n")).toEqual([
+      "tmdbID,imdbID,Title,Year,Review",
+      "1,tt1,Film,2000,France · niveau A",
+      "2,tt1,Film,2000,Japon · niveau A",
+    ]);
+  });
+  it("met entre guillemets ce qui contient une virgule, échappe les guillemets par une barre", () => {
+    const csv = letterboxdCsv([f({ title: 'Paris, "Texas"', country: "Corée du Sud" })], "fr");
+    expect(csv.split("\n")[1]).toBe('1,tt1,"Paris, \\"Texas\\"",2000,Corée du Sud · niveau A');
+  });
+  it("anglais, film sans identifiant ni année", () => {
+    const csv = letterboxdCsv([f({ tmdb: null, imdb: "", year: null, level: "D" })], "en");
+    expect(csv.split("\n")[1]).toBe(",,Film,,France · level D");
+  });
+  it("ignore les pays sans film", () => {
+    expect(letterboxdCsv([f({ title: "" })], "fr").split("\n")).toHaveLength(1);
+  });
+});
+
+describe("solidRating", () => {
+  it("cache une note portée par moins de 10 votes", () => {
+    expect(solidRating({ value: 10, votes: 1 })).toBeNull();
+    expect(solidRating({ value: 7.2, votes: 9 })).toBeNull();
+  });
+  it("garde une note assez votée, ou sans compte de votes (Rotten Tomatoes)", () => {
+    expect(solidRating({ value: 6.8, votes: 10 })).toEqual({ value: 6.8, votes: 10 });
+    expect(solidRating({ value: 67 })).toEqual({ value: 67 });
+    expect(solidRating(null)).toBeNull();
   });
 });

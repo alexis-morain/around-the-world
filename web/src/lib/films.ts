@@ -1,6 +1,6 @@
 /* Données du site au build : films.json produit par scripts/export_site.py. */
 import data from "../data/films.json";
-import { pickOverview, coverSeed, fmtRating, workTitle, yearOf, countrySlug, type Item, type Kind, type Lang } from "./logic";
+import { pickOverview, coverSeed, fmtRating, workTitle, yearOf, countrySlug, solidRating, type Item, type Kind, type Lang, type LbFilm } from "./logic";
 import { href, t } from "./i18n";
 
 export interface Rating { value: number; votes?: number }
@@ -88,8 +88,8 @@ export function metaLine(f: Film, lang: Lang): string[] {
 
 export interface RatingChip { kind: "imdb" | "rt" | "tmdb"; label: string; value: string; votes?: number; href?: string }
 export function ratingChips(f: Film, lang: Lang): RatingChip[] {
-  const r = f.ratings;
-  if (!r) return [];
+  if (!f.ratings) return [];
+  const r = { imdb: solidRating(f.ratings.imdb), rt: f.ratings.rt, tmdb: solidRating(f.ratings.tmdb) };
   const out: RatingChip[] = [];
   if (r.imdb) out.push({ kind: "imdb", label: "IMDb", value: fmtRating(r.imdb.value, "imdb", lang), votes: r.imdb.votes, href: f.imdb_id ? `https://www.imdb.com/title/${f.imdb_id}/` : undefined });
   if (r.rt) out.push({ kind: "rt", label: "Rotten Tomatoes", value: fmtRating(r.rt.value, "rt", lang) });
@@ -151,7 +151,7 @@ export type ClientCountry = ReturnType<typeof clientIndex>[number];
 export function itemOf(f: Film, kind: Kind, lang: Lang): Item {
   const base = { kind, iso: f.iso2, country: countryName(f.iso2, lang), continent: f.continent };
   if (kind === "film") {
-    return { ...base, title: f.title, alt: `${f.title_fr} ${f.title_en}`, year: yearNum(f), runtime: f.runtime || null, level: f.level, lang: f.lang, anim: f.animation, fr: watchableFr(f), imdb: f.ratings?.imdb?.value ?? null, rt: f.ratings?.rt?.value ?? null, pop: null };
+    return { ...base, title: f.title, alt: `${f.title_fr} ${f.title_en}`, year: yearNum(f), runtime: f.runtime || null, level: f.level, lang: f.lang, anim: f.animation, fr: watchableFr(f), imdb: solidRating(f.ratings?.imdb)?.value ?? null, rt: f.ratings?.rt?.value ?? null, pop: null };
   }
   const w = (kind === "book" ? f.book : f.series)!;
   const author = kind === "book" ? `${(w as Book).author} ${(w as Book).author_en}` : "";
@@ -160,4 +160,10 @@ export function itemOf(f: Film, kind: Kind, lang: Lang): Item {
     lang: kind === "series" ? (w as Series).lang : "", anim: false, fr: false, imdb: null, rt: null,
     pop: kind === "book" ? (w as Book).links : (w as Series).votes,
   };
+}
+
+/** Les films du site au format de la liste Letterboxd (voir letterboxdCsv). */
+export function lbFilms(lang: Lang): LbFilm[] {
+  return withFilm.map((f) => ({ iso: f.iso2, country: countryName(f.iso2, lang), title: f.title, year: yearOf(f.year),
+    tmdb: f.tmdb_id, imdb: f.imdb_id, level: f.level }));
 }

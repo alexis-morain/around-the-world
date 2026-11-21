@@ -27,8 +27,8 @@ A work counts for a country if it was made there (author from the country, or pr
 | Level | Countries | Rule |
 |---|---|---|
 | A | 82 | Sourced box office: the national film with the most admissions in the country, or failing that the highest national gross. Worldwide gross does not count. |
-| B | 24 | No published box office: the country's most-rated film on TMDB (50 votes minimum). |
-| C | 61 | Too little data: the first "native voice" pick of [Films Around the World](https://filmsaroundthe.world/methodology/). |
+| B | 23 | No published box office: the country's most-rated film on TMDB (50 votes minimum). |
+| C | 62 | Too little data: the first "native voice" pick of [Films Around the World](https://filmsaroundthe.world/methodology/). |
 | D | 29 | Last resort: the country's most-rated film on TMDB, under 50 votes. |
 
 Fiction only, animation allowed, documentaries excluded. A film is used only once.
@@ -38,8 +38,8 @@ Fiction only, animation allowed, documentaries excluded. A film is used only onc
 | Level | Books | Series | Rule |
 |---|---|---|---|
 | A | 32 | 42 | Sourced: national sales, a national reading poll or a set text of the school curriculum for books; a measured audience record (Nielsen, BARB, Médiamétrie, Kantar…) for series. |
-| B | 57 | 27 | Strong signal: a sourced pick that rests only on a worldwide figure, a mention without a figure or a single season, or an automatic pick with a strong signal (10+ Wikipedia articles for a book, 50+ TMDB votes for a series). |
-| C | 76 | 24 | Automatic pick with a weak signal. |
+| B | 57 | 30 | Strong signal: a sourced pick that rests only on a worldwide figure, a mention without a figure or a single season, or an automatic pick with a strong signal (10+ Wikipedia articles for a book, 50+ TMDB votes for a series). |
+| C | 76 | 21 | Automatic pick with a weak signal. |
 
 Automatic picks: the literary work by an author of the country with the most Wikipedia articles (Wikidata, religious and political texts excluded), and the country's most-voted series on TMDB. 34 countries have no book and 106 no series yet, mostly small states.
 
@@ -53,6 +53,7 @@ Every manual call is written down with its reason, in French: [`data/overrides.j
 - Each country has its own page (`/pays/<code>/`, `/en/country/<code>/`): for each work, the image, original and translated title, synopsis, a stamp saying how reliable the pick is (A to D) and why, the source and links. Films also get ratings, trailer, where to watch in France (via JustWatch) and, when it differs, the country's best-rated film on Letterboxd (from [Matias Luna's list](https://letterboxd.com/matiaslunae/list/the-best-movie-from-every-country-in-the/)).
 - A catalogue with three tabs (films, books, series) you can filter by continent, decade and reliability, then sort.
 - "Seen" and "My list" for every work. The map colours countries by what you have seen, read or watched. Everything stays in your browser (localStorage), no account, nothing sent anywhere.
+- The whole film list as a Letterboxd import file ([English notes](https://aroundtheworld.morain.fr/en/around-the-world-films.csv), [French notes](https://aroundtheworld.morain.fr/around-the-world-films.csv)): create a list on Letterboxd, choose "Import", drop the file.
 - French and English, light and dark themes.
 
 Built with [Astro](https://astro.build/) and Tailwind CSS in `web/`, static output, deployed on Vercel from `main`. The old addresses (onefilmpercountry.morain.fr, the GitHub Pages site) redirect there. Fonts (Big Shoulders Display, Schibsted Grotesk) are self-hosted.
@@ -105,5 +106,7 @@ Sourced research lives in `data/raw/`: `tierA_*.json` and `tierA2_*.json` for fi
 Un film, un livre et une série par pays : le film national le plus vu en salle dans le pays, le livre le plus lu et la série la plus regardée, en version originale. 199 pays et territoires, une carte du monde interactive, les notes des films, les bandes-annonces, les couvertures et les résumés.
 
 Les autres listes « un par pays » classent à la note ou à la réputation. Celle-ci classe à l'audience nationale quand la donnée existe (entrées, ventes, audiences télé), et affiche la fiabilité de chaque choix, de A (source chiffrée) à C ou D (choix par défaut). La méthode complète est dans [`docs/methode.md`](docs/methode.md), les arbitrages manuels dans [`data/overrides.json`](data/overrides.json) et [`data/overrides_livres_series.json`](data/overrides_livres_series.json).
+
+Les films se récupèrent dans Letterboxd : [fichier à importer](https://aroundtheworld.morain.fr/around-the-world-films.csv) dans une nouvelle liste, bouton « Import ».
 
 Une erreur ou un meilleur candidat ? Ouvrez une issue avec le pays, l'œuvre et une source.

@@ -258,3 +258,28 @@ export function focusBox(boxes: Box[], W: number): Box | null {
   const side = !left.length ? right : !right.length ? left : surf(right) >= surf(left) ? right : left;
   return union(side);
 }
+
+/** Un film pour la liste à importer dans Letterboxd. */
+export interface LbFilm { iso: string; country: string; title: string; year: number | null; tmdb: number | null; imdb: string; level: string }
+
+/** Champ CSV au format d'import Letterboxd : guillemets si virgule ou guillemet, guillemet échappé par une barre. */
+const lbField = (v: string | number | null) => {
+  const s = v == null ? "" : String(v);
+  return /[",\n]/.test(s) ? `"${s.replace(/"/g, '\\"').replace(/\n/g, " ")}"` : s;
+};
+
+/** Liste des films au format d'import Letterboxd (https://letterboxd.com/about/importing-data/), triée par pays. */
+export function letterboxdCsv(films: LbFilm[], lang: Lang): string {
+  const lvl = lang === "fr" ? "niveau" : "level";
+  const rows = films.filter((f) => f.title)
+    .sort((a, b) => a.country.localeCompare(b.country, lang))
+    .map((f) => [f.tmdb, f.imdb, f.title, f.year, `${f.country} · ${lvl} ${f.level}`].map(lbField).join(","));
+  return ["tmdbID,imdbID,Title,Year,Review", ...rows].join("\n");
+}
+
+/** Sous ce nombre de votes, une note IMDb ou TMDB ne dit rien (10/10 sur un vote) : on ne l'affiche pas. */
+export const MIN_RATING_VOTES = 10;
+export function solidRating<T extends { value: number; votes?: number }>(r: T | null | undefined): T | null {
+  if (!r) return null;
+  return r.votes != null && r.votes < MIN_RATING_VOTES ? null : r;
+}
