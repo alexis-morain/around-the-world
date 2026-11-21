@@ -268,7 +268,7 @@ export const t = (lang: Lang) => STRINGS[lang];
 /* ---------- Niveaux de fiabilité, propres à chaque type d'œuvre ---------- */
 
 interface Level { title: string; long: string }
-interface KindLevels { A: Level; B: Level; C: Level; D: Level; byMetric?: Record<string, string> }
+interface KindLevels { A: Level; B: Level; C: Level; D: Level; byMetric?: Record<string, string>; /** Film C choisi par le site, hors Films Around the World. */ ownC?: string }
 
 const LEVELS: Record<Lang, Record<Kind, KindLevels>> = {
   fr: {
@@ -276,6 +276,7 @@ const LEVELS: Record<Lang, Record<Kind, KindLevels>> = {
       A: { title: "Box-office national sourcé", long: "Le film national qui a fait le plus d’entrées dans le pays, ou à défaut le plus de recettes. Sources : listes Wikipedia, instituts nationaux du cinéma, presse." },
       B: { title: "Pas de box-office : le film du pays le plus noté sur TMDB", long: "Aucun box-office publié. Le choix mesure la notoriété du film plus que son audience locale (50 votes TMDB minimum)." },
       C: { title: "Données rares : choix éditorial", long: "Trop peu de données : c’est le premier choix « native » de Films Around the World, une sélection éditoriale." },
+      ownC: "Aucune donnée d’audience : choix éditorial du site, pour la raison donnée ci-dessous.",
       D: { title: "Dernier recours : très peu de votes", long: "Le film du pays le plus noté sur TMDB, avec moins de 50 votes. À prendre avec prudence." },
     },
     book: {
@@ -306,6 +307,7 @@ const LEVELS: Record<Lang, Record<Kind, KindLevels>> = {
       A: { title: "Sourced national box office", long: "The national film with the most admissions in the country, or failing that the highest gross. Sources: Wikipedia lists, national film institutes, press." },
       B: { title: "No box office data: the country’s most-rated film on TMDB", long: "No published box office. The pick measures the film’s reputation more than its local audience (50 TMDB votes minimum)." },
       C: { title: "Little data: editorial pick", long: "Too little data: this is the first “native voice” pick of Films Around the World, an editorial selection." },
+      ownC: "No audience data at all: an editorial pick by this site, for the reason given below.",
       D: { title: "Last resort: very few votes", long: "The country’s most-rated film on TMDB, with fewer than 50 votes. Take it with care." },
     },
     book: {
@@ -337,7 +339,8 @@ const LEVELS: Record<Lang, Record<Kind, KindLevels>> = {
 export function visaText(kind: Kind, level: string, metric: string, lang: Lang): Level {
   const k = LEVELS[lang][kind];
   const l = (k as unknown as Record<string, Level>)[level] ?? k.D;
-  const long = level === "A" && k.byMetric?.[metric] ? k.byMetric[metric] : l.long;
+  const long = level === "A" && k.byMetric?.[metric] ? k.byMetric[metric]
+    : level === "C" && k.ownC && metric && metric !== "editorial" ? k.ownC : l.long;
   return { title: l.title, long };
 }
 

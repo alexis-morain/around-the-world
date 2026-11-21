@@ -34,6 +34,14 @@ describe("visaText", () => {
     expect(sales).not.toBe(canon);
     expect(visaText("series", "A", "ratings", "en").long).not.toBe(visaText("series", "A", "press", "en").long);
   });
+  it("un film C qui n'est pas un choix de Films Around the World ne le cite pas", () => {
+    for (const lang of ["fr", "en"] as const) {
+      expect(visaText("film", "C", "editorial", lang).long).toMatch(/Films Around the World/);
+      const own = visaText("film", "C", "press", lang);
+      expect(own.long).not.toMatch(/Films Around the World/);
+      expect(own.title).toBe(visaText("film", "C", "editorial", lang).title);
+    }
+  });
 });
 
 describe("figureText", () => {

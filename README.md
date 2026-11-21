@@ -22,23 +22,23 @@ Most "one per country" lists rank by rating or critical reputation. This one ran
 
 A work counts for a country if it was made there (author from the country, or production and creative team from there), in a language spoken there. Writing or filming in English for export does not count, except in English-speaking countries.
 
-### Films (196)
+### Films (197)
 
 | Level | Countries | Rule |
 |---|---|---|
 | A | 82 | Sourced box office: the national film with the most admissions in the country, or failing that the highest national gross. Worldwide gross does not count. |
 | B | 23 | No published box office: the country's most-rated film on TMDB (50 votes minimum). |
-| C | 62 | Too little data: the first "native voice" pick of [Films Around the World](https://filmsaroundthe.world/methodology/). |
+| C | 63 | Too little data: the first "native voice" pick of [Films Around the World](https://filmsaroundthe.world/methodology/), or an editorial pick by this site when even that is missing. |
 | D | 29 | Last resort: the country's most-rated film on TMDB, under 50 votes. |
 
 Fiction only, animation allowed, documentaries excluded. A film is used only once.
 
-### Books (165) and series (93)
+### Books (165) and series (123)
 
 | Level | Books | Series | Rule |
 |---|---|---|---|
-| A | 32 | 42 | Sourced: national sales, a national reading poll or a set text of the school curriculum for books; a measured audience record (Nielsen, BARB, Médiamétrie, Kantar…) for series. |
-| B | 57 | 30 | Strong signal: a sourced pick that rests only on a worldwide figure, a mention without a figure or a single season, or an automatic pick with a strong signal (10+ Wikipedia articles for a book, 50+ TMDB votes for a series). |
+| A | 32 | 43 | Sourced: national sales, a national reading poll or a set text of the school curriculum for books; a measured audience record (Nielsen, BARB, Médiamétrie, Kantar…) for series. |
+| B | 57 | 59 | Strong signal: a sourced pick that rests only on a worldwide figure, a mention without a figure or a single season, or an automatic pick with a strong signal (10+ Wikipedia articles for a book, 50+ TMDB votes for a series). |
 | C | 76 | 21 | Automatic pick with a weak signal. |
 
 Automatic picks: the literary work by an author of the country with the most Wikipedia articles (Wikidata, religious and political texts excluded), and the country's most-voted series on TMDB. 34 countries have no book and 106 no series yet, mostly small states.

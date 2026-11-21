@@ -32,7 +32,7 @@ Les autres listes « un film par pays » classent à la note ou à la réputatio
 
 ## Capabilities and Constraints
 
-- 199 pays et territoires. Données dans `web/src/data/films.json`, produites par `scripts/export_site.py` : un film, un livre et une série par pays quand ils existent (196 films, 165 livres, 93 séries au 17/11/2026). Un pays peut manquer d'une œuvre : la fiche le dit sans bloc vide.
+- 199 pays et territoires. Données dans `web/src/data/films.json`, produites par `scripts/export_site.py` : un film, un livre et une série par pays quand ils existent (197 films, 165 livres, 123 séries au 20/11/2026). Un pays peut manquer d'une œuvre : la fiche le dit sans bloc vide.
 - Niveaux de fiabilité A à D, propres à chaque type :
   - film : A box-office national sourcé, B le plus noté sur TMDB (50 votes minimum), C choix éditorial, D dernier recours ;
   - livre : A ventes, sondage ou classique scolaire avec source, B au moins 10 articles Wikipédia, C moins, D choix manuel sans signal ;

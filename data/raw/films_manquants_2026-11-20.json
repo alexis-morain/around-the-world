@@ -1,0 +1,50 @@
+[
+  {
+    "iso2": "FM",
+    "found": false,
+    "titre_original": "",
+    "titre_en": "",
+    "annee": "",
+    "langue": "",
+    "tmdb_id": null,
+    "imdb_id": "",
+    "realisateur": "",
+    "duree_min": null,
+    "documentaire": false,
+    "critere": "",
+    "source": "https://api.themoviedb.org/3/discover/movie?with_origin_country=FM",
+    "note": "Aucune fiction trouvée. TMDB (origin_country FM) ne liste que des documentaires : Island Soldier (2017, tmdb 456085, Nathan Fitch, FM/US), Papa Mau: The Wayfinder (2010), The Soccermen (tmdb 1797485), Le Cercle vide / The Empty Sphere (2022, 19 min, BE/FM/FR). Remathau (2025, Nicole Yamase) est un documentaire. Wikipedia catégorie « Films set in the FSM » : 4 films, tous étrangers (Operation Christmas Drop, His Majesty O'Keefe, Deep Sea Monster Reigo) ou documentaire. Aucun long ou moyen métrage de fiction micronésien repéré dans la presse locale (Kaselehlie Press). Si un film est imposé : Island Soldier, mais documentaire, donc exclu."
+  },
+  {
+    "iso2": "PW",
+    "found": false,
+    "titre_original": "",
+    "titre_en": "",
+    "annee": "",
+    "langue": "",
+    "tmdb_id": null,
+    "imdb_id": "",
+    "realisateur": "",
+    "duree_min": null,
+    "documentaire": false,
+    "critere": "",
+    "source": "https://api.themoviedb.org/3/discover/movie?with_origin_country=PW",
+    "note": "Aucune fiction palaosienne trouvée. TMDB (origin_country PW) : Our Big Ocean (2023) et Palau, An Ocean Inheritance (2024), documentaires. Palau the Movie (2019, Kevin Knoblock) et Return to Palau (2022, Michelle Hamel) sont américains (IMDb : pays d'origine United States ; le second est un documentaire). Flowers of Belau (2023) est japonais. Rien dans les catégories Wikipedia ni dans Island Times."
+  },
+  {
+    "iso2": "EH",
+    "found": true,
+    "titre_original": "وطن منقسم (Patria dividida)",
+    "titre_en": "A Divided Homeland",
+    "annee": "2013",
+    "langue": "ar",
+    "tmdb_id": 1536225,
+    "imdb_id": "",
+    "realisateur": "Élèves de l'école de cinéma Abidin Kaid Saleh (camps de Tindouf), dont Brahim Chagaf (réalisateur et acteur principal)",
+    "duree_min": 56,
+    "documentaire": false,
+    "critere": "choix éditorial : premier long métrage de fiction entièrement fait par une équipe sahraouie, en hassanya, prix du 2e meilleur film à FiSahara 2013",
+    "source": "https://www.efarasd.com/sahrawi-films/a-divided-homeland/?lang=en",
+    "note": "Fiction (genre « روائي », drame), 56 min, langue hassanya, sous-titres espagnol et anglais, produit par l'école EFA Abidin Kaid Saleh. FiSahara le présente comme « the first-ever feature entirely made by a Sahrawi film team » (https://festivalsahara.org/en/historical/the-first-and-only-film-school-in-sahara/). TMDB 1536225 : origin_country EH, 0 vote, pas de réalisateur crédité, pas d'id IMDb sur TMDB (imdb_id laissé vide, non vérifié sur IMDb). Moyen métrage plutôt que long. Autre candidat écarté : Leyuad (2016), documentaire coproduit avec l'Espagne (tmdb 611022). Mention « langue ar » = code TMDB, la langue réelle est le hassanya (code ISO 639-3 : mey)."
+  }
+]
