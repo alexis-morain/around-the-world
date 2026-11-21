@@ -1,0 +1,74 @@
+[
+  {
+    "iso2": "MD",
+    "current_title": "Carbon (2022)",
+    "verdict": "confirmé",
+    "reason": "Wikipedia (en/ro) et Unimedia : plus de 150 000 spectateurs, record depuis l'indépendance, 24 mois en salle ; film en roumain, réalisateur, scénariste et acteurs moldaves (coproduction RO/ES minoritaire). Le chiffre vient des producteurs (pas d'institut), mais aucun film moldave concurrent chiffré trouvé (Puterea Probabilității 2023 et Puterea Dragostei 2025 : aucun chiffre publié). Corriger la source : citer la page Wikipedia ou Unimedia, qui donnent le chiffre, au lieu de Cinema of Moldova (sans entrées).",
+    "source_checked": "https://ro.wikipedia.org/wiki/Carbon_(film_din_2022,_Republica_Moldova)",
+    "replacement": null
+  },
+  {
+    "iso2": "MK",
+    "current_title": "Бал-Кан-Кан (Bal-Can-Can, 2005)",
+    "verdict": "confirmé",
+    "reason": "Film toujours donné comme le plus vu de l'histoire du pays par FilmNewEurope (janv. 2020 et avr. 2026) : « over 100,000 admissions », idem Wikipedia en et IMDb (~120 000). Le chiffre « 500 000+ » de la Wikipedia macédonienne est sans source et contredit les autres : à remplacer par « plus de 100 000 ». Film macédonien (coprod. Italie), tourné en macédonien, réal. Darko Mitrevski. The Wedding (2026, 59 802 entrées) est croato-serbe, hors sujet.",
+    "source_checked": "https://filmneweurope.com/news/macedonia-news/item/127776-box-office-the-wedding-becomes-one-of-north-macedonia-s-most-watched-films-of-all-time",
+    "replacement": null
+  },
+  {
+    "iso2": "UZ",
+    "current_title": "Scorpion (2018)",
+    "verdict": "à déclasser",
+    "reason": "Seule source : Cinema Nomad/PBS (série de voyage qui reprend le propos de la réalisatrice) « highest grossing film in Uzbekistan's history », sans chiffre. Gazeta.uz (2025) : pas de système de statistiques de salles en Ouzbékistan, marché opaque. Le film est national (Uzbekkino, ouzbek/russe) mais aucune donnée vérifiable : passer en B. Classement de 2026 d'Afisha.uz : Amir Temur (1,87 Md sums) meilleur film national de l'année, sans comparaison historique.",
+    "source_checked": "https://www.cinemanomad.tv/featured-countries/uzbekistan",
+    "replacement": null
+  },
+  {
+    "iso2": "KH",
+    "current_title": "បណ្ដាសានាងរាត្រី (The Night Curse of Reatrei, 2024)",
+    "verdict": "à déclasser",
+    "reason": "Chiffres incompatibles : 8,6 M$ sur la Wikipedia khmère (liste sans source, qui met aussi How to Train Your Dragon à 8,9 M$) contre 2 M$ sur Wikipedia en (total mondial). Le marché cambodgien entier faisait 16 M$ en 2024 (HKTDC), donc 8,6 M$ pour un seul film local est invraisemblable. Film en outre coproduit Cambodge-Myanmar. Aucune donnée domestique fiable ; IMDb annonce Mannequin Wedding (2025, ~1 M$) « highest-grossing Cambodian film of all time ». Passer en B ; ne pas trancher entre Night Curse, Mannequin Wedding et Kon Nen Mdai Khmoch.",
+    "source_checked": "https://en.wikipedia.org/wiki/The_Night_Curse_of_Reatrei",
+    "replacement": null
+  },
+  {
+    "iso2": "MA",
+    "current_title": "جوج رواح (Jouj Rouah, 2026)",
+    "verdict": "confirmé",
+    "reason": "Le CCM annonce plus de 500 000 entrées (lodj.ma, 10/06/2026), record du cinéma marocain devant La Route vers Kaboul (410 000) ; le bilan CCM 2025 montre que le meilleur film de l'année (My Friend) est à 262 929 entrées, donc rien d'autre ne s'en approche. Réserve : un classement CCM de fin juin place Noud W Noud (sorti le 29/04/2026) en tête des films marocains de la semaine, devant Jouj Rouah, sans cumul publié. À revérifier à la sortie du bilan 2026 du CCM.",
+    "source_checked": "https://www.lodj.ma/Jouj-Rouah-depasse-le-cap-des-500-000-spectateurs-et-marque-un-tournant-dans-l-histoire-du-cinema-marocain_a175135.html",
+    "replacement": null
+  },
+  {
+    "iso2": "SA",
+    "current_title": "الكلاب السبعة (7 Dogs, 2026)",
+    "verdict": "incertain",
+    "reason": "Chiffre désormais officiel : 46,5 M SAR et 905 900 billets (Turki Al-Sheikh/GEA, relayé par Al-Jazirah et Bostah), plus haut film arabe de l'histoire du box-office saoudien. À citer à la place de l'Instagram. Reste le doute sur la nationalité : financé par la GEA et tourné à Riyad, mais réalisateurs belges et distribution en partie égyptienne. Si rejeté, le premier film plus clairement saoudien serait Shabab Albomb 3 (2026, 33,9 M SAR, 770 500 billets), à décider par Alexis.",
+    "source_checked": "https://www.al-jazirah.com/2026/20260828/an2.htm",
+    "replacement": null
+  },
+  {
+    "iso2": "BD",
+    "current_title": "বর্বাদ (Borbaad, 2025)",
+    "verdict": "incertain",
+    "reason": "Les ৳75 crore sont un total mondial annoncé par la production (conférence de presse, mai 2025), pas un chiffre domestique. Aucun suivi officiel au Bangladesh. Toofan (2024) : plus de ৳35 crore au Bangladesh et ৳21 crore à l'étranger (UNB), donc le classement domestique Borbaad/Toofan n'est pas établi (Borbaad : ৳62,57 crore à 25 jours selon le Daily Star, sans distinction de territoire). Garder A seulement avec la mention « chiffres de production, non domestiques », sinon passer en B.",
+    "source_checked": "https://en.wikipedia.org/wiki/Borbaad_(2025_film)",
+    "replacement": null
+  },
+  {
+    "iso2": "AZ",
+    "current_title": "Tağıyev (2024-2026)",
+    "verdict": "incertain",
+    "reason": "Tağıyev est une tétralogie de quatre films distincts (Neft 2024, Çar 2025, Sona 2025, Məktəb 2026). Les 200 000 spectateurs (Report.az, 04/08/2026) cumulent les quatre ; Report donnait 110 000 pour les deux premiers. Aucun chapitre pris seul n'a de chiffre, et Thyme (150-180 000 selon kinoyazar.az, non rouvert) pourrait faire mieux qu'un chapitre. Film national (Bakı Media Mərkəzi, azéri). À déclasser ou à arbitrer chapitre par chapitre.",
+    "source_checked": "http://report.az/en/cultural-policy/taghiyev-becomes-most-watched-azerbaijani-film-in-cinemas",
+    "replacement": null
+  },
+  {
+    "iso2": "DO",
+    "current_title": "Perico Ripiao (2003)",
+    "verdict": "confirmé",
+    "reason": "775 000 spectateurs en 16 semaines (El Día), repris par Listín Diario (04/11/2026, classement tiré des données DGCINE) et Wikipedia es ; devant Lotoman (673 759, DGCINE) et Sanky Panky (650 000). Film dominicain, en espagnol. Réserve de méthode : le chiffre de 2003 vient des exploitants, avant la DGCINE ; Qué León (2018) reste le plus fort en recettes (RD$102 M, 424 907 entrées).",
+    "source_checked": "https://listindiario.com/entretenimiento/cine/20261104/ranking-historico-10-peliculas-dominicanas-mas-gente-llevado-cines_928713.html",
+    "replacement": null
+  }
+]

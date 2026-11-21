@@ -28,7 +28,8 @@ def norm(s):
 
 def load_tier_a():
     by = {}
-    for f in sorted(glob.glob(str(RAW / "tierA_*.json"))) + sorted(glob.glob(str(RAW / "tierA2_*.json"))):
+    for f in sorted(glob.glob(str(RAW / "tierA_*.json"))) + sorted(glob.glob(str(RAW / "tierA2_*.json"))) \
+            + sorted(glob.glob(str(RAW / "tierA3_*.json"))):
         for x in json.loads(Path(f).read_text()):
             old = by.get(x["iso2"])
             if old is None or x.get("level") == "A" or old.get("level") != "A":
@@ -117,10 +118,12 @@ def main():
     rows = []
     used = set()
     # les pays sans niveau A passent après, pour ne pas prendre le film d'un pays qui le produit
-    owner_first = lambda c: tier_a.get(c["cca2"], {}).get("level") != "A"
+    owner_first = lambda c: tier_a.get(c["cca2"], {}).get("level") != "A" or overrides.get(c["cca2"], {}).get("tier_a") is False
     for c in sorted(clist, key=owner_first):
         iso = c["cca2"]
         a, b, f = tier_a.get(iso, {}), tier_b.get(iso, {}), fatw.get(iso)
+        if overrides.get(iso, {}).get("tier_a") is False:  # recherche A écartée après contrôle : chaîne B > C > D
+            a = {}
         # pays producteur cité en premier d'abord, puis par votes ; un film déjà pris est écarté
         cands = sorted((t for t in b.get("top", []) if t["role"] != "coprod" and t["tmdb_id"] not in used),
                        key=lambda t: ((t.get("production_countries") or [""])[0] != iso, -t["votes"]))
@@ -170,6 +173,7 @@ def main():
                        annee="", langue="", animation=False, critere="", source="", second="")
         if iso in overrides:
             o = dict(overrides[iso])
+            o.pop("tier_a", None)
             no_tmdb = o.pop("no_tmdb", False)
             forced = o.pop("tmdb_id", None)  # fiche TMDB retrouvée à la main
             o["note"] = f"{o.get('note', '')} {row['note']}".strip()

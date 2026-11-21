@@ -59,5 +59,11 @@
          "note": "Affiche absente de TMDB, reprise de Films Around the World."},
   "MH": {"poster_url": "posters/MH.webp",
          "poster_credit": "https://filmsaroundthe.world/country/marshall-islands/films/the-sound-of-crickets-at-night-f4460f9847c95abe6/",
-         "note": "Affiche absente de TMDB, reprise de Films Around the World."}
+         "note": "Affiche absente de TMDB, reprise de Films Around the World."},
+  "KH": {"tier_a": false, "note": "Contrôle du 20/11 : The Night Curse of Reatrei était donné en tête avec 8,6 M$ (Wikipédia khmère, sans source), contredit par les 2 M$ mondiaux de Wikipédia en, pour un marché cambodgien de 16 M$ en 2024 ; coproduction avec la Birmanie. Niveau A retiré."},
+  "MD": {"critere": "entrées : plus de 150 000", "source": "https://ro.wikipedia.org/wiki/Carbon_(film_din_2022,_Republica_Moldova)", "note": "Contrôle du 20/11 : record depuis l'indépendance selon Wikipédia et Unimedia, chiffre des producteurs ; aucun film moldave concurrent chiffré."},
+  "MK": {"critere": "entrées : plus de 100 000", "source": "https://filmneweurope.com/news/macedonia-news/item/127776-box-office-the-wedding-becomes-one-of-north-macedonia-s-most-watched-films-of-all-time", "note": "Contrôle du 20/11 : toujours le film le plus vu du pays (FilmNewEurope, 2020 et 2026) ; les « 500 000+ » de la Wikipédia macédonienne, sans source, sont écartés."},
+  "SA": {"critere": "recettes nationales : 46,5 M SAR (905 900 billets)", "source": "https://www.al-jazirah.com/2026/20260828/an2.htm", "note": "Contrôle du 20/11 : chiffre officiel de la GEA relayé par Al-Jazirah. Production saoudienne tournée à Riyad, mais réalisateurs belges et distribution en partie égyptienne ; s'il était écarté, le suivant serait Shabab Albomb 3 (2026, 33,9 M SAR)."},
+  "UZ": {"tier_a": false, "note": "Contrôle du 20/11 : la seule source (Cinema Nomad/PBS) reprend la réalisatrice, sans chiffre, et l'Ouzbékistan ne publie pas de statistiques de salles (Gazeta.uz). Niveau A retiré."},
+  "SN": {"critere": "record historique d'entrées au Sénégal (notice de la réalisatrice, sans chiffre)", "fiabilite": "moyenne (record annoncé, sans chiffre)", "note": "Record d'entrées au Sénégal annoncé par la notice de la réalisatrice (Films Femmes Afrique), en tête du box-office de Dakar tout l'été 2025 (Afrik.com) ; pas de classement officiel."}
 }

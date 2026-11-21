@@ -116,7 +116,7 @@
   "tmdb_top": "Al-risâlah (1976, 53 votes)",
   "fatw": "The Battle of Algiers (1966)",
   "video": "",
-  "note": "Arbitrage manuel : TMDB proposait Le Message (1976), financé par la Libye. La Bataille d'Alger est une coproduction italo-algérienne (Casbah Films), tournée en arabe et en français. Pas de box-office suivi publiquement pour les films nationaux. Aucun record documenté trouvé. Pistes historiques (Hassan Terro, Chronique des années de braise) non chiffrées. / pas de box-office national suivi ou publié trouvé",
+  "note": "Arbitrage manuel : TMDB proposait Le Message (1976), financé par la Libye. La Bataille d'Alger est une coproduction italo-algérienne (Casbah Films), tournée en arabe et en français. Pas de box-office suivi publiquement ; non réexaminé, aucun nouveau résultat (passe tierA2). / Pas de box-office suivi publiquement pour les films nationaux. Aucun record documenté trouvé. Pistes historiques (Hassan Terro, Chronique des années de braise) non chiffrées. / pas de box-office national suivi ou publié trouvé",
   "niveau": "C",
   "fiabilite": "faible (choix éditorial, pas d'audience)",
   "titre_original": "La battaglia di Algeri",
@@ -308,7 +308,7 @@
   "tmdb_top": "راس براس (2023, 71 votes)",
   "fatw": "Wadjda (2012)",
   "video": "",
-  "note": "AMBIGU : film saoudien (Sela Studios, financé par GEA) mais réal. belges et casting égyptien ; source principale indirecte (Instagram). Sattar (Abdullah Al Arak, koweïtien) reste candidat si la production est jugée trop étrangère.",
+  "note": "Contrôle du 20/11 : chiffre officiel de la GEA relayé par Al-Jazirah. Production saoudienne tournée à Riyad, mais réalisateurs belges et distribution en partie égyptienne ; s'il était écarté, le suivant serait Shabab Albomb 3 (2026, 33,9 M SAR). AMBIGU : film saoudien (Sela Studios, financé par GEA) mais réal. belges et casting égyptien ; source principale indirecte (Instagram). Sattar (Abdullah Al Arak, koweïtien) reste candidat si la production est jugée trop étrangère.",
   "niveau": "A",
   "fiabilite": "forte",
   "titre_original": "الكلاب السبعة (7 Dogs)",
@@ -316,8 +316,8 @@
   "annee": 2026,
   "langue": "ar",
   "animation": false,
-  "critere": "entrées : 935 000+ (billets, rapport relayé sur Instagram)",
-  "source": "https://www.instagram.com/p/DcOpfLdMe4R",
+  "critere": "recettes nationales : 46,5 M SAR (905 900 billets)",
+  "source": "https://www.al-jazirah.com/2026/20260828/an2.htm",
   "second": "Sattar (2022) ~723 000 en mars 2023, jusqu'à ~1 M selon GCAM",
   "title_fr": "7 كلاب",
   "runtime": 123,
@@ -405,7 +405,7 @@
   "title_fr": "Sayat Nova : La Couleur de la grenade",
   "runtime": 79,
   "imdb_id": "tt0063555",
-  "where_fr": "abonnement : Molotov TV, SFR Play ; location : Sooner, Pijama Films ; achat : Sooner",
+  "where_fr": "abonnement : SFR Play ; location : Sooner, Pijama Films ; achat : Sooner",
   "tmdb_url": "https://www.themoviedb.org/movie/26302",
   "tmdb_id": 26302,
   "title_en_tmdb": "The Color of Pomegranates",
@@ -415,7 +415,6 @@
   "overview_en": "The life of the revered 18th-century Armenian poet and musician Sayat-Nova. Portraying events in the life of the artist from childhood up to his death, the movie addresses in particular his relationships with women, including his muse. The production tells Sayat-Nova's dramatic story by using both his poems and largely still camerawork, creating a work hailed as revolutionary by Mikhail Vartanov.",
   "providers_fr": {
    "flatrate": [
-    "Molotov TV",
     "SFR Play"
    ],
    "rent": [
@@ -426,7 +425,7 @@
     "Sooner"
    ]
   },
-  "justwatch_fr": "https://www.themoviedb.org/movie/26302/watch?locale=FR",
+  "justwatch_fr": "https://www.themoviedb.org/movie/26302-nrran-gowyny/watch?locale=FR",
   "ccn3": "051"
  },
  {
@@ -655,7 +654,7 @@
   "title_fr": "A Caribbean Dream",
   "runtime": 82,
   "imdb_id": "tt5334276",
-  "where_fr": "location : Amazon Video ; achat : Amazon Video",
+  "where_fr": "",
   "tmdb_url": "https://www.themoviedb.org/movie/412906",
   "tmdb_id": 412906,
   "title_en_tmdb": "A Caribbean Dream",
@@ -663,15 +662,8 @@
   "backdrop": "/xeuiemEThaeeW42aubEX41flilz.jpg",
   "overview_fr": "",
   "overview_en": "Shakespeare’s romantic comedy is re-told in the Caribbean and brought into the 21st Century when Theseus and Hippolyta, returning Nationals, come home to Barbados to be married during Crop Over festival time. The island’s early history, folklore, culture and stunning landscape, lends itself perfectly for the mysticism, comedy and chaos that ensues, the night before the nuptual celebrations.",
-  "providers_fr": {
-   "rent": [
-    "Amazon Video"
-   ],
-   "buy": [
-    "Amazon Video"
-   ]
-  },
-  "justwatch_fr": "https://www.themoviedb.org/movie/412906-a-caribbean-dream/watch?locale=FR",
+  "providers_fr": {},
+  "justwatch_fr": "",
   "ccn3": "052"
  },
  {
@@ -834,7 +826,7 @@
     "Amazon Video"
    ]
   },
-  "justwatch_fr": "https://www.themoviedb.org/movie/627087/watch?locale=FR",
+  "justwatch_fr": "https://www.themoviedb.org/movie/627087-lung-ng-n/watch?locale=FR",
   "ccn3": "064"
  },
  {
@@ -1199,30 +1191,46 @@
   "tmdb_top": "Jailbreak (2017, 69 votes)",
   "fatw": "First They Killed My Father (2017)",
   "video": "",
-  "note": "Ambiguous: sources conflict and are weak; Cambodia-Myanmar co-production.",
-  "niveau": "A",
-  "fiabilite": "bonne",
-  "titre_original": "បណ្ដាសានាងរាត្រី",
-  "titre_en": "The Night Curse of Reatrei",
-  "annee": 2024,
+  "note": "Contrôle du 20/11 : The Night Curse of Reatrei était donné en tête avec 8,6 M$ (Wikipédia khmère, sans source), contredit par les 2 M$ mondiaux de Wikipédia en, pour un marché cambodgien de 16 M$ en 2024 ; coproduction avec la Birmanie. Niveau A retiré.",
+  "niveau": "B",
+  "fiabilite": "moyenne",
+  "titre_original": "Jailbreak",
+  "titre_en": "Jailbreak",
+  "annee": "2017",
   "langue": "km",
   "animation": false,
-  "critere": "recettes nationales : $8.6M (Khmer Wikipedia); English Wikipedia says $2M",
-  "source": "https://km.wikipedia.org/wiki/Cambodia_Box_Office",
-  "second": "A Gong (2024, $5.1M)",
-  "title_fr": "បណ្ដាសានាងរាត្រី",
-  "runtime": 95,
-  "imdb_id": "tt31631414",
-  "where_fr": "",
-  "tmdb_url": "https://www.themoviedb.org/movie/1246014",
-  "tmdb_id": 1246014,
-  "title_en_tmdb": "The Night of the Cursed Reatrei",
-  "poster": "/iKqjx0Gajsex1D7AHsNJM2IzXnj.jpg",
-  "backdrop": "/qRATfTNmf2yvAWX20wgmZMtnrZA.jpg",
-  "overview_fr": "",
-  "overview_en": "After moving into an abandoned orphanage, the inhabitants realize that the building is cursed by a vengeful spirit, known as Reatrei. Tragedies start to befall one after another until they find what her curse entails.",
-  "providers_fr": {},
-  "justwatch_fr": "",
+  "critere": "popularité TMDB : 69 votes",
+  "source": "https://www.themoviedb.org/movie/433623",
+  "second": "",
+  "title_fr": "Jailbreak",
+  "runtime": 92,
+  "imdb_id": "tt5741304",
+  "where_fr": "abonnement : Netflix, TF1+, Netflix Standard with Ads ; gratuit pub : Rakuten TV, TF1+ ; location : YouTube ; achat : YouTube",
+  "tmdb_url": "https://www.themoviedb.org/movie/433623",
+  "tmdb_id": 433623,
+  "title_en_tmdb": "Jailbreak",
+  "poster": "/lOllmhr6pVWR18Prmp1dCMPVtw6.jpg",
+  "backdrop": "/j8lSyrylYKPnF43oaOzS2dZzKiT.jpg",
+  "overview_fr": "On a enfin mis la main au collet de Playboy, un criminel hautement recherché qui doit maintenant être transporté dans une prison à sécurité maximale. Une tâche plutôt banale pour Dara et son équipe. Pour s’assurer que tout se déroule sans anicroche, ils seront accompagnés dans leur mission par un officier de la police française. Malheureusement, ce qui devait être une opération simple se transforme rapidement en un véritable champ de bataille lorsqu’ils se retrouvent prisonniers d’une émeute à l’intérieur du pénitencier. Ce magnifique chaos est en fait une diversion orchestrée par Madame Butterfly, la chef d’un puissant groupe criminel, afin de sortir Playboy de prison avant qu’il ne parle trop.",
+  "overview_en": "What started as a simple escort mission will soon turn to chaos as the prisoners of Koh Kla take over the prison grounds. A special task force gets trapped in the prison will have to fight their way out for survival, to protect a key witness.",
+  "providers_fr": {
+   "flatrate": [
+    "Netflix",
+    "TF1+",
+    "Netflix Standard with Ads"
+   ],
+   "ads": [
+    "Rakuten TV",
+    "TF1+"
+   ],
+   "rent": [
+    "YouTube"
+   ],
+   "buy": [
+    "YouTube"
+   ]
+  },
+  "justwatch_fr": "https://www.themoviedb.org/movie/433623-jailbreak/watch?locale=FR",
   "ccn3": "116"
  },
  {
@@ -1405,7 +1413,7 @@
     "ARTE VOD"
    ]
   },
-  "justwatch_fr": "https://www.themoviedb.org/movie/512092/watch?locale=FR",
+  "justwatch_fr": "https://www.themoviedb.org/movie/512092-anazhtwntas-ton-chentrix/watch?locale=FR",
   "ccn3": "196"
  },
  {
@@ -1613,7 +1621,7 @@
     "Cultpix"
    ]
   },
-  "justwatch_fr": "https://www.themoviedb.org/movie/26974/watch?locale=FR",
+  "justwatch_fr": "https://www.themoviedb.org/movie/26974-bulgasali/watch?locale=FR",
   "ccn3": "408"
  },
  {
@@ -1638,7 +1646,7 @@
   "title_fr": "L'Amiral",
   "runtime": 126,
   "imdb_id": "tt3541262",
-  "where_fr": "gratuit pub : Rakuten TV, Plex, Plex Channel ; location : Apple TV Store, YouTube ; achat : Apple TV Store, YouTube, Canal VOD",
+  "where_fr": "gratuit pub : Rakuten TV, Plex ; location : Apple TV Store, YouTube ; achat : Apple TV Store, YouTube, Canal VOD",
   "tmdb_url": "https://www.themoviedb.org/movie/282631",
   "tmdb_id": 282631,
   "title_en_tmdb": "The Admiral: Roaring Currents",
@@ -1649,8 +1657,7 @@
   "providers_fr": {
    "ads": [
     "Rakuten TV",
-    "Plex",
-    "Plex Channel"
+    "Plex"
    ],
    "rent": [
     "Apple TV Store",
@@ -1662,7 +1669,7 @@
     "Canal VOD"
    ]
   },
-  "justwatch_fr": "https://www.themoviedb.org/movie/282631/watch?locale=FR",
+  "justwatch_fr": "https://www.themoviedb.org/movie/282631-myeonglyang/watch?locale=FR",
   "ccn3": "410"
  },
  {
@@ -1789,7 +1796,7 @@
   "title_fr": "Soy Cuba",
   "runtime": 140,
   "imdb_id": "tt0058604",
-  "where_fr": "achat : Sooner",
+  "where_fr": "",
   "tmdb_url": "https://www.themoviedb.org/movie/32015",
   "tmdb_id": 32015,
   "title_en_tmdb": "I Am Cuba",
@@ -1797,12 +1804,8 @@
   "backdrop": "/acLH19t48M0FviMd9XM2MA3NWGE.jpg",
   "overview_fr": "À Cuba, sous le régime de Batista. Maria, qui vit à La Havane, sombre dans la honte lorsque l'homme qui l'aime apprend comment elle gagne sa vie. Pedro, un vieux paysan, doit quitter ses terres, qui viennent d'être arbitrairement vendues à la firme United Fruit. Un étudiant est le témoin des brutalités de la police à l'égard des opposants. Et un paysan rejoint la guérilla castriste…",
   "overview_en": "A study in contrasts set in and around Havana that explores Cuba's 1959 revolution: a young woman's fascination with the excess of an American-owned casino leads to her downfall in the eyes of her street vendor boyfriend; a tenant farmer revolts the only way he knows how, attacking the land he works; university students gain first-hand knowledge of political upheaval; and, in the hills outside the city, the members of a poor peasant family are patriotically swept up into the burgeoning revolt.",
-  "providers_fr": {
-   "buy": [
-    "Sooner"
-   ]
-  },
-  "justwatch_fr": "https://www.themoviedb.org/movie/32015-soy-cuba/watch?locale=FR",
+  "providers_fr": {},
+  "justwatch_fr": "",
   "ccn3": "192"
  },
  {
@@ -1942,7 +1945,7 @@
     "Shahid VIP"
    ]
   },
-  "justwatch_fr": "https://www.themoviedb.org/movie/629040-3/watch?locale=FR",
+  "justwatch_fr": "https://www.themoviedb.org/movie/629040-wld-rzq-3-lqdyh/watch?locale=FR",
   "ccn3": "818"
  },
  {
@@ -1981,7 +1984,7 @@
     "Netflix Standard with Ads"
    ]
   },
-  "justwatch_fr": "https://www.themoviedb.org/movie/413780/watch?locale=FR",
+  "justwatch_fr": "https://www.themoviedb.org/movie/413780-lmkhtrwn/watch?locale=FR",
   "ccn3": "784"
  },
  {
@@ -2108,7 +2111,7 @@
   "title_fr": "Mandarines",
   "runtime": 87,
   "imdb_id": "tt2991224",
-  "where_fr": "abonnement : Molotov TV ; gratuit pub : Rakuten TV, Plex, Plex Channel ; location : YouTube, Rakuten TV, Amazon Video ; achat : YouTube, Rakuten TV, Canal VOD, Amazon Video",
+  "where_fr": "abonnement : Molotov TV ; gratuit pub : Rakuten TV, Plex ; location : YouTube, Rakuten TV, Amazon Video ; achat : YouTube, Rakuten TV, Canal VOD, Amazon Video",
   "tmdb_url": "https://www.themoviedb.org/movie/238628",
   "tmdb_id": 238628,
   "title_en_tmdb": "Tangerines",
@@ -2122,8 +2125,7 @@
    ],
    "ads": [
     "Rakuten TV",
-    "Plex",
-    "Plex Channel"
+    "Plex"
    ],
    "rent": [
     "YouTube",
@@ -2196,7 +2198,7 @@
   "title_fr": "Autant en emporte le vent",
   "runtime": 233,
   "imdb_id": "tt0031381",
-  "where_fr": "location : Apple TV Store, Orange VOD, YouTube, Rakuten TV ; achat : Apple TV Store, Orange VOD, YouTube, Rakuten TV",
+  "where_fr": "location : Apple TV Store, Orange VOD, YouTube, Rakuten TV ; achat : Orange VOD, YouTube, Rakuten TV, Canal VOD",
   "tmdb_url": "https://www.themoviedb.org/movie/770",
   "tmdb_id": 770,
   "title_en_tmdb": "Gone with the Wind",
@@ -2213,11 +2215,11 @@
     "Canal VOD"
    ],
    "buy": [
-    "Apple TV Store",
     "Orange VOD",
     "YouTube",
     "Rakuten TV",
-    "Canal VOD"
+    "Canal VOD",
+    "Sooner"
    ]
   },
   "justwatch_fr": "https://www.themoviedb.org/movie/770-gone-with-the-wind/watch?locale=FR",
@@ -2503,7 +2505,7 @@
     "Amazon Video"
    ]
   },
-  "justwatch_fr": "https://www.themoviedb.org/movie/795815/watch?locale=FR",
+  "justwatch_fr": "https://www.themoviedb.org/movie/795815-ras-vkhedavt-rodesats-tsas-vuyurebt/watch?locale=FR",
   "ccn3": "268"
  },
  {
@@ -2593,6 +2595,8 @@
   "critere": "choix « native » de Films Around the World",
   "source": "https://filmsaroundthe.world/country/grenada/films/blinded-f99e1c495c64f795e/",
   "second": "",
+  "poster_url": "posters/GD.webp",
+  "poster_credit": "https://filmsaroundthe.world/country/grenada/films/blinded-f99e1c495c64f795e/",
   "title_fr": "Blinded",
   "runtime": 80,
   "imdb_id": "tt3838640",
@@ -2606,9 +2610,7 @@
   "overview_en": "Clara meets John at a particularly vulnerable time in her life. She is \"blinded\" by love and he becomes her world. The intense relationship then becomes violent and Clara is forced to take drastic action to protect herself and their son Chris.",
   "providers_fr": {},
   "justwatch_fr": "",
-  "ccn3": "308",
-  "poster_url": "posters/GD.webp",
-  "poster_credit": "https://filmsaroundthe.world/country/grenada/films/blinded-f99e1c495c64f795e/"
+  "ccn3": "308"
  },
  {
   "iso2": "GT",
@@ -3036,6 +3038,8 @@
   "critere": "choix « native » de Films Around the World",
   "source": "https://filmsaroundthe.world/country/marshall-islands/films/the-sound-of-crickets-at-night-f4460f9847c95abe6/",
   "second": "",
+  "poster_url": "posters/MH.webp",
+  "poster_credit": "https://filmsaroundthe.world/country/marshall-islands/films/the-sound-of-crickets-at-night-f4460f9847c95abe6/",
   "title_fr": "Ainikien jidjid ilo boñ",
   "runtime": 84,
   "imdb_id": "tt2277862",
@@ -3049,9 +3053,7 @@
   "overview_en": "An elderly nuclear survivor from Bikini Atoll in the Pacific summons a mysterious ancient deity to help reunite his family.",
   "providers_fr": {},
   "justwatch_fr": "",
-  "ccn3": "584",
-  "poster_url": "posters/MH.webp",
-  "poster_credit": "https://filmsaroundthe.world/country/marshall-islands/films/the-sound-of-crickets-at-night-f4460f9847c95abe6/"
+  "ccn3": "584"
  },
  {
   "iso2": "SB",
@@ -3168,7 +3170,7 @@
   "tmdb_top": "Bekas (2010, 12 votes)",
   "fatw": "The President's Cake (2025)",
   "video": "",
-  "note": "Pas de box-office national suivi. Aucun record documenté trouvé. / pas de box-office national suivi ou publié trouvé",
+  "note": "Pas de box-office suivi ; aucune recherche approfondie dans cette passe (tierA2 : aucun record documenté). / Pas de box-office national suivi. Aucun record documenté trouvé. / pas de box-office national suivi ou publié trouvé",
   "niveau": "C",
   "fiabilite": "faible (choix éditorial, pas d'audience)",
   "titre_original": "The President's Cake",
@@ -3265,7 +3267,7 @@
   "title_fr": "L'Irlandais",
   "runtime": 106,
   "imdb_id": "tt1540133",
-  "where_fr": "abonnement : Amazon Prime Video, Amazon Prime Video with Ads ; location : Apple TV Store, Orange VOD, YouTube, Canal VOD ; achat : Apple TV Store, Orange VOD, YouTube, Canal VOD",
+  "where_fr": "gratuit : JustWatch TV Free ; location : Apple TV Store, Orange VOD, YouTube, Canal VOD ; achat : Apple TV Store, Orange VOD, YouTube, Canal VOD",
   "tmdb_url": "https://www.themoviedb.org/movie/67913",
   "tmdb_id": 67913,
   "title_en_tmdb": "The Guard",
@@ -3274,9 +3276,8 @@
   "overview_fr": "Boyle est un flic irlandais, flegmatique et solitaire, amateur de Guinness, de poésie et de prostituées à ses heures perdues. En poste dans un petit village de la côte irlandaise où il ne se passe jamais rien, il passe ses journées à faire respecter la loi... au pub local. Malheureusement pour lui, des trafiquants de drogue ont jeté leur dévolu sur cette région endormie comme base de leurs opérations... Le petit village irlandais va bientôt se retrouver au cœur d’une importante opération anti-drogue menée par le FBI ! Les mauvaises nouvelles n’arrivant jamais seules, Boyle doit se coltiner l’agent Everett, un super agent du FBI déterminé et maniaque dépêché sur place... Certes, les procédures de l'élite du FBI diffèrent de celles du flic bedonnant, peu zélé et \"politiquement incorrect\"... Mais après tout, la méthode \"locale\" pourrait bien fournir des résultats inattendus !",
   "overview_en": "When a small-town Irish cop with a crass personality is partnered with a straight-laced FBI agent to bust an international drug-trafficking ring, they must settle their differences in order to take down a dangerous gang.",
   "providers_fr": {
-   "flatrate": [
-    "Amazon Prime Video",
-    "Amazon Prime Video with Ads"
+   "free": [
+    "JustWatch TV Free"
    ],
    "rent": [
     "Apple TV Store",
@@ -3318,7 +3319,7 @@
   "title_fr": "Lamb",
   "runtime": 106,
   "imdb_id": "tt9812474",
-  "where_fr": "abonnement : Shadowz ; location : Orange VOD, YouTube, Rakuten TV, Canal VOD ; achat : Apple TV Store, Orange VOD, YouTube, Rakuten TV",
+  "where_fr": "abonnement : Disney Plus, Shadowz ; location : Orange VOD, YouTube, Rakuten TV, Canal VOD ; achat : Apple TV Store, Orange VOD, YouTube, Rakuten TV",
   "tmdb_url": "https://www.themoviedb.org/movie/788929",
   "tmdb_id": 788929,
   "title_en_tmdb": "Lamb",
@@ -3328,6 +3329,7 @@
   "overview_en": "An Icelandic couple live with their herd of sheep on a beautiful but remote farm. When they discover a mysterious newborn on their land, they decide to keep it and raise it as their own. This unexpected development and the prospects of a new family brings them much joy before ultimately destroying them.",
   "providers_fr": {
    "flatrate": [
+    "Disney Plus",
     "Shadowz"
    ],
    "rent": [
@@ -3496,7 +3498,7 @@
     "Crunchyroll Amazon Channel"
    ]
   },
-  "justwatch_fr": "https://www.themoviedb.org/movie/635302/watch?locale=FR",
+  "justwatch_fr": "https://www.themoviedb.org/movie/635302-ju-chang-ban-gui-mie-no-ren-wu-xian-lie-che-bian/watch?locale=FR",
   "ccn3": "392"
  },
  {
@@ -3545,7 +3547,7 @@
     "Sooner"
    ]
   },
-  "justwatch_fr": "https://www.themoviedb.org/movie/287628/watch?locale=FR",
+  "justwatch_fr": "https://www.themoviedb.org/movie/287628-dhyb/watch?locale=FR",
   "ccn3": "400"
  },
  {
@@ -3590,7 +3592,7 @@
   "tmdb_top": "Nairobi Half Life (2012, 13 votes)",
   "fatw": "Nairobi Half Life (2012)",
   "video": "",
-  "note": "Pas de box-office national publié. Rafiki (2018) a été le « 2e film kényan le plus rentable de tous les temps » avec 33 000 $ en 7 jours (Attitude, Mail & Guardian) ; le 1er n'est pas nommé dans les sources trouvées. / Pas de box-office national suivi. Rafiki (2018) cité comme 2e film kényan le plus rentable (33 000 $, Mail & Guardian) : classement non sourcé en entier.",
+  "note": "Aucun classement trouvé. Mail & Guardian / Attitude : Rafiki 2e film kényan le plus rentable de tous les temps ; le 1er n'est pas nommé. Sinema Focus (22/09/2026, ouvert) confirme l'absence de données publiques de box-office local. Candidat inconnu. / Pas de box-office national publié. Rafiki (2018) a été le « 2e film kényan le plus rentable de tous les temps » avec 33 000 $ en 7 jours (Attitude, Mail & Guardian) ; le 1er n'est pas nommé dans les sources trouvées. / Pas de box-office national suivi. Rafiki (2018) cité comme 2e film kényan le plus rentable (33 000 $, Mail & Guardian) : classement non sourcé en entier.",
   "niveau": "C",
   "fiabilite": "faible (choix éditorial, pas d'audience)",
   "titre_original": "Nairobi Half Life",
@@ -3769,7 +3771,7 @@
     "Netflix Standard with Ads"
    ]
   },
-  "justwatch_fr": "https://www.themoviedb.org/movie/1257750/watch?locale=FR",
+  "justwatch_fr": "https://www.themoviedb.org/movie/1257750-shhr-zy-l-sl/watch?locale=FR",
   "ccn3": "414"
  },
  {
@@ -3911,7 +3913,7 @@
   "tmdb_top": "سكر بنات (2007, 256 votes)",
   "fatw": "Capernaum (2018)",
   "video": "",
-  "note": "Pas de classement national publié. Candidats : Where Do We Go Now? (27 807 entrées en ouverture sur 8 écrans, 64 200 cumulées après deux semaines, Screen Daily) et Capharnaüm (2018, « plus gros succès libanais de 2018 » seulement). What About Tomorrow? (2016, captation d'une pièce de Ziad Rahbani) était « attendu comme plus gros succès libanais » (Deadline) mais n'est pas une fiction classique. Aucun chiffre final. / Pas de chiffre national sourcé. Candidats : Capharnaüm (2018, Labaki) cité comme n°1 du box-office libanais 2018 (post Facebook Academy Cinemas) ; What About Tomorrow? (2016) a battu des records locaux (Deadline, 22/01/2016) ; Fakebook (2026) passé n°1 d'après Instagram. Non tranché.",
+  "note": "Aucun classement national publié. What About Tomorrow? (2016) : 28 000 entrées le 1er jour et « attendu comme plus gros succès libanais » (Yahoo, ouvert), mais c'est la captation d'une pièce de 1978, pas une fiction classique. Bel Ghalat (2018, Falcon Films) : premier du box-office libanais 2018 et « meilleur revenu hebdomadaire d'un film libanais » (extrait Facebook, page non lue). Non tranché. Candidat conservé : Capharnaüm (choix actuel) ou Where Do We Go Now?. / Pas de classement national publié. Candidats : Where Do We Go Now? (27 807 entrées en ouverture sur 8 écrans, 64 200 cumulées après deux semaines, Screen Daily) et Capharnaüm (2018, « plus gros succès libanais de 2018 » seulement). What About Tomorrow? (2016, captation d'une pièce de Ziad Rahbani) était « attendu comme plus gros succès libanais » (Deadline) mais n'est pas une fiction classique. Aucun chiffre final. / Pas de chiffre national sourcé. Candidats : Capharnaüm (2018, Labaki) cité comme n°1 du box-office libanais 2018 (post Facebook Academy Cinemas) ; What About Tomorrow? (2016) a battu des records locaux (Deadline, 22/01/2016) ; Fakebook (2026) passé n°1 d'après Instagram. Non tranché.",
   "niveau": "B",
   "fiabilite": "moyenne",
   "titre_original": "سكر بنات",
@@ -3949,7 +3951,7 @@
     "VIVA by videofutur"
    ]
   },
-  "justwatch_fr": "https://www.themoviedb.org/movie/7973/watch?locale=FR",
+  "justwatch_fr": "https://www.themoviedb.org/movie/7973-skr-bnt/watch?locale=FR",
   "ccn3": "422"
  },
  {
@@ -3994,7 +3996,7 @@
   "tmdb_top": "Prisoner and Jailer (2019, 4 votes)",
   "fatw": "Freedom Fields (2018)",
   "video": "",
-  "note": "pas de box-office national suivi ou publié trouvé",
+  "note": "Pas de box-office suivi ; aucune recherche approfondie dans cette passe. / pas de box-office national suivi ou publié trouvé",
   "niveau": "D",
   "fiabilite": "très faible (moins de 50 votes)",
   "titre_original": "Prisoner and Jailer",
@@ -4130,7 +4132,7 @@
   "tmdb_top": "Диџеј Ахмет (2025, 47 votes)",
   "fatw": "Before the Rain (1994)",
   "video": "",
-  "note": "Source faible : une phrase Wikipedia 'highest-grossing feature film in North Macedonia', sans classement ni deuxième. À prendre avec prudence.",
+  "note": "Contrôle du 20/11 : toujours le film le plus vu du pays (FilmNewEurope, 2020 et 2026) ; les « 500 000+ » de la Wikipédia macédonienne, sans source, sont écartés. Source faible : une phrase Wikipedia 'highest-grossing feature film in North Macedonia', sans classement ni deuxième. À prendre avec prudence.",
   "niveau": "A",
   "fiabilite": "forte",
   "titre_original": "Бал-Кан-Кан",
@@ -4138,8 +4140,8 @@
   "annee": 2005,
   "langue": "mk",
   "animation": false,
-  "critere": "entrées : plus de 500 000 (première année)",
-  "source": "https://en.wikipedia.org/wiki/Cinema_of_North_Macedonia",
+  "critere": "entrées : plus de 100 000",
+  "source": "https://filmneweurope.com/news/macedonia-news/item/127776-box-office-the-wedding-becomes-one-of-north-macedonia-s-most-watched-films-of-all-time",
   "second": "",
   "title_fr": "Bal-Can-Can",
   "runtime": 89,
@@ -4178,7 +4180,7 @@
   "title_fr": "Tabataba",
   "runtime": 76,
   "imdb_id": "tt0096208",
-  "where_fr": "",
+  "where_fr": "gratuit pub : TV5 Monde+",
   "tmdb_url": "https://www.themoviedb.org/movie/266418",
   "tmdb_id": 266418,
   "title_en_tmdb": "Tabataba",
@@ -4186,8 +4188,12 @@
   "backdrop": "/pSMGc4ixMTArQ5rrlmFijR9qklS.jpg",
   "overview_fr": "Madagascar, 1947. Les habitants du petit village de Tanala prennent part à la grande révolte contre la colonisation française. Certains croient au pouvoir démocratique, d'autres à celui des armes. Solo, un petit garçon, assiste à cette insurrection qui va bouleverser le cours de sa vie.",
   "overview_en": "Tabataba tells the story of a small Malagasy village during the independence uprising which took place in 1947 in the south of the country. For several months, part of the Malagasy population revolted against the French colonial army in a bloody struggle. The repression in villages that followed was terrible, leading to fires, arrests and torture. Women, children and the elderly were the indirect victims of the conflict and suffered particularly from famine and illness. One leader of the MDRM Malagasy Party, which campaigns for the independence of the country, arrives in a village. Solo (François Botozandry), the main character, is still too young to fight but he sees his brother and most of the men in his clan join up. His grandmother, Bakanga (Soavelo), knows what will happen, but Solo still hopes his elder brother will return a hero. After months of rumours, he sees instead the French army arrive to crush the rebellion.",
-  "providers_fr": {},
-  "justwatch_fr": "",
+  "providers_fr": {
+   "ads": [
+    "TV5 Monde+"
+   ]
+  },
+  "justwatch_fr": "https://www.themoviedb.org/movie/266418-tabataba/watch?locale=FR",
   "ccn3": "450"
  },
  {
@@ -4429,7 +4435,7 @@
   "tmdb_top": "Le jeu (1991, 8 votes)",
   "fatw": "Waiting for Happiness (2002)",
   "video": "",
-  "note": "pas de box-office national suivi ou publié trouvé",
+  "note": "Pas de box-office suivi ; aucune recherche approfondie dans cette passe. / pas de box-office national suivi ou publié trouvé",
   "niveau": "C",
   "fiabilite": "faible (choix éditorial, pas d'audience)",
   "titre_original": "Heremakono",
@@ -4547,7 +4553,7 @@
   "tmdb_top": "Jana (2004, 3 votes)",
   "fatw": "Fiddlers (1973)",
   "video": "",
-  "note": "Source faible : Wikipedia dit 'film moldave le plus réussi' (en 2024), sans entrées. Coproduction moldave tournée en roumain. À vérifier.",
+  "note": "Contrôle du 20/11 : record depuis l'indépendance selon Wikipédia et Unimedia, chiffre des producteurs ; aucun film moldave concurrent chiffré. Source faible : Wikipedia dit 'film moldave le plus réussi' (en 2024), sans entrées. Coproduction moldave tournée en roumain. À vérifier.",
   "niveau": "A",
   "fiabilite": "forte",
   "titre_original": "Carbon",
@@ -4555,8 +4561,8 @@
   "annee": 2022,
   "langue": "ro",
   "animation": false,
-  "critere": "entrées : non chiffré",
-  "source": "https://en.wikipedia.org/wiki/Cinema_of_Moldova",
+  "critere": "entrées : plus de 150 000",
+  "source": "https://ro.wikipedia.org/wiki/Carbon_(film_din_2022,_Republica_Moldova)",
   "second": "",
   "title_fr": "Carbon",
   "runtime": 103,
@@ -4615,45 +4621,30 @@
   "tmdb_top": "Хотулун гүнж: Алтан судрын эрэлд (2021, 133 votes)",
   "fatw": "Tsogt Taij (1945)",
   "video": "",
-  "note": "Pas de source fiable confirmée. Le fil Reddit « The Box-Office in Mongolia » (2024, page bloquée, seul l'extrait de recherche lu) liste Баян бөөл 296 915 et Zura 2 282 172 entrées juste derrière Avatar: The Way of Water (306 925). Année et statut de plus gros succès national non vérifiés. Ancien classement presse (gogo.mn) : Urgeeleg, 433 M MNT, 2014 seulement. / Only 2013/2014 annual lists found, no all-time ranking.",
-  "niveau": "B",
-  "fiabilite": "moyenne",
-  "titre_original": "Хотулун гүнж: Алтан судрын эрэлд",
-  "titre_en": "Khutulun La princesse guerrière",
-  "annee": "2021",
+  "note": "Page graph.mn ouverte (24/09/2024) : Zura III en tête des « 9 films mongols les plus vus de tous les temps » avec 302 616 tickets en 132 jours de salle (7/03 au 17/07/2024), devant Bayan Bool (296 915). Production Fantastic Production, film d'horreur-fantastique en mongol. Chiffres de l'association des cinémas mongols repris par la presse. Aucune source plus récente trouvée donnant un film au-dessus ; non vérifié exhaustivement pour 2025-2026. Zura 2 avait été annoncé record à 250 000 en oct. 2022 (tovch.mn), dépassé depuis.",
+  "niveau": "A",
+  "fiabilite": "forte",
+  "titre_original": "Zura III: Цэвэрлэгээ",
+  "titre_en": "Zura III: Cleansing",
+  "annee": 2024,
   "langue": "mn",
   "animation": false,
-  "critere": "popularité TMDB : 133 votes",
-  "source": "https://www.themoviedb.org/movie/960481",
-  "second": "",
-  "title_fr": "Khutulun La princesse guerrière",
-  "runtime": 108,
-  "imdb_id": "tt15238852",
-  "where_fr": "abonnement : Amazon Prime Video, Amazon Prime Video with Ads ; location : Apple TV Store, Canal VOD, Sooner ; achat : Apple TV Store, Canal VOD, Sooner",
-  "tmdb_url": "https://www.themoviedb.org/movie/960481",
-  "tmdb_id": 960481,
-  "title_en_tmdb": "The Warrior Princess",
-  "poster": "/7FZ38t8MxRrSsfbta5o3ruN0Cxd.jpg",
-  "backdrop": "/g7Fr6Pd1bR9G5Y9E47h7pmYTcX4.jpg",
-  "overview_fr": "La princesse Khutulun est la fille de Haidu Khan de la dynastie Ugudei. Le film raconte l'histoire de la princesse Khotulun, le fils de Kublai Khan, connue dans l'histoire occidentale et orientale comme une princesse de lutte, et sa lutte pour récupérer son Sutra doré.",
-  "overview_en": "Princess Khotulun is the daughter of Haidu Khan of the Ugudei dynasty. The film tells the story of Princess Khotulun, the son of Kublai Khan, known in Western and Eastern history as a wrestling princess, and her struggle to reclaim her Golden Sutra.",
-  "providers_fr": {
-   "flatrate": [
-    "Amazon Prime Video",
-    "Amazon Prime Video with Ads"
-   ],
-   "rent": [
-    "Apple TV Store",
-    "Canal VOD",
-    "Sooner"
-   ],
-   "buy": [
-    "Apple TV Store",
-    "Canal VOD",
-    "Sooner"
-   ]
-  },
-  "justwatch_fr": "https://www.themoviedb.org/movie/960481/watch?locale=FR",
+  "critere": "entrées : 302 616",
+  "source": "https://www.graph.mn/news/1069",
+  "second": "Баян боол / Bayan Bool (2023) : 296 915 ; Зура / Zura 2 (2022) : 282 172",
+  "title_fr": "ЗУРА III: ЦЭВЭРЛЭГЭЭ",
+  "runtime": 152,
+  "imdb_id": null,
+  "where_fr": "",
+  "tmdb_url": "https://www.themoviedb.org/movie/1274219",
+  "tmdb_id": 1274219,
+  "title_en_tmdb": "Zura III: The Clean-up",
+  "poster": "/4m5cWLsqeflABgJvZsLGZFTWalg.jpg",
+  "backdrop": "/wkKFphj1mcrpcSH55g76UXYS6au.jpg",
+  "overview_fr": "",
+  "overview_en": "Facing a corrupt court, Prosecutor Ganzorig decides to fight outside the law for justice. But this time, their fight for the honest truth will intensify and the dirty game will become more complicated as they will be persecuted by the people who have entered the government of neighboring countries.",
+  "providers_fr": {},
+  "justwatch_fr": "",
   "ccn3": "496"
  },
  {
@@ -5084,28 +5075,28 @@
   "tmdb_top": "Scorpion (2018, 16 votes)",
   "fatw": "White, White Storks (1967)",
   "video": "",
-  "note": "Niveau A par assouplissement : PBS Cinema Nomad (2025) le décrit comme « the highest grossing film in Uzbekistan's history », sans chiffre. Réalisé par Mukhlisa Azizova. Un seul témoignage, pas de donnée chiffrée.",
-  "niveau": "A",
-  "fiabilite": "bonne",
-  "titre_original": "Scorpion",
-  "titre_en": "Scorpion",
-  "annee": 2018,
-  "langue": "uz",
+  "note": "Contrôle du 20/11 : la seule source (Cinema Nomad/PBS) reprend la réalisatrice, sans chiffre, et l'Ouzbékistan ne publie pas de statistiques de salles (Gazeta.uz). Niveau A retiré.",
+  "niveau": "C",
+  "fiabilite": "faible (choix éditorial, pas d'audience)",
+  "titre_original": "Белые, белые аисты",
+  "titre_en": "White, White Storks",
+  "annee": "1967",
+  "langue": "ru",
   "animation": false,
-  "critere": "recettes nationales : None",
-  "source": "https://www.pbs.org/video/uzbekistan-nl3JOm",
+  "critere": "choix « native » de Films Around the World",
+  "source": "https://filmsaroundthe.world/country/uzbekistan/films/white-white-storks-f523f5954b853bc7f/",
   "second": "",
-  "title_fr": "Scorpion",
-  "runtime": 94,
-  "imdb_id": "tt9346816",
+  "title_fr": "Белые, белые аисты",
+  "runtime": 88,
+  "imdb_id": "tt0171095",
   "where_fr": "",
-  "tmdb_url": "https://www.themoviedb.org/movie/914434",
-  "tmdb_id": 914434,
-  "title_en_tmdb": "Scorpion",
-  "poster": "/As2KxlavoZeGo95h3cGpzaMJ0J7.jpg",
-  "backdrop": "/mWCvCd64sAQZDpjXgssiKeC5mT4.jpg",
+  "tmdb_url": "https://www.themoviedb.org/movie/292640",
+  "tmdb_id": 292640,
+  "title_en_tmdb": "White, White Storks",
+  "poster": "/6nOZps8K7WH1q3gDQZDI1zO40aO.jpg",
+  "backdrop": "/wcKPbGQ2gKKzzYOXLmf95DdQacN.jpg",
   "overview_fr": "",
-  "overview_en": "An agent of the Uzbek special services, Timur Saliev, is conducting an operation to seize the Scorpion terrorist group when he learns that his brother, whom he considered dead, is alive and belongs to this very organization.",
+  "overview_en": "Set in the rural village of White Storks, the story tackles the taboo subject of an extramarital affair. Strong-willed Malika, married but childless, is openly consorting with another man with whom she shares a seemingly tender bond.",
   "providers_fr": {},
   "justwatch_fr": "",
   "ccn3": "860"
@@ -5218,7 +5209,7 @@
     "YouTube"
    ]
   },
-  "justwatch_fr": "https://www.themoviedb.org/movie/187028/watch?locale=FR",
+  "justwatch_fr": "https://www.themoviedb.org/movie/187028-mr/watch?locale=FR",
   "ccn3": "275"
  },
  {
@@ -5316,7 +5307,7 @@
   "title_fr": "7 Boxes",
   "runtime": 100,
   "imdb_id": "tt2333598",
-  "where_fr": "gratuit pub : Plex, Plex Channel",
+  "where_fr": "gratuit pub : Plex",
   "tmdb_url": "https://www.themoviedb.org/movie/127847",
   "tmdb_id": 127847,
   "title_en_tmdb": "7 Boxes",
@@ -5326,8 +5317,7 @@
   "overview_en": "It’s Friday night in Asunción and the temperature is 40ºC. Víctor, a 17-year-old wheelbarrow-boy, dreams of becoming famous and covets a cell phone in Mercado 4. He is offered the chance to deliver seven boxes with unknown contents in exchange for $100. This sounds like an easy job but it soon gets complicated. Something in the boxes is highly coveted. Víctor and his persecutors find themselves caught up in a crime they know nothing about.",
   "providers_fr": {
    "ads": [
-    "Plex",
-    "Plex Channel"
+    "Plex"
    ]
   },
   "justwatch_fr": "https://www.themoviedb.org/movie/127847-7-cajas/watch?locale=FR",
@@ -5496,7 +5486,7 @@
   "title_fr": "La Cage dorée",
   "runtime": 90,
   "imdb_id": "tt2261749",
-  "where_fr": "location : Apple TV Store, Orange VOD, YouTube, Rakuten TV ; achat : Apple TV Store, Orange VOD, YouTube, Rakuten TV",
+  "where_fr": "abonnement : Disney Plus ; location : Apple TV Store, Orange VOD, YouTube, Rakuten TV ; achat : Apple TV Store, Orange VOD, YouTube, Rakuten TV",
   "tmdb_url": "https://www.themoviedb.org/movie/186161",
   "tmdb_id": 186161,
   "title_en_tmdb": "The Gilded Cage",
@@ -5505,6 +5495,9 @@
   "overview_fr": "Dans les beaux quartiers de Paris, Maria et José Ribeiro vivent depuis bientôt trente ans au rez-de-chaussée d’un bel immeuble. Ce couple d’immigrés portugais fait l’unanimité dans le quartier: Maria, excellente concierge, et José, chef de chantier hors pair, sont devenus au fil du temps indispensables à la vie quotidienne de tous ceux qui les entourent. Tant appréciés et si bien intégrés que, le jour où on leur offre leur rêve, rentrer au Portugal dans les meilleures conditions, personne ne veut laisser partir les Ribeiro, si dévoués et si discrets. Jusqu’où seront capables d’aller leur famille, les voisins, et leurs patrons pour les retenir? Et après tout, Maria et José ont-ils vraiment envie de quitter la France et d’abandonner leur si précieuse cage dorée?",
   "overview_en": "In the beautiful area of ​​Paris, Maria and José Ribeiro lived for almost thirty years on the ground floor of a Haussmann building, in their dear little lodge.",
   "providers_fr": {
+   "flatrate": [
+    "Disney Plus"
+   ],
    "rent": [
     "Apple TV Store",
     "Orange VOD",
@@ -5899,13 +5892,13 @@
   "second": "",
   "title_fr": "Agape",
   "runtime": 0,
-  "imdb_id": null,
+  "imdb_id": "tt37025412",
   "where_fr": "",
   "tmdb_url": "https://www.themoviedb.org/movie/1404691",
   "tmdb_id": 1404691,
   "title_en_tmdb": "Agape",
   "poster": "/G5mzxy6fR7gmgGuIQsG0InZpoY.jpg",
-  "backdrop": "/m4STy3V5uobWoDmlR4UQUTRYJ42.jpg",
+  "backdrop": "/yooo01mPEZyZUPZHHSWNmozjZit.jpg",
   "overview_fr": "",
   "overview_en": "",
   "providers_fr": {},
@@ -6002,7 +5995,7 @@
   "title_fr": "O le tulafale",
   "runtime": 110,
   "imdb_id": "tt1846783",
-  "where_fr": "gratuit : Filmtap ; gratuit pub : Plex, Plex Channel, Filmzie",
+  "where_fr": "gratuit : Filmtap ; gratuit pub : Plex, Filmzie",
   "tmdb_url": "https://www.themoviedb.org/movie/77322",
   "tmdb_id": 77322,
   "title_en_tmdb": "The Orator",
@@ -6016,7 +6009,6 @@
    ],
    "ads": [
     "Plex",
-    "Plex Channel",
     "Filmzie"
    ]
   },
@@ -6065,35 +6057,30 @@
   "tmdb_top": "Touki-Bouki (1973, 127 votes)",
   "fatw": "Black Girl (1966)",
   "video": "",
-  "note": "Pas de box-office suivi. Meilleur candidat : Une si longue lettre (2025, Angèle Diabang), resté en tête du box-office de Pathé Dakar tout l'été 2025 devant Jurassic World: Rebirth et Superman (AFP), sans chiffre ni statut de record historique. / pas de box-office national suivi ou publié trouvé",
-  "niveau": "B",
-  "fiabilite": "moyenne",
-  "titre_original": "Touki-Bouki",
-  "titre_en": "Le voyage de la Hyène",
-  "annee": "1973",
-  "langue": "wo",
+  "note": "Record d'entrées au Sénégal annoncé par la notice de la réalisatrice (Films Femmes Afrique), en tête du box-office de Dakar tout l'été 2025 (Afrik.com) ; pas de classement officiel. Pas de chiffre. Page filmsfemmesafrique.com ouverte : la biographie d'Angèle Diabang dit que le film « bat un record historique d'entrées au Sénégal ». Afrik.com (15/09/2025, ouvert) : « bat des records locaux », en tête du box-office de Dakar (Pathé) tout l'été 2025 devant Jurassic World: Rebirth, F1 et Superman. Source du record = notice de festival, pas un classement officiel : A fragile, à relire.",
+  "niveau": "A",
+  "fiabilite": "moyenne (record annoncé, sans chiffre)",
+  "titre_original": "Une si longue lettre",
+  "titre_en": "So Long a Letter",
+  "annee": 2025,
+  "langue": "fr",
   "animation": false,
-  "critere": "popularité TMDB : 127 votes",
-  "source": "https://www.themoviedb.org/movie/77771",
+  "critere": "record historique d'entrées au Sénégal (notice de la réalisatrice, sans chiffre)",
+  "source": "https://www.filmsfemmesafrique.com/unesilonguelettre",
   "second": "",
-  "title_fr": "Le voyage de la Hyène",
-  "runtime": 90,
-  "imdb_id": "tt0070820",
-  "where_fr": "abonnement : MUBI, MUBI Amazon Channel",
-  "tmdb_url": "https://www.themoviedb.org/movie/77771",
-  "tmdb_id": 77771,
-  "title_en_tmdb": "Touki Bouki",
-  "poster": "/6LODEHjhBJfYGXPImAf9f8JC1ba.jpg",
-  "backdrop": "/7DlEixaKiNJyK0tHri0AEUAQrk8.jpg",
-  "overview_fr": "Mory, jeune berger un peu marginal, et Anta son amoureuse, étudiante provocante, rêvent de partir pour Paris. Pour réaliser leur rêve, il ne leur manque que l'argent du voyage. Mory décide de se le procurer par des moyens peu orthodoxes.",
-  "overview_en": "Mory, a cowherd, and Anta, a university student, try to make money in order to go to Paris and leave their boring past behind.",
-  "providers_fr": {
-   "flatrate": [
-    "MUBI",
-    "MUBI Amazon Channel"
-   ]
-  },
-  "justwatch_fr": "https://www.themoviedb.org/movie/77771-touki-bouki/watch?locale=FR",
+  "title_fr": "Une si longue lettre",
+  "runtime": 104,
+  "imdb_id": "tt36178471",
+  "where_fr": "",
+  "tmdb_url": "https://www.themoviedb.org/movie/1510409",
+  "tmdb_id": 1510409,
+  "title_en_tmdb": "So Long a Letter",
+  "poster": "/ev3Gf0epb7srDa5tL7CSw72vngu.jpg",
+  "backdrop": "/jeH0ylhRoZl3KoTHBuBKioNtkw3.jpg",
+  "overview_fr": "Après 25 années de mariage heureuses, le mari avocat de l'institutrice Ramatoulaye prend l'amie de sa fille comme seconde épouse, provoquant des tensions entre les coutumes traditionnelles et la vie moderne.",
+  "overview_en": "Ramatoulaye, a 50-year-old teacher, has been married to lawyer Modou Fall for 25 years. The couple is very close and happy. When her husband takes a second wife – her daughter's best friend – a struggle between tradition and modernity begins.",
+  "providers_fr": {},
+  "justwatch_fr": "",
   "ccn3": "686"
  },
  {
@@ -6342,7 +6329,7 @@
   "tmdb_top": "Train Station (2015, 4 votes)",
   "fatw": "You Will Die at 20 (2019)",
   "video": "",
-  "note": "pas de box-office national suivi ou publié trouvé",
+  "note": "Pas de box-office suivi ; aucune recherche approfondie dans cette passe. / pas de box-office national suivi ou publié trouvé",
   "niveau": "C",
   "fiabilite": "faible (choix éditorial, pas d'audience)",
   "titre_original": "ستموت في العشرين",
@@ -6380,7 +6367,7 @@
     "Amazon Video"
    ]
   },
-  "justwatch_fr": "https://www.themoviedb.org/movie/617710/watch?locale=FR",
+  "justwatch_fr": "https://www.themoviedb.org/movie/617710-stmwt-fy-l-shryn/watch?locale=FR",
   "ccn3": "729"
  },
  {
@@ -6573,7 +6560,7 @@
   "tmdb_top": "المخدوعون (1972, 21 votes)",
   "fatw": "For Sama (2019)",
   "video": "",
-  "note": "Pas de box-office suivi ; seule mention : Memory of a Night of Love (1973) « succès commercial », sans chiffre. / pas de box-office national suivi ou publié trouvé",
+  "note": "Pas de box-office suivi ; aucune recherche approfondie dans cette passe (tierA2 : aucun chiffre). / Pas de box-office suivi ; seule mention : Memory of a Night of Love (1973) « succès commercial », sans chiffre. / pas de box-office national suivi ou publié trouvé",
   "niveau": "D",
   "fiabilite": "très faible (moins de 50 votes)",
   "titre_original": "المخدوعون",
@@ -6669,7 +6656,7 @@
     "Netflix Standard with Ads"
    ]
   },
-  "justwatch_fr": "https://www.themoviedb.org/movie/1481955/watch?locale=FR",
+  "justwatch_fr": "https://www.themoviedb.org/movie/1481955-yang-guang-nu-zi-he-chang-tuan/watch?locale=FR",
   "ccn3": "158"
  },
  {
@@ -6952,7 +6939,7 @@
   "tmdb_top": "صوت هند رجب (2025, 385 votes)",
   "fatw": "The Silences of the Palace (1994)",
   "video": "",
-  "note": "Pas de classement officiel. Meilleur candidat : Dachra (2018, Abdelhamid Bouchnak), ~200 000 entrées en un mois selon ilboursa.com, présenté comme record des 20 dernières années, pas de tous les temps. Concurrent : Halfaouine (1990), « possiblement le plus gros succès de l'histoire du cinéma tunisien » (Wikipedia EN, sans chiffre). Non tranché. / Pas de classement sourcé. Candidat : Les Silences du palais (1994) >300 000 entrées selon BFI ; Halfaouine (1990) cité comme plus grand succès tunisien (Wikipedia).",
+  "note": "Pages ouvertes (Méditerranée audiovisuelle, Wikipédia FR, Film International) : Dachra a fait 200 000 entrées, « record pour un film tunisien depuis 20 ans » / « film local le plus lucratif depuis plus de deux décennies ». Cela ne le déclare pas plus gros succès de tous les temps. Un article Al-Araby cite aussi Jaïda (Selma Baccar, 2017) comme record de la décennie (extrait seulement, page bloquée). Meilleur candidat : Dachra, non tranché. / Pas de classement officiel. Meilleur candidat : Dachra (2018, Abdelhamid Bouchnak), ~200 000 entrées en un mois selon ilboursa.com, présenté comme record des 20 dernières années, pas de tous les temps. Concurrent : Halfaouine (1990), « possiblement le plus gros succès de l'histoire du cinéma tunisien » (Wikipedia EN, sans chiffre). Non tranché. / Pas de classement sourcé. Candidat : Les Silences du palais (1994) >300 000 entrées selon BFI ; Halfaouine (1990) cité comme plus grand succès tunisien (Wikipedia).",
   "niveau": "B",
   "fiabilite": "moyenne",
   "titre_original": "صوت هند رجب",
@@ -6993,7 +6980,7 @@
     "Amazon Video"
    ]
   },
-  "justwatch_fr": "https://www.themoviedb.org/movie/1480382/watch?locale=FR",
+  "justwatch_fr": "https://www.themoviedb.org/movie/1480382-swt-hnd-rjb/watch?locale=FR",
   "ccn3": "788"
  },
  {
@@ -7052,7 +7039,7 @@
   "title_fr": "Recep İvedik 5",
   "runtime": 114,
   "imdb_id": "tt6439558",
-  "where_fr": "achat : Apple TV Store",
+  "where_fr": "abonnement : Turk On Video Amazon Channel ; achat : Apple TV Store",
   "tmdb_url": "https://www.themoviedb.org/movie/438703",
   "tmdb_id": 438703,
   "title_en_tmdb": "Recep Ivedik 5",
@@ -7061,6 +7048,9 @@
   "overview_fr": "Lors de sa visite de condoléances aux funérailles d'Ismet, Recep Ivedik se sent désolé pour les membres de la famille d'Ismet qui restent en raison de son dernier contrat de travail inachevé qui entraînerait une situation financière difficile pour la famille. Par conséquent, Recep décide de terminer le dernier travail d'Ismet en se remplaçant lui-même comme chauffeur de bus et en transportant un groupe d'athlètes. Bien que Recep et son ami accompagnateur Nurullah s'attendaient à ce que ce soit un court voyage, ils apprennent que ce n'est pas le cas car ils doivent transporter de jeunes athlètes nationaux vers une organisation sportive dans un pays étranger. Cela devient pour eux le début d'une aventure irréversible.",
   "overview_en": "During his visit of condolence to Ismet's funeral, Recep Ivedik feels sorry about Ismet's remaining family members due to his latest unfinished job contract which would cause hard financial situation for the family. Therefore, Recep decides to finish Ismet's last job by replacing himself as a bus driver and to transport group of athletes. Although Recep and his accompanying friend Nurullah were expecting this could be a short trip, they learn that it is not because they have to transport young national athletes to sports organization in a foreign country. This becomes the beginning for them to have irreversible adventure. When they are on the road, unfortunate things happen and crisis appears for the team. Recep, who believes only in victory, takes control of the situation and develops his own methods in order to make the team successful while he face with all funny events.",
   "providers_fr": {
+   "flatrate": [
+    "Turk On Video Amazon Channel"
+   ],
    "buy": [
     "Apple TV Store"
    ]
@@ -7226,7 +7216,7 @@
   "title_fr": "Papita, maní, tostón",
   "runtime": 112,
   "imdb_id": "tt2383662",
-  "where_fr": "gratuit : Filmtap ; gratuit pub : Plex, Plex Channel, Filmzie ; location : MovieMe",
+  "where_fr": "gratuit : Filmtap ; gratuit pub : Plex, Filmzie ; location : MovieMe",
   "tmdb_url": "https://www.themoviedb.org/movie/248424",
   "tmdb_id": 248424,
   "title_en_tmdb": "Papita, maní, tostón",
@@ -7240,7 +7230,6 @@
    ],
    "ads": [
     "Plex",
-    "Plex Channel",
     "Filmzie"
    ],
    "rent": [
@@ -7292,7 +7281,7 @@
   "tmdb_top": "انا نجوم بنت العاشرة ومطلقة (2014, 31 votes)",
   "fatw": "I'm Nojoum, Age 10 and Divorced (2014)",
   "video": "",
-  "note": "Fiche TMDB retrouvée à la main (titre anglais I Am Nojoom). pas de box-office national suivi ou publié trouvé",
+  "note": "Fiche TMDB retrouvée à la main (titre anglais I Am Nojoom). Pas de box-office suivi ; aucune recherche approfondie dans cette passe. / pas de box-office national suivi ou publié trouvé",
   "niveau": "C",
   "fiabilite": "faible (choix éditorial, pas d'audience)",
   "titre_original": "I'm Nojoum, Age 10 and Divorced",
@@ -7326,7 +7315,7 @@
     "Sooner"
    ]
   },
-  "justwatch_fr": "https://www.themoviedb.org/movie/341182/watch?locale=FR",
+  "justwatch_fr": "https://www.themoviedb.org/movie/341182-n-njwm-bnt-l-shrh-wmtlqh/watch?locale=FR",
   "ccn3": "887"
  },
  {
