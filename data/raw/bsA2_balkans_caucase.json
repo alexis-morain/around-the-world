@@ -68,15 +68,34 @@
    "note": "Candidats : Le Chevalier à la peau de panthère (Roustavéli, Q204208, choix actuel) et Data Tutashkhia (Amirejibi), « l'un des livres les plus populaires de l'ère de la Stagnation » selon le Centre national du livre géorgien (book.gov.ge, page ouverte, sans chiffre). Sondages trouvés : publika.ge (2020, 20 critiques, meilleurs romans du XXIe siècle, page ouverte) = avis d'experts, pas de lecteurs ; Goodreads = mondial. Aucun tirage ni sondage national de lecteurs trouvé."
   },
   "series": {
-   "level": "none",
-   "note": "Sources contradictoires, d'où none. TVMR (Nielsen Géorgie), extrait de recherche seulement, page non lisible (application dynamique) et année inconnue : « Chemi tsolis daqalebi » 20,38 % en 1re place (TMDB 84134), « Shua qalaqshi » 15,05 % en 2e (TMDB 86214). Vote des lecteurs d'on.ge (2023, page ouverte) pour la « meilleure série géorgienne » : Shua qalaqshi 29 %, Chemi tsolis daqalebi 23 %, Cxeli dzaγli 23 %, Tiflisi 14 % (c'est un vote de goût, pas d'audience). Une vidéo YouTube de la chaîne appelle Shua qalaqshi « la série géorgienne la plus regardée ». Choix actuel : Tiflisi (TMDB 87680), qui n'est cité par aucune source d'audience."
+   "level": "A",
+   "title_original": "ჩემი ცოლის დაქალები",
+   "title_fr": "Chemi tsolis daqalebi",
+   "title_en": "My Wife's Girlfriends",
+   "year": 2014,
+   "language": "ka",
+   "tmdb_id": 84134,
+   "metric": "ratings",
+   "value": "1re au classement d'audience Nielsen Géorgie relayé par TVMR : 20,38 % de part d'audience, devant Shua qalaqshi (15,05 %)",
+   "source_url": "http://www.tvmr.ge/en#!en/news/44/%26%234332%3B%26%234314%3B%26%234312%3B%26%234321%3B",
+   "note": "Retenu par arbitrage du 20/11 (niveau B) : extrait de recherche seulement, page TVMR non lisible, année inconnue. Le vote des lecteurs d'on.ge (2023) place Shua qalaqshi devant (29 % contre 23 %), mais c'est un vote de goût."
   }
  },
  {
   "iso2": "KZ",
   "book": {
-   "level": "none",
-   "note": "Candidat : Ұшқан ұя (Baurjan Momyshuly), en tête de la liste des 10 livres de lecture familiale du 1er semestre 2026 : cité par 13 bibliothèques sur 20 (3 républicaines et 17 régionales), données du ministère de la Culture, relayées par inform.kz (14 juillet 2026, page ouverte). Source nationale et chiffrée, mais elle porte sur « la lecture en famille » et non sur le livre le plus lu, et l'œuvre est un récit autobiographique (limite du critère littéraire) : none, à trancher. Suivent : Абай жолы (Aouezov), Әке мен бала, Көшпенділер. Choix actuel Ночной Дозор (Loukianenko, russe) : pas un auteur kazakh."
+   "level": "A",
+   "title_original": "Ұшқан ұя",
+   "title_fr": "Le Nid natal",
+   "title_en": "The Soaring Nest",
+   "author": "Бауыржан Момышұлы",
+   "year": 1975,
+   "language": "kk",
+   "wikidata": "Q20486355",
+   "metric": "survey",
+   "value": "1er des 10 livres de lecture familiale du 1er semestre 2026, cité par 13 bibliothèques sur 20 (3 républicaines, 17 régionales), données du ministère de la Culture",
+   "source_url": "https://inform.kz/ru/kazahstanskie-biblioteki-opredelili-samie-populyarnie-knigi-dlya-semeynogo-chten-3360a53f",
+   "note": "Retenu par arbitrage du 20/11 (niveau B) : la liste porte sur la lecture en famille, pas sur le livre le plus lu ; récit autobiographique. Source relayée par inform.kz (14/07/2026, page ouverte). Suivent Абай жолы (Aouezov), Әке мен бала, Көшпенділер."
   },
   "series": {
    "level": "none",

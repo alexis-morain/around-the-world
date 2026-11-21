@@ -1886,22 +1886,23 @@
    "wiki_en": "https://en.wikipedia.org/wiki/The_Knight_in_the_Panther's_Skin"
   },
   "series": {
-   "orig": "ტიფლისი",
-   "fr": "ტიფლისი",
-   "en": "Tiflis",
-   "year": "2014",
+   "orig": "ჩემი ცოლის დაქალები",
+   "fr": "ჩემი ცოლის დაქალები",
+   "en": "My Wife's Girlfriends",
+   "year": "2012",
    "overview_fr": "",
    "overview_en": "",
-   "tmdb_id": 87680,
-   "poster": "/d9MHgOyQ18tLMOKIQjrdwOBQklt.jpg",
-   "votes": 7,
+   "tmdb_id": 84134,
+   "poster": "/rnFIou3thkIg4VNRvMFgUFd5MEs.jpg",
+   "votes": 3,
    "lang": "ka",
-   "level": "C",
-   "metric": "tmdb_votes",
-   "value": "7",
-   "source_url": "https://www.themoviedb.org/tv/87680"
+   "level": "B",
+   "metric": "ratings",
+   "value": "1re au classement d'audience Nielsen Géorgie relayé par TVMR : 20,38 % de part d'audience, devant Shua qalaqshi (15,05 %)",
+   "source_url": "http://www.tvmr.ge/en#!en/news/44/%26%234332%3B%26%234314%3B%26%234312%3B%26%234321%3B",
+   "research_note": "Retenu par arbitrage du 20/11 (niveau B) : extrait de recherche seulement, page TVMR non lisible, année inconnue. Le vote des lecteurs d'on.ge (2023) place Shua qalaqshi devant (29 % contre 23 %), mais c'est un vote de goût."
   },
-  "note": ""
+  "note": "Série : niveau B, extrait d'audience Nielsen non lu en entier."
  },
  "GH": {
   "book": {
@@ -2174,7 +2175,7 @@
  },
  "HR": {
   "book": {
-   "orig": "Judita",
+   "orig": "Libar Marka Marula Splićanina u kom se uzdarži istorija svete udovice Judit u versih harvacki složena, kako ona ubi vojvodu Oloferna posridu vojske njegove i oslobodi puk israelski od velike pogibili",
    "fr": "",
    "en": "Judita",
    "author": "Marko Marulić",
@@ -2945,24 +2946,25 @@
  },
  "KZ": {
   "book": {
-   "orig": "Ночной Дозор",
-   "fr": "Les Sentinelles de la nuit",
-   "en": "Night Watch",
-   "author": "Sergueï Loukianenko",
-   "author_en": "Sergey Lukyanenko",
-   "year": "1998",
-   "qid": "Q1042011",
-   "links": 17,
+   "orig": "Ұшқан ұя",
+   "fr": "Le Nid natal",
+   "en": "The Soaring Nest",
+   "author": "Baurzhan Momyshuly",
+   "author_en": "Baurzhan Momyshuly",
+   "year": "1975",
+   "qid": "Q20486355",
+   "links": 1,
    "level": "B",
-   "metric": "wikipedia",
-   "value": "17",
-   "source_url": "https://www.wikidata.org/wiki/Q1042011",
+   "metric": "survey",
+   "value": "1er des 10 livres de lecture familiale du 1er semestre 2026, cité par 13 bibliothèques sur 20 (3 républicaines, 17 régionales), données du ministère de la Culture",
+   "source_url": "https://inform.kz/ru/kazahstanskie-biblioteki-opredelili-samie-populyarnie-knigi-dlya-semeynogo-chten-3360a53f",
    "cover": null,
    "cover_credit": "",
-   "overview_fr": "Les Sentinelles de la Nuit, ou Night Watch : les sentinelles de la nuit est un roman de fantasy urbaine de Sergueï Loukianenko publié en 1998. L'histoire est axée sur une confrontation entre deux groupes « surnaturels » qui s'opposent : le Contrôle de la Nuit, une organisation consacrée au contrôle des actions des Autres de l'Ombre ; et le Contrôle du Jour, qui contrôle les actions des Autres de la Lumière.",
-   "overview_en": "Night Watch is a fantasy novel by the Russian author Sergei Lukyanenko, the first to feature his fictional world of The Others. It was first published in Russia by AST in 1998. The novel is first in a cycle continued in Day Watch, Twilight Watch, Last Watch, New Watch, and Sixth Watch. \"Destiny\", the first story contained here, was made into the successful Russian film, Night Watch. While retaining many characters events, the adaptation alters some significant elements of the story. The second and third stories of the novel were adapted into the film's 2006 sequel, Day Watch.",
-   "wiki_fr": "https://fr.wikipedia.org/wiki/Les_Sentinelles_de_la_nuit",
-   "wiki_en": "https://en.wikipedia.org/wiki/Night_Watch_(Lukyanenko_novel)"
+   "research_note": "Retenu par arbitrage du 20/11 (niveau B) : la liste porte sur la lecture en famille, pas sur le livre le plus lu ; récit autobiographique. Source relayée par inform.kz (14/07/2026, page ouverte). Suivent Абай жолы (Aouezov), Әке мен бала, Көшпенділер.",
+   "overview_fr": "",
+   "overview_en": "",
+   "wiki_fr": "",
+   "wiki_en": ""
   },
   "series": {
    "orig": "5:32",
@@ -2980,7 +2982,7 @@
    "value": "14",
    "source_url": "https://www.themoviedb.org/tv/153621"
   },
-  "note": ""
+  "note": "Livre : niveau B, liste de lecture familiale du ministère (2026), pas un classement des ventes."
  },
  "LA": {
   "book": null,

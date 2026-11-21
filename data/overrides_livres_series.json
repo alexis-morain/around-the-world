@@ -119,6 +119,10 @@
   "series_level": "B",
   "note": "Série : niveau B, « records d'audience » sans chiffre."
  },
+ "GE": {
+  "series_level": "B",
+  "note": "Série : niveau B, extrait d'audience Nielsen non lu en entier."
+ },
  "GH": {
   "book": "Q30600501",
   "note": "Livre : Daughters of Africa est une anthologie dirigée par une Britannique : No Home de Yaa Gyasi retenu. Série : niveau B, record d'une plateforme, origine ghanéenne non vérifiée. Livre : The Marriage of Anansewa, au programme WAEC commun à cinq pays, niveau B.",
@@ -183,6 +187,10 @@
  "KP": {
   "book": null,
   "note": "Livre : Seuls candidats : des écrits de Kim Il-sung et Kim Jong-il."
+ },
+ "KZ": {
+  "book_level": "B",
+  "note": "Livre : niveau B, liste de lecture familiale du ministère (2026), pas un classement des ventes."
  },
  "LB": {
   "book": "Q1196302",
