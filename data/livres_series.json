@@ -349,12 +349,13 @@
    "poster": "/2UaTSvrFAdjaXSPXKLH18QK7AtO.jpg",
    "votes": 4,
    "lang": "az",
-   "level": "C",
-   "metric": "tmdb_votes",
-   "value": "4",
-   "source_url": "https://www.themoviedb.org/tv/219142"
+   "level": "B",
+   "metric": "streaming",
+   "value": "1re de la liste des films et séries les plus regardés d'Azerbaïdjan en janvier 2023 : 2 400 000 vues sur la chaîne YouTube officielle d'İctimai TV",
+   "source_url": "https://ednews.net/eqreb-movsumu-en-cox-i-zlenenlerde-bi-ri-nci-di-r/",
+   "research_note": "Page ouverte (Ednews). Classement d'un seul mois, mesuré en vues YouTube (pas en audience télévisée) ; les vues ne sont pas limitées aux spectateurs du pays. Série primée « meilleure série TV » aux Qızıl Pəri 2025 (kinobiz.az, extrait). Pas de comparaison avec des séries plus anciennes."
   },
-  "note": ""
+  "note": "Série : niveau B, un seul mois de vues YouTube, non limitées au pays."
  },
  "BA": {
   "book": {
@@ -388,12 +389,13 @@
    "poster": "/ogVsAP62Yy9XJzYyfYhDiALmdFE.jpg",
    "votes": 11,
    "lang": "bs",
-   "level": "C",
-   "metric": "tmdb_votes",
-   "value": "11",
-   "source_url": "https://www.themoviedb.org/tv/15612"
+   "level": "B",
+   "metric": "press",
+   "value": "« série la plus regardée de Bosnie-Herzégovine » et « émission la plus réussie et la plus regardée de B-H », d'après les classements d'audience cités par la presse (Sarajevo Times, 9 août 2013) ; rediffusée avec succès en Croatie",
+   "source_url": "https://sarajevotimes.com/exclusive-soon-continuation-of-famous-fazlinovic-new-round-of-24-episodes-of-bosnias-most-watched-series-lud-zbunjen-normalan/",
+   "research_note": "Page ouverte (titre et corps de l'article). Superlatif de presse sans chiffre d'audience ; l'article date de 2013, la série a ensuite duré jusqu'en 2021 (13 saisons, 309 épisodes selon bs.wikipedia)."
   },
-  "note": ""
+  "note": "Série : niveau B, presse de 2013 sans chiffre d'audience."
  },
  "BB": {
   "book": {
@@ -2565,10 +2567,10 @@
    "author_en": "Dante Alighieri",
    "year": "",
    "qid": "Q40185",
-   "links": 131,
+   "links": 132,
    "level": "B",
    "metric": "wikipedia",
-   "value": "131",
+   "value": "132",
    "source_url": "https://www.wikidata.org/wiki/Q40185",
    "cover": "/covers/Q40185.jpg",
    "cover_credit": "https://openlibrary.org/works/OL93082W",
@@ -2870,7 +2872,7 @@
    "author_en": "Han Kang",
    "year": "2014",
    "qid": "Q19657306",
-   "links": 6,
+   "links": 7,
    "level": "A",
    "metric": "sales",
    "value": "1er de tous les livres vendus chez Yes24 sur 2016-2025 (classement des ventes, livres nationaux hors manuels) ; La Végétarienne 6e, Impossibles adieux 7e",

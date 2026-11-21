@@ -45,8 +45,14 @@ def video_text(v):
     return f"{d['title']}{views}{url}"
 
 
-def note_fr(note):
-    """Les agents de recherche ont parfois écrit la note en anglais : la plus fréquente est traduite ici."""
+NOTES_FR = {k: v for k, v in json.loads((ROOT / "data" / "notes_fr.json").read_text()).items() if not k.startswith("_")}
+
+
+def note_fr(note, iso=""):
+    """Les agents de recherche ont parfois écrit la note en anglais : data/notes_fr.json la réécrit
+    par pays, et la formule la plus fréquente est traduite ici."""
+    if iso in NOTES_FR:
+        return NOTES_FR[iso]
     return (note or "").replace("No sourced box office data.", "Aucun box-office sourcé.")
 
 
@@ -87,7 +93,7 @@ for r in rows:
         "overview_fr": r.get("overview_fr") or "", "overview_en": r.get("overview_en") or "",
         "providers_fr": r.get("providers_fr") or {}, "justwatch_fr": r.get("justwatch_fr") or "",
         "tmdb_top": r.get("tmdb_top") or "", "fatw": r.get("fatw") or "",
-        "video": video_text(r.get("video")), "note_fr": note_fr(r.get("note")),
+        "video": video_text(r.get("video")), "note_fr": note_fr(r.get("note"), r.get("iso2", "")),
         "decade": decade(r.get("annee")),
         "ratings": {k: ratings_row.get(k) for k in ("imdb", "tmdb", "rt")},
         "trailer": (ratings_row.get("trailer") or {}).get("key", ""),

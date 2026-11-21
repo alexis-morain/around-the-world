@@ -19,6 +19,14 @@
   "book_level": "B",
   "note": "Livre : niveau B, chiffre de ventes mondial."
  },
+ "AZ": {
+  "series_level": "B",
+  "note": "Série : niveau B, un seul mois de vues YouTube, non limitées au pays."
+ },
+ "BA": {
+  "series_level": "B",
+  "note": "Série : niveau B, presse de 2013 sans chiffre d'audience."
+ },
  "BB": {
   "book": "Q23307454",
   "note": "Livre : In the Castle of My Skin, premier roman de Lamming et classique de la Barbade, retenu à égalité de sources."

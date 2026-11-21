@@ -1,0 +1,107 @@
+[
+ {
+  "iso2": "AL",
+  "book": {
+   "level": "none",
+   "note": "Candidat : Gjenerali i ushtrisë së vdekur (Kadare, Q2334830), choix actuel ; Sikur të isha djalë (Migjeni, 1936) est cité comme l'un des livres albanais les plus vendus par la librairie ShtepiaeLibrit (extrait de recherche, sans chiffre). Sondage de lecture du Centre national du livre (top-channel.tv, 2023, page ouverte) : 289 répondants, aucun classement de titres. Pages koha.net sur Kadare bloquées (403). Aucun chiffre de ventes ni sondage de titres albanais trouvé."
+  },
+  "series": {
+   "level": "none",
+   "note": "Candidat : Familja Kuqézi (Tring, 2019, TMDB 107448), choix actuel ; aucun chiffre d'audience trouvé, seulement des pages de la chaîne et de Wikipédia sans superlatif sourcé. acqj.al (2021, ouvert en partie) classe les telenovelas turques parmi les programmes les plus suivis, ce qui écarte un record local sans chiffre."
+  }
+ },
+ {
+  "iso2": "MK",
+  "book": {
+   "level": "none",
+   "note": "Candidat : Пиреј (Petre M. Andreevski, 1980), « l'un des romans macédoniens les plus lus » selon mk.wikipedia (page ouverte, sans chiffre ni sondage). Choix actuel retenu par arbitrage : La Liste de Freud (Smilevski). Aucun tirage, ventes ni sondage macédonien chiffré trouvé."
+  },
+  "series": {
+   "level": "none",
+   "note": "Aucune audience mesurée macédonienne trouvée. Les extraits de recherche (seriimk.forumakers.com, forum) ne citent que des telenovelas étrangères en tête (Дивиот ангел 34,1 % sur A1). Candidates non vérifiées : séries de Sitel / Kanal 5 / Alfa (ex. Бистра вода), sans chiffre ni source."
+  }
+ },
+ {
+  "iso2": "BA",
+  "book": {
+   "level": "none",
+   "note": "Candidats : Na Drini ćuprija (Andrić, Q1247865, choix actuel) et Derviš i smrt (Selimović). Un classement des meilleurs romans de la région (portalnovosti.com « Književnost na sto metara », extrait de recherche : Na Drini ćuprija 281 points, Derviš i smrt 280, Prokleta avlija 237) est yougoslave/régional et non un sondage de lecteurs bosniens ; page bloquée (403). Aucun tirage ni sondage national trouvé."
+  },
+  "series": {
+   "title_original": "Lud, zbunjen, normalan",
+   "title_fr": "Lud, zbunjen, normalan",
+   "title_en": "Crazy, Confused, Normal",
+   "year": 2007,
+   "language": "bs",
+   "tmdb_id": 15612,
+   "metric": "press",
+   "value": "« série la plus regardée de Bosnie-Herzégovine » et « émission la plus réussie et la plus regardée de B-H », d'après les classements d'audience cités par la presse (Sarajevo Times, 9 août 2013) ; rediffusée avec succès en Croatie",
+   "source_url": "https://sarajevotimes.com/exclusive-soon-continuation-of-famous-fazlinovic-new-round-of-24-episodes-of-bosnias-most-watched-series-lud-zbunjen-normalan/",
+   "note": "Page ouverte (titre et corps de l'article). Superlatif de presse sans chiffre d'audience ; l'article date de 2013, la série a ensuite duré jusqu'en 2021 (13 saisons, 309 épisodes selon bs.wikipedia).",
+   "level": "A"
+  }
+ },
+ {
+  "iso2": "AZ",
+  "book": {
+   "level": "none",
+   "note": "Aucune source chiffrée ouverte : oxu.az (liste des livres les plus vendus du réseau « Əli və Nino », et « les plus lus ») bloqué par Cloudflare (403), libraff.az (classements mensuels) non ouvert. Candidats : İblis (Huseyn Javid, Q1264387, choix actuel) ; Əli və Nino, très vendu mais écrit en allemand par Kurban Said, donc exclu par la règle de langue."
+  },
+  "series": {
+   "title_original": "Əqrəb mövsümü",
+   "title_fr": "Əqrəb mövsümü",
+   "title_en": "The Scorpio Season",
+   "year": 2023,
+   "language": "az",
+   "tmdb_id": 219142,
+   "metric": "streaming",
+   "value": "1re de la liste des films et séries les plus regardés d'Azerbaïdjan en janvier 2023 : 2 400 000 vues sur la chaîne YouTube officielle d'İctimai TV",
+   "source_url": "https://ednews.net/eqreb-movsumu-en-cox-i-zlenenlerde-bi-ri-nci-di-r/",
+   "note": "Page ouverte (Ednews). Classement d'un seul mois, mesuré en vues YouTube (pas en audience télévisée) ; les vues ne sont pas limitées aux spectateurs du pays. Série primée « meilleure série TV » aux Qızıl Pəri 2025 (kinobiz.az, extrait). Pas de comparaison avec des séries plus anciennes.",
+   "level": "A"
+  }
+ },
+ {
+  "iso2": "GE",
+  "book": {
+   "level": "none",
+   "note": "Candidats : Le Chevalier à la peau de panthère (Roustavéli, Q204208, choix actuel) et Data Tutashkhia (Amirejibi), « l'un des livres les plus populaires de l'ère de la Stagnation » selon le Centre national du livre géorgien (book.gov.ge, page ouverte, sans chiffre). Sondages trouvés : publika.ge (2020, 20 critiques, meilleurs romans du XXIe siècle, page ouverte) = avis d'experts, pas de lecteurs ; Goodreads = mondial. Aucun tirage ni sondage national de lecteurs trouvé."
+  },
+  "series": {
+   "level": "none",
+   "note": "Sources contradictoires, d'où none. TVMR (Nielsen Géorgie), extrait de recherche seulement, page non lisible (application dynamique) et année inconnue : « Chemi tsolis daqalebi » 20,38 % en 1re place (TMDB 84134), « Shua qalaqshi » 15,05 % en 2e (TMDB 86214). Vote des lecteurs d'on.ge (2023, page ouverte) pour la « meilleure série géorgienne » : Shua qalaqshi 29 %, Chemi tsolis daqalebi 23 %, Cxeli dzaγli 23 %, Tiflisi 14 % (c'est un vote de goût, pas d'audience). Une vidéo YouTube de la chaîne appelle Shua qalaqshi « la série géorgienne la plus regardée ». Choix actuel : Tiflisi (TMDB 87680), qui n'est cité par aucune source d'audience."
+  }
+ },
+ {
+  "iso2": "KZ",
+  "book": {
+   "level": "none",
+   "note": "Candidat : Ұшқан ұя (Baurjan Momyshuly), en tête de la liste des 10 livres de lecture familiale du 1er semestre 2026 : cité par 13 bibliothèques sur 20 (3 républicaines et 17 régionales), données du ministère de la Culture, relayées par inform.kz (14 juillet 2026, page ouverte). Source nationale et chiffrée, mais elle porte sur « la lecture en famille » et non sur le livre le plus lu, et l'œuvre est un récit autobiographique (limite du critère littéraire) : none, à trancher. Suivent : Абай жолы (Aouezov), Әке мен бала, Көшпенділер. Choix actuel Ночной Дозор (Loukianenko, russe) : pas un auteur kazakh."
+  },
+  "series": {
+   "level": "none",
+   "note": "Candidats : 5:32 (TMDB 153621, choix actuel, cité en tête de classements éditoriaux : kp.ru 2022, extrait de recherche) ; 140 балл, « projet le plus populaire de la plateforme Freedom Кино и ТВ en un an » avec 9,7 millions de vues YouTube pour 5 épisodes (digitalbusiness.kz, 23/10/2026, page ouverte) : classement d'une plateforme d'un an, sans comparaison nationale. Aucune audience TV mesurée trouvée."
+  }
+ },
+ {
+  "iso2": "AM",
+  "series": {
+   "level": "none",
+   "note": "Candidat : Born Without an Address (feuilleton d'Armenia TV, 2019-2020), cité en tête des séries par media.am (Atmosphere Armenia) au 1er trimestre 2020 et dans le top 10 télé 2020, à égalité avec Shiraz's Rose d'ATV (« the leaders are… », extraits de recherche, pages bloquées 403). Pas d'id TMDB trouvé (recherches sous plusieurs graphies vides), titre arménien non confirmé : none."
+  }
+ },
+ {
+  "iso2": "UZ",
+  "series": {
+   "level": "none",
+   "note": "Aucune audience ni classement de série ouzbèke trouvé. Candidat : Sukunat (Sevimli TV, diffusée sur YouTube, épisodes entre 200 000 et 315 000 vues d'après des extraits viewstats/YouTube), sans comparaison avec d'autres séries ni source de classement. pr.uz (marché publicitaire 1T 2026) cite Sevimli en tête de la régie mais sans série."
+  }
+ },
+ {
+  "iso2": "BY",
+  "series": {
+   "level": "none",
+   "note": "Aucun classement de série biélorusse trouvé : le top MTS ТВ Belarus 2025 (mts.by, minsknews.by, pages ouvertes, sans chiffre) ne compte que des séries russes (Жуки, Фишер, Инспектор Гаврилов…) ; le classement Google 2020 de kaktutzhit.by (page ouverte) est dominé par des séries étrangères. Candidat actuel : Талаш (TMDB 246619, 2011) sans source d'audience."
+  }
+ }
+]

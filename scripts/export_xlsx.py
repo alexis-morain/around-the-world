@@ -9,6 +9,10 @@ from openpyxl.worksheet.table import Table, TableStyleInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 rows = json.loads((ROOT / "data" / "films_du_monde.json").read_text())
+NOTES_FR = json.loads((ROOT / "data" / "notes_fr.json").read_text())  # notes réécrites en français
+for r in rows:
+    if r.get("iso2") in NOTES_FR:
+        r["note"] = NOTES_FR[r["iso2"]]
 
 COLS = [
     ("Pays", "pays", 22), ("Continent", "continent", 13), ("Niveau", "niveau", 8),
