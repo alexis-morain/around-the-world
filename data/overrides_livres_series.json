@@ -9,7 +9,12 @@
  },
  "AM": {
   "book": "Q13055019",
-  "note": "Livre : L'Histoire de l'Arménie est une chronique ; Les Blessures de l'Arménie d'Abovian, premier roman arménien moderne, la suit."
+  "note": "Livre : L'Histoire de l'Arménie est une chronique ; Les Blessures de l'Arménie d'Abovian, premier roman arménien moderne, la suit. Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11).",
+  "series_level": "B"
+ },
+ "AO": {
+  "series_level": "B",
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "AT": {
   "book": "Q1513820",
@@ -35,6 +40,18 @@
   "book_level": "B",
   "note": "Livre : niveau B, 4e d'un vote de lecteurs à l'organisateur incertain."
  },
+ "BF": {
+  "series_level": "B",
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
+ },
+ "BH": {
+  "series_level": "B",
+  "note": "Série : niveau B, sondage de lecteurs d'un journal (2009, 420 voix) (3e passe, 20/11)."
+ },
+ "BJ": {
+  "series_level": "B",
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
+ },
  "BO": {
   "book": "Q42194838",
   "note": "Livre : Bolívar est vénézuélien : Raza de bronce d'Arguedas retenu."
@@ -51,6 +68,10 @@
   "book_level": "B",
   "note": "Livre : niveau B, chiffre de ventes mondial."
  },
+ "CD": {
+  "series_level": "B",
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
+ },
  "CG": {
   "book_level": "B",
   "note": "Livre : niveau B, classique cité par la presse, sans chiffre."
@@ -59,14 +80,24 @@
   "series_level": "B",
   "note": "Série : niveau B, chiffre de 1,5 M peu plausible."
  },
+ "CI": {
+  "series_level": "B",
+  "note": "Série : niveau B, Médiamétrie cité par une seule page, nationalité de la série non confirmée (3e passe, 20/11)."
+ },
  "CM": {
   "book_level": "B",
-  "note": "Livre : niveau B, classique scolaire cité par une chronique, sans chiffre."
+  "note": "Livre : niveau B, classique scolaire cité par une chronique, sans chiffre. Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11).",
+  "series_level": "B"
+ },
+ "CR": {
+  "series_level": "B",
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "CU": {
   "book": "Q579507",
-  "note": "Livre : La Guerre de guérilla est un manuel militaire : Le Royaume de ce monde de Carpentier retenu. Série : Landgericht est une série allemande ; les séries cubaines ont moins de 3 votes.",
-  "series": null
+  "note": "Livre : La Guerre de guérilla est un manuel militaire : Le Royaume de ce monde de Carpentier retenu. Série : Landgericht est une série allemande ; les séries cubaines ont moins de 3 votes. Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11).",
+  "series": null,
+  "series_level": "B"
  },
  "CV": {
   "book_level": "B",
@@ -106,6 +137,10 @@
  "EH": {
   "book": null,
   "note": "Livre : Seuls candidats : des poèmes latins de Corippe."
+ },
+ "ET": {
+  "series_level": "B",
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "FI": {
   "series_level": "B",
@@ -168,6 +203,10 @@
   "note": "Livre : niveau B, chiffre de ventes de source secondaire. Série : niveau B, record d'une plateforme, source faible.",
   "series_level": "B"
  },
+ "JM": {
+  "series_level": "B",
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
+ },
  "JO": {
   "book": "Q6854984",
   "note": "Livre : Nicomaque de Gérase est un mathématicien grec : Villes de sel de Munif retenu."
@@ -175,6 +214,10 @@
  "KE": {
   "book": "Q3953479",
   "note": "Livre : Décoloniser l'esprit est un essai : Enfant, ne pleure pas, roman de Ngugi, retenu."
+ },
+ "KG": {
+  "series_level": "B",
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "KH": {
   "book_orig": "ទុំទាវ",
@@ -206,8 +249,9 @@
  },
  "LT": {
   "book": "Q7762870",
-  "note": "Livre : Le catéchisme de Mažvydas est religieux : Les Saisons de Donelaitis, premier poème lituanien, retenu. Série : Ølhunden Berit est norvégienne ; les séries lituaniennes ont moins de 3 votes.",
-  "series": null
+  "note": "Livre : Le catéchisme de Mažvydas est religieux : Les Saisons de Donelaitis, premier poème lituanien, retenu. Série : Ølhunden Berit est norvégienne ; les séries lituaniennes ont moins de 3 votes. Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11).",
+  "series": null,
+  "series_level": "B"
  },
  "LV": {
   "series_level": "B",
@@ -215,7 +259,8 @@
  },
  "LY": {
   "book": "Q18786522",
-  "note": "Livre : Le Livre vert est un texte politique de Kadhafi : Chewing Gum de Mansour Bushnaf, roman en arabe, retenu."
+  "note": "Livre : Le Livre vert est un texte politique de Kadhafi : Chewing Gum de Mansour Bushnaf, roman en arabe, retenu. Série : niveau B, classements de vues Facebook (3e passe, 20/11).",
+  "series_level": "B"
  },
  "MA": {
   "book": "Q3225152",
@@ -235,11 +280,13 @@
  },
  "MM": {
   "book": null,
-  "note": "Livre : Seuls candidats : inscriptions, chroniques et essais."
+  "note": "Livre : Seuls candidats : inscriptions, chroniques et essais. Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11).",
+  "series_level": "B"
  },
  "MN": {
   "series": null,
-  "note": "Série : 成吉思汗 est une production chinoise en mandarin."
+  "note": "Série : 成吉思汗 est une production chinoise en mandarin. Série : niveau B, un seul mois de mesure (mai 2015) (3e passe, 20/11).",
+  "series_level": "B"
  },
  "MR": {
   "book": null,
@@ -275,9 +322,17 @@
   "note": "Livre : niveau B, chiffre de ventes mondial. Mengele Zoo (vote NRK 2007, 2 491 votants) écarté.",
   "book_research": false
  },
+ "NP": {
+  "series_level": "B",
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
+ },
  "NZ": {
   "series": 71577,
   "note": "Série : The Beatles: Get Back est un documentaire : la fiction suivante est retenue."
+ },
+ "PA": {
+  "series_level": "B",
+  "note": "Série : niveau B, chiffres de la chaîne Telemetro sur les premières semaines (3e passe, 20/11)."
  },
  "PH": {
   "book": "Q568299",
@@ -294,15 +349,25 @@
  },
  "PS": {
   "book": "Q2895697",
-  "note": "Livre : Les candidats sont des textes antiques ou religieux : Des hommes dans le soleil de Ghassan Kanafani retenu."
+  "note": "Livre : Les candidats sont des textes antiques ou religieux : Des hommes dans le soleil de Ghassan Kanafani retenu. Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11).",
+  "series_level": "B"
+ },
+ "PY": {
+  "series_level": "B",
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "QA": {
   "book": null,
-  "note": "Livre : Seuls candidats : des ouvrages religieux. Série : Seul candidat : un documentaire britannique.",
-  "series": null
+  "note": "Livre : Seuls candidats : des ouvrages religieux. Série : Seul candidat : un documentaire britannique. Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11).",
+  "series": null,
+  "series_level": "B"
  },
  "RU": {
   "note": "Livre : Guerre et Paix, sondages VTsIOM 2018 et SuperJob (passe 2), niveau A."
+ },
+ "RW": {
+  "series_level": "B",
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "SA": {
   "book": "Q4120154",
@@ -314,7 +379,8 @@
  },
  "SD": {
   "book_level": "B",
-  "note": "Livre : niveau B, classement panarabe d'écrivains, pas de lecteurs soudanais."
+  "note": "Livre : niveau B, classement panarabe d'écrivains, pas de lecteurs soudanais. Série : niveau B, vues YouTube, pas une audience télé (3e passe, 20/11).",
+  "series_level": "B"
  },
  "SI": {
   "series_level": "B",
@@ -338,6 +404,10 @@
   "note": "Livre : L'Échelle sainte est un texte religieux : La Voile et la tempête de Hanna Mina retenu. Série : niveau B, sondage de suivi, pas d'audience mesurée.",
   "series_level": "B"
  },
+ "TG": {
+  "series_level": "B",
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
+ },
  "TH": {
   "series_level": "B",
   "note": "Série : niveau B, record annoncé par le diffuseur."
@@ -354,6 +424,10 @@
   "book_level": "B",
   "note": "Livre : niveau B, chiffre d'un seul éditeur arrêté en 2017."
  },
+ "TT": {
+  "series_level": "B",
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
+ },
  "TW": {
   "book": "Q5191138",
   "note": "Livre : Les romans taïwanais en chinois étaient écartés par la règle de langue : Garçons de cristal de Pai Hsien-yung retenu."
@@ -366,8 +440,9 @@
  },
  "UG": {
   "book": "Q1809068",
-  "note": "Livre : Daughters of Africa est une anthologie : Chant de Lawino d'Okot p'Bitek retenu. Livre : niveau B, source faible (blog), sans chiffre.",
-  "book_level": "B"
+  "note": "Livre : Daughters of Africa est une anthologie : Chant de Lawino d'Okot p'Bitek retenu. Livre : niveau B, source faible (blog), sans chiffre. Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11).",
+  "book_level": "B",
+  "series_level": "B"
  },
  "VA": {
   "book": null,
@@ -385,8 +460,13 @@
   "book": null,
   "note": "Livre : Ismaïl Kadaré est albanais, déjà retenu pour l'Albanie."
  },
+ "YE": {
+  "series_level": "B",
+  "note": "Série : niveau B, vues YouTube d'une seule saison de Ramadan (3e passe, 20/11)."
+ },
  "ZW": {
   "book": "Q6996918",
-  "note": "Livre : Peter V. Brett est américain : À fleur de peau de Tsitsi Dangarembga retenu."
+  "note": "Livre : Peter V. Brett est américain : À fleur de peau de Tsitsi Dangarembga retenu. Série : niveau B, chiffre du promoteur (câble USAID 2003) (3e passe, 20/11).",
+  "series_level": "B"
  }
 }

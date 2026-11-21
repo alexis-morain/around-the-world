@@ -105,3 +105,21 @@ première passe :
   absente). Un `none` n'efface pas un A existant : pas besoin de recopier.
 
 Fichier de sortie : `data/raw/bsA2_<region>.json`, même format.
+
+## Troisième passe (bsA3)
+
+Ciblée sur les pays qui n'ont aucune série, listés dans ta mission. Séries
+seulement (pas de clé `book`). Mêmes règles que la deuxième passe, avec deux
+ajouts, car ces pays ont rarement des mesures d'audience :
+
+- Une série nationale présentée par une source ouverte (presse du pays, chaîne
+  publique, institut, Wikipédia avec référence) comme la plus regardée, la plus
+  populaire ou la plus connue du pays entre en `level: "A"` avec `"weak": true`
+  et la nature de la source dans `note`. L'assembleur la classera en B.
+- Une série nationale qui existe (fiche TMDB, IMDb, chaîne ou Wikipédia) mais
+  sans aucune source de popularité : `level: "none"`, et nomme-la dans `note`
+  avec son id TMDB s'il existe. Ne crée pas d'entrée A pour elle.
+
+`level` est obligatoire sur chaque objet `series`. Fichier de sortie :
+`data/raw/bsA3_<region>.json`.
+

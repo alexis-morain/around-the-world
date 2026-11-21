@@ -170,8 +170,22 @@
    "wiki_fr": "",
    "wiki_en": "https://en.wikipedia.org/wiki/Wounds_of_Armenia"
   },
-  "series": null,
-  "note": "Livre : L'Histoire de l'Arménie est une chronique ; Les Blessures de l'Arménie d'Abovian, premier roman arménien moderne, la suit."
+  "series": {
+   "orig": "Անհասցե ծնվածները",
+   "fr": "Né sans adresse",
+   "en": "Born Without an Address",
+   "year": "2019",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "hy",
+   "level": "B",
+   "metric": "ratings",
+   "value": "Série la mieux classée du 1er trimestre 2020 et en tête du top des séries 2020 de la Commission de la télévision et de la radio (CTR, données Admosphere-Armenia), avec Shiraz's Rose (ATV)",
+   "source_url": "https://media.am/en/newsroom/2020/05/06/21319/",
+   "research_note": "Extraits de résultats de recherche seulement (media.am renvoie 403 ; 4 pages media.am lues par extrait : 2019 T2, 2020 T1, top 2020, T3 2021). « Leaders » à égalité avec Shiraz's Rose, pas de pourcentage. Diffusée sur Armenia TV 2019-2020. Titre arménien non confirmé, pas de fiche TMDB trouvée. Source ouverte : presse arménienne, sans chiffre."
+  },
+  "note": "Livre : L'Histoire de l'Arménie est une chronique ; Les Blessures de l'Arménie d'Abovian, premier roman arménien moderne, la suit. Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "AO": {
   "book": {
@@ -194,8 +208,24 @@
    "wiki_fr": "",
    "wiki_en": "https://en.wikipedia.org/wiki/Luuanda"
   },
-  "series": null,
-  "note": ""
+  "series": {
+   "orig": "Windeck",
+   "fr": "Windeck",
+   "en": "Windeck",
+   "year": "2012",
+   "overview_fr": "Lorsque Victoria Vamp, une belle mexicaine à l'ambition débordante, se fait recruter dans la rédaction par le riche directeur Xavier Voss, le magazine se transforme petit à petit en champ de bataille. Dans ce lieu où le glamour se mêle à l'ambition, femmes et hommes sont prêts à tout pour réussir : entre séduction, trahisons et complots...",
+   "overview_en": "",
+   "tmdb_id": 93420,
+   "poster": "/mScn22P018XtGTYiEsAyGjmtP1H.jpg",
+   "votes": 1,
+   "lang": "pt",
+   "level": "B",
+   "metric": "press",
+   "value": "Telenovela de la TPA (2012-2013, 120 épisodes) qui « a battu des records » d'audience selon AngoRussia ; citée parmi les productions nationales marquantes, nommée aux International Emmy 2013",
+   "source_url": "https://angorussia.com/producoes-televisivas-nacionais-que-marcaram-a-vida-dos-angolanos/",
+   "research_note": "Extrait de recherche (AngoRussia, 20/01/2021), sans chiffre. AngoCinema (déc. 2025) la classe 2e derrière Minha Terra Minha Mãe (2009, pas de fiche TMDB trouvée). TMDB 93420 vérifié (2012, AO, pt). L'étude MIRA 2023 ne classe que des programmes de TV, pas de série."
+  },
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "AR": {
   "book": {
@@ -523,8 +553,22 @@
    "wiki_fr": "",
    "wiki_en": ""
   },
-  "series": null,
-  "note": ""
+  "series": {
+   "orig": "Les Bobodiouf",
+   "fr": "Les Bobodiouf",
+   "en": "Les Bobodiouf",
+   "year": "2000",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "fr",
+   "level": "B",
+   "metric": "press",
+   "value": "« la série télévisée la plus regardée d'Afrique francophone » d'après Wikipédia (réf. TV5 / Africa Top Success, archivées) ; sitcom de Bobo-Dioulasso, 200 épisodes, 2000-2015",
+   "source_url": "https://fr.wikipedia.org/wiki/Les_Bobodioufs",
+   "research_note": "Extrait de recherche (Wikipédia FR, 04/10/2026) ; la phrase est une affirmation sans chiffre, appuyée sur un site promotionnel. Production Frame (Burkina), diffusée par CFI/TV5. TMDB 206648 existe mais avec origine FR : id non retenu. Autres candidates : Commissariat de Tampy (2006), Kadi Jolie."
+  },
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "BG": {
   "book": {
@@ -587,8 +631,24 @@
    "wiki_fr": "",
    "wiki_en": ""
   },
-  "series": null,
-  "note": ""
+  "series": {
+   "orig": "سوالف طفاش",
+   "fr": "سوالف طفاش",
+   "en": "Swalef Tafash",
+   "year": "2009",
+   "overview_fr": "",
+   "overview_en": "Swalef Tafash is a Bahraini comedy series set in a Gulf village during the 1940s and 1950s. The show follows the lighthearted and often absurd adventures of Tafash, a kind-hearted but naive man who constantly finds himself caught in humorous and unpredictable situations. Alongside his loyal and equally quirky friend Jassoum, Tafash navigates daily village life, interacting with a colorful cast of characters who reflect the customs, traditions, and social dynamics of the era.",
+   "tmdb_id": 288979,
+   "poster": "/qMPopLtmLhKLcOnR9d3CAV2epkp.jpg",
+   "votes": 0,
+   "lang": "ar",
+   "level": "B",
+   "metric": "survey",
+   "value": "Série préférée du public dans l'enquête de satisfaction des programmes du Ramadan 2015 de la télévision de Bahreïn (1 000 personnes, société indépendante) ; meilleure série comique du sondage Al Wasat 2009 avec 420 voix (40,58 %)",
+   "source_url": "https://www.alwasatnews.com/news/313831.html",
+   "research_note": "Page de 2009 ouverte (sondage de lecteurs en ligne, 420 voix sur environ 1 035). Enquête 2015 (https://www.alwasatnews.com/news/1022095.html) vue en extrait de recherche, page bloquée : sondage à part, limité au Ramadan de la chaîne publique. Série comique et historique (années 1940-50), tournée à Bahreïn. TMDB 288979 vérifié (BH)."
+  },
+  "note": "Série : niveau B, sondage de lecteurs d'un journal (2009, 420 voix) (3e passe, 20/11)."
  },
  "BI": {
   "book": {
@@ -635,8 +695,22 @@
    "wiki_fr": "https://fr.wikipedia.org/wiki/L'Homme_dit_fou_et_la_Mauvaise_Foi_des_hommes",
    "wiki_en": ""
   },
-  "series": null,
-  "note": ""
+  "series": {
+   "orig": "Apparences",
+   "fr": "Apparences",
+   "en": "Apparences",
+   "year": "2024",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "fr",
+   "level": "B",
+   "metric": "streaming",
+   "value": "L'épisode 38 a atteint 665 000 vues sur YouTube, « un record absolu » ; série de 100 épisodes de 26 min diffusée du lundi au vendredi à 15 h sur A+ Bénin, première saga familiale béninoise",
+   "source_url": "https://hirisproduction.com/serie-beninoise-apparences/",
+   "research_note": "Extrait de recherche d'un blog de société de production (21/11/2025) : source peu indépendante. Tournage lancé le 10/10/2024 (portail du numérique du Bénin). La fiche TMDB « Apparences » 2026 (283964) est classée FR : id non retenu."
+  },
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "BN": {
   "book": null,
@@ -883,8 +957,24 @@
    "wiki_fr": "https://fr.wikipedia.org/wiki/Cannibale_(roman)",
    "wiki_en": ""
   },
-  "series": null,
-  "note": ""
+  "series": {
+   "orig": "Chez Coco",
+   "fr": "Chez Coco",
+   "en": "Chez Coco",
+   "year": "2023",
+   "overview_fr": "Coco, patronne du salon de coiffure qui porte son nom, Chez Coco, est une dame « assez particulière », a dit tout sourire au Courrier de Kinshasa Emmanuel Lupia, un des réalisateurs de la série. Ce qui n’est pas vraiment étonnant quand on connaît Maman Kalunga qui campe ce personnage principal bien atypique. Pour la petite histoire, Coco est devenue propriétaire du salon dont elle était l’employée et y coule des jours heureux jusqu’au retour de son ancienne patronne, Samba.\n\nRevenue à Kinshasa après deux années passées en Europe, cette dernière a le toupet d’annuler la vente du salon. Elle ne rêve que d’une chose, le récupérer pour le revendre au plus offrant. Débute alors, comme l’on peut bien se l’imaginer, une bataille sans merci avec Coco qui ne l’entend pas de cette oreille et tient mordicus à garder « son Salon ».",
+   "overview_en": "",
+   "tmdb_id": 225908,
+   "poster": "/oovlUuwphw5TlqkK1LEwIahlM3O.jpg",
+   "votes": 0,
+   "lang": "ln",
+   "level": "B",
+   "metric": "press",
+   "value": "1re de la liste des films et séries populaires en RDC en 2023 (Eventsrdc) ; 31 700 j'aime et 2 500 commentaires en moins d'une semaine sur la page Facebook de la série (Adiac, mai 2023) ; sitcom de Maboke TV (Canal+)",
+   "source_url": "https://www.eventsrdc.com/rdc-nos-films-et-series-de-lannee-2023/",
+   "research_note": "Extraits de recherche (Eventsrdc, Adiac). Classement éditorial d'un site culturel, pas d'audience mesurée. TMDB 225908 vérifié (2023, CD, ln). Maboke TV est annoncée 5e chaîne la plus suivie du pays (Canal+, mesure d'audience citée par mediacongo.net)."
+  },
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "CF": {
   "book": {
@@ -997,8 +1087,22 @@
    "wiki_fr": "https://fr.wikipedia.org/wiki/Les_Soleils_des_ind%C3%A9pendances",
    "wiki_en": "https://en.wikipedia.org/wiki/Les_Soleils_des_ind%C3%A9pendances"
   },
-  "series": null,
-  "note": ""
+  "series": {
+   "orig": "1 et 2",
+   "fr": "1 et 2",
+   "en": "1 et 2",
+   "year": "",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "fr",
+   "level": "B",
+   "metric": "ratings",
+   "value": "1,7 million de téléspectateurs par jour (Médiamétrie, avril-juin 2024), 2e programme le plus regardé du pays après Le Vrai Match (1,9 M), diffusée de 15 h à 16 h sur A+ Ivoire",
+   "source_url": "https://www.pulse.ci/article/le-vrai-match-de-life-tv-lemission-la-plus-regardee-en-cote-divoire-pour-le-2e-2024090509510853279",
+   "research_note": "Page ouverte (Pulse CI, 17/07/2024). Trimestre unique. Pulse parle de « la série 1 et 2 » sans préciser l'origine : nationalité ivoirienne non confirmée par une seconde source, pas de fiche TMDB trouvée. Autres candidates : Les Nounous (A+ Ivoire, 2024, presse « phénomène d'audience », TMDB 316249 classée FR), Ma famille (2002, Akissi Delta)."
+  },
+  "note": "Série : niveau B, Médiamétrie cité par une seule page, nationalité de la série non confirmée (3e passe, 20/11)."
  },
  "CL": {
   "book": {
@@ -1062,8 +1166,24 @@
    "wiki_fr": "",
    "wiki_en": "https://en.wikipedia.org/wiki/Houseboy_(novel)"
   },
-  "series": null,
-  "note": "Livre : niveau B, classique scolaire cité par une chronique, sans chiffre."
+  "series": {
+   "orig": "Madame… Monsieur",
+   "fr": "Madame… Monsieur",
+   "en": "Madame… Monsieur",
+   "year": "2020",
+   "overview_fr": "L’homme et la femme ne perçoivent pas le monde de la même façon, l’homme et la femme n’ont pas les mêmes sensibilités face aux faits de la société, pourtant unis par l’amour, ils sont appelés à vivre sous le même toit, et dormir sur le même lit. Comment parviennent-ils à surmonter leurs contradictions pour mener une vie de couple harmonieuse?",
+   "overview_en": "",
+   "tmdb_id": 198001,
+   "poster": "/rp6YabWswdhqGVvKxACvkHl2oGM.jpg",
+   "votes": 2,
+   "lang": "fr",
+   "level": "B",
+   "metric": "press",
+   "value": "« la série camerounaise la plus suivie et la plus appréciée de la décennie » selon Reglo (2020), appuyé sur 67 000 abonnés de sa page Facebook ; achetée par A+ (Canal+) ; 52 épisodes en saison 1",
+   "source_url": "https://reglo.org/posts/madame-monsieur-la-serie-camerounaise-du-moment-6538",
+   "research_note": "Source : blog culturel (extrait de recherche), superlatif sans audience mesurée. TMDB 198001 vérifié (2020, CM). Concurrente : La bataille des chéries (TMDB 285789, 2023), « série de l'année 2023 » selon Cameroon Tribune, sans chiffre."
+  },
+  "note": "Livre : niveau B, classique scolaire cité par une chronique, sans chiffre. Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "CN": {
   "book": {
@@ -1166,8 +1286,22 @@
    "wiki_fr": "",
    "wiki_en": "https://en.wikipedia.org/wiki/Cocor%C3%AD"
   },
-  "series": null,
-  "note": ""
+  "series": {
+   "orig": "La Pensión",
+   "fr": "La Pensión",
+   "en": "La Pensión",
+   "year": "1999",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "es",
+   "level": "B",
+   "metric": "press",
+   "value": "« emblématique série costaricienne » : 22 saisons et près de 1 000 épisodes sur Teletica (1999-2021)",
+   "source_url": "https://www.nacion.com/viva/television/la-pension-regresa-le-contamos-donde-volver-a-ver/UE4IOGBZXJC2REMOV7ZSICPAJE/story/",
+   "research_note": "Page ouverte (La Nación, 18/03/2024) et es.wikipedia « La pensión » (série la plus longue du pays). Qualificatif de presse, pas d'audience mesurée. Pas de fiche TMDB trouvée."
+  },
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "CU": {
   "book": {
@@ -1190,8 +1324,22 @@
    "wiki_fr": "https://fr.wikipedia.org/wiki/Le_Royaume_de_ce_monde",
    "wiki_en": "https://en.wikipedia.org/wiki/The_Kingdom_of_This_World"
   },
-  "series": null,
-  "note": "Livre : La Guerre de guérilla est un manuel militaire : Le Royaume de ce monde de Carpentier retenu. Série : Landgericht est une série allemande ; les séries cubaines ont moins de 3 votes."
+  "series": {
+   "orig": "Sol de Batey",
+   "fr": "Sol de Batey",
+   "en": "Sol de Batey",
+   "year": "1985",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "es",
+   "level": "B",
+   "metric": "press",
+   "value": "présentée comme l'une des trois telenovelas cubaines les plus populaires, avec des « hauts niveaux d'audience » (70 épisodes, 1985)",
+   "source_url": "https://www.cuballama.com/noticias/cual-ha-sido-la-novela-cubana-mas-popular-de-todos-los-tiempos/",
+   "research_note": "Page ouverte (Cuballama, févr. 2024), sans chiffre d'audience. Le titre cubanet « la telenovela cubana la plus populaire selon la critique » n'a pas pu être ouvert (Cloudflare, extrait de recherche). Fiche TMDB 67985 trouvée mais sans année ni pays : id non repris. Concurrente : Tierra brava (1997), « l'une des plus emblématiques et populaires » selon es.wikipedia (sans chiffre)."
+  },
+  "note": "Livre : La Guerre de guérilla est un manuel militaire : Le Royaume de ce monde de Carpentier retenu. Série : Landgericht est une série allemande ; les séries cubaines ont moins de 3 votes. Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "CV": {
   "book": {
@@ -1664,8 +1812,22 @@
    "wiki_fr": "https://fr.wikipedia.org/wiki/L'Amour_jusqu'au_tombeau",
    "wiki_en": ""
   },
-  "series": null,
-  "note": ""
+  "series": {
+   "orig": "ቤቶች",
+   "fr": "Betoch",
+   "en": "Betoch",
+   "year": "2013",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "am",
+   "level": "B",
+   "metric": "press",
+   "value": "Première sitcom du pays, diffusée sur EBC chaque samedi depuis le 12/01/2013 (409 épisodes) ; « parmi les émissions les plus regardées d'EBC » (The Reporter, 2022) ; 303 M de vues sur sa chaîne YouTube",
+   "source_url": "https://www.thereporterethiopia.com/21699/",
+   "research_note": "Extrait de recherche (The Reporter Ethiopia, 26/03/2022) : formule vague, pas de chiffre d'audience. Pas de fiche TMDB trouvée. Le classement Kantar-Geopoll de mars 2017 (Wikipédia) place seulement des séries turques doublées en tête. Autres candidates : Dana (2013), Sew Le Sew, Adey, Besintu."
+  },
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "FI": {
   "book": {
@@ -1795,7 +1957,7 @@
    "metric": "press",
    "value": "ses douze épisodes sur Gabon Télévision « ont battu des records d'audience » (Jeune Afrique, 2014), sans chiffre",
    "source_url": "https://www.jeuneafrique.com/135020/societe/cin-ma-et-t-l-vision-libreville-fait-craquer",
-   "research_note": "Source FAIBLE : aucun chiffre. Même article : Kongossa (2003) « succès fulgurant », première fiction locale. Série tournée à Libreville par Boss Playa."
+   "research_note": "Source FAIBLE : aucun chiffre. Même article : Kongossa (2003) « succès fulgurant », première fiction locale. Série tournée à Libreville par Boss Playa. Fiche TMDB 219804 posée à la main le 20/11 (TMDB la classe FR)."
   },
   "note": "Série : niveau B, « records d'audience » sans chiffre."
  },
@@ -2620,8 +2782,24 @@
    "wiki_fr": "https://fr.wikipedia.org/wiki/Br%C3%A8ve_histoire_de_sept_meurtres",
    "wiki_en": "https://en.wikipedia.org/wiki/A_Brief_History_of_Seven_Killings"
   },
-  "series": null,
-  "note": ""
+  "series": {
+   "orig": "Royal Palm Estate",
+   "fr": "Royal Palm Estate",
+   "en": "Royal Palm Estate",
+   "year": "1994",
+   "overview_fr": "",
+   "overview_en": "Royal Palm Estate mirrors life on an old sugar manor set in Jamaica. The drama spins around the lives of the well off Blackburn family who remain symbols of a provincial period long gone. It is a story loaded with worldwide interest, anticipation, comic drama, love and murder.",
+   "tmdb_id": 234390,
+   "poster": null,
+   "votes": 1,
+   "lang": "en",
+   "level": "B",
+   "metric": "press",
+   "value": "la série télévisée la plus longue de l'histoire jamaïcaine (1994-2015, plus de 30 saisons, environ 800 épisodes), rendez-vous du dimanche soir sur CVM TV",
+   "source_url": "https://jamaica-gleaner.com/article/entertainment/20180910/longevity-royal-palm-estate-and-its-possible-return-will-there-be",
+   "research_note": "Page ouverte (Gleaner, 9 sept. 2018) : longévité et popularité décrites par les acteurs et le réalisateur, sans chiffre d'audience. TMDB 234390 vérifié (Royal Palm Estate, 1994-03-06, origine JM, en). Un site non officiel (thedemostop.com, extrait de recherche) la dit « consistently ranked as one of Jamaica's highest-rated dramas », non repris. Concurrentes citées : Oliver at Large (comédie), Lime Tree Lane."
+  },
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "JO": {
   "book": {
@@ -2763,8 +2941,22 @@
    "wiki_fr": "",
    "wiki_en": "https://en.wikipedia.org/wiki/Jamila_(novel)"
   },
-  "series": null,
-  "note": ""
+  "series": {
+   "orig": "Кошунаны тандабайт",
+   "fr": "On ne choisit pas ses voisins",
+   "en": "You Don't Choose Your Neighbors",
+   "year": "2019",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "ky",
+   "level": "B",
+   "metric": "press",
+   "value": "« À ce jour la série la plus populaire du Kirghizistan » (Kaktus, 25/12/2021) ; « l'une des séries les plus populaires du segment kirghize de YouTube », au moins environ 1,5 million de vues par épisode (Azattyk, 19/01/2021)",
+   "source_url": "https://kaktus.kg/doc/4084_kyrgyz_serialdary._sizge_kaysynysy_jagat.html",
+   "research_note": "Deux pages ouvertes (Kaktus et Azattyk, https://www.azattyk.org/a/tasma-serial-internet-koruuchu/31047857.html). Superlatif de presse + vues YouTube, aucune audience télévisée mesurée ; série de la société 1.1TV, 2 saisons. Pas de fiche TMDB trouvée. Titre français traduit par nous."
+  },
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "KH": {
   "book": {
@@ -3165,8 +3357,24 @@
    "wiki_fr": "https://fr.wikipedia.org/wiki/Metai",
    "wiki_en": ""
   },
-  "series": null,
-  "note": "Livre : Le catéchisme de Mažvydas est religieux : Les Saisons de Donelaitis, premier poème lituanien, retenu. Série : Ølhunden Berit est norvégienne ; les séries lituaniennes ont moins de 3 votes."
+  "series": {
+   "orig": "Moterys meluoja geriau",
+   "fr": "Moterys meluoja geriau",
+   "en": "Women lie better",
+   "year": "2008",
+   "overview_fr": "",
+   "overview_en": "Moterys meluoja geriau is a Lithuanian TV series produced by TV3. It is the most watched Lithuanian drama of all time. It is based on a novel by Daiva Vaitkevičiūtė. The series follows four young women and their love interests.",
+   "tmdb_id": 59804,
+   "poster": "/wXv3Fv7TQE0UC7goU587M9CiMkt.jpg",
+   "votes": 2,
+   "lang": "lt",
+   "level": "B",
+   "metric": "press",
+   "value": "présentée comme « la série dramatique lituanienne la plus regardée de tous les temps » ; diffusée par TV3 depuis 2008, 17 saisons",
+   "source_url": "https://en.wikipedia.org/wiki/Moterys_meluoja_geriau",
+   "research_note": "Source faible : phrase de Wikipédia EN (page ouverte) appuyée sur un article de presse sans chiffre d'audience (klubas.lt / Delfi, non relu : redirection). Aucune audience mesurée trouvée. Fiche TMDB 59804 vérifiée (2008, LT, 2 votes)."
+  },
+  "note": "Livre : Le catéchisme de Mažvydas est religieux : Les Saisons de Donelaitis, premier poème lituanien, retenu. Série : Ølhunden Berit est norvégienne ; les séries lituaniennes ont moins de 3 votes. Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "LU": {
   "book": {
@@ -3269,8 +3477,24 @@
    "wiki_fr": "",
    "wiki_en": "https://en.wikipedia.org/wiki/Chewing_Gum_(novel)"
   },
-  "series": null,
-  "note": "Livre : Le Livre vert est un texte politique de Kadhafi : Chewing Gum de Mansour Bushnaf, roman en arabe, retenu."
+  "series": {
+   "orig": "شط الحرية",
+   "fr": "شط الحرية",
+   "en": "Shat Al-Huria",
+   "year": "",
+   "overview_fr": "",
+   "overview_en": "In a Bedouin setting, the events of the series reflect many aspects of the everyday life of citizens, highlight the lived reality with all its social problems, in a satirical comic framework.",
+   "tmdb_id": 286076,
+   "poster": "/lkgtUfnpVCnTxHPXhKdNXMrfMqU.jpg",
+   "votes": 0,
+   "lang": "ar",
+   "level": "B",
+   "metric": "press",
+   "value": "« Pour la 5e année de suite, en tête des séries les plus regardées par les Libyens » pendant le ramadan (Sky News Arabia, 30/03/2023) ; saison 8 : plus de 1,5 million de vues Facebook en quelques heures, 1re œuvre la plus suivie en Libye (Al-Mouwatana, 21/02/2026)",
+   "source_url": "https://www.skynewsarabia.com/varieties/1609117-%D8%B4%D8%B7-%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D8%A9-5-%D9%8A%D8%AA%D8%B5%D8%AF%D8%B1-%D9%82%D8%A7%D9%8A%D9%94%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D8%A7%D8%AA-%D9%84%D9%8A%D8%A8%D9%8A%D8%A7-%D8%A7%D9%84%D8%B3%D8%B1-%D8%A7%D9%84%D9%82%D8%B5%D8%A9",
+   "research_note": "Extraits de recherche (Sky News Arabia, Al-Ain, Al-Mouwatana). Classements fondés sur les vues Facebook/YouTube, pas sur une audience mesurée. Année 2018 d'après atlibya.com (début de la saison 1). TMDB 286076 vérifié (titre et pays LY ; date vide)."
+  },
+  "note": "Livre : Le Livre vert est un texte politique de Kadhafi : Chewing Gum de Mansour Bushnaf, roman en arabe, retenu. Série : niveau B, classements de vues Facebook (3e passe, 20/11)."
  },
  "MA": {
   "book": {
@@ -3459,8 +3683,22 @@
  },
  "MM": {
   "book": null,
-  "series": null,
-  "note": "Livre : Seuls candidats : inscriptions, chroniques et essais."
+  "series": {
+   "orig": "အရိပ်",
+   "fr": "A Yake (L'Ombre)",
+   "en": "A Yake",
+   "year": "2018",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "my",
+   "level": "B",
+   "metric": "press",
+   "value": "« Le drame télévisé birman le plus regardé à l'époque », d'après la page Wikipédia de l'actrice Nan Sandar Hla Htun (MRTV-4, mai-juin 2018, adaptation du roman de Ma Sandar)",
+   "source_url": "https://en.wikipedia.org/wiki/Nan_Sandar_Hla_Htun",
+   "research_note": "Page Wikipédia ouverte ; la fiche A Yake (https://en.wikipedia.org/wiki/A_Yake) ne reprend pas la mention. Même formule pour Yadanar Htae Ka Yadanar (2017, MRTV-4, page d'Aung Min Khant), antérieure : A Yake retenue comme plus récente. Pas de chiffre d'audience, pas de fiche TMDB trouvée."
+  },
+  "note": "Livre : Seuls candidats : inscriptions, chroniques et essais. Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "MN": {
   "book": {
@@ -3483,8 +3721,22 @@
    "wiki_fr": "",
    "wiki_en": "https://en.wikipedia.org/wiki/The_Rejected_Girl"
   },
-  "series": null,
-  "note": "Série : 成吉思汗 est une production chinoise en mandarin."
+  "series": {
+   "orig": "Хөгжилтэй гэр бүл",
+   "fr": "Famille joyeuse (titre traduit)",
+   "en": "Cheerful Family (translated title)",
+   "year": "2015",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "mn",
+   "level": "B",
+   "metric": "ratings",
+   "value": "1re série au classement Maxima Consulting de mai 2015 (une série par chaîne, 34 chaînes) : rating 5,2 %, devant Hyazgaargui khairan (coréenne, 3,6 %) ; chaîne Bolovsrol",
+   "source_url": "https://ikon.mn/n/h13",
+   "research_note": "Page ouverte (iKon.mn, 21/05/2015). Mesure d'un seul mois ; seule série mongole du classement, les séries mongoles font moins de 1 % de l'offre. Titre latin non confirmé, pas de fiche TMDB trouvée. Les classements 2016-2018 (ub.life, page ouverte) ne comptent que des séries coréennes."
+  },
+  "note": "Série : 成吉思汗 est une production chinoise en mandarin. Série : niveau B, un seul mois de mesure (mai 2015) (3e passe, 20/11)."
  },
  "MR": {
   "book": null,
@@ -3512,7 +3764,21 @@
    "wiki_fr": "https://fr.wikipedia.org/wiki/Il-Kantilena",
    "wiki_en": "https://en.wikipedia.org/wiki/Il-Kantilena"
   },
-  "series": null,
+  "series": {
+   "orig": "Division 7",
+   "fr": "Division 7",
+   "en": "Division 7",
+   "year": "2016",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "mt",
+   "level": "A",
+   "metric": "survey",
+   "value": "enquête d'audience de la Broadcasting Authority (décembre 2020, 1 248 répondants de 12 ans et plus) : Division 7 est le 2e programme local favori (8 % des téléspectateurs de télévision locale, 86 répondants), juste derrière le journal télévisé, devant Malta's Got Talent (5 %) et L-Ispettur Bonniċi (4 %) ; première série, tous genres fictions confondus",
+   "source_url": "https://ba.org.mt/en/pr-archive-2021",
+   "research_note": "Source ouverte et officielle (PR 01/21 du Broadcasting Authority, page lue en entier). Newsbook (9 janv. 2020, extrait de recherche seulement, page non rouverte : délai dépassé) : la 7e saison de Division 7 est la série de drama favorite de l'enquête du BA. Série de DBA Entertainment, diffusée sur ONE depuis le 28 sept. 2016 (ESCplus), IMDb tt6184212. Pas de fiche TMDB : /find par imdb_id vide, recherche de titre vide, donc tmdb_id absent. Autre candidate vue sur une enquête de 2015 : Katrina (TVM, 13,55 % des citations), sans fiche TMDB maltaise."
+  },
   "note": "Livre : Palestine est une bande dessinée de Joe Sacco, installé aux États-Unis : Il-Kantilena, plus ancien poème en maltais, retenu."
  },
  "MU": {
@@ -3864,8 +4130,24 @@
    "wiki_fr": "",
    "wiki_en": "https://en.wikipedia.org/wiki/Bhanubhakta_Ramayana"
   },
-  "series": null,
-  "note": ""
+  "series": {
+   "orig": "Meri Bassai",
+   "fr": "Meri Bassai",
+   "en": "Meri Bassai",
+   "year": "",
+   "overview_fr": "",
+   "overview_en": "",
+   "tmdb_id": 7832,
+   "poster": "/ecPuzw75O17Is6iGfWjy5gPa5p6.jpg",
+   "votes": 1,
+   "lang": "ne",
+   "level": "B",
+   "metric": "press",
+   "value": "Citée avec Bhadragol comme la série la plus appréciée dans la Nepali Media Survey 2019 de Sharecast Initiative (4 129 foyers, 42 districts) ; « l'une des séries les plus regardées du Népal » (Media Hub) ; plus de 800 épisodes sur Nepal Television",
+   "source_url": "https://www.khasokhas.com/89709",
+   "research_note": "Page ouverte (Khasokhas, 07/07/2019) ; sitcom de Nepal Television. Confirmé aussi par Kathmandu Post (13/06/2023, https://kathmandupost.com/art-entertainment/2023/06/13/nepali-tv-shows-are-insanely-popular-on-youtube-here-are-some-to-look-out-for). Pas de pourcentage par titre. TMDB 7832 vérifié (Meri Bassai, NP)."
+  },
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "NR": {
   "book": null,
@@ -3957,8 +4239,24 @@
    "wiki_fr": "",
    "wiki_en": "https://en.wikipedia.org/wiki/De_mangos_y_albaricoques"
   },
-  "series": null,
-  "note": ""
+  "series": {
+   "orig": "El Picaflor",
+   "fr": "El Picaflor",
+   "en": "El Picaflor",
+   "year": "2016",
+   "overview_fr": "",
+   "overview_en": "",
+   "tmdb_id": 284587,
+   "poster": "/fbCdBXEOfvlPRodmiIA5jVmY7lW.jpg",
+   "votes": 0,
+   "lang": "es",
+   "level": "B",
+   "metric": "rating",
+   "value": "12,2 de rating (34 % de part d'audience) en total personnes, 15,6 chez les femmes, « production nationale la plus vue » selon Telemetro",
+   "source_url": "https://www.produ.com/television/noticias/el-picaflor-original-de-telemetro-triunfa-con-la-audiencia-panamena/",
+   "research_note": "Page ouverte (PRODU, article daté du 28 juil. 2016) : chiffres communiqués par la chaîne Telemetro, novela panameña lancée le 4 juil. 2016 ; le texte écrit « du 2017 » (coquille probable, l'article date de 2016). Mesure d'audience faite à Panama mais relayée par le diffuseur, sur les premières semaines seulement. TMDB 284587 vérifié (El Picaflor, 2016-07-04, origine PA, 0 vote). Autre candidate : La cáscara (1996, TMDB 319495), sans source de popularité."
+  },
+  "note": "Série : niveau B, chiffres de la chaîne Telemetro sur les premières semaines (3e passe, 20/11)."
  },
  "PE": {
   "book": {
@@ -4148,8 +4446,24 @@
    "wiki_fr": "",
    "wiki_en": "https://en.wikipedia.org/wiki/Men_in_the_Sun"
   },
-  "series": null,
-  "note": "Livre : Les candidats sont des textes antiques ou religieux : Des hommes dans le soleil de Ghassan Kanafani retenu."
+  "series": {
+   "orig": "وطن ع وتر",
+   "fr": "وطن ع وتر",
+   "en": "Watan A Watar",
+   "year": "2009",
+   "overview_fr": "",
+   "overview_en": "A satirical Palestinian political series that comically criticizes reality, and each episode bears a different title, such as Syrian Drama, Smudge, Splash, Elections, etc.",
+   "tmdb_id": 248725,
+   "poster": "/lUKR7GHp6CvNpZv4C0KBRg4IbTa.jpg",
+   "votes": 0,
+   "lang": "ar",
+   "level": "B",
+   "metric": "press",
+   "value": "« La série la plus regardée de l'histoire de la Palestine » (Middle East Eye, 12/04/2023) ; 48 millions de vues sur YouTube pendant le Ramadan 2015 (Dunia al-Watan, 23/07/2015)",
+   "source_url": "https://www.middleeasteye.net/discover/ramadan-arab-world-tv-where-to-start",
+   "research_note": "Page MEE ouverte ; chiffre de 48 M vu par extrait de recherche (https://www.alwatanvoice.com/arabic/news/2015/07/23/747393.html), vues arabes et mondiales, pas seulement palestiniennes. Série comique de 2009 à aujourd'hui. TMDB 248725 est la fiche 2009 (PS) ; autres saisons : 224286, 228117, 228121, 314178."
+  },
+  "note": "Livre : Les candidats sont des textes antiques ou religieux : Des hommes dans le soleil de Ghassan Kanafani retenu. Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "PT": {
   "book": {
@@ -4216,13 +4530,41 @@
    "wiki_fr": "https://fr.wikipedia.org/wiki/Moi%2C_le_Supr%C3%AAme",
    "wiki_en": "https://en.wikipedia.org/wiki/I%2C_the_Supreme"
   },
-  "series": null,
-  "note": ""
+  "series": {
+   "orig": "Nuestros fantasmas",
+   "fr": "Nuestros fantasmas",
+   "en": "Our Ghosts",
+   "year": "",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "es",
+   "level": "B",
+   "metric": "press",
+   "value": "« ícono de la cultura paraguaya », « gran audiencia » qui lui a permis de rester neuf ans à l'antenne ; déclarée d'intérêt national par la présidence",
+   "source_url": "https://www.hoy.com.py/espectaculos/en-el-mes-de-halloween-nuestros-fantasmas-regresa-pero-en-pantalla-grande/amp",
+   "research_note": "Page ouverte (Diario HOY, 13 oct. 2018), sans chiffre d'audience. L'année de début n'est pas dans la page (la première note bsA3 parlait des « années 1990 », diffusion de neuf ans) : year laissé à null. Aucune fiche TMDB trouvée (recherche « Nuestros fantasmas » vide), donc pas de tmdb_id. TMDB discover PY ne contient que des concours et sports."
+  },
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "QA": {
   "book": null,
-  "series": null,
-  "note": "Livre : Seuls candidats : des ouvrages religieux. Série : Seul candidat : un documentaire britannique."
+  "series": {
+   "orig": "فلاشات",
+   "fr": "Flashat",
+   "en": "Flashat",
+   "year": "2020",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "ar",
+   "level": "B",
+   "metric": "press",
+   "value": "« La série la plus regardée » du Ramadan 2021 parmi les productions qataries de Rayyan TV, d'après le quotidien Al Arab (17/05/2021)",
+   "source_url": "https://alarab.qa/article/17/05/2021/%D8%AD%D8%B5%D8%A7%D8%AF-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9-%D8%A7%D9%84%D8%B1%D9%85%D8%B6%D8%A7%D9%86%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%BA%D8%A8%D9%82%D8%A9-%D8%A5%D9%84%D9%89-%D9%81%D9%8A-%D8%B6%D9%8A%D8%A7%D9%81%D8%AA%D9%87%D9%86-%D8%B1%D9%88%D8%A7%D8%AC-%D9%85%D8%AD%D9%84%D9%8A-%D9%88%D8%AE%D9%84%D9%8A%D8%AC%D9%8A-%D9%84%D9%84%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%AA%D9%84%D9%81%D8%B2%D9%8A%D9%88%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D9%82%D8%B7%D8%B1%D9%8A%D8%A9",
+   "research_note": "Page ouverte. Sitcom de 8 épisodes sur Rayyan TV (saison 2 en 2021, saison 1 au Ramadan 2020), sans chiffre. Pas de fiche TMDB trouvée. Autre candidate : Omar (2012, TMDB 58887, coproduction SA/QA, série religieuse produite par Qatar TV) sans donnée d'audience qatarie."
+  },
+  "note": "Livre : Seuls candidats : des ouvrages religieux. Série : Seul candidat : un documentaire britannique. Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "RO": {
   "book": {
@@ -4365,8 +4707,22 @@
    "wiki_fr": "https://fr.wikipedia.org/wiki/Notre-Dame_du_Nil",
    "wiki_en": "https://en.wikipedia.org/wiki/Our_Lady_of_the_Nile"
   },
-  "series": null,
-  "note": ""
+  "series": {
+   "orig": "Seburikoko",
+   "fr": "Seburikoko",
+   "en": "Seburikoko",
+   "year": "2015",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "rw",
+   "level": "B",
+   "metric": "press",
+   "value": "Seburikoko et City Maid « en tête de la liste des contenus TV et en ligne les plus regardés du pays » (The EastAfrican, 2020) ; diffusée sur RBC, plus de 480 épisodes, meilleure série aux Rwanda Movie Awards 2016",
+   "source_url": "https://www.theeastafrican.co.ke/tea/magazine/rwandan-soaps-top-watch-list-1435022",
+   "research_note": "Extrait de recherche, superlatif de presse régionale sans chiffre. Cinemag la décrit comme « l'un des programmes les plus regardés de la télévision rwandaise ». Pas de fiche TMDB trouvée."
+  },
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "SA": {
   "book": {
@@ -4458,8 +4814,24 @@
    "wiki_fr": "https://fr.wikipedia.org/wiki/Saison_de_la_migration_vers_le_nord",
    "wiki_en": "https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North"
   },
-  "series": null,
-  "note": "Livre : niveau B, classement panarabe d'écrivains, pas de lecteurs soudanais."
+  "series": {
+   "orig": "زاندا",
+   "fr": "زاندا",
+   "en": "Zanda",
+   "year": "2023",
+   "overview_fr": "",
+   "overview_en": "The series follows a man struggling to provide for his family as difficult circumstances push him down a darker path, leading him to embrace a new side of himself.",
+   "tmdb_id": 337136,
+   "poster": null,
+   "votes": 0,
+   "lang": "ar",
+   "level": "B",
+   "metric": "streaming",
+   "value": "« audience la plus élevée pour une série soudanaise sur YouTube » : plus de 5 millions de vues par jour et plus de 30 millions de vues cumulées en septembre 2023 (Tasamuh News)",
+   "source_url": "https://tasamuhnews.com/%d8%b1%d9%82%d9%85-%d8%ba%d9%8a%d8%b1-%d9%85%d8%b3%d8%a8%d9%88%d9%82-%d9%84%d9%85%d8%b3%d9%84%d8%b3%d9%84-%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a/",
+   "research_note": "Extrait de recherche (26/09/2023). Vues YouTube, pas limitées au Soudan, et pas de mesure d'audience télé ; les épisodes ont été interrompus par la guerre puis rediffusés. TMDB 337136 vérifié (2023, SD)."
+  },
+  "note": "Livre : niveau B, classement panarabe d'écrivains, pas de lecteurs soudanais. Série : niveau B, vues YouTube, pas une audience télé (3e passe, 20/11)."
  },
  "SE": {
   "book": {
@@ -4903,8 +5275,22 @@
    "wiki_fr": "https://fr.wikipedia.org/wiki/Cola_Cola_jazz",
    "wiki_en": "https://en.wikipedia.org/wiki/Cola_Cola_jazz"
   },
-  "series": null,
-  "note": ""
+  "series": {
+   "orig": "Ahoé",
+   "fr": "Ahoé",
+   "en": "Ahoé",
+   "year": "2023",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "mi",
+   "level": "B",
+   "metric": "streaming",
+   "value": "Plus de 6 millions de vues pour la saison 1 (10 épisodes), « un record pour une web-série togolaise » ; 4 millions de vues en deux mois (Ocean's News, mars 2024)",
+   "source_url": "https://toutbusiness.tg/7-meilleurs-seriesa-pour-simmerger-nouvel-an/",
+   "research_note": "Extraits de recherche (Tout Business, 30/12/2025 ; Ocean's News, 07/03/2024). Web-série YouTube en mina, pas de diffusion télé mesurée, pas de comparaison avec les séries télé ; code de langue ISO du mina à vérifier. Pas de fiche TMDB trouvée."
+  },
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "TH": {
   "book": {
@@ -5125,8 +5511,22 @@
    "wiki_fr": "https://fr.wikipedia.org/wiki/%C3%80_la_courbe_du_fleuve",
    "wiki_en": "https://en.wikipedia.org/wiki/A_Bend_in_the_River"
   },
-  "series": null,
-  "note": ""
+  "series": {
+   "orig": "Westwood Park",
+   "fr": "Westwood Park",
+   "en": "Westwood Park",
+   "year": "1997",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "en",
+   "level": "B",
+   "metric": "press",
+   "value": "« la série télévisée caribéenne la plus influente et de loin la plus réussie » (soap de Trinité, six saisons, 1997-2004, TV6)",
+   "source_url": "https://www.caribbean-beat.com/issue-61/westwood-park-lights-camera-bacchanal",
+   "research_note": "Page ouverte (Caribbean Beat, n° 61, mai-juin 2003), sans chiffre d'audience ; diffusée sur 17 territoires caribéens. Une page robotmangoreviews (2022, extrait de recherche) la classe « best of the best » des soaps de Trinité. Newsday (10 mai 2018, « Westwood Park drawing audiences ») n'a pas pu être ouvert (erreur de transport), extrait seulement. Aucune fiche TMDB trouvée (recherches « Westwood Park » vides), IMDb tt0377287 (1997-2004)."
+  },
+  "note": "Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "TV": {
   "book": null,
@@ -5272,8 +5672,22 @@
    "wiki_fr": "",
    "wiki_en": "https://en.wikipedia.org/wiki/Song_of_Lawino"
   },
-  "series": null,
-  "note": "Livre : Daughters of Africa est une anthologie : Chant de Lawino d'Okot p'Bitek retenu. Livre : niveau B, source faible (blog), sans chiffre."
+  "series": {
+   "orig": "Sanyu",
+   "fr": "Sanyu",
+   "en": "Sanyu",
+   "year": "",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "lg",
+   "level": "B",
+   "metric": "press",
+   "value": "« Sanyu est dans le top 5 des séries les mieux classées d'Afrique » (Hassan Saleh, directeur de MultiChoice Uganda, avril 2024) ; 4 saisons, plus de 880 épisodes sur Pearl Magic Prime",
+   "source_url": "https://observer.ug/lifestyle-entertainment/multichoice-unveils-fresh-local-content/",
+   "research_note": "Extrait de recherche (The Observer, 18/04/2024). Affirmation du diffuseur, sans chiffre. Grokipedia la dit « la plus regardée sur Pearl Magic Prime » (non retenu comme source). Année de début incertaine (2020 ou 2021 selon les sources), langue à confirmer (anglais/luganda), pas de fiche TMDB trouvée."
+  },
+  "note": "Livre : Daughters of Africa est une anthologie : Chant de Lawino d'Okot p'Bitek retenu. Livre : niveau B, source faible (blog), sans chiffre. Série : niveau B, mention de presse sans chiffre d'audience (3e passe, 20/11)."
  },
  "US": {
   "book": {
@@ -5538,8 +5952,24 @@
    "wiki_fr": "",
    "wiki_en": "https://en.wikipedia.org/wiki/Suslov's_Daughter"
   },
-  "series": null,
-  "note": ""
+  "series": {
+   "orig": "دروب المرجلة",
+   "fr": "دروب المرجلة",
+   "en": "Doroob Al Marjala",
+   "year": "2024",
+   "overview_fr": "",
+   "overview_en": "A rogue group of armed bandits loots innocent people on the streets, while police forces and tribesmen try to get rid of them and their evils, and then events follow.",
+   "tmdb_id": 248991,
+   "poster": "/y48f6TD3SJK7qf718Ojk4ErEWCL.jpg",
+   "votes": 1,
+   "lang": "ar",
+   "level": "B",
+   "metric": "streaming",
+   "value": "1re des séries yéménites du Ramadan 2024 sur YouTube avec 32,2 millions de vues (Data Pickers, agence yéménite de données marketing) ; 3 saisons en tête de la tendance au Yémen (2024-2026)",
+   "source_url": "https://almushahid.net/121711/",
+   "research_note": "Page ouverte (Al-Mushahid, 03/04/2024) ; classement d'une saison, vues YouTube non limitées au Yémen. Série de la chaîne Al-Saeeda, 3 saisons (Wikipédia arabe). Autres candidates : Ayal al-Marhoum (2022), Dukkan Jamila (2023, 28,9 M), Al Dayaa (2026, TMDB 314355). TMDB 248991 vérifié (YE)."
+  },
+  "note": "Série : niveau B, vues YouTube d'une seule saison de Ramadan (3e passe, 20/11)."
  },
  "ZA": {
   "book": {
@@ -5627,7 +6057,21 @@
    "wiki_fr": "",
    "wiki_en": "https://en.wikipedia.org/wiki/Nervous_Conditions"
   },
-  "series": null,
-  "note": "Livre : Peter V. Brett est américain : À fleur de peau de Tsitsi Dangarembga retenu."
+  "series": {
+   "orig": "Studio 263",
+   "fr": "Studio 263",
+   "en": "Studio 263",
+   "year": "2002",
+   "tmdb_id": null,
+   "poster": null,
+   "votes": 0,
+   "lang": "en",
+   "level": "B",
+   "metric": "ratings",
+   "value": "2 millions de téléspectateurs par épisode début 2003, « l'émission la plus populaire jamais diffusée à la télévision zimbabwéenne » (câble USAID Harare, 20/03/2003) ; 2e émission la plus vue dès son lancement (1,6 M)",
+   "source_url": "https://wikileaks.org/plusd/cables/03HARARE579_a.html",
+   "research_note": "Extrait de recherche d'un câble diplomatique (USAID, qui finançait la série) : chiffre fourni par le promoteur, ancien (2003). Série zimbabwéenne de ZBC, d'Aaron Chiundura Moyo. Plus récent : Wenera, 2e émission de ZBC derrière le journal de 20 h, 28 % d'audience urbaine (enquête ZAMPS, Nehanda Radio 2018). Pas de fiche TMDB trouvée."
+  },
+  "note": "Livre : Peter V. Brett est américain : À fleur de peau de Tsitsi Dangarembga retenu. Série : niveau B, chiffre du promoteur (câble USAID 2003) (3e passe, 20/11)."
  }
 }

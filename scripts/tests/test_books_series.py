@@ -57,3 +57,18 @@ class AutoLevel(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class PickTv(unittest.TestCase):
+    R = [{"id": 1, "first_air_date": "2018-01-01", "origin_country": ["JP"]},
+         {"id": 2, "first_air_date": "1999-05-01", "origin_country": ["CR"]},
+         {"id": 3, "first_air_date": "2004-05-01", "origin_country": ["CR", "MX"]}]
+
+    def test_ecarte_une_serie_d_un_autre_pays(self):
+        self.assertIsNone(bs.pick_tv(self.R[:1], 2018, "CR"))
+
+    def test_prefere_l_annee_parmi_le_bon_pays(self):
+        self.assertEqual(bs.pick_tv(self.R, 2004, "CR"), 3)
+
+    def test_sans_l_annee_premier_du_pays(self):
+        self.assertEqual(bs.pick_tv(self.R, 2010, "CR"), 2)

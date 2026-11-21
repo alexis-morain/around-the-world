@@ -1,0 +1,31 @@
+[
+  {
+    "iso2": "MK",
+    "series": {
+      "level": "none",
+      "note": "Aucune audience ni classement de série macédonienne trouvé, même après relance (recherche treg). Les rapports de l'Agence AAVMU et Meta.mk ne donnent que les parts des chaînes (Sitel, Kanal 5, MRT 1), jamais les séries ; la presse note que les grilles de Sitel sont dominées par des séries turques et serbes importées. Candidates sans source de popularité : Среќа во вреќа (Sitel, 2016), Салон Хармони (1998), Солунски патрдии (MRT, 1985). Aucune fiche TMDB retrouvée pour Среќа во вреќа."
+    }
+  },
+  {
+    "iso2": "ME",
+    "series": {
+      "level": "none",
+      "note": "Piste écartée : Vijesti (en.vijesti.me, mesure Ipsos/Crnogorski Telekom, 5 mai 2026, page ouverte) donne « Daleki grad » comme série la plus regardée du pays (24 % de part), mais c'est la série turque Uzak Şehir (TMDB 274556, TR), doublée, donc pas nationale. Aucune série monténégrine avec source de popularité. Candidates : Budva na pjenu mora (TMDB 44179, coproduction ME/RS, 1 vote) ; Volim i ja nerandže… no trpim (TMDB 253475, 1992, 2 votes), vote de goût YugoVote sans valeur d'audience."
+    }
+  },
+  {
+    "iso2": "MT",
+    "series": {
+      "level": "A",
+      "title_original": "Division 7",
+      "title_fr": "Division 7",
+      "title_en": "Division 7",
+      "year": 2016,
+      "language": "mt",
+      "metric": "survey",
+      "value": "enquête d'audience de la Broadcasting Authority (décembre 2020, 1 248 répondants de 12 ans et plus) : Division 7 est le 2e programme local favori (8 % des téléspectateurs de télévision locale, 86 répondants), juste derrière le journal télévisé, devant Malta's Got Talent (5 %) et L-Ispettur Bonniċi (4 %) ; première série, tous genres fictions confondus",
+      "source_url": "https://ba.org.mt/en/pr-archive-2021",
+      "note": "Source ouverte et officielle (PR 01/21 du Broadcasting Authority, page lue en entier). Newsbook (9 janv. 2020, extrait de recherche seulement, page non rouverte : délai dépassé) : la 7e saison de Division 7 est la série de drama favorite de l'enquête du BA. Série de DBA Entertainment, diffusée sur ONE depuis le 28 sept. 2016 (ESCplus), IMDb tt6184212. Pas de fiche TMDB : /find par imdb_id vide, recherche de titre vide, donc tmdb_id absent. Autre candidate vue sur une enquête de 2015 : Katrina (TVM, 13,55 % des citations), sans fiche TMDB maltaise."
+    }
+  }
+]

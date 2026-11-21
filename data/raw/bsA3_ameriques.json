@@ -1,0 +1,174 @@
+[
+ {
+  "iso2": "CU",
+  "series": {
+   "level": "A",
+   "weak": true,
+   "title_original": "Sol de Batey",
+   "title_fr": "Sol de Batey",
+   "title_en": "Sol de Batey",
+   "year": 1985,
+   "language": "es",
+   "metric": "press",
+   "value": "présentée comme l'une des trois telenovelas cubaines les plus populaires, avec des « hauts niveaux d'audience » (70 épisodes, 1985)",
+   "source_url": "https://www.cuballama.com/noticias/cual-ha-sido-la-novela-cubana-mas-popular-de-todos-los-tiempos/",
+   "note": "Page ouverte (Cuballama, févr. 2024), sans chiffre d'audience. Le titre cubanet « la telenovela cubana la plus populaire selon la critique » n'a pas pu être ouvert (Cloudflare, extrait de recherche). Fiche TMDB 67985 trouvée mais sans année ni pays : id non repris. Concurrente : Tierra brava (1997), « l'une des plus emblématiques et populaires » selon es.wikipedia (sans chiffre)."
+  }
+ },
+ {
+  "iso2": "CR",
+  "series": {
+   "level": "A",
+   "weak": true,
+   "title_original": "La Pensión",
+   "title_fr": "La Pensión",
+   "title_en": "La Pensión",
+   "year": 1999,
+   "language": "es",
+   "metric": "press",
+   "value": "« emblématique série costaricienne » : 22 saisons et près de 1 000 épisodes sur Teletica (1999-2021)",
+   "source_url": "https://www.nacion.com/viva/television/la-pension-regresa-le-contamos-donde-volver-a-ver/UE4IOGBZXJC2REMOV7ZSICPAJE/story/",
+   "note": "Page ouverte (La Nación, 18/03/2024) et es.wikipedia « La pensión » (série la plus longue du pays). Qualificatif de presse, pas d'audience mesurée. Pas de fiche TMDB trouvée."
+  }
+ },
+ {
+  "iso2": "GT",
+  "series": {
+   "level": "none",
+   "note": "Aucune série guatémaltèque à source de popularité. Soy502 (page ouverte) liste des émissions d'antan (Campiña, Venga con Chalo, Nunca te soñé, 2004, Guatevisión) sans classement ni chiffre. TMDB : Micos y Pericos (CL/GT, 2009) peu votée."
+  }
+ },
+ {
+  "iso2": "HN",
+  "series": {
+   "level": "none",
+   "note": "Seul candidat : Calle 7 Honduras (VIP), format de téléréalité/concours : exclu. TMDB sans fiction hondurienne votée. Recherche web bloquée en cours de route (DuckDuckGo)."
+  }
+ },
+ {
+  "iso2": "NI",
+  "series": {
+   "level": "none",
+   "note": "Candidates : Niña Furia (TMDB 136293, 2021), San Undeas (TMDB 318577, CR/NI), Verte (2026, mini-série verticale), sans source de popularité."
+  }
+ },
+ {
+  "iso2": "PA",
+  "series": {
+   "level": "none",
+   "note": "Wikipedia ne liste que Calle 7 Panamá (concours) et Siniestro Mu y las Vacas Lobotómicas. TMDB : La cáscara (1996, id 319495), 1 vote. Aucune source de popularité."
+  }
+ },
+ {
+  "iso2": "PY",
+  "series": {
+   "level": "none",
+   "note": "Candidates (abc.com.py, 2018, page ouverte, « eut beaucoup de succès », sans chiffre) : Nuestros fantasmas (fiction diffusée 10 ans, années 1990), Sombras en la noche, La mansión de los políticos. Pas de fiche TMDB trouvée ; TMDB : La gloria eterna (2026, id 334030) sans votes. Le top rating 2013 de television.com.py est dominé par Calle 7 VIP (concours)."
+  }
+ },
+ {
+  "iso2": "SV",
+  "series": {
+   "level": "none",
+   "note": "Aucune série salvadorienne identifiée (TMDB : seulement Julito's Multiversal War, animation, 0 vote). Recherche web limitée."
+  }
+ },
+ {
+  "iso2": "HT",
+  "series": {
+   "level": "none",
+   "note": "Aucune source trouvée (TMDB sans série haïtienne ; recherche web bloquée)."
+  }
+ },
+ {
+  "iso2": "JM",
+  "series": {
+   "level": "none",
+   "note": "Candidates TMDB : Royal Palm Estate (1994, id 234390), Family Sized (2020, id 316064), 1 vote chacune. Aucune source de popularité ouverte (recherche web bloquée)."
+  }
+ },
+ {
+  "iso2": "TT",
+  "series": {
+   "level": "none",
+   "note": "TMDB ne donne que Carnival Catwalk (2025) et De Scene, hors fiction. Aucune source."
+  }
+ },
+ {
+  "iso2": "AG",
+  "series": {
+   "level": "none",
+   "note": "Aucune série de fiction nationale trouvée (TMDB sans fiche pertinente ; recherche web bloquée)."
+  }
+ },
+ {
+  "iso2": "BB",
+  "series": {
+   "level": "none",
+   "note": "Aucune série de fiction nationale trouvée (TMDB sans fiche pertinente ; recherche web bloquée)."
+  }
+ },
+ {
+  "iso2": "BS",
+  "series": {
+   "level": "none",
+   "note": "Aucune série de fiction nationale trouvée (TMDB : fiches bosniaques mal attribuées à BS). Recherche web bloquée."
+  }
+ },
+ {
+  "iso2": "BZ",
+  "series": {
+   "level": "none",
+   "note": "Aucune série de fiction nationale trouvée (TMDB : seulement des émissions de variétés ; recherche web bloquée)."
+  }
+ },
+ {
+  "iso2": "DM",
+  "series": {
+   "level": "none",
+   "note": "Seule fiche TMDB : série russe Call Sign « Cranes » (hors national). Aucune série dominiquaise trouvée."
+  }
+ },
+ {
+  "iso2": "GD",
+  "series": {
+   "level": "none",
+   "note": "Aucune série de fiction nationale trouvée (TMDB sans fiche pertinente ; recherche web bloquée)."
+  }
+ },
+ {
+  "iso2": "GY",
+  "series": {
+   "level": "none",
+   "note": "Aucune série de fiction nationale trouvée (TMDB sans fiche pertinente ; recherche web bloquée)."
+  }
+ },
+ {
+  "iso2": "KN",
+  "series": {
+   "level": "none",
+   "note": "Aucune série de fiction nationale trouvée (TMDB sans fiche pertinente ; recherche web bloquée)."
+  }
+ },
+ {
+  "iso2": "LC",
+  "series": {
+   "level": "none",
+   "note": "Aucune série de fiction nationale trouvée (TMDB sans fiche pertinente ; recherche web bloquée)."
+  }
+ },
+ {
+  "iso2": "SR",
+  "series": {
+   "level": "none",
+   "note": "Aucune série surinamienne trouvée ; recherche web bloquée."
+  }
+ },
+ {
+  "iso2": "VC",
+  "series": {
+   "level": "none",
+   "note": "Aucune série de fiction nationale trouvée (TMDB sans fiche pertinente ; recherche web bloquée)."
+  }
+ }
+]

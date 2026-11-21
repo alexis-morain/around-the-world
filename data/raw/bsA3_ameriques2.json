@@ -1,0 +1,88 @@
+[
+  {
+    "iso2": "JM",
+    "series": {
+      "level": "A",
+      "weak": true,
+      "title_original": "Royal Palm Estate",
+      "title_fr": "Royal Palm Estate",
+      "title_en": "Royal Palm Estate",
+      "year": 1994,
+      "language": "en",
+      "tmdb_id": 234390,
+      "metric": "press",
+      "value": "la série télévisée la plus longue de l'histoire jamaïcaine (1994-2015, plus de 30 saisons, environ 800 épisodes), rendez-vous du dimanche soir sur CVM TV",
+      "source_url": "https://jamaica-gleaner.com/article/entertainment/20180910/longevity-royal-palm-estate-and-its-possible-return-will-there-be",
+      "note": "Page ouverte (Gleaner, 9 sept. 2018) : longévité et popularité décrites par les acteurs et le réalisateur, sans chiffre d'audience. TMDB 234390 vérifié (Royal Palm Estate, 1994-03-06, origine JM, en). Un site non officiel (thedemostop.com, extrait de recherche) la dit « consistently ranked as one of Jamaica's highest-rated dramas », non repris. Concurrentes citées : Oliver at Large (comédie), Lime Tree Lane."
+    }
+  },
+  {
+    "iso2": "TT",
+    "series": {
+      "level": "A",
+      "weak": true,
+      "title_original": "Westwood Park",
+      "title_fr": "Westwood Park",
+      "title_en": "Westwood Park",
+      "year": 1997,
+      "language": "en",
+      "metric": "press",
+      "value": "« la série télévisée caribéenne la plus influente et de loin la plus réussie » (soap de Trinité, six saisons, 1997-2004, TV6)",
+      "source_url": "https://www.caribbean-beat.com/issue-61/westwood-park-lights-camera-bacchanal",
+      "note": "Page ouverte (Caribbean Beat, n° 61, mai-juin 2003), sans chiffre d'audience ; diffusée sur 17 territoires caribéens. Une page robotmangoreviews (2022, extrait de recherche) la classe « best of the best » des soaps de Trinité. Newsday (10 mai 2018, « Westwood Park drawing audiences ») n'a pas pu être ouvert (erreur de transport), extrait seulement. Aucune fiche TMDB trouvée (recherches « Westwood Park » vides), IMDb tt0377287 (1997-2004)."
+    }
+  },
+  {
+    "iso2": "HT",
+    "series": {
+      "level": "none",
+      "note": "Candidat : « Elle a tout gâché » (Wilmix Prod, feuilleton YouTube, 2019-2020), épisodes à 319 000-780 000 vues d'après Le Nouvelliste (20 août 2020, page ouverte, article partiellement payant), présenté comme « très populaire » et « en vogue », non comme le plus regardé du pays. Pas de fiche TMDB. Une page Facebook Answers (extrait de recherche) cite Milagro, Rosalinda, Marimar : telenovelas étrangères."
+    }
+  },
+  {
+    "iso2": "SV",
+    "series": {
+      "level": "none",
+      "note": "Aucune série salvadorienne nationale présentée comme la plus regardée. elsalvador.com (extrait de recherche) note que « peu de tentatives » de telenovelas nationales ont eu lieu (un atelier TCS sans suite). TMDB : seulement Julito's Multiversal War (id 279766, animation, 0 vote)."
+    }
+  },
+  {
+    "iso2": "HN",
+    "series": {
+      "level": "none",
+      "note": "Aucune fiction hondurienne identifiée avec une source de popularité. Les résultats portent sur Netflix Honduras (séries étrangères) et la télé en général ; Calle 7 Honduras est un concours. TMDB discover HN : téléréalités et un titre indien, aucune fiction."
+    }
+  },
+  {
+    "iso2": "PA",
+    "series": {
+      "level": "A",
+      "title_original": "El Picaflor",
+      "title_fr": "El Picaflor",
+      "title_en": "El Picaflor",
+      "year": 2016,
+      "language": "es",
+      "tmdb_id": 284587,
+      "metric": "rating",
+      "value": "12,2 de rating (34 % de part d'audience) en total personnes, 15,6 chez les femmes, « production nationale la plus vue » selon Telemetro",
+      "source_url": "https://www.produ.com/television/noticias/el-picaflor-original-de-telemetro-triunfa-con-la-audiencia-panamena/",
+      "note": "Page ouverte (PRODU, article daté du 28 juil. 2016) : chiffres communiqués par la chaîne Telemetro, novela panameña lancée le 4 juil. 2016 ; le texte écrit « du 2017 » (coquille probable, l'article date de 2016). Mesure d'audience faite à Panama mais relayée par le diffuseur, sur les premières semaines seulement. TMDB 284587 vérifié (El Picaflor, 2016-07-04, origine PA, 0 vote). Autre candidate : La cáscara (1996, TMDB 319495), sans source de popularité."
+    }
+  },
+  {
+    "iso2": "PY",
+    "series": {
+      "level": "A",
+      "weak": true,
+      "title_original": "Nuestros fantasmas",
+      "title_fr": "Nuestros fantasmas",
+      "title_en": "Our Ghosts",
+      "year": null,
+      "language": "es",
+      "metric": "press",
+      "value": "« ícono de la cultura paraguaya », « gran audiencia » qui lui a permis de rester neuf ans à l'antenne ; déclarée d'intérêt national par la présidence",
+      "source_url": "https://www.hoy.com.py/espectaculos/en-el-mes-de-halloween-nuestros-fantasmas-regresa-pero-en-pantalla-grande/amp",
+      "note": "Page ouverte (Diario HOY, 13 oct. 2018), sans chiffre d'audience. L'année de début n'est pas dans la page (la première note bsA3 parlait des « années 1990 », diffusion de neuf ans) : year laissé à null. Aucune fiche TMDB trouvée (recherche « Nuestros fantasmas » vide), donc pas de tmdb_id. TMDB discover PY ne contient que des concours et sports."
+    }
+  }
+]

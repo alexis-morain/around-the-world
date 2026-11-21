@@ -1,0 +1,224 @@
+[
+ {
+  "iso2": "AF",
+  "series": {
+   "level": "none",
+   "note": "Aucune série de fiction afghane avec source de popularité. Afghan Star (Tolo, TMDB 20719) est une téléréalité, exclue. Séries existantes sans classement : Eagle 4 (Tolo, 2010, « large public fidèle » selon Seattle Times), Khat-e-Sawom, Behesht Khamosh (Roya Film House) ; fiches TMDB 137630, 157687, 137704 sans votes. L'audience citée (AA 2019, Reuters 2006) porte sur des séries indiennes et turques doublées."
+  }
+ },
+ {
+  "iso2": "AM",
+  "series": {
+   "level": "A",
+   "weak": true,
+   "title_original": "Անհասցե ծնվածները",
+   "title_fr": "Né sans adresse",
+   "title_en": "Born Without an Address",
+   "year": 2019,
+   "language": "hy",
+   "metric": "ratings",
+   "value": "Série la mieux classée du 1er trimestre 2020 et en tête du top des séries 2020 de la Commission de la télévision et de la radio (CTR, données Admosphere-Armenia), avec Shiraz's Rose (ATV)",
+   "source_url": "https://media.am/en/newsroom/2020/05/06/21319/",
+   "note": "Extraits de résultats de recherche seulement (media.am renvoie 403 ; 4 pages media.am lues par extrait : 2019 T2, 2020 T1, top 2020, T3 2021). « Leaders » à égalité avec Shiraz's Rose, pas de pourcentage. Diffusée sur Armenia TV 2019-2020. Titre arménien non confirmé, pas de fiche TMDB trouvée. Source ouverte : presse arménienne, sans chiffre."
+  }
+ },
+ {
+  "iso2": "BN",
+  "series": {
+   "level": "none",
+   "note": "Seules fiches TMDB : Kitani (295006, 2021) et Ballet Syndrome (249631, coproduction russe), sans votes ni source de popularité. Aucune série nationale présentée comme la plus regardée."
+  }
+ },
+ {
+  "iso2": "BT",
+  "series": {
+   "level": "none",
+   "note": "Aucune série bhoutanaise présentée comme la plus regardée. L'enquête d'audience BBSCL 2023-2024 (bbs.bt, 2 390 répondants, page ouverte) cite des programmes populaires de BBS TV 2 (Choeshay Layrim, Jangdra Drungtsho, « Series ») sans nommer de série de fiction. Fiches TMDB sans votes : Druk Dra (318184), Rhythm of Bhutan (330164)."
+  }
+ },
+ {
+  "iso2": "KG",
+  "series": {
+   "level": "A",
+   "weak": true,
+   "title_original": "Кошунаны тандабайт",
+   "title_fr": "On ne choisit pas ses voisins",
+   "title_en": "You Don't Choose Your Neighbors",
+   "year": 2019,
+   "language": "ky",
+   "metric": "press",
+   "value": "« À ce jour la série la plus populaire du Kirghizistan » (Kaktus, 25/12/2021) ; « l'une des séries les plus populaires du segment kirghize de YouTube », au moins environ 1,5 million de vues par épisode (Azattyk, 19/01/2021)",
+   "source_url": "https://kaktus.kg/doc/4084_kyrgyz_serialdary._sizge_kaysynysy_jagat.html",
+   "note": "Deux pages ouvertes (Kaktus et Azattyk, https://www.azattyk.org/a/tasma-serial-internet-koruuchu/31047857.html). Superlatif de presse + vues YouTube, aucune audience télévisée mesurée ; série de la société 1.1TV, 2 saisons. Pas de fiche TMDB trouvée. Titre français traduit par nous."
+  }
+ },
+ {
+  "iso2": "KH",
+  "series": {
+   "level": "none",
+   "note": "Aucune série cambodgienne présentée comme la plus regardée. Hang Meas HDTV (audience 23 % selon Media Ownership Monitor) produit des dramas khmers, aucun classement par titre. Fiches TMDB sans source : Ending Friend (290607), The Memories (240316), Love of the Sea (235113). Top « most watched » de movie24kh.com (site de streaming) : séries chinoises uniquement."
+  }
+ },
+ {
+  "iso2": "LA",
+  "series": {
+   "level": "none",
+   "note": "Aucune série lao présentée comme la plus regardée. Fiches TMDB sans votes : 7 Days 7 Boys The Series (262399), One Love The Series (122136)."
+  }
+ },
+ {
+  "iso2": "MM",
+  "series": {
+   "level": "A",
+   "weak": true,
+   "title_original": "အရိပ်",
+   "title_fr": "A Yake (L'Ombre)",
+   "title_en": "A Yake",
+   "year": 2018,
+   "language": "my",
+   "metric": "press",
+   "value": "« Le drame télévisé birman le plus regardé à l'époque », d'après la page Wikipédia de l'actrice Nan Sandar Hla Htun (MRTV-4, mai-juin 2018, adaptation du roman de Ma Sandar)",
+   "source_url": "https://en.wikipedia.org/wiki/Nan_Sandar_Hla_Htun",
+   "note": "Page Wikipédia ouverte ; la fiche A Yake (https://en.wikipedia.org/wiki/A_Yake) ne reprend pas la mention. Même formule pour Yadanar Htae Ka Yadanar (2017, MRTV-4, page d'Aung Min Khant), antérieure : A Yake retenue comme plus récente. Pas de chiffre d'audience, pas de fiche TMDB trouvée."
+  }
+ },
+ {
+  "iso2": "MN",
+  "series": {
+   "level": "A",
+   "title_original": "Хөгжилтэй гэр бүл",
+   "title_fr": "Famille joyeuse (titre traduit)",
+   "title_en": "Cheerful Family (translated title)",
+   "year": 2015,
+   "language": "mn",
+   "metric": "ratings",
+   "value": "1re série au classement Maxima Consulting de mai 2015 (une série par chaîne, 34 chaînes) : rating 5,2 %, devant Hyazgaargui khairan (coréenne, 3,6 %) ; chaîne Bolovsrol",
+   "source_url": "https://ikon.mn/n/h13",
+   "note": "Page ouverte (iKon.mn, 21/05/2015). Mesure d'un seul mois ; seule série mongole du classement, les séries mongoles font moins de 1 % de l'offre. Titre latin non confirmé, pas de fiche TMDB trouvée. Les classements 2016-2018 (ub.life, page ouverte) ne comptent que des séries coréennes."
+  }
+ },
+ {
+  "iso2": "MV",
+  "series": {
+   "level": "none",
+   "note": "Plusieurs séries dhivéhies citées comme succès (Loabi Vaanama 2005, Vairoalhi Ahves Sirrun 2005, Aisha 1998, Wikipédia) mais aucune présentée comme la plus regardée ; les listes « les plus populaires » (MuniAvas, Mihaaru) n'ont pas pu être ouvertes. Fiches TMDB sans votes : Huvaa (100730), Girlfriends (261854)."
+  }
+ },
+ {
+  "iso2": "NP",
+  "series": {
+   "level": "A",
+   "weak": true,
+   "title_original": "मेरी बास्सै",
+   "title_fr": "Meri Bassai",
+   "title_en": "Meri Bassai",
+   "year": 2006,
+   "language": "ne",
+   "tmdb_id": 7832,
+   "metric": "press",
+   "value": "Citée avec Bhadragol comme la série la plus appréciée dans la Nepali Media Survey 2019 de Sharecast Initiative (4 129 foyers, 42 districts) ; « l'une des séries les plus regardées du Népal » (Media Hub) ; plus de 800 épisodes sur Nepal Television",
+   "source_url": "https://www.khasokhas.com/89709",
+   "note": "Page ouverte (Khasokhas, 07/07/2019) ; sitcom de Nepal Television. Confirmé aussi par Kathmandu Post (13/06/2023, https://kathmandupost.com/art-entertainment/2023/06/13/nepali-tv-shows-are-insanely-popular-on-youtube-here-are-some-to-look-out-for). Pas de pourcentage par titre. TMDB 7832 vérifié (Meri Bassai, NP)."
+  }
+ },
+ {
+  "iso2": "TJ",
+  "series": {
+   "level": "none",
+   "note": "Aucune audience trouvée. Candidate : Хусури ман (« Ma belle-mère », TMDB 331267, 2024, TJ), citée dans un top 5 YouTube 2024 de séries tadjikes (vidéo éditoriale, sans chiffres). Série à ne pas classer sans source de popularité."
+  }
+ },
+ {
+  "iso2": "TL",
+  "series": {
+   "level": "none",
+   "note": "Aucune série timoraise trouvée avec source ; aucune fiche TMDB pour le pays."
+  }
+ },
+ {
+  "iso2": "TM",
+  "series": {
+   "level": "none",
+   "note": "Aucune série turkmène trouvée avec source de popularité ; le pays n'a pas de fiche TMDB de série. Télévision d'État (TMT), pas de mesure d'audience publique."
+  }
+ },
+ {
+  "iso2": "UZ",
+  "series": {
+   "level": "none",
+   "note": "Pas de classement de série ouzbèke trouvé. Candidate : Sukunat (Sevimli TV, déjà notée en 2e passe, 200 000 à 315 000 vues par épisode sur YouTube, sans comparaison). Fiches TMDB sans votes : Marjona (334839), Ishq (334886), 97 modda (334363). Les pages ouvertes (asilmedia, kinochi, tomosha.uz) listent des séries étrangères."
+  }
+ },
+ {
+  "iso2": "BH",
+  "series": {
+   "level": "A",
+   "title_original": "سوالف طفاش",
+   "title_fr": "Souvenirs de Taffash",
+   "title_en": "Swalif Taffash",
+   "year": 2009,
+   "language": "ar",
+   "tmdb_id": 288979,
+   "metric": "survey",
+   "value": "Série préférée du public dans l'enquête de satisfaction des programmes du Ramadan 2015 de la télévision de Bahreïn (1 000 personnes, société indépendante) ; meilleure série comique du sondage Al Wasat 2009 avec 420 voix (40,58 %)",
+   "source_url": "https://www.alwasatnews.com/news/313831.html",
+   "note": "Page de 2009 ouverte (sondage de lecteurs en ligne, 420 voix sur environ 1 035). Enquête 2015 (https://www.alwasatnews.com/news/1022095.html) vue en extrait de recherche, page bloquée : sondage à part, limité au Ramadan de la chaîne publique. Série comique et historique (années 1940-50), tournée à Bahreïn. TMDB 288979 vérifié (BH)."
+  }
+ },
+ {
+  "iso2": "OM",
+  "series": {
+   "level": "none",
+   "note": "Aucune série omanaise présentée comme la plus regardée. Séries citées sans classement : Sudra (2019), Mujarrad Lahazat (2019), Haret Al Ashab (2018), Shirbikat (2023, plateforme Ain), Isma wa Shuf (2022, Oman TV). Fiche TMDB : Al Qafer (329946, 2026), sans votes."
+  }
+ },
+ {
+  "iso2": "PS",
+  "series": {
+   "level": "A",
+   "weak": true,
+   "title_original": "وطن ع وتر",
+   "title_fr": "Watan ala Watar (Un pays sur un fil)",
+   "title_en": "Watan ala Watar (A Country Hanging by a Thread)",
+   "year": 2009,
+   "language": "ar",
+   "tmdb_id": 248725,
+   "metric": "press",
+   "value": "« La série la plus regardée de l'histoire de la Palestine » (Middle East Eye, 12/04/2023) ; 48 millions de vues sur YouTube pendant le Ramadan 2015 (Dunia al-Watan, 23/07/2015)",
+   "source_url": "https://www.middleeasteye.net/discover/ramadan-arab-world-tv-where-to-start",
+   "note": "Page MEE ouverte ; chiffre de 48 M vu par extrait de recherche (https://www.alwatanvoice.com/arabic/news/2015/07/23/747393.html), vues arabes et mondiales, pas seulement palestiniennes. Série comique de 2009 à aujourd'hui. TMDB 248725 est la fiche 2009 (PS) ; autres saisons : 224286, 228117, 228121, 314178."
+  }
+ },
+ {
+  "iso2": "QA",
+  "series": {
+   "level": "A",
+   "weak": true,
+   "title_original": "فلاشات",
+   "title_fr": "Flashat",
+   "title_en": "Flashat",
+   "year": 2020,
+   "language": "ar",
+   "metric": "press",
+   "value": "« La série la plus regardée » du Ramadan 2021 parmi les productions qataries de Rayyan TV, d'après le quotidien Al Arab (17/05/2021)",
+   "source_url": "https://alarab.qa/article/17/05/2021/%D8%AD%D8%B5%D8%A7%D8%AF-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9-%D8%A7%D9%84%D8%B1%D9%85%D8%B6%D8%A7%D9%86%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%BA%D8%A8%D9%82%D8%A9-%D8%A5%D9%84%D9%89-%D9%81%D9%8A-%D8%B6%D9%8A%D8%A7%D9%81%D8%AA%D9%87%D9%86-%D8%B1%D9%88%D8%A7%D8%AC-%D9%85%D8%AD%D9%84%D9%8A-%D9%88%D8%AE%D9%84%D9%8A%D8%AC%D9%8A-%D9%84%D9%84%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%AA%D9%84%D9%81%D8%B2%D9%8A%D9%88%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D9%82%D8%B7%D8%B1%D9%8A%D8%A9",
+   "note": "Page ouverte. Sitcom de 8 épisodes sur Rayyan TV (saison 2 en 2021, saison 1 au Ramadan 2020), sans chiffre. Pas de fiche TMDB trouvée. Autre candidate : Omar (2012, TMDB 58887, coproduction SA/QA, série religieuse produite par Qatar TV) sans donnée d'audience qatarie."
+  }
+ },
+ {
+  "iso2": "YE",
+  "series": {
+   "level": "A",
+   "title_original": "دروب المرجلة",
+   "title_fr": "Les chemins de la virilité",
+   "title_en": "Doroob Al Marjala",
+   "year": 2024,
+   "language": "ar",
+   "tmdb_id": 248991,
+   "metric": "streaming",
+   "value": "1re des séries yéménites du Ramadan 2024 sur YouTube avec 32,2 millions de vues (Data Pickers, agence yéménite de données marketing) ; 3 saisons en tête de la tendance au Yémen (2024-2026)",
+   "source_url": "https://almushahid.net/121711/",
+   "note": "Page ouverte (Al-Mushahid, 03/04/2024) ; classement d'une saison, vues YouTube non limitées au Yémen. Série de la chaîne Al-Saeeda, 3 saisons (Wikipédia arabe). Autres candidates : Ayal al-Marhoum (2022), Dukkan Jamila (2023, 28,9 M), Al Dayaa (2026, TMDB 314355). TMDB 248991 vérifié (YE)."
+  }
+ }
+]

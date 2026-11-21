@@ -137,11 +137,11 @@
     "book": {"level": "none", "title_original": "", "title_fr": "", "title_en": "", "author": "", "year": null, "language": "", "wikidata": "", "metric": "", "value": "", "source_url": "", "note": "Aucune source. Choix automatique (Angèle Rawiri) non confirmé."},
     "series": {
       "level": "A", "title_original": "Kiara", "title_fr": "Kiara", "title_en": "Kiara",
-      "year": 2013, "language": "fr", "tmdb_id": null,
+      "year": 2013, "language": "fr", "tmdb_id": 219804,
       "metric": "press",
       "value": "ses douze épisodes sur Gabon Télévision « ont battu des records d'audience » (Jeune Afrique, 2014), sans chiffre",
       "source_url": "https://www.jeuneafrique.com/135020/societe/cin-ma-et-t-l-vision-libreville-fait-craquer",
-      "note": "Source FAIBLE : aucun chiffre. Même article : Kongossa (2003) « succès fulgurant », première fiction locale. Série tournée à Libreville par Boss Playa."
+      "note": "Source FAIBLE : aucun chiffre. Même article : Kongossa (2003) « succès fulgurant », première fiction locale. Série tournée à Libreville par Boss Playa. Fiche TMDB 219804 posée à la main le 20/11 (TMDB la classe FR)."
     }
   },
   {

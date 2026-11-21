@@ -131,9 +131,9 @@ def merge_research(passes):
 
 
 def load_research():
-    """iso -> {book, series} des fichiers data/raw/bsA_*.json (1re passe), puis bsA2_*.json (2e passe)."""
+    """iso -> {book, series} des fichiers data/raw/bsA_*.json (1re passe), puis bsA2_*.json (2e passe), puis bsA3_*.json (3e passe)."""
     raw = ROOT / "data" / "raw"
-    files = sorted(raw.glob("bsA_*.json")) + sorted(raw.glob("bsA2_*.json"))
+    files = sorted(raw.glob("bsA_*.json")) + sorted(raw.glob("bsA2_*.json")) + sorted(raw.glob("bsA3_*.json"))
     return merge_research(json.loads(f.read_text()) for f in files)
 
 
@@ -223,17 +223,23 @@ SELECT ?w ?site ?t WHERE {{
     return cache
 
 
-def find_tmdb_tv(titles, year, key):
-    """Id TMDB d'une série par titre, en préférant l'année de première diffusion."""
+def pick_tv(results, year, iso):
+    """Id du premier résultat TMDB produit dans le pays, en préférant l'année de première diffusion."""
+    res = [r for r in results if iso in (r.get("origin_country") or [])]
+    if year:
+        res = [r for r in res if (r.get("first_air_date") or "")[:4] == str(year)] or res
+    return res[0]["id"] if res else None
+
+
+def find_tmdb_tv(titles, year, key, iso):
+    """Id TMDB d'une série par titre : seulement une fiche du pays (un homonyme étranger est écarté)."""
     for t in titles:
         if not t:
             continue
         res = get("https://api.themoviedb.org/3/search/tv", {"api_key": key, "query": t}).get("results") or []
-        if year:
-            same = [r for r in res if (r.get("first_air_date") or "")[:4] == str(year)]
-            res = same or res
-        if res:
-            return res[0]["id"]
+        found = pick_tv(res, year, iso)
+        if found:
+            return found
     return None
 
 
@@ -270,9 +276,9 @@ def main():
                                   rb.get("author"), (rb.get("language") or "en", "en", "fr"))
             book_q = ids[k]
         if s_from == "research" and not series_id:
-            k = f"series:{iso}"
+            k = f"series-pays:{iso}"  # clé neuve : les anciennes correspondances ne filtraient pas le pays
             if k not in ids:
-                ids[k] = find_tmdb_tv([rs.get("title_original"), rs.get("title_en")], rs.get("year"), key)
+                ids[k] = find_tmdb_tv([rs.get("title_original"), rs.get("title_en")], rs.get("year"), key, iso)
             series_id = ids[k]
         ids_cache_path.write_text(json.dumps(ids, ensure_ascii=False, indent=1))
         picks[iso] = (b_from, book_q, rb, s_from, series_id, rs,
